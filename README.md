@@ -40,7 +40,7 @@ This monorepo is composed by two distinct codebases: api and frontend.
 
 ### Reasoning
 
-- Repo contains all codebase needed to run the 2022.ploneconf.org (excluding existing addons for Plone and React).
+- Repo contains all codebase needed to run the plone.org.br (excluding existing addons for Plone and React).
 - Github Workflows are triggered based on changes on each codebase (see .github/workflows)
 - Easier to create Docker images for each codebase
 - Showcase Plone installation/setup without buildout

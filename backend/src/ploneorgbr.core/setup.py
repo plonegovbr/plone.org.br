@@ -30,7 +30,7 @@ setup(
     ],
     keywords="Python Plone CMS",
     author="PloneGov-BR",
-    author_email="site@plone.org.br",
+    author_email="gov@plone.org.br",
     url="https://github.com/plonegovbr/plone.org.br",
     project_urls={
         "PyPI": "https://pypi.python.org/pypi/ploneorgbr.core",

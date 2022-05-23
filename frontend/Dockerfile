@@ -16,7 +16,7 @@ RUN yarn install \
 
 FROM base
 
-LABEL maintainer="PloneGov-BR <site@plone.org.br>" \
+LABEL maintainer="PloneGov-BR <gov@plone.org.br>" \
       org.label-schema.name="ploneorgbr-frontend" \
       org.label-schema.description="Plone.org.br frontend." \
       org.label-schema.vendor="PloneGov-BR" \

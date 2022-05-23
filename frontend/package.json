@@ -1,6 +1,6 @@
 {
   "name": "ploneorgbr-frontend",
-  "description": "Plone.org.br website",
+  "description": "Site da comunidade brasileira de Plone",
   "license": "MIT",
   "version": "1.0.0",
   "scripts": {
