@@ -24,7 +24,7 @@ LINT=docker run --rm -v "${BACKEND_FOLDER}":/github/workspace plone/code-quality
 
 PACKAGE_NAME=ploneorgbr.core
 PACKAGE_PATH=src/ploneorgbr.core/src/
-IMAGE_NAME=plone/ploneorgbr-backend
+IMAGE_NAME=ploneorgbr/site-backend
 IMAGE_TAG=latest
 CHECK_PATH=src/ploneorgbr.core/setup.py scripts/ $(PACKAGE_PATH)
 

@@ -104,22 +104,22 @@ stop-stack:  ## Stop local stack
 .PHONY: build-acceptance-servers
 build-acceptance-servers: ## Build Acceptance Servers
 	@echo "Build acceptance backend"
-	@docker build backend -t plone/ploneorgbr-backend:acceptance -f backend/Dockerfile.acceptance
+	@docker build backend -t ploneorgbr/site-backend:acceptance -f backend/Dockerfile.acceptance
 	@echo "Build acceptance frontend"
-	@docker build frontend -t plone/ploneorgbr-frontend:acceptance -f frontend/Dockerfile
+	@docker build frontend -t ploneorgbr/site-frontend:acceptance -f frontend/Dockerfile
 
 .PHONY: start-acceptance-servers
 start-acceptance-servers: build-acceptance-servers ## Start Acceptance Servers
 	@echo "Start acceptance backend"
-	@docker run --rm -p 55001:55001 --name ploneorgbr-backend-acceptance -d plone/ploneorgbr-backend:acceptance
+	@docker run --rm -p 55001:55001 --name site-backend-acceptance -d ploneorgbr/site-backend:acceptance
 	@echo "Start acceptance frontend"
-	@docker run --rm -p 3000:3000 --name ploneorgbr-frontend-acceptance --link ploneorgbr-backend-acceptance:backend -e RAZZLE_API_PATH=http://localhost:55001/plone -e RAZZLE_INTERNAL_API_PATH=http://backend:55001/plone -d plone/ploneorgbr-frontend:acceptance
+	@docker run --rm -p 3000:3000 --name site-frontend-acceptance --link site-backend-acceptance:backend -e RAZZLE_API_PATH=http://localhost:55001/plone -e RAZZLE_INTERNAL_API_PATH=http://backend:55001/plone -d ploneorgbr/site-frontend:acceptance
 
 .PHONY: stop-acceptance-servers
 stop-acceptance-servers: ## Stop Acceptance Servers
 	@echo "Stop acceptance containers"
-	@docker stop ploneorgbr-frontend-acceptance
-	@docker stop ploneorgbr-backend-acceptance
+	@docker stop site-frontend-acceptance
+	@docker stop site-backend-acceptance
 
 .PHONY: run-acceptance-tests
 run-acceptance-tests: ## Run Acceptance tests

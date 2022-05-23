@@ -116,9 +116,9 @@ jobs:
         uses: docker/metadata-action@v3
         with:
           images: |
-            plone/ploneorgbr-backend
+            ploneorgbr/site-backend
           labels: |
-            org.label-schema.docker.cmd=docker run -d -p 8080:8080 plone/ploneorgbr-backend:latest
+            org.label-schema.docker.cmd=docker run -d -p 8080:8080 ploneorgbr/site-backend:latest
           tags: |
             type=ref,event=branch
             type=sha

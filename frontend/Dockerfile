@@ -17,10 +17,9 @@ RUN yarn install \
 FROM base
 
 LABEL maintainer="PloneGov-BR <gov@plone.org.br>" \
-      org.label-schema.name="ploneorgbr-frontend" \
-      org.label-schema.description="Plone.org.br frontend." \
-      org.label-schema.vendor="PloneGov-BR" \
-      org.label-schema.docker.cmd="docker run -d -p 3000:3000 plone/ploneorgbr-frontend:latest"
+      org.label-schema.name="site-frontend" \
+      org.label-schema.description="Plone.org.br frontend image." \
+      org.label-schema.vendor="PloneGov-BR"
 
 RUN apt-get update \
     && buildDeps="busybox" \

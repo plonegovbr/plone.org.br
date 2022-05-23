@@ -12,7 +12,7 @@ services:
     - "80:80"
 
   frontend:
-    image: plone/ploneorgbr-frontend:latest
+    image: ploneorgbr/site-frontend:latest
     environment:
       RAZZLE_INTERNAL_API_PATH: http://backend:8080/Plone
     ports:
@@ -21,7 +21,7 @@ services:
       - backend
 
   backend:
-    image: plone/ploneorgbr-backend:latest
+    image: ploneorgbr/site-backend:latest
     environment:
       SITE: Plone
       ADDITIONAL_PROFILES: "ploneorgbr.core:default,ploneorgbr.core:initial"
