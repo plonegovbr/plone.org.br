@@ -1,0 +1,17 @@
+version: "3"
+services:
+
+  frontend:
+    image: plone/ploneorgbr-frontend:acceptance
+    environment:
+      RAZZLE_API_PATH: http://localhost:55001/plone
+      RAZZLE_INTERNAL_API_PATH: http://backend:55001/plone
+    ports:
+    - "3000:3000"
+    depends_on:
+      - backend
+
+  backend:
+    image: plone/ploneorgbr-backend:acceptance
+    ports:
+    - "55001:55001"

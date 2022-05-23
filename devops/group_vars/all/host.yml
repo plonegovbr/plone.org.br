@@ -1,0 +1,3 @@
+---
+hostname: '2022'
+fqdn: '{{ hostname }}.ploneconf.org'

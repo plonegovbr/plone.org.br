@@ -1,0 +1,364 @@
+[
+  {
+    "_parent": "",
+    "type": "Folder",
+    "id": "images",
+    "title": "Imagens",
+    "description": "Banco de imagens.",
+    "_transitions": [
+      "publish"
+    ],
+    "_allowed_types": [
+      "Image"
+    ],
+    "exclude_from_nav": true
+  },
+  {
+    "_parent": "images",
+    "type": "Image",
+    "id": "gitec.png",
+    "title": "Logo Gitec",
+    "description": "",
+    "_image": "images/gitec.png",
+    "_transitions": [],
+    "exclude_from_nav": false
+  },
+  {
+    "_parent": "images",
+    "type": "Image",
+    "id": "plonegovbr.png",
+    "title": "PloneGov-Br",
+    "description": "",
+    "_image": "images/plonegovbr.png",
+    "_transitions": [],
+    "exclude_from_nav": false
+  },
+  {
+    "_parent": "images",
+    "type": "Image",
+    "id": "plone-foundation.png",
+    "title": "Plone Foundation",
+    "description": "",
+    "_image": "images/plone-foundation.png",
+    "_transitions": [],
+    "exclude_from_nav": false
+  },
+  {
+    "_parent": "",
+    "type": "Document",
+    "id": "noticias",
+    "title": "Notícias",
+    "description": "Últimas notícias.",
+    "blocks": {
+      "157ccf90-0eb9-4dde-86ef-6797d4ae50ec": {
+        "@type": "listing",
+        "block": "157ccf90-0eb9-4dde-86ef-6797d4ae50ec",
+        "query": [],
+        "querystring": {
+          "query": [
+            {
+              "i": "path",
+              "o": "plone.app.querystring.operation.string.absolutePath",
+              "v": "/noticias/"
+            },
+            {
+              "i": "portal_type",
+              "o": "plone.app.querystring.operation.selection.any",
+              "v": [
+                "News Item"
+              ]
+            }
+          ],
+          "sort_on": "effective",
+          "sort_order": "descending",
+          "sort_order_boolean": true
+        },
+        "variation": "summary"
+      },
+      "7c8aa7f9-e009-4972-828d-ee9934fc5f97": {
+        "@type": "title"
+      },
+      "c1f50c65-34e2-4d92-aad8-81995e23a6e3": {
+        "@type": "slate",
+        "plaintext": "",
+        "value": [
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "type": "p"
+          }
+        ]
+      },
+      "ea385071-bdef-422a-9fdb-9f311f55519e": {
+        "@type": "slate",
+        "plaintext": "\u00daltimas not\u00edcias sobre Plone e sobre a comunidade brasileira de Plone",
+        "value": [
+          {
+            "children": [
+              {
+                "text": "\u00daltimas not\u00edcias sobre Plone e sobre a comunidade brasileira de Plone"
+              }
+            ],
+            "type": "p"
+          }
+        ]
+      }
+    },
+    "blocks_layout": {
+      "items": [
+        "7c8aa7f9-e009-4972-828d-ee9934fc5f97",
+        "ea385071-bdef-422a-9fdb-9f311f55519e",
+        "157ccf90-0eb9-4dde-86ef-6797d4ae50ec",
+        "c1f50c65-34e2-4d92-aad8-81995e23a6e3"
+      ]
+    },
+    "_transitions": [
+      "publish"
+    ],
+    "_allowed_types": [
+      "News Item"
+    ],
+    "exclude_from_nav": false
+  },
+  {
+    "_parent": "",
+    "type": "Document",
+    "id": "eventos",
+    "title": "Eventos",
+    "description": "Eventos com participação da comunidade Brasileira.",
+    "blocks": {
+      "10e066a2-8ae7-47ce-bd54-fc99f8592ecd": {
+        "@type": "slate",
+        "plaintext": "Pr\u00f3ximos Eventos",
+        "value": [
+          {
+            "children": [
+              {
+                "text": "Pr\u00f3ximos Eventos"
+              }
+            ],
+            "type": "h3"
+          }
+        ]
+      },
+      "41bb0298-f42a-4dab-a7d7-01ee0451b07d": {
+        "@type": "title"
+      },
+      "462758c7-ca8f-4ec8-9079-a2a6267f25a4": {
+        "@type": "slate",
+        "plaintext": "",
+        "value": [
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "type": "p"
+          }
+        ]
+      },
+      "4b2a20ec-7243-4854-b665-5b3e73d98c9f": {
+        "@type": "listing",
+        "block": "4b2a20ec-7243-4854-b665-5b3e73d98c9f",
+        "query": [],
+        "querystring": {
+          "query": [
+            {
+              "i": "path",
+              "o": "plone.app.querystring.operation.string.absolutePath",
+              "v": "/eventos/"
+            },
+            {
+              "i": "portal_type",
+              "o": "plone.app.querystring.operation.selection.any",
+              "v": [
+                "Event"
+              ]
+            },
+            {
+              "i": "end",
+              "o": "plone.app.querystring.operation.date.lessThan",
+              "v": ""
+            }
+          ],
+          "sort_on": "end",
+          "sort_order": "descending",
+          "sort_order_boolean": true
+        },
+        "variation": "default"
+      },
+      "665a07a2-b9d2-406d-9234-2c3f3e3bb56d": {
+        "@type": "slate",
+        "plaintext": "Eventos Anteriores",
+        "value": [
+          {
+            "children": [
+              {
+                "text": "Eventos Anteriores"
+              }
+            ],
+            "type": "h3"
+          }
+        ]
+      },
+      "7388e081-9ee8-44d5-b6e8-970239010c6a": {
+        "@type": "listing",
+        "block": "7388e081-9ee8-44d5-b6e8-970239010c6a",
+        "query": [],
+        "querystring": {
+          "query": [
+            {
+              "i": "path",
+              "o": "plone.app.querystring.operation.string.absolutePath",
+              "v": "/eventos/"
+            },
+            {
+              "i": "portal_type",
+              "o": "plone.app.querystring.operation.selection.any",
+              "v": [
+                "Event"
+              ]
+            },
+            {
+              "i": "end",
+              "o": "plone.app.querystring.operation.date.afterToday",
+              "v": ""
+            }
+          ],
+          "sort_on": "end",
+          "sort_order": "ascending"
+        },
+        "variation": "default"
+      }
+    },
+    "blocks_layout": {
+      "items": [
+        "41bb0298-f42a-4dab-a7d7-01ee0451b07d",
+        "10e066a2-8ae7-47ce-bd54-fc99f8592ecd",
+        "7388e081-9ee8-44d5-b6e8-970239010c6a",
+        "665a07a2-b9d2-406d-9234-2c3f3e3bb56d",
+        "4b2a20ec-7243-4854-b665-5b3e73d98c9f",
+        "462758c7-ca8f-4ec8-9079-a2a6267f25a4"
+      ]
+    },
+    "_transitions": [
+      "publish"
+    ],
+    "_allowed_types": [
+      "Event"
+    ],
+    "exclude_from_nav": false
+  },
+  {
+    "_parent": "",
+    "type": "Document",
+    "id": "comunidades",
+    "title": "Comunidades",
+    "description": "Comunidades Brasileira ligadas ao Plone.",
+    "blocks": {
+      "645b107a-0fea-4c74-be16-6d9042fa8896": {
+        "@type": "title"
+      },
+      "b7452cfc-c6b0-4f1f-82b7-0de88412da50": {
+        "@type": "__grid",
+        "columns": [
+          {
+            "@type": "teaser",
+            "description": "Comunidade de institui\u00e7\u00f5es ligadas ao governo brasileiro que utilizam Python, Zope, Plone e tecnologias correlatas.",
+            "href": [
+              {
+                "@id": "/comunidades/gov",
+                "Description": "comunidade de institui\u00e7\u00f5es ligadas ao governo brasileiro que utilizam Python, Zope, Plone e tecnologias correlatas.",
+                "Title": "PloneGov-Br",
+                "hasPreviewImage": false,
+                "head_title": null,
+                "image_field": "",
+                "title": "PloneGov-Br"
+              }
+            ],
+            "id": "ed0fa532-7403-46ae-adbf-371e6d92f6e4",
+            "preview_image": [
+              {
+                "@id": "/images/plonegovbr.png"
+              }
+            ],
+            "title": "PloneGov-Br"
+          },
+          {
+            "@type": "teaser",
+            "description": "Grupo Interlegis de Tecnologia",
+            "href": [
+              {
+                "@id": "/comunidades/gitec",
+                "Description": "Grupo Interlegis de Tecnologia",
+                "Title": "GITEC",
+                "hasPreviewImage": false,
+                "head_title": null,
+                "image_field": "",
+                "title": "GITEC"
+              }
+            ],
+            "id": "dba7e078-8463-4683-8424-ea0fa04a8a34",
+            "preview_image": [
+              {
+                "@id": "/images/gitec.png"
+              }
+            ],
+            "title": "GITEC"
+          }
+        ]
+      },
+      "ef647394-a069-438f-88c5-73bd3a992b2f": {
+        "@type": "slate",
+        "plaintext": "",
+        "value": [
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "type": "p"
+          }
+        ]
+      }
+    },
+    "blocks_layout": {
+      "items": [
+        "645b107a-0fea-4c74-be16-6d9042fa8896",
+        "b7452cfc-c6b0-4f1f-82b7-0de88412da50",
+        "ef647394-a069-438f-88c5-73bd3a992b2f"
+      ]
+    },
+    "_transitions": [
+      "publish"
+    ],
+    "exclude_from_nav": false
+  },
+  {
+    "_parent": "comunidades",
+    "type": "Document",
+    "id": "gov",
+    "title": "PloneGov-Br",
+    "description": "Comunidade de instituições ligadas ao governo brasileiro que utilizam Python, Zope, Plone e tecnologias correlatas.",
+    "_transitions": [
+      "publish"
+    ],
+    "exclude_from_nav": false
+  },
+  {
+    "_parent": "comunidades",
+    "type": "Document",
+    "id": "gitec",
+    "title": "GITEC",
+    "description": "Grupo Interlegis de Tecnologia.",
+    "_transitions": [
+      "publish"
+    ],
+    "exclude_from_nav": false
+  }
+]

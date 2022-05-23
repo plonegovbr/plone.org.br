@@ -1,0 +1,2 @@
+-r unreleased.txt
+-e "src/ploneorgbr.core[test]"

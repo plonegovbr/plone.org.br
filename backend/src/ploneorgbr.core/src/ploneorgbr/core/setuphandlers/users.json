@@ -1,0 +1,19 @@
+{
+  "portal": [
+    {
+      "email": "site@plone.org.br",
+      "properties": {
+        "fullname": "Plone Brasil",
+        "location": "Brasil"
+      },
+      "groups": [
+      ],
+      "roles": [
+        "Member"
+      ],
+      "username": "ploneorgbr"
+    }
+  ],
+    "team": [
+  ]
+}

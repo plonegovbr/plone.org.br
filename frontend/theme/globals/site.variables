@@ -1,0 +1,35 @@
+/*-------------------
+      Base Sizes
+--------------------*/
+/* This is the single variable that controls them all */
+@emSize   : 16px;
+
+/* The size of page text  */
+@fontSize : 16px;
+@fontName: Montserrat;
+
+/*-------------------
+        Page
+--------------------*/
+@pageBackground      : @white;
+
+
+/*-------------------
+    Brand Colors
+--------------------*/
+
+@ploneBlue           : #0083be;
+
+@primaryColor        : @ploneBlue;
+@secondaryColor      : @black;
+
+// For some reason this was breaking in 16 ????
+// @lightPrimaryColor   : @lightBlue;
+// @lightSecondaryColor : @lightBlack;
+
+
+
+/*-------------------
+       Links
+--------------------*/
+@linkColor           : @ploneBlue;
