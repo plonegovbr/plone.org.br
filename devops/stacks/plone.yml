@@ -99,7 +99,7 @@ services:
     - traefik-public
     - backend
     deploy:
-      replicas: 1
+      replicas: 2
       labels:
         - traefik.enable=true
         - traefik.docker.network=traefik-public
