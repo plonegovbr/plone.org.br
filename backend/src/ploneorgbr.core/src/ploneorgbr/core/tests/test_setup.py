@@ -2,7 +2,7 @@
 from plone import api
 from plone.app.testing import setRoles
 from plone.app.testing import TEST_USER_ID
-from ploneorgbr.core.testing import PLONECONF_CORE_INTEGRATION_TESTING  # noqa: E501
+from ploneorgbr.core.testing import PLONEORGBR_CORE_INTEGRATION_TESTING  # noqa: E501
 from Products.CMFPlone.utils import get_installer
 
 import unittest
@@ -11,7 +11,7 @@ import unittest
 class TestSetup(unittest.TestCase):
     """Test that ploneorgbr.core is properly installed."""
 
-    layer = PLONECONF_CORE_INTEGRATION_TESTING
+    layer = PLONEORGBR_CORE_INTEGRATION_TESTING
 
     def setUp(self):
         """Custom shared utility setup for tests."""
@@ -40,7 +40,7 @@ class TestSetup(unittest.TestCase):
 
 class TestUninstall(unittest.TestCase):
 
-    layer = PLONECONF_CORE_INTEGRATION_TESTING
+    layer = PLONEORGBR_CORE_INTEGRATION_TESTING
 
     def setUp(self):
         self.portal = self.layer["portal"]

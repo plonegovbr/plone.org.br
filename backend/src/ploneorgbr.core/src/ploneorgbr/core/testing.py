@@ -10,7 +10,7 @@ import collective.volto.formsupport
 import ploneorgbr.core
 
 
-class PLONECONFCORELayer(PloneSandboxLayer):
+class PLONEORGBRCORELayer(PloneSandboxLayer):
 
     defaultBases = (PLONE_APP_CONTENTTYPES_FIXTURE,)
 
@@ -29,26 +29,26 @@ class PLONECONFCORELayer(PloneSandboxLayer):
         applyProfile(portal, "ploneorgbr.core:initial")
 
 
-PLONECONF_CORE_FIXTURE = PLONECONFCORELayer()
+PLONEORGBR_CORE_FIXTURE = PLONEORGBRCORELayer()
 
 
-PLONECONF_CORE_INTEGRATION_TESTING = IntegrationTesting(
-    bases=(PLONECONF_CORE_FIXTURE,),
-    name="PLONECONFCORELayer:IntegrationTesting",
+PLONEORGBR_CORE_INTEGRATION_TESTING = IntegrationTesting(
+    bases=(PLONEORGBR_CORE_FIXTURE,),
+    name="PLONEORGBRCORELayer:IntegrationTesting",
 )
 
 
-PLONECONF_CORE_FUNCTIONAL_TESTING = FunctionalTesting(
-    bases=(PLONECONF_CORE_FIXTURE, WSGI_SERVER_FIXTURE),
-    name="PLONECONFCORELayer:FunctionalTesting",
+PLONEORGBR_CORE_FUNCTIONAL_TESTING = FunctionalTesting(
+    bases=(PLONEORGBR_CORE_FIXTURE, WSGI_SERVER_FIXTURE),
+    name="PLONEORGBRCORELayer:FunctionalTesting",
 )
 
 
-PLONECONF_COREACCEPTANCE_TESTING = FunctionalTesting(
+PLONEORGBR_COREACCEPTANCE_TESTING = FunctionalTesting(
     bases=(
-        PLONECONF_CORE_FIXTURE,
+        PLONEORGBR_CORE_FIXTURE,
         REMOTE_LIBRARY_BUNDLE_FIXTURE,
         WSGI_SERVER_FIXTURE,
     ),
-    name="PLONECONFCORELayer:AcceptanceTesting",
+    name="PLONEORGBRCORELayer:AcceptanceTesting",
 )

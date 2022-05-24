@@ -36,7 +36,7 @@ make start-frontend
 This monorepo is composed by two distinct codebases: api and frontend.
 
 - **backend**: API (Backend) Plone installation using pip (not buildout). Includes a policy package named ploneorgbr.core
-- **frontend**: React (Volto) package named ploneconf
+- **frontend**: React (Volto) package named ploneorgbr
 
 ### Reasoning
 

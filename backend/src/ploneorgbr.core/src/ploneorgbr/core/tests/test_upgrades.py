@@ -1,7 +1,7 @@
 """Upgrades tests for this package."""
 from plone.app.testing import setRoles
 from plone.app.testing import TEST_USER_ID
-from ploneorgbr.core.testing import PLONECONF_CORE_INTEGRATION_TESTING  # noqa: E501
+from ploneorgbr.core.testing import PLONEORGBR_CORE_INTEGRATION_TESTING  # noqa: E501
 from Products.GenericSetup.upgrade import listUpgradeSteps
 
 import unittest
@@ -9,7 +9,7 @@ import unittest
 
 class UpgradeStepIntegrationTest(unittest.TestCase):
 
-    layer = PLONECONF_CORE_INTEGRATION_TESTING
+    layer = PLONEORGBR_CORE_INTEGRATION_TESTING
     profile = "ploneorgbr.core:default"
     src = ""
     dst = ""
