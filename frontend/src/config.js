@@ -50,6 +50,11 @@ export default function applyConfig(config) {
     },
   ];
 
+  config.blocks.blocksConfig.textWithBackgroundColor.availableColors = [
+    '#ebebeb',
+    '#0083be',
+  ];
+
   config.blocks = {
     ...config.blocks,
     blocksConfig: { ...config.blocks.blocksConfig },

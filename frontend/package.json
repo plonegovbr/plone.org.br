@@ -45,6 +45,10 @@
     "volto-form-block",
     "@kitconcept/volto-separator-block",
     "@kitconcept/volto-blocks-grid",
+    "@kitconcept/volto-button-block",
+    "@kitconcept/volto-slider-block",
+    "@kitconcept/volto-text-with-background-color-block",
+    "@kitconcept/volto-heading-block",
     "@eeacms/volto-matomo"
   ],
   "jest": {
@@ -153,6 +157,10 @@
     "volto-form-block": "*",
     "@kitconcept/volto-blocks-grid": "*",
     "@kitconcept/volto-separator-block": "*",
+    "@kitconcept/volto-button-block": "*",
+    "@kitconcept/volto-slider-block": "*",
+    "@kitconcept/volto-text-with-background-color-block": "*",
+    "@kitconcept/volto-heading-block": "*",
     "@eeacms/volto-matomo": "2.0.8"
   },
   "devDependencies": {
