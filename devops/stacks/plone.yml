@@ -92,7 +92,6 @@ services:
     image: ploneorgbr/site-backend:latest
     environment:
       SITE: Plone
-      ADDITIONAL_PROFILES: "ploneorgbr.core:default,ploneorgbr.core:initial"
       RELSTORAGE_DSN: "dbname='plone' user='plone' host='db' password='plone'"
     depends_on:
       - db
