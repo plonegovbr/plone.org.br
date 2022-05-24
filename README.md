@@ -2,13 +2,14 @@
 
 ## Quick start
 
-### Requirements
+### Dependências
 
 - Python 3.9
-- Node 16 / yarn
+- Node 16
+- yarn
 - Docker
 
-### Install
+### Instalação
 
 ```shell
 git clone git@github.com:plonegovbr/plone.org.br.git
@@ -17,40 +18,39 @@ make install
 make create-site
 ```
 
-### Start
+### Inicio
 
-Start the Backend (http://localhost:8080/)
+Para iniciar o Backend (http://localhost:8080/)
 
 ```shell
 make start-backend
 ```
 
-Start the Frontend (http://localhost:3000/)
+Para iniciar o Frontend (http://localhost:3000/)
 
 ```shell
 make start-frontend
 ```
 
-## Structure
+## Estrutura
 
-This monorepo is composed by two distinct codebases: api and frontend.
+Este é um monorepo composto por dois ambientes: API (backend) e frontend.
 
-- **backend**: API (Backend) Plone installation using pip (not buildout). Includes a policy package named ploneorgbr.core
-- **frontend**: React (Volto) package named ploneorgbr
+- **backend**: API (Backend) com instalação do Plone usando pip (sem buildout). Incluindo o pacote de policy - ploneorgbr.core.
+- **frontend**: Pacote React (Volto).
 
-### Reasoning
+## Motivação
 
-- Repo contains all codebase needed to run the plone.org.br (excluding existing addons for Plone and React).
-- Github Workflows are triggered based on changes on each codebase (see .github/workflows)
-- Easier to create Docker images for each codebase
-- Showcase Plone installation/setup without buildout
+- Este repositório contém todos os códigos necessários para rodar o site plone.org.br (excluindo os complementos padrões para Plone e React);
+- Github Workflows são acionados com base nas alterações de códigos no repositório (veja .github/workflows);
+- Facilidade de criar imagens Docker para cada código;
+- Apresentar a instalação do Plone sem buildout.
 
-## Notes
+## Notas
 
-If the site does not start correctly, it may be because of a race condition.
-As a temporary workaround, stop the back ends then start them up one at a time.
+Se o site não funcionar corretamente, podem ser alguns componentes que não tenham iniciados corretamente. Para tentar resolver, restart o backend e o frontend.
 
-Useful commands:
+Comandos úteis:
 - `docker stack ps plone`
 - `docker service scale plone_backend=0`
 - `docker service scale plone_backend=1`
