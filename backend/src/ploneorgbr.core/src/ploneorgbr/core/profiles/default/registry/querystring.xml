@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<registry xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+          i18n:domain="ploneorg.core"
+>
+
+  <!-- Add options to search by industry -->
+  <records interface="plone.app.querystring.interfaces.IQueryField"
+           prefix="plone.app.querystring.field.industry"
+  >
+    <value key="title"
+           i18n:translate="label_industry"
+    >Industry</value>
+    <value key="description"
+           i18n:translate="description_industry"
+    >Categorization by Industry.</value>
+    <value key="enabled">True</value>
+    <value key="sortable">False</value>
+    <value key="group"
+           i18n:translate=""
+    >Case Study</value>
+    <value key="operations">
+      <element>plone.app.querystring.operation.selection.any</element>
+    </value>
+    <value key="vocabulary">ploneorgbr.vocabulary.industries</value>
+  </records>
+
+</registry>

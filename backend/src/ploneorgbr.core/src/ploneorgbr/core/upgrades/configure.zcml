@@ -3,5 +3,23 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     >
 
+  <genericsetup:upgradeSteps
+      profile="ploneorgbr.core:default"
+      source="20220523001"
+      destination="20220525001"
+      >
+    <genericsetup:upgradeDepends
+        title="Add Case Study content type"
+        import_steps="typeinfo"
+        />
+    <genericsetup:upgradeDepends
+        title="Add industry index and metadata"
+        import_steps="catalog"
+        />
+    <genericsetup:upgradeDepends
+        title="Create industry criteria for queries"
+        import_steps="plone.app.registry"
+        />
+  </genericsetup:upgradeSteps>
 
 </configure>

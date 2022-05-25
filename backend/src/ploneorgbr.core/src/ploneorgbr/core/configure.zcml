@@ -24,6 +24,7 @@
 
   <!-- -*- extra stuff goes here -*- -->
 
+  <include package=".indexers" />
   <include package=".vocabularies" />
   <include package=".behaviors" />
   <include package=".browser" />
