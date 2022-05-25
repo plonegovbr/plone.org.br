@@ -11,9 +11,7 @@ logger.setLevel(logging.DEBUG)
 
 
 PATTERN = r"^[a-z]{2}.*"
-domains = (
-    "ploneorgbr.core",
-)
+domains = ("ploneorgbr.core",)
 cwd = Path.cwd()
 target_path = Path(__file__).parent.parent.resolve()
 locale_path = target_path / "locales"
