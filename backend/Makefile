@@ -80,6 +80,16 @@ bin/black:	bin/pip
 	@echo "$(GREEN)==> Install Code Quality tools$(RESET)"
 	bin/pip install -r https://raw.githubusercontent.com/plone/code-quality/v$(CODE_QUALITY_VERSION)/requirements.txt
 
+# i18n
+bin/i18ndude:	bin/pip
+	@echo "$(GREEN)==> Install translation tools$(RESET)"
+	bin/pip install i18ndude
+
+.PHONY: i18n
+i18n: bin/i18ndude ## Update locales
+	@echo "$(GREEN)==> Updating locales$(RESET)"
+	bin/update_locale
+
 .PHONY: build
 build: instance/etc/zope.ini ## Create virtualenv and run buildout
 	@echo "$(GREEN)==> Setup Build$(RESET)"
