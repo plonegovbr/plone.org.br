@@ -48,6 +48,7 @@ setup(
         "setuptools",
         "Plone",
         "prettyconf",
+        "kitconcept.api",
         "collective.volto.formsupport",
         "pas.plugins.authomatic>=1.0b2",
     ],
