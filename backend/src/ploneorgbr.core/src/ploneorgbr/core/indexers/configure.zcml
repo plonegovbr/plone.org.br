@@ -1,0 +1,10 @@
+<configure xmlns="http://namespaces.zope.org/zope">
+
+  <!-- Indexers/Metadata -->
+  <adapter
+      factory=".case_study.industry_indexer"
+      name="industry"
+      />
+
+
+</configure>

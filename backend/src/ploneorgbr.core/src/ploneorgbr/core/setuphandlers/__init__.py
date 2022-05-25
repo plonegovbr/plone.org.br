@@ -1,4 +1,4 @@
-from plone import api
+from kitconcept import api
 from ploneorgbr.core import logger
 from ploneorgbr.core.setuphandlers import content
 from ploneorgbr.core.setuphandlers import users

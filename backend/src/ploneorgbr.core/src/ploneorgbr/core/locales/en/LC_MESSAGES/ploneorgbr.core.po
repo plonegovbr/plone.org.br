@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2022-05-25 17:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+
+#: ploneorgbr/core/profiles/default/types/CaseStudy.xml
+msgid "Case Study"
+msgstr ""
+
+#: ploneorgbr/core/profiles/default/types/CaseStudy.xml
+msgid "Edit"
+msgstr ""
+
+#: ploneorgbr/core/vocabularies/industries.py:11
+msgid "Education"
+msgstr ""
+
+#: ploneorgbr/core/vocabularies/industries.py:9
+msgid "Government"
+msgstr ""
+
+#: ploneorgbr/core/profiles.zcml:22
+msgid "Initial content for plone.org.br website."
+msgstr ""
+
+#: ploneorgbr/core/vocabularies/industries.py:10
+msgid "NGO"
+msgstr ""
+
+#: ploneorgbr/core/profiles.zcml:13
+msgid "Plone Brasil: Configuração"
+msgstr ""
+
+#: ploneorgbr/core/profiles.zcml:22
+msgid "Plone Brasil: Conteúdo Inicial"
+msgstr ""
+
+#: ploneorgbr/core/profiles.zcml:30
+msgid "Plone Brasil: Desinstalar"
+msgstr ""
+
+#: ploneorgbr/core/profiles.zcml:13
+msgid "Policy package to install Plone.org.br site"
+msgstr ""
+
+#: ploneorgbr/core/profiles.zcml:30
+msgid "Uninstall Plone Brasil setup."
+msgstr ""
+
+#: ploneorgbr/core/profiles/default/types/CaseStudy.xml
+msgid "View"
+msgstr ""
+
+#. Default: "Industry"
+#: ploneorgbr/core/content/case_study.py:18
+msgid "label_industry"
+msgstr ""
+
+#. Default: "URL"
+#: ploneorgbr/core/content/case_study.py:24
+msgid "label_url"
+msgstr ""
