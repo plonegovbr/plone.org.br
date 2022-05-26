@@ -2,4 +2,6 @@
 @import 'Footer';
 @import 'button';
 @import 'breadcrumbs';
+@import 'menu';
 @import 'block-text-with-bg-color';
+@import 'main';

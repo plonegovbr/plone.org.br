@@ -19,6 +19,7 @@
 --------------------*/
 
 @ploneBlue           : #0083be;
+@ploneGreen          : #2aa442;
 
 @primaryColor        : @ploneBlue;
 @secondaryColor      : @black;
