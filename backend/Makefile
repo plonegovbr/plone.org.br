@@ -68,7 +68,7 @@ clean-test: ## remove test and coverage artifacts
 bin/pip:
 	@echo "$(GREEN)==> Setup Virtual Env$(RESET)"
 	python3 -m venv .
-	bin/pip install -U "pip" "wheel" "git+https://github.com/cookiecutter/cookiecutter.git#egg=cookiecutter"
+	bin/pip install -U "pip" "wheel" "cookiecutter"
 
 instance/etc/zope.ini:	bin/pip
 	@echo "$(GREEN)==> Install Plone and create instance$(RESET)"
