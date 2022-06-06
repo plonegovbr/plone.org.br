@@ -13,6 +13,13 @@ services:
         - traefik.enable=true
         - traefik.docker.network=traefik-public
         - traefik.constraint-label=traefik-public
+        - traefik.http.middlewares.admin-auth.basicauth.users=admin:$$apr1$Jv7k2JvK$uNmYFBXyov5NYPm/SzB09/
+        - traefik.http.routers.traefik-public-https.rule=Host(`traefik.plone.org.br`)
+        - traefik.http.routers.traefik-public-https.entrypoints=https
+        - traefik.http.routers.traefik-public-https.tls=true
+        - traefik.http.routers.traefik-public-https.service=api@internal
+        - traefik.http.routers.traefik-public-https.middlewares=admin-auth
+        - traefik.http.services.traefik-public.loadbalancer.server.port=8000
 
         # GENERIC MIDDLEWARES
         - traefik.http.middlewares.https-redirect.redirectscheme.scheme=https
@@ -77,7 +84,6 @@ services:
   backend:
     image: ploneorgbr/site-backend:latest
     environment:
-      SITE: Plone
       RELSTORAGE_DSN: "dbname='plone' user='plone' host='db' password='plone'"
     depends_on:
       - db
