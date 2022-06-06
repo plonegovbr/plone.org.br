@@ -8,4 +8,7 @@ LABEL maintainer="PloneGov-BR <gov@plone.org.br>" \
 
 # Add local code
 COPY . .
-RUN ./bin/pip install -r requirements.txt
+
+# Install local requirements and fix permissions
+RUN ./bin/pip install -r requirements.txt \
+    && chown -R plone: /app
