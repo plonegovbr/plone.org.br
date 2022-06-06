@@ -92,7 +92,6 @@ jobs:
   release:
     runs-on: ubuntu-latest
     needs: [eslint, prettier, tests]
-    environment: DOCKER_HUB
 
     steps:
 
@@ -133,3 +132,30 @@ jobs:
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+
+  deploy:
+    if: ${{ github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    environment: plone.org.br
+    needs:
+      - release
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Login to DockerHub
+        uses: docker/login-action@v1
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Deploy to plone.org.br
+        run: |
+          mkdir -p "$HOME/.ssh"
+          printf '%s' "${{ secrets.DEPLOY_SSH }}" > "$HOME/.ssh/docker"
+          chmod 600 "$HOME/.ssh/docker"
+          eval $(ssh-agent)
+          ssh-add "$HOME/.ssh/docker"
+          printf '%s %s\n' "${{ secrets.DEPLOY_HOST }}" "${{ secrets.DEPLOY_HOST_KEY }}" >> "$HOME/.ssh/known_hosts"
+          docker --host "ssh://${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_PORT }}" stack deploy --with-registry-auth -c devops/stacks/plone.org.br.yml plone
