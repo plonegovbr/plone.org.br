@@ -2811,14 +2811,14 @@
     "@plone/scripts" "*"
     release-it "^14.14.2"
 
-"@kitconcept/volto-slider-block@*":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@kitconcept/volto-slider-block/-/volto-slider-block-1.0.0.tgz#88c24824f5b293e48fce4cebc735df45778a4138"
-  integrity sha512-iFhjoIPGohS8xhOGYTDgfqsfx+PApJdw9SL4+CW2cK7Xaf75RAqmkEncpr4AV7vHqwjV45ji3SSmCC3e93BUxQ==
+"@kitconcept/volto-slider-block@1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@kitconcept/volto-slider-block/-/volto-slider-block-1.2.1.tgz#dcc57e0f56e020e0ef59bea33b1d5b894d4c8216"
+  integrity sha512-N55uT8hm2uTuPUY9E6mzIsON789u73N1R7IccrnMf2zd7ajlXXnyuRQ7didV1XLczGUnWlyojTkAtob0PhOodw==
   dependencies:
     "@plone/scripts" "*"
     deepmerge "4.2.2"
-    react-slick "0.25.2"
+    react-slick "0.29.0"
     slick-carousel "1.8.1"
 
 "@kitconcept/volto-text-with-background-color-block@*":
@@ -3194,10 +3194,10 @@
     pofile "1.0.10"
     razzle "3.4.5"
 
-"@plone/volto@16.0.0-alpha.5":
-  version "16.0.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-16.0.0-alpha.5.tgz#b58a1752a7b38411f9a40f5bf6d39a6706fbc8e9"
-  integrity sha512-fi86l9rZvm3PTDLAtLp3DiA4JN05LW5NU/PU8teGRPXP7Aq2xWp686B+NYn7yIwzAfk06vD6su0htXR7Uknixw==
+"@plone/volto@16.0.0-alpha.7":
+  version "16.0.0-alpha.7"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-16.0.0-alpha.7.tgz#61648d88eb69f9fef4e39c780e7a2d32eb5d3e73"
+  integrity sha512-CLGNv2qTItXL9ahudf6KjoUHSHeP2q/C4oX+UKY6Ok58NGPYgWEER2O4z1IPaRLTQIVGM6wy2oKrXT+s2zVKzA==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
@@ -18158,10 +18158,10 @@ react-sizeme@^3.0.1:
     shallowequal "^1.1.0"
     throttle-debounce "^3.0.1"
 
-react-slick@0.25.2:
-  version "0.25.2"
-  resolved "https://registry.yarnpkg.com/react-slick/-/react-slick-0.25.2.tgz#56331b67d47d8bcfe2dceb6acab1c8fd5bd1f6bc"
-  integrity sha512-8MNH/NFX/R7zF6W/w+FS5VXNyDusF+XDW1OU0SzODEU7wqYB+ZTGAiNJ++zVNAVqCAHdyCybScaUB+FCZOmBBw==
+react-slick@0.29.0:
+  version "0.29.0"
+  resolved "https://registry.yarnpkg.com/react-slick/-/react-slick-0.29.0.tgz#0bed5ea42bf75a23d40c0259b828ed27627b51bb"
+  integrity sha512-TGdOKE+ZkJHHeC4aaoH85m8RnFyWqdqRfAGkhd6dirmATXMZWAxOpTLmw2Ll/jPTQ3eEG7ercFr/sbzdeYCJXA==
   dependencies:
     classnames "^2.2.5"
     enquire.js "^2.1.6"

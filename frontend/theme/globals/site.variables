@@ -24,11 +24,24 @@
 @primaryColor        : @ploneBlue;
 @secondaryColor      : @black;
 
-// For some reason this was breaking in 16 ????
-// @lightPrimaryColor   : @lightBlue;
-// @lightSecondaryColor : @lightBlack;
+@primary-black: #000;
+@secondary-grey: #ececec;
+@secondary-grey3: #b2b2b2;
 
+/*-------------------
+    Gradients
+--------------------*/
 
+@gradient-blue: linear-gradient(90deg, @ploneBlue 66%, rgba(0, 131, 190, 0.4) 100%);
+@gradient-green: linear-gradient(90deg, @ploneGreen 66%, rgba(42, 164, 66, 0.4) 100%);
+
+/*-------------------
+    Breakpoints
+--------------------*/
+@computerBreakpoint: 1012px;
+@largeMonitorBreakpoint: 1441px;
+@computerWidth: 940px;
+@largeMonitorWidth: 1440px;
 
 /*-------------------
        Links

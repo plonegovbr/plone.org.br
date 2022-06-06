@@ -14,8 +14,17 @@
  */
 import DefaultTeaserBody from '@kitconcept/volto-blocks-grid/components/Teaser/DefaultBody';
 
+import { SliderStylingSchema } from './components/Blocks/Slider/schema';
+import { sliderBlockSchemaEnhancer } from './components/Blocks/Slider/schema';
+import SliderDefaultBody from './components/Blocks/Slider/DefaultBody';
+
 // All your imports required for the config here BEFORE this line
 import '@plone/volto/config';
+
+const BG_COLORS = [
+  { name: 'transparent', label: 'Transparent' },
+  { name: 'grey', label: 'Grey' },
+];
 
 export default function applyConfig(config) {
   config.settings = {
@@ -49,6 +58,23 @@ export default function applyConfig(config) {
       template: DefaultTeaserBody,
     },
   ];
+
+  config.blocks.blocksConfig.slider = {
+    ...config.blocks.blocksConfig.slider,
+    enableStyling: true,
+    stylesSchema: SliderStylingSchema,
+    colors: BG_COLORS,
+    defaultBGColor: 'transparent',
+    schemaEnhancer: sliderBlockSchemaEnhancer,
+    variations: [
+      {
+        id: 'default',
+        isDefault: true,
+        title: 'Default',
+        view: SliderDefaultBody,
+      },
+    ],
+  };
 
   config.blocks.blocksConfig.textWithBackgroundColor.availableColors = [
     '#ebebeb',

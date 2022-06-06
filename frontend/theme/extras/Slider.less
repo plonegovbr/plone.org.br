@@ -1,0 +1,163 @@
+.button-reset {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  text-align: initial;
+
+  // &:focus {
+  //   outline: none;
+  // }
+}
+
+.block.highlightSlider {
+  background-color: @secondary-grey;
+}
+
+.has--backgroundColor--grey {
+  background: @secondary-grey;
+}
+
+.color-picker-widget {
+  .button.transparent,
+  .button.transparent.active,
+  .button.outline-white,
+  .button.outline-white.active {
+    background: #fff;
+  }
+
+  .button.grey,
+  .button.grey.active {
+    background-color: @secondary-grey;
+  }
+}
+
+// Block Introduction
+.introduction:not(.inner) {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+// Block Slider View
+.block.slider {
+  // Reset original
+  &:not(.inner):not([role='presentation']) {
+    padding-bottom: 0;
+  }
+
+  .slide-wrapper:not(.empty-slide) {
+    padding-bottom: 80px;
+  }
+
+  h3 {
+    margin-top: 15px;
+    /* Headline Blocktitle-48 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+  }
+
+  .supertitle {
+    color: #ffffff;
+
+    /* Topline 25 */
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+  }
+
+  .description {
+    color: #ffffff;
+
+    /* Topline 25 */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+  }
+
+  .slick-arrow {
+    display: none !important;
+  }
+
+  .slick-dots {
+    bottom: 34px;
+    line-height: 0;
+
+    li,
+    button {
+      width: 46px;
+      height: 6px;
+      padding: 0;
+      background-color: @secondary-grey3;
+    }
+
+    li.slick-active button {
+      background-color: @primary-black;
+    }
+
+    li {
+      margin: 0 3px;
+    }
+
+    button:before {
+      display: none;
+      content: '';
+    }
+  }
+
+  .teaser-item.top {
+    position: relative;
+  }
+
+  .teaser-item-title {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    min-height: 250px;
+    padding: 20px 50px;
+    background: @gradient-blue;
+    color: #fff;
+
+    .title {
+      margin-bottom: 75px;
+    }
+
+    &.has--slider--flagAlign--right {
+      right: 0;
+    }
+
+    &.has--slider--flagColor--blue {
+      background: @gradient-blue;
+    }
+
+    &.has--slider--flagColor--green {
+      background: @gradient-green;
+    }
+  }
+
+  .ui.button {
+    .button-reset();
+    /* Button 16 Bold */
+    display: initial;
+    padding: 11px 29px;
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    color: #ffffff;
+    font-family: 'Frutiger LT Pro';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+
+// Block Slider Edit
+#page-edit,
+#page-add {
+  .block.slider {
+    max-width: @largeMonitorWidth;
+  }
+}

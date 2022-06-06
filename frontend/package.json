@@ -158,7 +158,7 @@
     "@kitconcept/volto-blocks-grid": "*",
     "@kitconcept/volto-separator-block": "*",
     "@kitconcept/volto-button-block": "*",
-    "@kitconcept/volto-slider-block": "*",
+    "@kitconcept/volto-slider-block": "1.2.1",
     "@kitconcept/volto-text-with-background-color-block": "*",
     "@kitconcept/volto-heading-block": "*",
     "@eeacms/volto-matomo": "2.0.8"

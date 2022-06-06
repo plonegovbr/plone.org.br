@@ -17,4 +17,47 @@ msgstr ""
 "Language-Name: Português do Brasil\n"
 "Preferred-Encodings: utf-8\n"
 
+#: components/Blocks/Slider/schema
+# defaultMessage: Button text
+msgid "Button text"
+msgstr "Texto do botão"
 
+#: components/Blocks/Slider/schema
+# defaultMessage: Color
+msgid "Color"
+msgstr "Cor"
+
+#: components/Blocks/Slider/schema
+# defaultMessage: Flag align
+msgid "Flag align"
+msgstr "Alinhamento do destaque"
+
+#: components/Blocks/Slider/schema
+# defaultMessage: Flag color
+msgid "Flag color"
+msgstr "Cor do destaque"
+
+#: components/Blocks/Slider/DefaultBody
+# defaultMessage: More
+msgid "More"
+msgstr "Mais"
+
+#: components/Blocks/Slider/DefaultBody
+# defaultMessage: Please choose an existing content as source for this element
+msgid "Please choose an existing content as source for this element"
+msgstr "Por favor, escolha um conteúdo existe como fonte para este elemento"
+
+#: components/Blocks/Slider/schema
+# defaultMessage: Slide Background Color
+msgid "Slide Background Color"
+msgstr "Cor de fundo do Slider"
+
+#: components/Blocks/Slider/DefaultBody
+# defaultMessage: Source
+msgid "Source"
+msgstr "Fonte"
+
+#: components/Blocks/Slider/DefaultBody
+# defaultMessage: More info
+msgid "moreInfo"
+msgstr "Saiba mais"

@@ -30,4 +30,47 @@ msgstr ""
 "Language-Name: Nederlands\n"
 "Preferred-Encodings: utf-8\n"
 
+#: components/Blocks/Slider/schema
+# defaultMessage: Button text
+msgid "Button text"
+msgstr ""
 
+#: components/Blocks/Slider/schema
+# defaultMessage: Color
+msgid "Color"
+msgstr ""
+
+#: components/Blocks/Slider/schema
+# defaultMessage: Flag align
+msgid "Flag align"
+msgstr ""
+
+#: components/Blocks/Slider/schema
+# defaultMessage: Flag color
+msgid "Flag color"
+msgstr ""
+
+#: components/Blocks/Slider/DefaultBody
+# defaultMessage: More
+msgid "More"
+msgstr ""
+
+#: components/Blocks/Slider/DefaultBody
+# defaultMessage: Please choose an existing content as source for this element
+msgid "Please choose an existing content as source for this element"
+msgstr ""
+
+#: components/Blocks/Slider/schema
+# defaultMessage: Slide Background Color
+msgid "Slide Background Color"
+msgstr ""
+
+#: components/Blocks/Slider/DefaultBody
+# defaultMessage: Source
+msgid "Source"
+msgstr ""
+
+#: components/Blocks/Slider/DefaultBody
+# defaultMessage: More info
+msgid "moreInfo"
+msgstr ""
