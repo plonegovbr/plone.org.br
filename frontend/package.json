@@ -150,7 +150,7 @@
     "node": "^14 || ^16"
   },
   "dependencies": {
-    "@plone/volto": "16.0.0-alpha.5",
+    "@plone/volto": "16.0.0-alpha.7",
     "volto-slate": "*",
     "@eeacms/volto-accordion-block": "*",
     "volto-authomatic": "*",
