@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-05-25 17:12+0000\n"
+"POT-Creation-Date: 2022-06-06 21:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,11 +66,11 @@ msgid "View"
 msgstr ""
 
 #. Default: "Industry"
-#: ploneorgbr.core/src/ploneorgbr/core/content/case_study.py:18
+#: ploneorgbr.core/src/ploneorgbr/core/content/case_study.py:13
 msgid "label_industry"
 msgstr ""
 
 #. Default: "URL"
-#: ploneorgbr.core/src/ploneorgbr/core/content/case_study.py:24
+#: ploneorgbr.core/src/ploneorgbr/core/content/case_study.py:19
 msgid "label_url"
 msgstr ""

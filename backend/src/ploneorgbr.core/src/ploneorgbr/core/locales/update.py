@@ -72,7 +72,7 @@ def update_locale():
         for domain in domains:
             logger.info(f"Updating translations for {domain}")
             locale_folder_setup(domain)
-            _sync(domain)
             _rebuild(domain)
+            _sync(domain)
     else:
         logger.error("Not able to find i18ndude")

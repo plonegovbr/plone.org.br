@@ -76,6 +76,12 @@ format:  ## Format codebase
 	$(MAKE) -C "./backend/" format
 	$(MAKE) -C "./frontend/" format
 
+.PHONY: i18n
+i18n:  ## Update locales
+	@echo "Update locales"
+	$(MAKE) -C "./backend/" i18n
+	$(MAKE) -C "./frontend/" i18n
+
 .PHONY: test
 test:  ## Test codebase
 	@echo "Test codebase"
