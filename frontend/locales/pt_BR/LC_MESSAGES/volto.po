@@ -57,7 +57,32 @@ msgstr "Cor de fundo do Slider"
 msgid "Source"
 msgstr "Fonte"
 
+#: components/View/CaseStudyView
+# defaultMessage: Industry
+msgid "case_study_industry"
+msgstr "Indústria"
+
+#: components/View/CaseStudyView
+# defaultMessage: Screenshot
+msgid "case_study_screenshot"
+msgstr "Captura de Tela"
+
+#: components/View/CaseStudyView
+# defaultMessage: What
+msgid "case_study_what"
+msgstr "Categorias"
+
 #: components/Blocks/Slider/DefaultBody
 # defaultMessage: More info
 msgid "moreInfo"
 msgstr "Saiba mais"
+
+#: components/View/CaseStudyView
+# defaultMessage: Visit external website
+msgid "visit_external_website"
+msgstr "Visite o site"
+
+#: components/View/CaseStudyView
+# defaultMessage: Website
+msgid "website"
+msgstr "Site"

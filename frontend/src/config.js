@@ -17,6 +17,7 @@ import DefaultTeaserBody from '@kitconcept/volto-blocks-grid/components/Teaser/D
 import { SliderStylingSchema } from './components/Blocks/Slider/schema';
 import { sliderBlockSchemaEnhancer } from './components/Blocks/Slider/schema';
 import SliderDefaultBody from './components/Blocks/Slider/DefaultBody';
+import CaseStudyView from './components/View/CaseStudyView';
 
 // All your imports required for the config here BEFORE this line
 import '@plone/volto/config';
@@ -86,5 +87,11 @@ export default function applyConfig(config) {
     blocksConfig: { ...config.blocks.blocksConfig },
     requiredBlocks: [],
   };
+
+  config.views.contentTypesViews = {
+    ...config.views.contentTypesViews,
+    CaseStudy: CaseStudyView,
+  };
+
   return config;
 }

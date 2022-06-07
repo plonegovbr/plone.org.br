@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
-"POT-Creation-Date: 2022-06-06T20:46:45.427Z\n"
+"POT-Creation-Date: 2022-06-07T23:15:55.696Z\n"
 "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -53,7 +53,32 @@ msgstr ""
 msgid "Source"
 msgstr ""
 
+#: components/View/CaseStudyView
+# defaultMessage: Industry
+msgid "case_study_industry"
+msgstr ""
+
+#: components/View/CaseStudyView
+# defaultMessage: Screenshot
+msgid "case_study_screenshot"
+msgstr ""
+
+#: components/View/CaseStudyView
+# defaultMessage: What
+msgid "case_study_what"
+msgstr ""
+
 #: components/Blocks/Slider/DefaultBody
 # defaultMessage: More info
 msgid "moreInfo"
+msgstr ""
+
+#: components/View/CaseStudyView
+# defaultMessage: Visit external website
+msgid "visit_external_website"
+msgstr ""
+
+#: components/View/CaseStudyView
+# defaultMessage: Website
+msgid "website"
 msgstr ""

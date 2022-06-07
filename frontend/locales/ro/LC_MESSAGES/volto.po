@@ -57,7 +57,32 @@ msgstr ""
 msgid "Source"
 msgstr ""
 
+#: components/View/CaseStudyView
+# defaultMessage: Industry
+msgid "case_study_industry"
+msgstr ""
+
+#: components/View/CaseStudyView
+# defaultMessage: Screenshot
+msgid "case_study_screenshot"
+msgstr ""
+
+#: components/View/CaseStudyView
+# defaultMessage: What
+msgid "case_study_what"
+msgstr ""
+
 #: components/Blocks/Slider/DefaultBody
 # defaultMessage: More info
 msgid "moreInfo"
+msgstr ""
+
+#: components/View/CaseStudyView
+# defaultMessage: Visit external website
+msgid "visit_external_website"
+msgstr ""
+
+#: components/View/CaseStudyView
+# defaultMessage: Website
+msgid "website"
 msgstr ""

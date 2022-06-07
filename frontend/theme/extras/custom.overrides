@@ -5,4 +5,5 @@
 @import 'menu';
 @import 'block-text-with-bg-color';
 @import 'Slider';
+@import 'CaseStudy';
 @import 'main';
