@@ -151,7 +151,7 @@
   },
   "dependencies": {
     "@plone/volto": "16.0.0-alpha.7",
-    "volto-slate": "*",
+    "volto-slate": "6.1.0",
     "@eeacms/volto-accordion-block": "*",
     "volto-authomatic": "*",
     "volto-form-block": "*",
@@ -160,7 +160,7 @@
     "@kitconcept/volto-button-block": "*",
     "@kitconcept/volto-slider-block": "1.2.1",
     "@kitconcept/volto-text-with-background-color-block": "*",
-    "@kitconcept/volto-heading-block": "*",
+    "@kitconcept/volto-heading-block": "2.0.1",
     "@eeacms/volto-matomo": "2.0.8"
   },
   "devDependencies": {
