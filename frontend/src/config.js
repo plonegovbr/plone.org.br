@@ -18,6 +18,7 @@ import { SliderStylingSchema } from './components/Blocks/Slider/schema';
 import { sliderBlockSchemaEnhancer } from './components/Blocks/Slider/schema';
 import SliderDefaultBody from './components/Blocks/Slider/DefaultBody';
 import CaseStudyView from './components/View/CaseStudyView';
+import SocialSharing from '@codesyntax/volto-social-sharing/SocialSharing';
 
 // All your imports required for the config here BEFORE this line
 import '@plone/volto/config';
@@ -47,6 +48,13 @@ export default function applyConfig(config) {
       {
         id: 'youtube',
         url: 'http://youtube.com/c/PloneCMS',
+      },
+    ],
+    appExtras: [
+      ...config.settings.appExtras,
+      {
+        match: '',
+        component: SocialSharing,
       },
     ],
   };

@@ -40,6 +40,7 @@
   "workspaces": [],
   "addons": [
     "volto-slate:minimalDefault,simpleLink",
+    "@codesyntax/volto-social-sharing",
     "@eeacms/volto-accordion-block",
     "volto-authomatic",
     "volto-form-block",
@@ -151,6 +152,7 @@
     "node": "^14 || ^16"
   },
   "dependencies": {
+    "@codesyntax/volto-social-sharing": "0.2.0",
     "@eeacms/volto-accordion-block": "*",
     "@eeacms/volto-matomo": "2.0.8",
     "@kitconcept/volto-blocks-grid": "*",
@@ -159,7 +161,7 @@
     "@kitconcept/volto-separator-block": "*",
     "@kitconcept/volto-slider-block": "1.2.1",
     "@kitconcept/volto-text-with-background-color-block": "*",
-    "@plone/volto": "16.0.0-alpha.7",
+    "@plone/volto": "16.0.0-alpha.11",
     "@plonegovbr/volto-code-block": "1.0.0-alpha.0",
     "volto-authomatic": "*",
     "volto-form-block": "*",

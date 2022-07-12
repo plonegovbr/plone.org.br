@@ -2238,6 +2238,16 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@codesyntax/volto-social-sharing@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@codesyntax/volto-social-sharing/-/volto-social-sharing-0.2.0.tgz#950debb1b709fa842031dda809c01e57546f9aaf"
+  integrity sha512-Uv++tDTFCH580m/POL9LpNKOJ1tB2Ynmx8+8SuONHDVjavrJ8twdAgm1Il0h4DI0UXuZLrAA6yGj8VTHFnCyLg==
+  dependencies:
+    "@fortawesome/fontawesome-svg-core" "1.2.34"
+    "@fortawesome/free-brands-svg-icons" "5.15.2"
+    "@fortawesome/free-solid-svg-icons" "5.15.2"
+    "@fortawesome/react-fontawesome" "0.1.14"
+
 "@colors/colors@1.5.0":
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
@@ -2523,6 +2533,39 @@
   version "0.2.8"
   resolved "https://registry.yarnpkg.com/@formatjs/macro/-/macro-0.2.8.tgz#e43228e02d0159817734ad80cc0326cfefaeeb6c"
   integrity sha512-5IBdn5+D8VGdi6Px0M/PidtqzHVrOj3dVJdV+YmWNRaWHdSvBd1wUd0gMcZnQXAxN+RzlGS/ddfOxFkjSlyQuA==
+
+"@fortawesome/fontawesome-common-types@^0.2.34":
+  version "0.2.36"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.36.tgz#b44e52db3b6b20523e0c57ef8c42d315532cb903"
+  integrity sha512-a/7BiSgobHAgBWeN7N0w+lAhInrGxksn13uK7231n2m8EDPE3BMCl9NZLTGrj9ZXfCmC6LM0QLqXidIizVQ6yg==
+
+"@fortawesome/fontawesome-svg-core@1.2.34":
+  version "1.2.34"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.34.tgz#1d1a7c92537cbc2b8a83eef6b6d824b4b5b46b26"
+  integrity sha512-0KNN0nc5eIzaJxlv43QcDmTkDY1CqeN6J7OCGSs+fwGPdtv0yOQqRjieopBCmw+yd7uD3N2HeNL3Zm5isDleLg==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.34"
+
+"@fortawesome/free-brands-svg-icons@5.15.2":
+  version "5.15.2"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.15.2.tgz#d74e2540b5552b915d6bef719f17e361b70a8d65"
+  integrity sha512-YPlVjE1cEO+OJ9I9ay3TQ3I88+XkxMTYwnnddqAboxLhPNGncsHV0DjWOVLCyuAY66yPfyndWwVn4v7vuqsO1g==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.34"
+
+"@fortawesome/free-solid-svg-icons@5.15.2":
+  version "5.15.2"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.15.2.tgz#25bb035de57cf85aee8072965732368ccc8e8943"
+  integrity sha512-ZfCU+QjaFsdNZmOGmfqEWhzI3JOe37x5dF4kz9GeXvKn/sTxhqMtZ7mh3lBf76SvcYY5/GKFuyG7p1r4iWMQqw==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.34"
+
+"@fortawesome/react-fontawesome@0.1.14":
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/@fortawesome/react-fontawesome/-/react-fontawesome-0.1.14.tgz#bf28875c3935b69ce2dc620e1060b217a47f64ca"
+  integrity sha512-4wqNb0gRLVaBm/h+lGe8UfPPivcbuJ6ecI4hIgW0LjI7kzpYB9FkN0L9apbVzg+lsBdcTf0AlBtODjcSX5mmKA==
+  dependencies:
+    prop-types "^15.7.2"
 
 "@gar/promisify@^1.0.1":
   version "1.1.2"
@@ -3187,10 +3230,10 @@
     pofile "1.0.10"
     razzle "3.4.5"
 
-"@plone/volto@16.0.0-alpha.7":
-  version "16.0.0-alpha.7"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-16.0.0-alpha.7.tgz#61648d88eb69f9fef4e39c780e7a2d32eb5d3e73"
-  integrity sha512-CLGNv2qTItXL9ahudf6KjoUHSHeP2q/C4oX+UKY6Ok58NGPYgWEER2O4z1IPaRLTQIVGM6wy2oKrXT+s2zVKzA==
+"@plone/volto@16.0.0-alpha.11":
+  version "16.0.0-alpha.11"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-16.0.0-alpha.11.tgz#82384afd898a4723dc0d299cc2d26ab629939536"
+  integrity sha512-b+4HSB4ntM2rsVMrNMW4+GcF3xCK6erfr0b7/fDqA5XR1xrYoyMxhsZNfuDoIpaqSjscmovgRdl0x6m6Sd2hcA==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
