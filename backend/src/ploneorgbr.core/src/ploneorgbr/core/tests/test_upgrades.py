@@ -1,4 +1,5 @@
 """Upgrades tests for this package."""
+from parameterized import parameterized
 from plone.app.testing import setRoles
 from plone.app.testing import TEST_USER_ID
 from ploneorgbr.core.testing import PLONEORGBR_CORE_INTEGRATION_TESTING  # noqa: E501
@@ -11,9 +12,6 @@ class UpgradeStepIntegrationTest(unittest.TestCase):
 
     layer = PLONEORGBR_CORE_INTEGRATION_TESTING
     profile = "ploneorgbr.core:default"
-    src = ""
-    dst = ""
-    steps = 1
 
     def setUp(self):
         self.portal = self.layer["portal"]
@@ -24,21 +22,19 @@ class UpgradeStepIntegrationTest(unittest.TestCase):
         source, dest = tuple([source]), tuple([dest])
         return item["source"] == source and item["dest"] == dest
 
-    def available_steps(self) -> list:
+    def available_steps(self, src: str, dst: str) -> list:
         """Test available steps."""
-        steps = listUpgradeSteps(self.setup, self.profile, self.src)
-        steps = [s for s in steps if self._match(s[0], self.src, self.dst)]
+        steps = listUpgradeSteps(self.setup, self.profile, src)
+        steps = [s for s in steps if self._match(s[0], src, dst)]
         return steps
 
-    def test_available(self):
+    @parameterized.expand(
+        [
+            ("20220523001", "20220525001", 1),
+            ("20220525001", "20220712001", 1),
+        ]
+    )
+    def test_available(self, src, dst, expected):
         """Test upgrade step is available."""
-        if self.src and self.dst:
-            steps = self.available_steps()
-            self.assertEqual(len(steps), 1)
-
-
-class V20210908001UpgradeTest(UpgradeStepIntegrationTest):
-
-    src = "20220523001"
-    dst = "20220525001"
-    steps = 1
+        steps = self.available_steps(src, dst)
+        self.assertEqual(len(steps), expected)
