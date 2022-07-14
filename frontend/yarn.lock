@@ -3395,10 +3395,10 @@
     yarn-deduplicate "3.1.0"
     yarnhook "0.5.1"
 
-"@plonegovbr/volto-code-block@1.0.0-alpha.0":
-  version "1.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@plonegovbr/volto-code-block/-/volto-code-block-1.0.0-alpha.0.tgz#632a9c6e383e3421ef557b29873e7f730a931baf"
-  integrity sha512-WlZkuOiHJJ+J9+/VdFtCYj5iHdNeNcoVtjkp5dHgja5/rPzbI+Wi6w5BESSy7ZQIxwXJD10VyQEv+imK9Y3g0A==
+"@plonegovbr/volto-code-block@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@plonegovbr/volto-code-block/-/volto-code-block-1.0.0.tgz#1316cba56491eb03d22a743fcb36e31a96d18567"
+  integrity sha512-Y4jdVToT1DV1qK3H0QZKSzBND1da0TeWnJfzDdI3SpWDlTs5Tmvm8+LhWvjQH5ZT9Aappd1d6BamJW0s3nWYcA==
   dependencies:
     "@plone/scripts" "*"
     react-syntax-highlighter "^15.5.0"

@@ -162,7 +162,7 @@
     "@kitconcept/volto-slider-block": "1.2.1",
     "@kitconcept/volto-text-with-background-color-block": "*",
     "@plone/volto": "16.0.0-alpha.11",
-    "@plonegovbr/volto-code-block": "1.0.0-alpha.0",
+    "@plonegovbr/volto-code-block": "1.0.0",
     "volto-authomatic": "*",
     "volto-form-block": "*",
     "volto-slate": "6.1.0"
