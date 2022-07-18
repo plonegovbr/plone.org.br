@@ -3404,6 +3404,14 @@
     react-syntax-highlighter "^15.5.0"
     use-copy "^0.0.2"
 
+"@plonegovbr/volto-twitter-block@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@plonegovbr/volto-twitter-block/-/volto-twitter-block-0.1.0.tgz#e646382571806d14df9735f5a9f989e0bdf61c19"
+  integrity sha512-zdhlAcPBlbnw0909ZQJQ7my70dm7wAkVDb0h4d5dtcgJvYccxAD+/HZmmW3tnkZ5LkiucF7sjYHfjTMq653xsA==
+  dependencies:
+    "@plone/scripts" "*"
+    react-twitter-embed "4.0.4"
+
 "@pmmmwh/react-refresh-webpack-plugin@0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@pmmmwh/react-refresh-webpack-plugin/-/react-refresh-webpack-plugin-0.3.0.tgz#1caa675c3098801152537ee63420bcd672213295"
@@ -18299,6 +18307,13 @@ react-transition-group@^4.3.0:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
+react-twitter-embed@4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/react-twitter-embed/-/react-twitter-embed-4.0.4.tgz#4a6b8354acc266876ff1110b9f648518ea20db6d"
+  integrity sha512-2JIL7qF+U62zRzpsh6SZDXNI3hRNVYf5vOZ1WRcMvwKouw+xC00PuFaD0aEp2wlyGaZ+f4x2VvX+uDadFQ3HVA==
+  dependencies:
+    scriptjs "^2.5.9"
+
 react-visibility-sensor@5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/react-visibility-sensor/-/react-visibility-sensor-5.1.1.tgz#5238380960d3a0b2be0b7faddff38541e337f5a9"
@@ -19344,6 +19359,11 @@ schema-utils@^3.0.0:
     "@types/json-schema" "^7.0.8"
     ajv "^6.12.5"
     ajv-keywords "^3.5.2"
+
+scriptjs@^2.5.9:
+  version "2.5.9"
+  resolved "https://registry.yarnpkg.com/scriptjs/-/scriptjs-2.5.9.tgz#343915cd2ec2ed9bfdde2b9875cd28f59394b35f"
+  integrity sha512-qGVDoreyYiP1pkQnbnFAUIS5AjenNwwQBdl7zeos9etl+hYKWahjRTfzAZZYBv5xNHx7vNKCmaLDQZ6Fr2AEXg==
 
 scroll-into-view-if-needed@^2.2.20:
   version "2.2.29"
