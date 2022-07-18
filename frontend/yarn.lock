@@ -21845,10 +21845,10 @@ vm2@^3.9.8:
     acorn "^8.7.0"
     acorn-walk "^8.2.0"
 
-volto-authomatic@*:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/volto-authomatic/-/volto-authomatic-1.0.3.tgz#084eb9e59579eee91de5d97f035b3e0e746043b8"
-  integrity sha512-NP6lmddD3qmMsd6CSgMAPiS7zrLxQLq1UmIgny5FFvMtoMNl4Y+cJKEqlqaVi3V6qV7Hq28NbvAyGeXNVzRgzw==
+volto-authomatic@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/volto-authomatic/-/volto-authomatic-1.1.0.tgz#1753d2175e5c534867eb56e7b7e3cbb8920f8474"
+  integrity sha512-rM1JZC0moDwSkmKcQRxMy7vXkIS2fzmRvX8T1RjUR64XIUG8c4bkJhgpAkFgIlj//6/7szQ6NqpAslGQJeXnEQ==
 
 volto-form-block@*:
   version "2.3.6"

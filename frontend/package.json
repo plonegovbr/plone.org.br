@@ -165,7 +165,7 @@
     "@plone/volto": "16.0.0-alpha.11",
     "@plonegovbr/volto-code-block": "1.0.0",
     "@plonegovbr/volto-twitter-block": "0.1.0",
-    "volto-authomatic": "*",
+    "volto-authomatic": "1.1.0",
     "volto-form-block": "*",
     "volto-slate": "6.1.0"
   },
