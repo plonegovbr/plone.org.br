@@ -41,7 +41,7 @@
   "addons": [
     "@codesyntax/volto-social-sharing",
     "@eeacms/volto-accordion-block",
-    "volto-authomatic",
+    "@plone-collective/volto-authomatic",
     "volto-form-block",
     "@kitconcept/volto-separator-block",
     "@kitconcept/volto-blocks-grid",
@@ -162,7 +162,7 @@
     "@plone/volto": "16.0.0-alpha.15",
     "@plonegovbr/volto-code-block": "1.0.0",
     "@plonegovbr/volto-twitter-block": "0.1.0",
-    "volto-authomatic": "1.1.0",
+    "@plone-collective/volto-authomatic": "1.2.0",
     "volto-form-block": "*"
   },
   "devDependencies": {
