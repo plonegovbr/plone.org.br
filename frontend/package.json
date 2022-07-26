@@ -41,7 +41,7 @@
   "addons": [
     "@codesyntax/volto-social-sharing",
     "@eeacms/volto-accordion-block",
-    "volto-authomatic",
+    "@plone-collective/volto-authomatic",
     "volto-form-block",
     "@kitconcept/volto-separator-block",
     "@kitconcept/volto-blocks-grid",
@@ -60,6 +60,7 @@
       "^.+\\.js(x)?$": "babel-jest",
       "^.+\\.css$": "jest-css-modules",
       "^.+\\.scss$": "jest-css-modules",
+      "^.+\\.less$": "jest-css-modules",
       "^.+\\.(png)$": "jest-file",
       "^.+\\.(jpg)$": "jest-file",
       "^.+\\.(svg)$": "./node_modules/@plone/volto/jest-svgsystem-transform.js"
@@ -68,6 +69,7 @@
       "/node_modules/(?!@plone/volto).+\\.js$"
     ],
     "moduleNameMapper": {
+      "@plone/volto-slate": "<rootDir>/node_modules/@plone/volto/packages/volto-slate/src",
       "@plone/volto/babel": "<rootDir>/node_modules/@plone/volto/babel",
       "@plone/volto/(.*)$": "<rootDir>/node_modules/@plone/volto/src/$1",
       "load-volto-addons": "<rootDir>/node_modules/@plone/volto/jest-addons-loader.js",
@@ -159,10 +161,10 @@
     "@kitconcept/volto-heading-block": "2.0.1",
     "@kitconcept/volto-separator-block": "*",
     "@kitconcept/volto-slider-block": "1.2.1",
-    "@plone/volto": "16.0.0-alpha.15",
+    "@plone/volto": "16.0.0-alpha.17",
     "@plonegovbr/volto-code-block": "1.0.0",
     "@plonegovbr/volto-twitter-block": "0.1.0",
-    "volto-authomatic": "1.1.0",
+    "@plone-collective/volto-authomatic": "1.2.0",
     "volto-form-block": "*"
   },
   "devDependencies": {

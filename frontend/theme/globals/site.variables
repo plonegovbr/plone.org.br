@@ -5,6 +5,7 @@
 @emSize   : 16px;
 
 /* The size of page text  */
+@importGoogleFonts: true;
 @fontSize : 16px;
 @fontName: Montserrat;
 
