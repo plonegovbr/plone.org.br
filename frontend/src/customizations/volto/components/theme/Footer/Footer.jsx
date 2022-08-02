@@ -5,10 +5,11 @@
 
 import React from 'react';
 import { Container, List, Segment } from 'semantic-ui-react';
-
+import config from '@plone/volto/registry';
 import { FormattedMessage, defineMessages, injectIntl } from 'react-intl';
 import { useSelector } from 'react-redux';
 import { UniversalLink } from '@plone/volto/components';
+import SocialNetworks from '@package/components/SocialNetworks/SocialNetworks';
 
 const messages = defineMessages({
   copyright: {
@@ -25,6 +26,8 @@ const messages = defineMessages({
  */
 const Footer = ({ intl }) => {
   const logged_in = useSelector((state) => state.userSession.token);
+  const { settings } = config;
+  const networks = settings.socialNetworks;
   return (
     <Segment
       role="contentinfo"
@@ -36,6 +39,7 @@ const Footer = ({ intl }) => {
       id="footer"
     >
       <Container>
+        <SocialNetworks networks={networks} />
         <Segment basic inverted color="grey" className="discreet">
           <FormattedMessage
             id="The {plonecms} is {copyright} 2000-{current_year} by the {plonefoundation} and friends."

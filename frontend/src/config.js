@@ -39,15 +39,19 @@ export default function applyConfig(config) {
     socialNetworks: [
       {
         id: 'twitter',
-        url: 'https://twitter.com/ploneorgbr',
+        href: 'https://twitter.com/ploneorgbr',
       },
       {
         id: 'facebook',
-        url: 'https://www.facebook.com/PloneConference',
+        href: 'https://www.facebook.com/Plone-Brasil-101606785972720',
+      },
+      {
+        id: 'instagram',
+        href: 'https://www.instagram.com/plonebr/',
       },
       {
         id: 'youtube',
-        url: 'http://youtube.com/c/PloneCMS',
+        href: 'http://youtube.com/c/PloneCMS',
       },
     ],
     appExtras: [
