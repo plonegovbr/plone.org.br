@@ -3110,21 +3110,24 @@
     razzle "3.4.5"
     simple-git "2.48.0"
 
-"@plone/scripts@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@plone/scripts/-/scripts-1.0.3.tgz#ea3e5f29b6fcb8f088b32e43394d71748d5538b4"
-  integrity sha512-wE0vsWpOI5jeoVJVP0T2IpBGz6wdlQrOqicK0EsC0+6hYqmPJb2cGUXNe0JhUDONF6Gi/Ubklcgd05Lpb2+bjA==
+"@plone/scripts@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@plone/scripts/-/scripts-1.5.0.tgz#28f02aaf0533596a2fd26198cf36da88be20f7f1"
+  integrity sha512-Xq1JfkcHPLlFWGcyN+pVSPzJG8GU76GJPdIOUH+YzK56JU8cKbKfiqQsVbYrNpHOuiM0/L7GxA+VdvK0K+WQfA==
   dependencies:
     babel-plugin-react-intl "5.1.17"
     babel-preset-razzle "3.4.5"
     commander "8.2.0"
+    git-url-parse "^11.6.0"
+    mrs-developer "*"
     pofile "1.0.10"
     razzle "3.4.5"
+    simple-git "3.5.0"
 
-"@plone/volto@16.0.0-alpha.17":
-  version "16.0.0-alpha.17"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-16.0.0-alpha.17.tgz#e675ec6713f8cefedea6125820a371d8494f3c80"
-  integrity sha512-EZqizS9770dELWzpjvlIfELuqan4B8hgXzYFcdG6T455ZOmXnErBJ4Bq1l6bLFbf9lSFn74AGyveHgVu+6bXYA==
+"@plone/volto@16.0.0-alpha.20":
+  version "16.0.0-alpha.20"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-16.0.0-alpha.20.tgz#ee910dfd7cd2d9f0f9ceeb6271fd62e7b3b6b32a"
+  integrity sha512-GeXLmB5PgJ1LQ8UfSaq9YJlQlTkrgXKAbnvqbbNh4vh/z7DfEUeu3rqLGXG5Q739vmaMDbc2inJZxNjw1gX8sQ==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
@@ -3134,7 +3137,7 @@
     "@loadable/component" "5.14.1"
     "@loadable/server" "5.14.0"
     "@loadable/webpack-plugin" "5.14.0"
-    "@plone/scripts" "1.0.3"
+    "@plone/scripts" "1.5.0"
     "@sentry/browser" "6.19.7"
     "@sentry/integrations" "6.19.7"
     "@sentry/node" "6.19.7"
@@ -3157,7 +3160,7 @@
     connected-react-router "6.8.0"
     coveralls "3.0.2"
     crypto-random-string "3.2.0"
-    cypress "9.6.1"
+    cypress "10.3.1"
     cypress-axe "0.14.0"
     cypress-file-upload "5.0.8"
     debug "4.3.2"
@@ -8217,10 +8220,10 @@ cypress-file-upload@5.0.8:
   resolved "https://registry.yarnpkg.com/cypress-file-upload/-/cypress-file-upload-5.0.8.tgz#d8824cbeaab798e44be8009769f9a6c9daa1b4a1"
   integrity sha512-+8VzNabRk3zG6x8f8BWArF/xA/W0VK4IZNx3MV0jFWrJS/qKn8eHfa5nU73P9fOQAgwHFJx7zjg4lwOnljMO8g==
 
-cypress@9.6.1:
-  version "9.6.1"
-  resolved "https://registry.yarnpkg.com/cypress/-/cypress-9.6.1.tgz#a7d6b5a53325b3dc4960181f5800a5ade0f085eb"
-  integrity sha512-ECzmV7pJSkk+NuAhEw6C3D+RIRATkSb2VAHXDY6qGZbca/F9mv5pPsj2LO6Ty6oIFVBTrwCyL9agl28MtJMe2g==
+cypress@10.3.1:
+  version "10.3.1"
+  resolved "https://registry.yarnpkg.com/cypress/-/cypress-10.3.1.tgz#7fab4ef43481c05a9a17ebe9a0ec860e15b95a19"
+  integrity sha512-As9HrExjAgpgjCnbiQCuPdw5sWKx5HUJcK2EOKziu642akwufr/GUeqL5UnCPYXTyyibvEdWT/pSC2qnGW/e5w==
   dependencies:
     "@cypress/request" "^2.88.10"
     "@cypress/xvfb" "^1.2.4"
@@ -19224,6 +19227,15 @@ simple-git@2.48.0:
     "@kwsites/file-exists" "^1.1.1"
     "@kwsites/promise-deferred" "^1.1.1"
     debug "^4.3.2"
+
+simple-git@3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.5.0.tgz#3c3538f4d7a1b3c8f3904412b12740bdcad9c8b1"
+  integrity sha512-fZsaq5nzdxQRhMNs6ESGLpMUHoL5GRP+boWPhq9pMYMKwOGZV2jHOxi8AbFFA2Y/6u4kR99HoULizSbpzaODkA==
+  dependencies:
+    "@kwsites/file-exists" "^1.1.1"
+    "@kwsites/promise-deferred" "^1.1.1"
+    debug "^4.3.3"
 
 simple-git@^3.3.0:
   version "3.7.1"
