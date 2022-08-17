@@ -523,11 +523,6 @@
   resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.16.5.tgz#afe37a45f39fce44a3d50a7958129ea5b1a5c074"
   integrity sha512-59KHWHXxVA9K4HNF4sbHCf+eJeFe0Te/ZFGqBT4OjXhrwvA04sGfaEGsVTdsjoszq0YTP49RC9UKe5g8uN2RwQ==
 
-"@babel/helper-plugin-utils@^7.18.6":
-  version "7.18.9"
-  resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.18.9.tgz#4b8aea3b069d8cb8a72cdfe28ddf5ceca695ef2f"
-  integrity sha512-aBXPT3bmtLryXaoJLyYPXPlSD4p1ld9aYeR+sJNOZjJJGiOpb+fKfh3NkcCu7J54nUJwCERPBExCCpyCOHnu/w==
-
 "@babel/helper-regex@^7.8.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/helper-regex/-/helper-regex-7.8.3.tgz#139772607d51b93f23effe72105b319d2a4c6965"
@@ -912,14 +907,6 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
     "@babel/plugin-syntax-nullish-coalescing-operator" "^7.8.0"
-
-"@babel/plugin-proposal-nullish-coalescing-operator@7.18.6":
-  version "7.18.6"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-nullish-coalescing-operator/-/plugin-proposal-nullish-coalescing-operator-7.18.6.tgz#fdd940a99a740e577d6c753ab6fbb43fdb9467e1"
-  integrity sha512-wQxQzxYeJqHcfppzBDnm1yAY0jSRkUXR2z8RePZYrKwMKgMlE8+Z6LUno+bd6LvbGh8Gltvy74+9pIYkr+XkKA==
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.18.6"
-    "@babel/plugin-syntax-nullish-coalescing-operator" "^7.8.3"
 
 "@babel/plugin-proposal-nullish-coalescing-operator@^7.12.1", "@babel/plugin-proposal-nullish-coalescing-operator@^7.16.5":
   version "7.16.5"
@@ -2851,10 +2838,10 @@
     "@plone/scripts" "*"
     release-it "^14.14.2"
 
-"@kitconcept/volto-slider-block@1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@kitconcept/volto-slider-block/-/volto-slider-block-1.2.1.tgz#dcc57e0f56e020e0ef59bea33b1d5b894d4c8216"
-  integrity sha512-N55uT8hm2uTuPUY9E6mzIsON789u73N1R7IccrnMf2zd7ajlXXnyuRQ7didV1XLczGUnWlyojTkAtob0PhOodw==
+"@kitconcept/volto-slider-block@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@kitconcept/volto-slider-block/-/volto-slider-block-2.0.0.tgz#432209eeaf97c789348f835a08e1786566d78b83"
+  integrity sha512-YqAc7pEUUIOXL1x1SyOowYLrAODtsAo1c9JWiFJG89coJUbmql0zBh3j2L2lr685ju5y3eLKyan3VK/ovkZNBg==
   dependencies:
     "@plone/scripts" "*"
     deepmerge "4.2.2"
@@ -3246,15 +3233,14 @@
     razzle "3.4.5"
     simple-git "3.5.0"
 
-"@plone/volto@16.0.0-alpha.22":
-  version "16.0.0-alpha.22"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-16.0.0-alpha.22.tgz#597f1a02f6734b174a65442fbaf1e4fc4d2dc885"
-  integrity sha512-rZ1teufQoQuTCOw6KiO4iZUwuV4lkwQ66HkEfyNmaK3I/CB6xHWCFT0L6kQ7fb/Ef4A0KyZnx9G28OVqcHrXjg==
+"@plone/volto@16.0.0-alpha.20":
+  version "16.0.0-alpha.20"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-16.0.0-alpha.20.tgz#ee910dfd7cd2d9f0f9ceeb6271fd62e7b3b6b32a"
+  integrity sha512-GeXLmB5PgJ1LQ8UfSaq9YJlQlTkrgXKAbnvqbbNh4vh/z7DfEUeu3rqLGXG5Q739vmaMDbc2inJZxNjw1gX8sQ==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
     "@babel/plugin-proposal-json-strings" "7.10.4"
-    "@babel/plugin-proposal-nullish-coalescing-operator" "7.18.6"
     "@babel/plugin-proposal-throw-expressions" "7.10.4"
     "@loadable/babel-plugin" "5.13.2"
     "@loadable/component" "5.14.1"
