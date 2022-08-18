@@ -523,6 +523,11 @@
   resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.16.5.tgz#afe37a45f39fce44a3d50a7958129ea5b1a5c074"
   integrity sha512-59KHWHXxVA9K4HNF4sbHCf+eJeFe0Te/ZFGqBT4OjXhrwvA04sGfaEGsVTdsjoszq0YTP49RC9UKe5g8uN2RwQ==
 
+"@babel/helper-plugin-utils@^7.18.6":
+  version "7.18.9"
+  resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.18.9.tgz#4b8aea3b069d8cb8a72cdfe28ddf5ceca695ef2f"
+  integrity sha512-aBXPT3bmtLryXaoJLyYPXPlSD4p1ld9aYeR+sJNOZjJJGiOpb+fKfh3NkcCu7J54nUJwCERPBExCCpyCOHnu/w==
+
 "@babel/helper-regex@^7.8.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/helper-regex/-/helper-regex-7.8.3.tgz#139772607d51b93f23effe72105b319d2a4c6965"
@@ -907,6 +912,14 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
     "@babel/plugin-syntax-nullish-coalescing-operator" "^7.8.0"
+
+"@babel/plugin-proposal-nullish-coalescing-operator@7.18.6":
+  version "7.18.6"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-nullish-coalescing-operator/-/plugin-proposal-nullish-coalescing-operator-7.18.6.tgz#fdd940a99a740e577d6c753ab6fbb43fdb9467e1"
+  integrity sha512-wQxQzxYeJqHcfppzBDnm1yAY0jSRkUXR2z8RePZYrKwMKgMlE8+Z6LUno+bd6LvbGh8Gltvy74+9pIYkr+XkKA==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.18.6"
+    "@babel/plugin-syntax-nullish-coalescing-operator" "^7.8.3"
 
 "@babel/plugin-proposal-nullish-coalescing-operator@^7.12.1", "@babel/plugin-proposal-nullish-coalescing-operator@^7.16.5":
   version "7.16.5"
@@ -2807,10 +2820,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@kitconcept/volto-blocks-grid@*":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@kitconcept/volto-blocks-grid/-/volto-blocks-grid-2.5.0.tgz#76deed0ba525e2739c9ed0c665a66bdded5dfa1c"
-  integrity sha512-x9ZM7q/17XftuG/56BbOW2knQJif85Sf1OjXYe5igRoP+m/ZbYV01exgnJh494S8zcJt17FlY9d2tw8CZA/7kA==
+"@kitconcept/volto-blocks-grid@4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@kitconcept/volto-blocks-grid/-/volto-blocks-grid-4.3.0.tgz#9de81d5ab17025eb878e24558964ee2299ecdc3e"
+  integrity sha512-xyFRnSArj9BOSaRJPk2fKFqq8OJl1trNyCwarlySoBFpuT087voWTcMagq4B3QFlxeg86lLHXQO/cg7A/aeW/A==
   dependencies:
     "@plone/scripts" "*"
 
@@ -3219,10 +3232,10 @@
     razzle "3.4.5"
     simple-git "2.48.0"
 
-"@plone/scripts@1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@plone/scripts/-/scripts-1.5.0.tgz#28f02aaf0533596a2fd26198cf36da88be20f7f1"
-  integrity sha512-Xq1JfkcHPLlFWGcyN+pVSPzJG8GU76GJPdIOUH+YzK56JU8cKbKfiqQsVbYrNpHOuiM0/L7GxA+VdvK0K+WQfA==
+"@plone/scripts@1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@plone/scripts/-/scripts-1.6.0.tgz#1288e42dd1e5cbbe2feafd72ce31ff95dd2a76a5"
+  integrity sha512-Vl7JrvZA6tpD29qKpsrTogcakAq1nQOgYEYj3WJBKBGGRymuZi1Xj8hQOfmpqlDZiORlkYws9jCilwEYb5V7sA==
   dependencies:
     babel-plugin-react-intl "5.1.17"
     babel-preset-razzle "3.4.5"
@@ -3233,20 +3246,21 @@
     razzle "3.4.5"
     simple-git "3.5.0"
 
-"@plone/volto@16.0.0-alpha.20":
-  version "16.0.0-alpha.20"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-16.0.0-alpha.20.tgz#ee910dfd7cd2d9f0f9ceeb6271fd62e7b3b6b32a"
-  integrity sha512-GeXLmB5PgJ1LQ8UfSaq9YJlQlTkrgXKAbnvqbbNh4vh/z7DfEUeu3rqLGXG5Q739vmaMDbc2inJZxNjw1gX8sQ==
+"@plone/volto@16.0.0-alpha.23":
+  version "16.0.0-alpha.23"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-16.0.0-alpha.23.tgz#5ff2f84efd351c8c497f6f34815c474b03dab0eb"
+  integrity sha512-lDFPy8tKDbFV2xOmGTsuYdeWenAob3FYk+2Nxq9bY1vPOT8qVO6AHYt0qhBaJDLwINEVD3xM8qHFciHKQTvuEA==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
     "@babel/plugin-proposal-json-strings" "7.10.4"
+    "@babel/plugin-proposal-nullish-coalescing-operator" "7.18.6"
     "@babel/plugin-proposal-throw-expressions" "7.10.4"
     "@loadable/babel-plugin" "5.13.2"
     "@loadable/component" "5.14.1"
     "@loadable/server" "5.14.0"
     "@loadable/webpack-plugin" "5.14.0"
-    "@plone/scripts" "1.5.0"
+    "@plone/scripts" "1.6.0"
     "@sentry/browser" "6.19.7"
     "@sentry/integrations" "6.19.7"
     "@sentry/node" "6.19.7"
