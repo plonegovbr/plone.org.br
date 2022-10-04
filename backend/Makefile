@@ -143,6 +143,10 @@ test_quiet: ## run tests removing deprecation warnings
 create-site: instance/etc/zope.ini ## Create a new site from scratch
 	PYTHONWARNINGS=ignore ./bin/zconsole run instance/etc/zope.conf ./scripts/create_site.py
 
+.PHONY: console
+console: instance/etc/zope.ini ## Open a console
+	PYTHONWARNINGS=ignore ./bin/zconsole debug instance/etc/zope.conf
+
 .PHONY: start
 start: ## Start a Plone instance on localhost:8080
 	PYTHONWARNINGS=ignore ./bin/runwsgi instance/etc/zope.ini
