@@ -40,3 +40,5 @@ pyflakes = ["+*"]
 [tool.plone-code-analysis]
 checkers = ["black", "flake8", "isort", "zpretty"]
 formatters = ["black", "isort", "zpretty"]
+paths = "setup.py scripts src/ploneorgbr.core"
+paths_pyroma = "src/ploneorgbr.core"
