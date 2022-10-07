@@ -49,7 +49,7 @@ setup(
         "Plone",
         "prettyconf",
         "kitconcept.api",
-        "collective.volto.formsupport>=2.5.1",
+        "collective.volto.formsupport>=2.5",
         "pas.plugins.authomatic>=1.0b2",
     ],
     extras_require={
