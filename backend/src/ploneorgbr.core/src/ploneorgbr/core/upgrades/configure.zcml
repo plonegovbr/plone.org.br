@@ -48,4 +48,15 @@
         />
   </genericsetup:upgradeSteps>
 
+  <genericsetup:upgradeSteps
+      profile="ploneorgbr.core:default"
+      source="20220726001"
+      destination="20221007001"
+      >
+    <genericsetup:upgradeStep
+        title="Upgrade Plone"
+        handler=".upgrade_plone"
+        />
+  </genericsetup:upgradeSteps>
+
 </configure>

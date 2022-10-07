@@ -15,12 +15,20 @@ GREEN=`tput setaf 2`
 RESET=`tput sgr0`
 YELLOW=`tput setaf 3`
 
-PLONE_VERSION=6.0.0b1
+PLONE_VERSION=6.0.0b3
+
+ifndef LOG_LEVEL
+	LOG_LEVEL=INFO
+endif
+
+CURRENT_USER=$$(whoami)
+USER_INFO=$$(id -u ${CURRENT_USER}):$$(getent group ${CURRENT_USER}|cut -d: -f3)
 
 BACKEND_FOLDER=$(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 
-CODE_QUALITY_VERSION=1.0.1
-LINT=docker run --rm -v "${BACKEND_FOLDER}":/github/workspace plone/code-quality:${CODE_QUALITY_VERSION} check
+CODE_QUALITY_VERSION=2.0.0
+LINT=docker run -e LOG_LEVEL="${LOG_LEVEL}" --rm -v "${BACKEND_FOLDER}":/github/workspace plone/code-quality:${CODE_QUALITY_VERSION} check
+FORMAT=docker run --user="${USER_INFO}" -e LOG_LEVEL="${LOG_LEVEL}" --rm -v "${BACKEND_FOLDER}":/github/workspace plone/code-quality:${CODE_QUALITY_VERSION} format
 
 PACKAGE_NAME=ploneorgbr.core
 PACKAGE_PATH=src/ploneorgbr.core/src/
@@ -76,10 +84,6 @@ instance/etc/zope.ini:	bin/pip
 	bin/cookiecutter -f --no-input --config-file instance.yaml https://github.com/plone/cookiecutter-zope-instance
 	mkdir -p var/{filestorage,blobstorage,cache,log}
 
-bin/black:	bin/pip
-	@echo "$(GREEN)==> Install Code Quality tools$(RESET)"
-	bin/pip install -r https://raw.githubusercontent.com/plone/code-quality/v$(CODE_QUALITY_VERSION)/requirements.txt
-
 # i18n
 bin/i18ndude:	bin/pip
 	@echo "$(GREEN)==> Install translation tools$(RESET)"
@@ -101,35 +105,44 @@ build-dev: instance/etc/zope.ini ## Create virtualenv and run buildout
 	bin/pip install -r requirements/dev.txt
 
 .PHONY: format
-format:  bin/black ## Format the codebase according to our standards
+format: ## Format the codebase according to our standards
 	@echo "$(GREEN)==> Format codebase$(RESET)"
-	bin/isort ${CHECK_PATH}
-	bin/black ${CHECK_PATH}
-	find "${PACKAGE_PATH}" -name '*.xml' |xargs bin/zpretty -x -i
-	find "${PACKAGE_PATH}" -name '*.zcml' |xargs bin/zpretty -z -i
+	$(FORMAT)
+
+.PHONY: format-black
+format-black:  ## Format the codebase with black
+	@echo "$(GREEN)==> Format codebase with black$(RESET)"
+	$(FORMAT) black ${CODEPATH}
+
+.PHONY: format-isort
+format-isort:  ## Format the codebase with isort
+	@echo "$(GREEN)==> Format codebase with isort$(RESET)"
+	$(FORMAT) isort ${CODEPATH}
+
+.PHONY: format-zpretty
+format-zpretty:  ## Format the codebase with zpretty
+	@echo "$(GREEN)==> Format codebase with zpretty$(RESET)"
+	$(FORMAT) zpretty ${CODEPATH}
 
 .PHONY: lint
-lint: lint-isort lint-black lint-flake8 lint-zpretty ## check code style
+lint:## check code style
+	$(LINT)
 
 .PHONY: lint-black
 lint-black: ## validate black formating
-	$(LINT) black "$(CHECK_PATH)"
+	$(LINT) black ${CODEPATH}
 
 .PHONY: lint-flake8
 lint-flake8: ## validate black formating
-	$(LINT) flake8 "$(CHECK_PATH)"
+	$(LINT) flake8 ${CODEPATH}
 
 .PHONY: lint-isort
 lint-isort: ## validate using isort
-	$(LINT) isort "$(CHECK_PATH)"
-
-.PHONY: lint-pyroma
-lint-pyroma: ## validate using pyroma
-	$(LINT) pyroma src/ploneorgbr.core/
+	$(LINT) isort ${CODEPATH}
 
 .PHONY: lint-zpretty
 lint-zpretty: ## validate ZCML/XML using zpretty
-	$(LINT) zpretty "$(PACKAGE_PATH)"
+	$(LINT) zpretty ${CODEPATH}
 
 .PHONY: test
 test: ## run tests
@@ -142,6 +155,10 @@ test_quiet: ## run tests removing deprecation warnings
 .PHONY: create-site
 create-site: instance/etc/zope.ini ## Create a new site from scratch
 	PYTHONWARNINGS=ignore ./bin/zconsole run instance/etc/zope.conf ./scripts/create_site.py
+
+.PHONY: console
+console: instance/etc/zope.ini ## Open a console
+	PYTHONWARNINGS=ignore ./bin/zconsole debug instance/etc/zope.conf
 
 .PHONY: start
 start: ## Start a Plone instance on localhost:8080

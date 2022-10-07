@@ -33,6 +33,7 @@ class UpgradeStepIntegrationTest(unittest.TestCase):
             ("20220523001", "20220525001", 1),
             ("20220525001", "20220712001", 1),
             ("20220712001", "20220726001", 1),
+            ("20220726001", "20221007001", 1),
         ]
     )
     def test_available(self, src, dst, expected):
