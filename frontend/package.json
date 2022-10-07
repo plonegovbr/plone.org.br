@@ -41,16 +41,16 @@
   "addons": [
     "@codesyntax/volto-social-sharing",
     "@eeacms/volto-accordion-block",
-    "@plone-collective/volto-authomatic",
-    "volto-form-block",
-    "@kitconcept/volto-separator-block",
+    "@eeacms/volto-matomo",
     "@kitconcept/volto-blocks-grid",
     "@kitconcept/volto-button-block",
-    "@kitconcept/volto-slider-block",
     "@kitconcept/volto-heading-block",
-    "@eeacms/volto-matomo",
+    "@kitconcept/volto-separator-block",
+    "@kitconcept/volto-slider-block",
+    "@plone-collective/volto-authomatic",
     "@plonegovbr/volto-code-block",
-    "@plonegovbr/volto-twitter-block"
+    "@plonegovbr/volto-twitter-block",
+    "volto-form-block"
   ],
   "jest": {
     "modulePathIgnorePatterns": [
@@ -58,7 +58,6 @@
     ],
     "transform": {
       "^.+\\.js(x)?$": "babel-jest",
-      "^.+\\.less$": "jest-css-modules",
       "^.+\\.(png)$": "jest-file",
       "^.+\\.(jpg)$": "jest-file",
       "^.+\\.(svg)$": "./node_modules/@plone/volto/jest-svgsystem-transform.js"
@@ -155,16 +154,16 @@
     "@codesyntax/volto-social-sharing": "1.2.0",
     "@eeacms/volto-accordion-block": "*",
     "@eeacms/volto-matomo": "2.0.8",
-    "@kitconcept/volto-blocks-grid": "4.3.0",
-    "@kitconcept/volto-button-block": "*",
-    "@kitconcept/volto-heading-block": "2.0.1",
-    "@kitconcept/volto-separator-block": "*",
-    "@kitconcept/volto-slider-block": "2.0.0",
+    "@kitconcept/volto-blocks-grid": "5.1.1",
+    "@kitconcept/volto-button-block": "2.0.0",
+    "@kitconcept/volto-heading-block": "2.1.2",
+    "@kitconcept/volto-separator-block": "2.0.0",
+    "@kitconcept/volto-slider-block": "2.1.0",
     "@plone/volto": "16.0.0-alpha.42",
     "@plonegovbr/volto-code-block": "1.0.0",
     "@plonegovbr/volto-twitter-block": "0.1.0",
     "@plone-collective/volto-authomatic": "1.2.0",
-    "volto-form-block": "*"
+    "volto-form-block": "2.8.0"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.3.0",
@@ -181,5 +180,8 @@
     "stylelint-config-idiomatic-order": "8.1.0",
     "stylelint-config-prettier": "8.0.1",
     "stylelint-prettier": "1.1.2"
+  },
+  "resolutions": {
+    "**/@plone/scripts": "^2.1.1"
   }
 }
