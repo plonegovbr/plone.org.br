@@ -63,7 +63,6 @@ i18n: ## Sync i18n
 i18n-ci: ## Check if i18n is not synced
 	yarn i18n && git diff -G'^[^\"POT]' --exit-code
 
-
 .PHONY: test
 test: ## Run tests
 	yarn run test:ci

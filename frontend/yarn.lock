@@ -23049,6 +23049,7 @@ __metadata:
     "@kitconcept/volto-separator-block": "*"
     "@kitconcept/volto-slider-block": "*"
     "@plone-collective/volto-authomatic": "*"
+    "@plone/scripts": 2.1.2
     "@plone/volto": 16.0.0-alpha.49
     "@plonegovbr/volto-code-block": 1.0.0
     "@plonegovbr/volto-twitter-block": 0.1.0
