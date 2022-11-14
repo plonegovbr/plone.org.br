@@ -42,6 +42,10 @@ export default function applyConfig(config) {
         href: 'https://twitter.com/ploneorgbr',
       },
       {
+        id: 'mastodon',
+        href: 'https://plone.social/@ploneorgbr',
+      },
+      {
         id: 'facebook',
         href: 'https://www.facebook.com/Plone-Brasil-101606785972720',
       },
