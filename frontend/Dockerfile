@@ -2,16 +2,15 @@ FROM node:16-slim as base
 FROM base as builder
 
 RUN apt-get update \
-    && buildDeps="python3 build-essential" \
+    && buildDeps="python3 build-essential git ca-certificates" \
     && apt-get install -y --no-install-recommends $buildDeps \
     && rm -rf /var/lib/apt/lists/*
 
-COPY . /build/
-RUN chown -R node:node build
-
+COPY --chown=node . /build/
+RUN corepack enable
 USER node
 WORKDIR /build
-RUN yarn install \
+RUN yarn install --network-timeout 1000000 \
     && yarn build
 
 FROM base
