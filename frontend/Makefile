@@ -47,6 +47,14 @@ format-lint: ## Format Code with Lint
 .PHONY: format
 format: format-prettier format-stylelint format-lint ## Format the codebase according to our standards
 
+.PHONY: preinstall
+preinstall:
+	if [ -f $$(pwd)/mrs.developer.json ]; then if [ -f $$(pwd)/node_modules/.bin/missdev ]; then yarn develop; else yarn develop:npx; fi; fi
+
+.PHONY: omelette
+omelette:
+	if [ ! -d omelette ]; then ln -sf node_modules/@plone/volto omelette; fi
+
 .PHONY: i18n
 i18n: ## Sync i18n
 	yarn i18n
@@ -54,7 +62,6 @@ i18n: ## Sync i18n
 .PHONY: i18n-ci
 i18n-ci: ## Check if i18n is not synced
 	yarn i18n && git diff -G'^[^\"POT]' --exit-code
-
 
 .PHONY: test
 test: ## Run tests

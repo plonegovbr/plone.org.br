@@ -4,6 +4,7 @@ import { UniversalLink, Icon } from '@plone/volto/components';
 import facebookSVG from '../../icons/facebook.svg';
 import githubSVG from '../../icons/github.svg';
 import instagramSVG from '../../icons/instagram.svg';
+import mastodonSVG from '../../icons/mastodon.svg';
 import twitterSVG from '../../icons/twitter.svg';
 import youtubeSVG from '../../icons/youtube.svg';
 import './SocialNetwork.css';
@@ -12,6 +13,7 @@ const ICONS = {
   facebook: facebookSVG,
   github: githubSVG,
   instagram: instagramSVG,
+  mastodon: mastodonSVG,
   twitter: twitterSVG,
   youtube: youtubeSVG,
 };
@@ -20,7 +22,12 @@ const SocialNetwork = (props) => {
   const { id, href } = props;
   const icon = ICONS[id];
   return (
-    <UniversalLink href={href} openLinkInNewTab className={'social-network'}>
+    <UniversalLink
+      href={href}
+      openLinkInNewTab
+      className={'social-network'}
+      rel={'me'}
+    >
       <Icon name={icon} />
     </UniversalLink>
   );

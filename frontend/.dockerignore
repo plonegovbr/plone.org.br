@@ -1,7 +1,8 @@
 build
 cypress
+.yarn/cache
 node_modules
 omelette
 Dockerfile
-Makefile
 *.log
+cache
