@@ -52,6 +52,12 @@ create-site: ## Create a Plone site with default content
 start-backend: ## Start Plone Backend
 	$(MAKE) -C "./backend/" start
 
+.PHONY: clean
+clean:  ## Clean up installation
+	@echo "Clean up installation"
+	$(MAKE) -C "./backend/" clean
+	$(MAKE) -C "./frontend/" clean
+
 .PHONY: install
 install:  ## Install
 	@echo "Install Backend & Frontend"
