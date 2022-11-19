@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <registry>
   <record field="available_languages"
           interface="plone.i18n.interfaces.ILanguageSchema"

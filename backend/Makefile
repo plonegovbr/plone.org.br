@@ -15,7 +15,7 @@ GREEN=`tput setaf 2`
 RESET=`tput sgr0`
 YELLOW=`tput setaf 3`
 
-PLONE_VERSION=6.0.0b3
+PLONE_VERSION=6.0.0rc1
 
 ifndef LOG_LEVEL
 	LOG_LEVEL=INFO
@@ -26,7 +26,7 @@ USER_INFO=$$(id -u ${CURRENT_USER}):$$(getent group ${CURRENT_USER}|cut -d: -f3)
 
 BACKEND_FOLDER=$(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 
-CODE_QUALITY_VERSION=2.0.0
+CODE_QUALITY_VERSION=2.0.2
 LINT=docker run -e LOG_LEVEL="${LOG_LEVEL}" --rm -v "${BACKEND_FOLDER}":/github/workspace plone/code-quality:${CODE_QUALITY_VERSION} check
 FORMAT=docker run --user="${USER_INFO}" -e LOG_LEVEL="${LOG_LEVEL}" --rm -v "${BACKEND_FOLDER}":/github/workspace plone/code-quality:${CODE_QUALITY_VERSION} format
 
