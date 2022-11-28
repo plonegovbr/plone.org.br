@@ -1752,6 +1752,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-statistic-block@npm:*":
+  version: 1.0.1
+  resolution: "@eeacms/volto-statistic-block@npm:1.0.1"
+  dependencies:
+    react-countup: 6.3.1
+    react-visibility-sensor: 5.1.1
+  checksum: 9adbea4cd0aabc2d6fec7ce271462e79c06d10fefb115103b7d5c0c92260474a1d1587dc732d055c3b079f43a04b310261f27c277b45a5bef94aee2649f261b9
+  languageName: node
+  linkType: hard
+
 "@emotion/babel-plugin@npm:^11.10.5":
   version: 11.10.5
   resolution: "@emotion/babel-plugin@npm:11.10.5"
@@ -2519,6 +2529,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@kitconcept/volto-carousel-block@npm:*":
+  version: 1.0.0
+  resolution: "@kitconcept/volto-carousel-block@npm:1.0.0"
+  dependencies:
+    "@plone/scripts": "*"
+    react-slick: 0.25.2
+    slick-carousel: 1.8.1
+  checksum: 45a0bf61c8384e61bf190a91e3be058b03cb198b259487b2cecd625435068a8f1d262a856c44f78f6cfa129238d112ba0d9cbf1f544eff109bebdf4104043651
+  languageName: node
+  linkType: hard
+
 "@kitconcept/volto-heading-block@npm:*":
   version: 2.1.2
   resolution: "@kitconcept/volto-heading-block@npm:2.1.2"
@@ -3040,9 +3061,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone/volto@npm:16.0.0":
-  version: 16.0.0
-  resolution: "@plone/volto@npm:16.0.0"
+"@plone/volto@npm:16.2.0":
+  version: 16.2.0
+  resolution: "@plone/volto@npm:16.2.0"
   dependencies:
     "@babel/core": ^7.0.0
     "@babel/plugin-proposal-export-default-from": 7.18.9
@@ -3207,7 +3228,7 @@ __metadata:
     webpack-node-externals: 3.0.0
     xmlrpc: 1.3.2
     yarnhook: 0.5.1
-  checksum: a7aab82a5debbf6772b747e3f0f26f5aa8ddf62e1c5f1adffde8a93017d48b7607dd4ee7629eacd9be02cf5d0acce65244f490c3fb2ee2c7b63d10603897a16b
+  checksum: 333b3f8b0b43585678188d7361baaa9177fee5c0dd154df0f49a30398c1d563cf4ee9db55c082a7af01079de1dbc1266c78e689f044b6c6b1d989c9ba58d218b
   languageName: node
   linkType: hard
 
@@ -9080,6 +9101,13 @@ __metadata:
     path-type: ^4.0.0
     yaml: ^1.10.0
   checksum: c53bf7befc1591b2651a22414a5e786cd5f2eeaa87f3678a3d49d6069835a9d8d1aef223728e98aa8fec9a95bf831120d245096db12abe019fecb51f5696c96f
+  languageName: node
+  linkType: hard
+
+"countup.js@npm:^2.2.0":
+  version: 2.3.2
+  resolution: "countup.js@npm:2.3.2"
+  checksum: 77bb509cd17619568c8d841f9dbba7d75c70948d7f9acd0a1acea80e3894c4b4173e27e8896268c1f53415ebee465229f1e623da5ad759083a618484ac4f9b60
   languageName: node
   linkType: hard
 
@@ -20757,6 +20785,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-countup@npm:6.3.1":
+  version: 6.3.1
+  resolution: "react-countup@npm:6.3.1"
+  dependencies:
+    countup.js: ^2.2.0
+  peerDependencies:
+    react: ">= 16.3.0"
+  checksum: 68978a035a285e994cbd442b490dafd534e43a3a6e417e65f636d3282ff36e9c38999c1e20dea39de6f400c32bdb9f4c5aadd896eb01fa627e6374fc079602c9
+  languageName: node
+  linkType: hard
+
 "react-dates@npm:21.5.1":
   version: 21.5.1
   resolution: "react-dates@npm:21.5.1"
@@ -21356,6 +21395,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-slick@npm:0.25.2":
+  version: 0.25.2
+  resolution: "react-slick@npm:0.25.2"
+  dependencies:
+    classnames: ^2.2.5
+    enquire.js: ^2.1.6
+    json2mq: ^0.2.0
+    lodash.debounce: ^4.0.8
+    resize-observer-polyfill: ^1.5.0
+  peerDependencies:
+    react: ^0.14.0 || ^15.0.1 || ^16.0.0
+    react-dom: ^0.14.0 || ^15.0.1 || ^16.0.0
+  checksum: a728161f6d6dd09a626db9d0c089d3eed3e8087246c0307c7e1343f6420c645d1760498c41733fce67138eadaf14a67552fd9e5d85227617cd54c750f4f542dc
+  languageName: node
+  linkType: hard
+
 "react-slick@npm:0.29.0":
   version: 0.29.0
   resolution: "react-slick@npm:0.29.0"
@@ -21500,6 +21555,18 @@ __metadata:
     react: ^15.3.0 || ^16.0.0-alpha
     react-dom: ^15.3.0 || ^16.0.0-alpha
   checksum: 5e3b566592293bc0057bc6be4f6ee29c58c8931421d2882a3ef45ca9b24c6f3ea78bbc5a182c2916af6520845e5a90f569b3a63c9b5e89428720913e6d6239cc
+  languageName: node
+  linkType: hard
+
+"react-visibility-sensor@npm:5.1.1":
+  version: 5.1.1
+  resolution: "react-visibility-sensor@npm:5.1.1"
+  dependencies:
+    prop-types: ^15.7.2
+  peerDependencies:
+    react: ">=16.0.0"
+    react-dom: ">=16.0.0"
+  checksum: ebce7bc743071930a2dd333a041c4a99aac24d5059c47a52eff25a8d81ab9307fadc87b8a6655ebb3154f5c1ceafcc309ae04ee07a7d5fad2949a6903d15acd5
   languageName: node
   linkType: hard
 
@@ -23189,14 +23256,16 @@ __metadata:
     "@codesyntax/volto-social-sharing": "*"
     "@eeacms/volto-accordion-block": "*"
     "@eeacms/volto-matomo": "*"
+    "@eeacms/volto-statistic-block": "*"
     "@kitconcept/volto-blocks-grid": "*"
     "@kitconcept/volto-button-block": "*"
+    "@kitconcept/volto-carousel-block": "*"
     "@kitconcept/volto-heading-block": "*"
     "@kitconcept/volto-separator-block": "*"
     "@kitconcept/volto-slider-block": "*"
     "@plone-collective/volto-authomatic": "*"
     "@plone/scripts": 2.1.2
-    "@plone/volto": 16.0.0
+    "@plone/volto": 16.2.0
     "@plonegovbr/volto-code-block": 1.0.0
     "@plonegovbr/volto-twitter-block": 0.1.0
     "@storybook/addon-actions": ^6.3.0

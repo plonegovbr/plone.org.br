@@ -55,7 +55,7 @@ export default function applyConfig(config) {
       },
       {
         id: 'youtube',
-        href: 'http://youtube.com/c/PloneCMS',
+        href: 'http://youtube.com/@ploneCMS',
       },
     ],
     appExtras: [

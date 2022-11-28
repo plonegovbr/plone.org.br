@@ -6,4 +6,5 @@
 @import 'block-text-with-bg-color';
 @import 'Slider';
 @import 'CaseStudy';
+@import 'Carrousel';
 @import 'main';
