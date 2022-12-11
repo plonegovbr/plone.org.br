@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "frontend/**"
+      - ".github/workflows/frontend.yml"
 
 env:
   node-version: 16.x
@@ -17,16 +18,14 @@ jobs:
         working-directory: ./frontend
     steps:
       - name: Checkout codebase
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Use Node.js ${{ env.node-version }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ env.node-version }}
-
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
+          cache: 'yarn'
+          cache-dependency-path: 'frontend/yarn.lock'
 
       - uses: actions/cache@v1
         id: yarn-cache
@@ -52,7 +51,7 @@ jobs:
         working-directory: ./frontend
     steps:
       - name: Checkout codebase
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Run Prettier
         run: npx prettier@2.0.5 --single-quote --check 'src/**/*.{js,jsx,ts,tsx,css,scss}' --config=package.json
@@ -64,16 +63,14 @@ jobs:
         working-directory: ./frontend
     steps:
       - name: Checkout codebase
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Use Node.js ${{ env.node-version }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ env.node-version }}
-
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
+          cache: 'yarn'
+          cache-dependency-path: 'frontend/yarn.lock'
 
       - uses: actions/cache@v1
         id: yarn-cache
@@ -96,7 +93,7 @@ jobs:
     steps:
 
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Docker meta
         id: meta
@@ -112,19 +109,19 @@ jobs:
             type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', github.event.repository.default_branch) }}
 
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v1
+        uses: docker/setup-qemu-action@v2
 
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v1
+        uses: docker/setup-buildx-action@v2
 
       - name: Login to DockerHub
-        uses: docker/login-action@v1
+        uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build and push
-        uses: docker/build-push-action@v2
+        uses: docker/build-push-action@v3
         with:
           platforms: linux/amd64
           context: frontend/
@@ -142,10 +139,10 @@ jobs:
     steps:
 
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Deploy to plone.org.br
-        uses: kitconcept/docker-stack-deploy@v1.0.0
+        uses: kitconcept/docker-stack-deploy@v1.2.0
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
@@ -155,4 +152,5 @@ jobs:
           remote_private_key: ${{ secrets.DEPLOY_SSH }}
           stack_file: "devops/stacks/plone.org.br.yml"
           stack_name: "plone"
+          env_file: ${{ secrets.ENV_FILE }}
           deploy_timeout: 480
