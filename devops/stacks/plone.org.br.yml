@@ -13,6 +13,9 @@ services:
       - plonebr
     deploy:
       replicas: 2
+      placement:
+        constraints:
+          - node.labels.type == app
       labels:
         - traefik.enable=true
         - traefik.docker.network=public
@@ -36,6 +39,9 @@ services:
       - plonebr
     deploy:
       replicas: 2
+      placement:
+        constraints:
+          - node.labels.type == app
       labels:
         - traefik.enable=true
         - traefik.docker.network=public
