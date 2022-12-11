@@ -49,14 +49,14 @@ services:
         # Service
         - traefik.http.services.plonebr-backend.loadbalancer.server.port=8080
         # Middlewares
-        - traefik.http.middlewares.plonebr-backend.replacepathregex.regex=^/\\+\\+api\\+\\+($$|/.*)
-        - traefik.http.middlewares.plonebr-backend.replacepathregex.replacement=/VirtualHostBase/https/plone.org.br/Plone/++api++/VirtualHostRoot/$$1
+        - "traefik.http.middlewares.plonebr-vhm.replacepathregex.regex=^/\\+\\+api\\+\\+($$|/.*)"
+        - "traefik.http.middlewares.plonebr-vhm.replacepathregex.replacement=/VirtualHostBase/https/plone.org.br/Plone/++api++/VirtualHostRoot/$$1"
         # Router
         - traefik.http.routers.plonebr-backend.rule=Host(`plone.org.br`) && PathPrefix(`/++api++`)
         - traefik.http.routers.plonebr-backend.entrypoints=https
         - traefik.http.routers.plonebr-backend.tls=true
         - traefik.http.routers.plonebr-backend.service=plonebr-backend
-        - traefik.http.routers.plonebr-backend.middlewares=gzip,plonebr-backend
+        - traefik.http.routers.plonebr-backend.middlewares=gzip,plonebr-vhm
 
 networks:
   public:
