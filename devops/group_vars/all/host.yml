@@ -1,3 +1,0 @@
----
-hostname: 'br'
-fqdn: '{{ hostname }}.plone.org'
