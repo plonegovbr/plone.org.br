@@ -99,7 +99,7 @@ jobs:
 
       - name: Docker meta
         id: meta
-        uses: docker/metadata-action@v3
+        uses: docker/metadata-action@v4
         with:
           images: |
             ploneorgbr/site-backend
@@ -155,4 +155,5 @@ jobs:
           stack_file: "devops/stacks/plone.org.br.yml"
           stack_name: "plone"
           env_file: ${{ secrets.ENV_FILE }}
+          debug: 1
           deploy_timeout: 480
