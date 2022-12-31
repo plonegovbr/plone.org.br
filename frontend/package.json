@@ -163,7 +163,7 @@
     "@kitconcept/volto-slider-block": "*",
     "@plone-collective/volto-authomatic": "*",
     "@plone/scripts": "2.1.2",
-    "@plone/volto": "16.5.0",
+    "@plone/volto": "16.6.0",
     "@plonegovbr/volto-code-block": "1.0.0",
     "@plonegovbr/volto-twitter-block": "0.1.0",
     "volto-form-block": "3.0.0",
