@@ -26,7 +26,7 @@ jobs:
       - name: Set Env Vars
         id: vars
         run: |
-          ENVIRONMENT=${{ vars.STG_ENV }}
+          ENVIRONMENT=${{ vars.LIVE_ENV }}
           echo "ENVIRONMENT=${ENVIRONMENT}" >> $GITHUB_OUTPUT
           echo "STACK_NAME=${ENVIRONMENT//./-}" >> $GITHUB_OUTPUT
 
