@@ -111,7 +111,7 @@ jobs:
         with:
           platforms: linux/amd64
           context: frontend/
-          file: frontend/dockerfiles/Dockerfile
+          file: frontend/Dockerfile
           build-args: |
             VOLTO_VERSION=${{ env.VOLTO_VERSION }}
           push: ${{ github.event_name != 'pull_request' }}
