@@ -15,7 +15,7 @@ GREEN=`tput setaf 2`
 RESET=`tput sgr0`
 YELLOW=`tput setaf 3`
 
-PLONE_VERSION=6.0.0.2
+PLONE_VERSION=6.0.2
 
 ifndef LOG_LEVEL
 	LOG_LEVEL=INFO
@@ -26,13 +26,13 @@ USER_INFO=$$(id -u ${CURRENT_USER}):$$(getent group ${CURRENT_USER}|cut -d: -f3)
 
 BACKEND_FOLDER=$(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 
-CODE_QUALITY_VERSION=2.0.2
+CODE_QUALITY_VERSION=2
 LINT=docker run -e LOG_LEVEL="${LOG_LEVEL}" --rm -v "${BACKEND_FOLDER}":/github/workspace plone/code-quality:${CODE_QUALITY_VERSION} check
 FORMAT=docker run --user="${USER_INFO}" -e LOG_LEVEL="${LOG_LEVEL}" --rm -v "${BACKEND_FOLDER}":/github/workspace plone/code-quality:${CODE_QUALITY_VERSION} format
 
 PACKAGE_NAME=ploneorgbr.core
 PACKAGE_PATH=src/ploneorgbr.core/src/
-IMAGE_NAME=ploneorgbr/site-backend
+IMAGE_NAME=ghcr.io/plonegovbr/ploneorgbr-backend
 IMAGE_TAG=latest
 CHECK_PATH=src/ploneorgbr.core/setup.py scripts/ $(PACKAGE_PATH)
 

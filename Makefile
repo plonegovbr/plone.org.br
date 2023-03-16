@@ -82,6 +82,11 @@ format:  ## Format codebase
 	$(MAKE) -C "./backend/" format
 	$(MAKE) -C "./frontend/" format
 
+.PHONY: lint-frontend
+lint-frontend:  ## Lint frontend code
+	@echo "Lint codebase"
+	$(MAKE) -C "./frontend/" lint
+
 .PHONY: i18n
 i18n:  ## Update locales
 	@echo "Update locales"
@@ -93,6 +98,11 @@ test:  ## Test codebase
 	@echo "Test codebase"
 	$(MAKE) -C "./backend/" test
 	$(MAKE) -C "./frontend/" test
+
+.PHONY: test-frontend-ci
+test-frontend-ci:  ## Test codebase
+	@echo "Test codebase"
+	$(MAKE) -C "./frontend/" test-ci
 
 
 .PHONY: build-images
@@ -116,16 +126,16 @@ stop-stack:  ## Stop local stack
 .PHONY: build-acceptance-servers
 build-acceptance-servers: ## Build Acceptance Servers
 	@echo "Build acceptance backend"
-	@docker build backend -t ploneorgbr/site-backend:acceptance -f backend/Dockerfile.acceptance
+	@docker build backend -t ghcr.io/plonegovbr/ploneorgbr-backend:acceptance -f backend/Dockerfile.acceptance
 	@echo "Build acceptance frontend"
-	@docker build frontend -t ploneorgbr/site-frontend:acceptance -f frontend/Dockerfile
+	@docker build frontend -t ghcr.io/plonegovbr/ploneorgbr-frontend:acceptance -f frontend/Dockerfile
 
 .PHONY: start-acceptance-servers
 start-acceptance-servers: build-acceptance-servers ## Start Acceptance Servers
 	@echo "Start acceptance backend"
-	@docker run --rm -p 55001:55001 --name site-backend-acceptance -d ploneorgbr/site-backend:acceptance
+	@docker run --rm -p 55001:55001 --name site-backend-acceptance -d ghcr.io/plonegovbr/ploneorgbr-backend:acceptance
 	@echo "Start acceptance frontend"
-	@docker run --rm -p 3000:3000 --name site-frontend-acceptance --link site-backend-acceptance:backend -e RAZZLE_API_PATH=http://localhost:55001/plone -e RAZZLE_INTERNAL_API_PATH=http://backend:55001/plone -d ploneorgbr/site-frontend:acceptance
+	@docker run --rm -p 3000:3000 --name site-frontend-acceptance --link site-backend-acceptance:backend -e RAZZLE_API_PATH=http://localhost:55001/plone -e RAZZLE_INTERNAL_API_PATH=http://backend:55001/plone -d ghcr.io/plonegovbr/ploneorgbr-frontend:acceptance
 
 .PHONY: stop-acceptance-servers
 stop-acceptance-servers: ## Stop Acceptance Servers

@@ -1,4 +1,5 @@
-name: Backend CI
+name: Backend testing
+run-name: Backend testing by @${{ github.actor }}
 
 on:
   push:
@@ -6,7 +7,32 @@ on:
       - "backend/**"
       - ".github/workflows/backend.yml"
 
+env:
+  PYTHON_VERSION: 3.11
+  PLONE_VERSION: 6.0.2
+  IMAGE_NAME_SUFFIX: backend
+
+defaults:
+  run:
+    working-directory: ./backend
+
 jobs:
+
+  meta:
+    runs-on: ubuntu-latest
+    outputs:
+      ENVIRONMENT: ${{ steps.vars.outputs.ENVIRONMENT }}
+      STACK_NAME: ${{ steps.vars.outputs.STACK_NAME }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set Env Vars
+        id: vars
+        run: |
+          ENVIRONMENT=${{ vars.LIVE_ENV }}
+          echo "ENVIRONMENT=${ENVIRONMENT}" >> $GITHUB_OUTPUT
+          echo "STACK_NAME=${ENVIRONMENT//./-}" >> $GITHUB_OUTPUT
 
   black:
     runs-on: ubuntu-latest
@@ -58,31 +84,20 @@ jobs:
 
   tests:
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        python:
-          - 3.11
-        plone:
-          - "6.0.0.2"
-
-    defaults:
-      run:
-        working-directory: ./backend
 
     steps:
 
       - uses: actions/checkout@v3
 
-      - name: Setup Plone ${{ matrix.plone }} with Python ${{ matrix.python }}
+      - name: Setup Plone ${{ env.PLONE_VERSION }} with Python ${{ env.PYTHON_VERSION }}
         uses: plone/setup-plone@v2.0.0
         with:
-          python-version: ${{ matrix.python }}
-          plone-version: ${{ matrix.plone }}
+          python-version: ${{ env.PYTHON_VERSION }}
+          plone-version: ${{ env.PLONE_VERSION }}
 
       - name: Install package
         run: |
-          pip install "plone.app.testing" -c https://dist.plone.org/release/${{ matrix.plone }}/constraints.txt
+          pip install "plone.app.testing" -c https://dist.plone.org/release/${{ env.PLONE_VERSION }}/constraints.txt
           pip install -e "src/ploneorgbr.core[test]"
 
       - name: Run tests
@@ -91,7 +106,13 @@ jobs:
 
   release:
     runs-on: ubuntu-latest
-    needs: [black, flake8, isort, zpretty, tests]
+    needs:
+      - meta
+      - black
+      - flake8
+      - isort
+      - zpretty
+      - tests
 
     steps:
 
@@ -103,25 +124,23 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            ploneorgbr/site-backend
-          labels: |
-            org.label-schema.docker.cmd=docker run -d -p 8080:8080 ploneorgbr/site-backend:latest
+            ${{ vars.IMAGE_NAME_PREFIX }}-${{ env.IMAGE_NAME_SUFFIX }}
+          flavor: |
+            latest=false
           tags: |
             type=ref,event=branch
             type=sha
-            type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', github.event.repository.default_branch) }}
-
-      - name: Set up QEMU
-        uses: docker/setup-qemu-action@v2
+            type=raw,value=latest,enable={{is_default_branch}}
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2
 
-      - name: Login to DockerHub
+      - name: Login to GitHub Container Registry
         uses: docker/login-action@v2
         with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build and push
         uses: docker/build-push-action@v3
@@ -129,31 +148,37 @@ jobs:
           platforms: linux/amd64
           context: backend
           file: backend/Dockerfile
+          build-args: |
+            PLONE_VERSION=${{ env.PLONE_VERSION }}
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
 
   deploy:
     if: ${{ github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
     needs:
       - release
-    runs-on: ubuntu-latest
-    environment: plone.org.br
+      - meta
+    environment:
+      name: ${{ needs.meta.outputs.ENVIRONMENT }}
+      url: ${{ needs.meta.outputs.ENVIRONMENT }}
     steps:
-
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Deploy to plone.org.br
+      - name: Deploy to cluster
         uses: kitconcept/docker-stack-deploy@v1.2.0
         with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          registry: "ghcr.io"
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
           remote_host: ${{ secrets.DEPLOY_HOST }}
           remote_port: ${{ secrets.DEPLOY_PORT }}
           remote_user: ${{ secrets.DEPLOY_USER }}
           remote_private_key: ${{ secrets.DEPLOY_SSH }}
-          stack_file: "devops/stacks/plone.org.br.yml"
-          stack_name: "plonebr"
+          stack_file: devops/stacks/${{ needs.meta.outputs.ENVIRONMENT }}.yml
+          stack_name: ${{ needs.meta.outputs.STACK_NAME }}
+          stack_param: ${{ github.ref_name }}
           env_file: ${{ secrets.ENV_FILE }}
           deploy_timeout: 480
