@@ -2,7 +2,7 @@ version: "3"
 services:
 
   frontend:
-    image: ploneorgbr/site-frontend:acceptance
+    image: ghcr.io/plonegovbr/ploneorgbr-frontend:acceptance
     environment:
       RAZZLE_API_PATH: http://localhost:55001/plone
       RAZZLE_INTERNAL_API_PATH: http://backend:55001/plone
@@ -12,6 +12,6 @@ services:
       - backend
 
   backend:
-    image: ploneorgbr/site-backend:acceptance
+    image: ghcr.io/plonegovbr/ploneorgbr-backend:acceptance
     ports:
     - "55001:55001"

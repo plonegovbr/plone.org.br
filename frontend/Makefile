@@ -7,7 +7,7 @@ SHELL:=bash
 .DELETE_ON_ERROR:
 MAKEFLAGS+=--warn-undefined-variables
 MAKEFLAGS+=--no-builtin-rules
-IMAGE_NAME=ploneorgbr/site-frontend
+IMAGE_NAME=ghcr.io/plonegovbr/ploneorgbr-frontend
 IMAGE_TAG=latest
 
 NODEBIN = ./node_modules/.bin
@@ -53,6 +53,11 @@ format-lint: ## Format Code with Lint
 .PHONY: format
 format: format-prettier format-stylelint format-lint ## Format the codebase according to our standards
 
+.PHONY: lint
+lint: ## Lint codebase
+	yarn lint
+	yarn prettier
+
 .PHONY: preinstall
 preinstall:
 	if [ -f $$(pwd)/mrs.developer.json ]; then if [ -f $$(pwd)/node_modules/.bin/missdev ]; then yarn develop; else yarn develop:npx; fi; fi
@@ -71,6 +76,10 @@ i18n-ci: ## Check if i18n is not synced
 
 .PHONY: test
 test: ## Run tests
+	yarn run test
+
+.PHONY: test-ci
+test-ci: ## Run tests
 	yarn run test:ci
 
 .PHONY: build-image
