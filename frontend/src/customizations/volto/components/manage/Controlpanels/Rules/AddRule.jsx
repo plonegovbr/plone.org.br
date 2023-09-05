@@ -181,7 +181,6 @@ class AddRule extends Component {
       this.props.events?.items && this.props.events?.items.length > 0
         ? this.props.events?.items.map((event) => [event.token, event.title])
         : '';
-    console.log(triggeringEvents);
     return (
       <div id="page-rule-add">
         <Helmet title={this.props.intl.formatMessage(messages.addRule)} />
