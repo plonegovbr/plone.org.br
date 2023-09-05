@@ -1763,12 +1763,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-matomo@npm:*":
-  version: 3.0.1
-  resolution: "@eeacms/volto-matomo@npm:3.0.1"
+"@eeacms/volto-matomo@npm:4.1.3":
+  version: 4.1.3
+  resolution: "@eeacms/volto-matomo@npm:4.1.3"
   dependencies:
     "@datapunt/matomo-tracker-react": 0.3.1
-  checksum: bdb771de6423a300d719d1c8994ec9dd651b2f93da5f01720cac4c9fe46f9eca97540e19ab9323a7fac2fecdee9605b8b35cd8225e5c4f47f92fdcd5c3368c41
+  checksum: 6c84a246215ebadd935e3fd8c528823d85a6eca932a0f2c3c50cc6284f921b8d0ecb87ee20442f02ef405c5dbd8f3b647f38cf692722db5d42c58d6832341d6a
   languageName: node
   linkType: hard
 
@@ -23575,7 +23575,7 @@ __metadata:
   dependencies:
     "@codesyntax/volto-social-sharing": "*"
     "@eeacms/volto-accordion-block": "*"
-    "@eeacms/volto-matomo": "*"
+    "@eeacms/volto-matomo": 4.1.3
     "@eeacms/volto-statistic-block": "*"
     "@kitconcept/volto-blocks-grid": "*"
     "@kitconcept/volto-button-block": "*"
