@@ -49,7 +49,7 @@
     "@kitconcept/volto-slider-block",
     "@plone-collective/volto-authomatic",
     "@plonegovbr/volto-code-block",
-    "@plonegovbr/volto-twitter-block",
+    "@kitconcept/volto-social-blocks",
     "volto-form-block"
   ],
   "jest": {
