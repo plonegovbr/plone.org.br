@@ -15,7 +15,7 @@ GREEN=`tput setaf 2`
 RESET=`tput sgr0`
 YELLOW=`tput setaf 3`
 
-PLONE_VERSION=6.0.2
+PLONE_VERSION=6.0.6
 
 ifndef LOG_LEVEL
 	LOG_LEVEL=INFO
