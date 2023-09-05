@@ -9,7 +9,7 @@ on:
 
 env:
   PYTHON_VERSION: 3.11
-  PLONE_VERSION: 6.0.2
+  PLONE_VERSION: 6.0.6
   IMAGE_NAME_SUFFIX: backend
 
 defaults:
