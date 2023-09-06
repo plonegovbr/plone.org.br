@@ -171,8 +171,8 @@ jobs:
         uses: kitconcept/docker-stack-deploy@v1.2.0
         with:
           registry: "ghcr.io"
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          username: "ploneorgbr"
+          password: ${{ secrets.GHCR_TOKEN }}
           remote_host: ${{ secrets.DEPLOY_HOST }}
           remote_port: ${{ secrets.DEPLOY_PORT }}
           remote_user: ${{ secrets.DEPLOY_USER }}
