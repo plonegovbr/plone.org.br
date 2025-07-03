@@ -37,7 +37,7 @@ services:
   backend:
     image: ghcr.io/plonegovbr/ploneorgbr-backend:${STACK_PARAM:-latest}
     environment:
-      RELSTORAGE_DSN: "dbname='${DB_NAME:-plone}' user='${DB_USER:-plone}' host='${DB_HOST:-db}' password='${DB_PASSWORD:-plone}'"
+      RELSTORAGE_DSN: "dbname='${DB_NAME:-plone}' user='${DB_USER:-plone}' host='${DB_HOST:-db}' port='${DB_PORT:-5432}' password='${DB_PASSWORD:-plone}'"
       MASTODON_APPS: "${MASTODON_APPS:-[]}"
       BLUESKY_APPS: "${BLUESKY_APPS:-[]}"
     networks:
