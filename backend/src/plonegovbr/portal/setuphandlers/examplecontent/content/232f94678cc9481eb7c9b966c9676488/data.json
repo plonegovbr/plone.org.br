@@ -1,0 +1,46 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/image.png",
+  "@type": "Image",
+  "UID": "232f94678cc9481eb7c9b966c9676488",
+  "allow_discussion": null,
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-03T20:19:19+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "image.png",
+  "image": {
+    "blob_path": "232f94678cc9481eb7c9b966c9676488/image/image.png",
+    "content-type": "image/png",
+    "filename": "image.png",
+    "height": 1080,
+    "size": 2288010,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-09-03T20:19:19+00:00",
+  "nav_title": null,
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "image.png",
+  "type_title": "Image",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

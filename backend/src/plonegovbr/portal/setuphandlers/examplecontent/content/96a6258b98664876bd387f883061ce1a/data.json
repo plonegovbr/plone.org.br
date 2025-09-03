@@ -1,0 +1,122 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/governo-brasileiro",
+  "@type": "CaseStudy",
+  "UID": "96a6258b98664876bd387f883061ce1a",
+  "allow_discussion": null,
+  "blocks": {
+    "9f2489e1-4f17-41b6-adfb-7e78c6b7d32e": {
+      "@type": "slate",
+      "plaintext": "O site gov.b r \u00e9 implementado, pelo SERPRO , utilizando o Plone.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O site\u00a0"
+            },
+            {
+              "children": [
+                {
+                  "text": "gov.b"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": "r \u00e9 implementado, pelo\u00a0"
+            },
+            {
+              "children": [
+                {
+                  "text": "SERPRO"
+                }
+              ],
+              "data": {
+                "url": "https://serpro.gov.br/"
+              },
+              "type": "link"
+            },
+            {
+              "text": ", utilizando o Plone."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "b3e96162-5ff6-40e1-bdbd-d8ec7d56e286": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "b3e96162-5ff6-40e1-bdbd-d8ec7d56e286",
+      "9f2489e1-4f17-41b6-adfb-7e78c6b7d32e"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-03T20:12:34+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": "2025-09-03T20:14:28+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "governo-brasileiro",
+  "industry": "gov",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2025-09-03T20:14:59+00:00",
+  "nav_title": null,
+  "preview_caption": null,
+  "preview_image": {
+    "blob_path": "96a6258b98664876bd387f883061ce1a/preview_image/image-1920-389630d3a7d28a5ad4b40fe6a67517bf.png",
+    "content-type": "image/png",
+    "filename": "image-1920-389630d3a7d28a5ad4b40fe6a67517bf.png",
+    "height": 1080,
+    "size": 921121,
+    "width": 1920
+  },
+  "remoteUrl": "https://gov.br/",
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Governo Brasileiro",
+  "type_title": "Case Study",
+  "usages": [
+    "portal"
+  ],
+  "version": "current",
+  "versioning_enabled": true,
+  "versions": [
+    "5.2"
+  ],
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-09-03T20:12:34+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-09-03T20:14:28+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

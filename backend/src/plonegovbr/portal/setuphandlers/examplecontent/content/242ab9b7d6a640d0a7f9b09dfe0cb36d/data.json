@@ -1,0 +1,112 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/free-software-foundation",
+  "@type": "CaseStudy",
+  "UID": "242ab9b7d6a640d0a7f9b09dfe0cb36d",
+  "allow_discussion": null,
+  "blocks": {
+    "85e311a6-3775-46a6-ba43-23a1f7d16cb5": {
+      "@type": "title"
+    },
+    "a9346ba1-291a-4ab8-9494-495d23064c80": {
+      "@type": "slate",
+      "plaintext": "A Free Software Foundation tem seu site desenvolvido com Plone.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "A Free Software Foundation tem seu site desenvolvido com Plone."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "ca4c89b6-15a1-436a-86ba-4cfac895142d": {
+      "@type": "image",
+      "align": "center",
+      "credit": {},
+      "description": "",
+      "image_field": "image",
+      "size": "l",
+      "styles": {
+        "blockWidth:noprefix": {
+          "--block-width": "var(--default-container-width)"
+        }
+      },
+      "theme": "default",
+      "title": "Site",
+      "url": "../../../resolveuid/5245cb28fe0b4ae3964b9a9dfd87ce6a"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "85e311a6-3775-46a6-ba43-23a1f7d16cb5",
+      "a9346ba1-291a-4ab8-9494-495d23064c80",
+      "ca4c89b6-15a1-436a-86ba-4cfac895142d"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-03T20:25:26+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": "2025-09-03T20:26:53+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "free-software-foundation",
+  "industry": "ngo",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2025-09-03T20:27:36+00:00",
+  "nav_title": null,
+  "preview_caption": null,
+  "preview_image": {
+    "blob_path": "242ab9b7d6a640d0a7f9b09dfe0cb36d/preview_image/image (2).png",
+    "content-type": "image/png",
+    "filename": "image (2).png",
+    "height": 1080,
+    "size": 397844,
+    "width": 1920
+  },
+  "remoteUrl": "https://www.fsf.org/",
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Free Software Foundation",
+  "type_title": "Case Study",
+  "usages": [
+    "portal"
+  ],
+  "version": "current",
+  "versioning_enabled": true,
+  "versions": [],
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-09-03T20:25:26+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-09-03T20:26:53+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

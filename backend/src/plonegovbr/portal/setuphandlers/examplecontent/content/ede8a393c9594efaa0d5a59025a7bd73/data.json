@@ -1,0 +1,46 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/camara-municipal-de-curitiba/image-1920-d11ec25893f30be45c39d0c733a325a8.png",
+  "@type": "Image",
+  "UID": "ede8a393c9594efaa0d5a59025a7bd73",
+  "allow_discussion": null,
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-03T20:18:07+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "image-1920-d11ec25893f30be45c39d0c733a325a8.png",
+  "image": {
+    "blob_path": "ede8a393c9594efaa0d5a59025a7bd73/image/image-1920-d11ec25893f30be45c39d0c733a325a8.png",
+    "content-type": "image/png",
+    "filename": "image-1920-d11ec25893f30be45c39d0c733a325a8.png",
+    "height": 1080,
+    "size": 1053051,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-09-03T20:18:07+00:00",
+  "nav_title": null,
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "Site",
+  "type_title": "Image",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

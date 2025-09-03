@@ -1,0 +1,95 @@
+{
+  "@id": "/provedores/lucas-aquino-dev",
+  "@type": "Provider",
+  "UID": "8fbb2ddd70884171a42628e314913418",
+  "address": "Bras\u00edlia",
+  "address_2": null,
+  "allow_discussion": null,
+  "blocks": {
+    "2288f9a8-2416-4b35-a68c-9b53a2cd0025": {
+      "@type": "title"
+    },
+    "9efe4253-cbfc-40fe-be35-3649f8993835": {
+      "@type": "slate",
+      "plaintext": "",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "2288f9a8-2416-4b35-a68c-9b53a2cd0025",
+      "9efe4253-cbfc-40fe-be35-3649f8993835"
+    ]
+  },
+  "changeNote": "",
+  "city": "Bras\u00edlia",
+  "contact_email": "contato@lucasaquino.com.br",
+  "contact_name": "Adm",
+  "contact_phone": "6199999999",
+  "country": "BR",
+  "created": "2025-09-03T19:36:15+00:00",
+  "description": "",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "lucas-aquino-dev",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2025-09-03T19:39:43+00:00",
+  "organization_size": "small",
+  "postal_code": null,
+  "preview_caption": null,
+  "preview_image": {
+    "blob_path": "8fbb2ddd70884171a42628e314913418/preview_image/logo_tpu.png",
+    "content-type": "image/png",
+    "filename": "logo_tpu.png",
+    "height": 119,
+    "size": 13097,
+    "width": 217
+  },
+  "remoteUrl": "http://www.lucasaquino.com.br/",
+  "review_state": "published",
+  "services": [
+    "dev",
+    "training"
+  ],
+  "state": "DF",
+  "subjects": [],
+  "title": "Lucas Aquino DEV",
+  "type_title": "Provider",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "provider_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-09-03T19:36:15+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-09-03T19:39:43+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

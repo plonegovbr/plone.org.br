@@ -1,0 +1,123 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/camara-municipal-de-curitiba",
+  "@type": "CaseStudy",
+  "UID": "cd7fb00a677e4c3b881372406dfd62b1",
+  "allow_discussion": null,
+  "blocks": {
+    "792d02e5-48b1-4718-9855-6a5ce05adfbf": {
+      "@type": "slate",
+      "plaintext": "",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "\n"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "a488e1cf-2da2-4fad-826d-642e3b19adde": {
+      "@type": "slate",
+      "plaintext": " O site da C\u00e2mara \u00e9 implementado utilizando o Portal Modelo, desenvolvido pelo Interlegis ",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "O site da C\u00e2mara \u00e9 implementado utilizando o Portal Modelo, desenvolvido pelo Interlegis"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "da0006ef-36e4-4c26-9353-8f74819055f6": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "da0006ef-36e4-4c26-9353-8f74819055f6",
+      "a488e1cf-2da2-4fad-826d-642e3b19adde",
+      "792d02e5-48b1-4718-9855-6a5ce05adfbf"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-03T20:17:49+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": "2025-09-03T20:18:13+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "camara-municipal-de-curitiba",
+  "industry": "gov",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2025-09-03T20:18:13+00:00",
+  "nav_title": null,
+  "preview_caption": null,
+  "preview_image": {
+    "blob_path": "cd7fb00a677e4c3b881372406dfd62b1/preview_image/image-1920-d11ec25893f30be45c39d0c733a325a8.png",
+    "content-type": "image/png",
+    "filename": "image-1920-d11ec25893f30be45c39d0c733a325a8.png",
+    "height": 1080,
+    "size": 1053051,
+    "width": 1920
+  },
+  "remoteUrl": "https://www.curitiba.pr.leg.br/",
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "C\u00e2mara Municipal de Curitiba",
+  "type_title": "Case Study",
+  "usages": [
+    "portal"
+  ],
+  "version": "current",
+  "versioning_enabled": true,
+  "versions": [
+    "4.3"
+  ],
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-09-03T20:17:49+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-09-03T20:18:13+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

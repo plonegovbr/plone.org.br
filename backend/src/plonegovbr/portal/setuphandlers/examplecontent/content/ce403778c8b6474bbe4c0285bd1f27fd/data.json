@@ -1,0 +1,140 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/university-of-jyvaskyla",
+  "@type": "CaseStudy",
+  "UID": "ce403778c8b6474bbe4c0285bd1f27fd",
+  "allow_discussion": null,
+  "blocks": {
+    "0880a62b-5368-4cea-bb9a-99084bb939d8": {
+      "@type": "title"
+    },
+    "189e727d-8a38-43f3-a02a-478d19dc1cfa": {
+      "@type": "image",
+      "align": "center",
+      "credit": {},
+      "description": "site",
+      "image_field": "image",
+      "size": "l",
+      "styles": {
+        "blockWidth:noprefix": {
+          "--block-width": "var(--default-container-width)"
+        }
+      },
+      "theme": "default",
+      "title": "image.png",
+      "url": "../../../resolveuid/e67f3e3b25f54b6a926a546ecb0a4ebf"
+    },
+    "cbfda783-931f-40f1-ab02-557c783b9e84": {
+      "@type": "slate",
+      "plaintext": " A universidade de Jyv\u00e4skyl\u00e4 utiliza o Plone para seus diversos sites e portais. ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "A universidade de Jyv\u00e4skyl\u00e4 utiliza o Plone para seus diversos sites e portais."
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "fd364ade-fe2e-4349-9c63-8dc7f0f04a2b": {
+      "@type": "image",
+      "align": "center",
+      "alt": "",
+      "image_field": "image",
+      "size": "l",
+      "styles": {
+        "blockWidth:noprefix": {
+          "--block-width": "var(--default-container-width)"
+        }
+      },
+      "theme": "default",
+      "url": "../../../resolveuid/232f94678cc9481eb7c9b966c9676488"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "0880a62b-5368-4cea-bb9a-99084bb939d8",
+      "cbfda783-931f-40f1-ab02-557c783b9e84",
+      "fd364ade-fe2e-4349-9c63-8dc7f0f04a2b",
+      "189e727d-8a38-43f3-a02a-478d19dc1cfa"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-03T20:19:50+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": "2025-09-03T20:20:30+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "university-of-jyvaskyla",
+  "industry": "edu",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2025-09-03T20:20:51+00:00",
+  "nav_title": null,
+  "preview_caption": null,
+  "preview_image": {
+    "blob_path": "ce403778c8b6474bbe4c0285bd1f27fd/preview_image/image.png",
+    "content-type": "image/png",
+    "filename": "image.png",
+    "height": 1080,
+    "size": 2288010,
+    "width": 1920
+  },
+  "remoteUrl": "https://www.jyu.fi/en/",
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "University of Jyv\u00e4skyl\u00e4",
+  "type_title": "Case Study",
+  "usages": [
+    "portal"
+  ],
+  "version": "current",
+  "versioning_enabled": true,
+  "versions": [
+    "6.0"
+  ],
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-09-03T20:19:50+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-09-03T20:20:30+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

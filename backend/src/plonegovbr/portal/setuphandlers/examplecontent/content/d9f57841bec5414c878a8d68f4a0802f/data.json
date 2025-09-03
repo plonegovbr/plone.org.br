@@ -513,7 +513,7 @@
     "admin"
   ],
   "description": "O GITEC \u00e9 uma comunidade de pr\u00e1tica com o objetivo de promover o interc\u00e2mbio de informa\u00e7\u00f5es e conhecimento sobre os sistemas desenvolvidos pelo Interlegis e pela comunidade, a gest\u00e3o do seu desenvolvimento e discuss\u00f5es sobre qualquer assunto relacionado a tecnologia da informa\u00e7\u00e3o com objetivo de resolver problemas pr\u00e1ticos das Casas Legislativas. ",
-  "effective": "2025-09-03T20:00:49+00:00",
+  "effective": "2025-09-03T20:00:00+00:00",
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},

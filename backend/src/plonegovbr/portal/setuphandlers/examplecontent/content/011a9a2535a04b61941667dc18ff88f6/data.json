@@ -1,0 +1,116 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/universita-di-bologna",
+  "@type": "CaseStudy",
+  "UID": "011a9a2535a04b61941667dc18ff88f6",
+  "allow_discussion": null,
+  "blocks": {
+    "69b3ee65-6ccd-44d5-bca9-3d82e31a69da": {
+      "@type": "title"
+    },
+    "b50388c7-6ac0-4cba-99f4-0040efb03219": {
+      "@type": "slate",
+      "plaintext": " A Universidade de Bologna, considerada a universidade mais antiga do mundo, utiliza Plone para seu portal. ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "A Universidade de Bologna, considerada a universidade mais antiga do mundo, utiliza Plone para seu portal."
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "d6293355-d132-45a9-a0f6-96793e1fd974": {
+      "@type": "image",
+      "align": "center",
+      "credit": {},
+      "description": "",
+      "image_field": "image",
+      "size": "l",
+      "styles": {
+        "blockWidth:noprefix": {
+          "--block-width": "var(--default-container-width)"
+        }
+      },
+      "theme": "default",
+      "title": "Site",
+      "url": "../../../resolveuid/d95943652cdd453ca4369a2c7a0f9306"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "69b3ee65-6ccd-44d5-bca9-3d82e31a69da",
+      "b50388c7-6ac0-4cba-99f4-0040efb03219",
+      "d6293355-d132-45a9-a0f6-96793e1fd974"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-03T20:29:08+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": "2025-09-03T20:29:42+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "universita-di-bologna",
+  "industry": "edu",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2025-09-03T20:29:42+00:00",
+  "nav_title": null,
+  "preview_caption": null,
+  "preview_image": null,
+  "remoteUrl": "https://www.unibo.it/en",
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Universit\u00e0 di Bologna",
+  "type_title": "Case Study",
+  "usages": [
+    "portal"
+  ],
+  "version": "current",
+  "versioning_enabled": true,
+  "versions": [],
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-09-03T20:29:08+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-09-03T20:29:42+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

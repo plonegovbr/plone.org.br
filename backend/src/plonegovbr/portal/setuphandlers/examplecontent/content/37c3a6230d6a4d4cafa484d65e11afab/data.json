@@ -1,0 +1,125 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/tse",
+  "@type": "CaseStudy",
+  "UID": "37c3a6230d6a4d4cafa484d65e11afab",
+  "allow_discussion": null,
+  "blocks": {
+    "5df44c08-3c7b-4567-a507-18323d89aebf": {
+      "@type": "title"
+    },
+    "65a3e576-342d-419f-a67f-cec047d1c0b8": {
+      "@type": "image",
+      "align": "center",
+      "credit": {},
+      "description": "",
+      "image_field": "image",
+      "size": "l",
+      "styles": {
+        "blockWidth:noprefix": {
+          "--block-width": "var(--default-container-width)"
+        }
+      },
+      "theme": "default",
+      "title": "Portal TSE",
+      "url": "../../../resolveuid/64bbdda4530849a7959ad0849169d431"
+    },
+    "a4b8e1e0-167c-44a4-8d97-a529915a091d": {
+      "@type": "slate",
+      "plaintext": " O Tribunal Superior Eleitoral (TSE), \u00f3rg\u00e3o m\u00e1ximo da Justi\u00e7a Eleitoral, exerce papel fundamental na constru\u00e7\u00e3o e no exerc\u00edcio da democracia brasileira. ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "O Tribunal Superior Eleitoral (TSE), \u00f3rg\u00e3o m\u00e1ximo da Justi\u00e7a Eleitoral, exerce papel fundamental na constru\u00e7\u00e3o e no exerc\u00edcio da democracia brasileira."
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "5df44c08-3c7b-4567-a507-18323d89aebf",
+      "a4b8e1e0-167c-44a4-8d97-a529915a091d",
+      "65a3e576-342d-419f-a67f-cec047d1c0b8"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-03T20:06:51+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": "2025-09-03T20:09:43+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "tse",
+  "industry": "gov",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2025-09-03T20:10:11+00:00",
+  "nav_title": null,
+  "preview_caption": null,
+  "preview_image": {
+    "blob_path": "37c3a6230d6a4d4cafa484d65e11afab/preview_image/preview_image-400-94aec8b4a4be9b1ebcb3ea05750ca1dd.png",
+    "content-type": "image/png",
+    "filename": "preview_image-400-94aec8b4a4be9b1ebcb3ea05750ca1dd.png",
+    "height": 225,
+    "size": 74079,
+    "width": 400
+  },
+  "remoteUrl": "https://www.tse.jus.br/",
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "TSE",
+  "type_title": "Case Study",
+  "usages": [
+    "portal"
+  ],
+  "version": "current",
+  "versioning_enabled": true,
+  "versions": [
+    "5.2"
+  ],
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-09-03T20:06:51+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-09-03T20:09:43+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

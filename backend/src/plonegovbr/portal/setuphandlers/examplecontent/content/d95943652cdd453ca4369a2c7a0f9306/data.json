@@ -1,0 +1,46 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/universita-di-bologna/image-3.png",
+  "@type": "Image",
+  "UID": "d95943652cdd453ca4369a2c7a0f9306",
+  "allow_discussion": null,
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-03T20:29:23+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "image-3.png",
+  "image": {
+    "blob_path": "d95943652cdd453ca4369a2c7a0f9306/image/image (3).png",
+    "content-type": "image/png",
+    "filename": "image (3).png",
+    "height": 1080,
+    "size": 2992114,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-09-03T20:29:23+00:00",
+  "nav_title": null,
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "Site",
+  "type_title": "Image",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

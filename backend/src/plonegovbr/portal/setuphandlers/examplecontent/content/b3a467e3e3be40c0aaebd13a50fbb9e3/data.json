@@ -1,0 +1,93 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/osaka-university",
+  "@type": "CaseStudy",
+  "UID": "b3a467e3e3be40c0aaebd13a50fbb9e3",
+  "allow_discussion": null,
+  "blocks": {
+    "177067c8-2772-43fb-9439-a0dbf1d555a1": {
+      "@type": "slate",
+      "plaintext": "Desenvolvido pela empresa CMSCom, o site da universidade de Osaka utiliza Plone para servir conte\u00fado em japon\u00eas e ingl\u00eas",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Desenvolvido pela empresa CMSCom, o site da universidade de Osaka utiliza Plone para servir conte\u00fado em japon\u00eas e ingl\u00eas"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "fdfdd773-4d25-472d-93f0-810373fed356": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "fdfdd773-4d25-472d-93f0-810373fed356",
+      "177067c8-2772-43fb-9439-a0dbf1d555a1"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-03T20:26:22+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": "2025-09-03T20:26:54+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "osaka-university",
+  "industry": "edu",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2025-09-03T20:26:54+00:00",
+  "nav_title": null,
+  "preview_caption": null,
+  "preview_image": {
+    "blob_path": "b3a467e3e3be40c0aaebd13a50fbb9e3/preview_image/image (1).png",
+    "content-type": "image/png",
+    "filename": "image (1).png",
+    "height": 1080,
+    "size": 1178602,
+    "width": 1920
+  },
+  "remoteUrl": "https://www.osaka-u.ac.jp/en",
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Osaka University",
+  "type_title": "Case Study",
+  "usages": [],
+  "version": "current",
+  "versioning_enabled": true,
+  "versions": [],
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-09-03T20:26:22+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-09-03T20:26:54+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

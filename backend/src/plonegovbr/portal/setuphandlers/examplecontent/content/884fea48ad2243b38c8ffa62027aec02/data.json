@@ -1,0 +1,46 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/governo-brasileiro/image-1920-389630d3a7d28a5ad4b40fe6a67517bf.png",
+  "@type": "Image",
+  "UID": "884fea48ad2243b38c8ffa62027aec02",
+  "allow_discussion": null,
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-03T20:12:59+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "image-1920-389630d3a7d28a5ad4b40fe6a67517bf.png",
+  "image": {
+    "blob_path": "884fea48ad2243b38c8ffa62027aec02/image/image-1920-389630d3a7d28a5ad4b40fe6a67517bf.png",
+    "content-type": "image/png",
+    "filename": "image-1920-389630d3a7d28a5ad4b40fe6a67517bf.png",
+    "height": 1080,
+    "size": 921121,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-09-03T20:12:59+00:00",
+  "nav_title": null,
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "Site",
+  "type_title": "Image",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}
