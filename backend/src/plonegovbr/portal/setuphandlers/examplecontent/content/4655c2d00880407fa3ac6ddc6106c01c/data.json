@@ -1,0 +1,165 @@
+{
+  "@id": "/comunidades",
+  "@type": "Document",
+  "UID": "4655c2d00880407fa3ac6ddc6106c01c",
+  "allow_discussion": null,
+  "blocks": {
+    "450201b3-e902-433f-bafb-d434066a0257": {
+      "@type": "slate"
+    },
+    "5cf3bf81-179d-41a8-8f3e-6777995ae18b": {
+      "@type": "title"
+    },
+    "f36aed4e-b388-4f52-9f5f-b35db4894b3d": {
+      "@type": "gridBlock",
+      "blocks": {
+        "bef41e03-0e36-4335-9d98-d4cfe986a3d0": {
+          "@type": "teaser",
+          "description": "O GITEC \u00e9 uma comunidade de pr\u00e1tica com o objetivo de promover o interc\u00e2mbio de informa\u00e7\u00f5es e conhecimento sobre os sistemas desenvolvidos pelo Interlegis e pela comunidade, a gest\u00e3o do seu desenvolvimento e discuss\u00f5es sobre qualquer assunto relacionado a tecnologia da informa\u00e7\u00e3o com objetivo de resolver problemas pr\u00e1ticos das Casas Legislativas. ",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../resolveuid/d9f57841bec5414c878a8d68f4a0802f",
+              "@type": "Document",
+              "Description": "O GITEC \u00e9 uma comunidade de pr\u00e1tica com o objetivo de promover o interc\u00e2mbio de informa\u00e7\u00f5es e conhecimento sobre os sistemas desenvolvidos pelo Interlegis e pela comunidade, a gest\u00e3o do seu desenvolvimento e discuss\u00f5es sobre qualquer assunto relacionado a tecnologia da informa\u00e7\u00e3o com objetivo de resolver problemas pr\u00e1ticos das Casas Legislativas. ",
+              "Subject": [],
+              "Title": "GITEC",
+              "description": "O GITEC \u00e9 uma comunidade de pr\u00e1tica com o objetivo de promover o interc\u00e2mbio de informa\u00e7\u00f5es e conhecimento sobre os sistemas desenvolvidos pelo Interlegis e pela comunidade, a gest\u00e3o do seu desenvolvimento e discuss\u00f5es sobre qualquer assunto relacionado a tecnologia da informa\u00e7\u00e3o com objetivo de resolver problemas pr\u00e1ticos das Casas Legislativas. ",
+              "effective": "2025-09-03T20:00:49+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "start": null,
+              "title": "GITEC",
+              "type_title": "P\u00e1gina"
+            }
+          ],
+          "overwrite": true,
+          "preview_image": [
+            {
+              "@id": "../resolveuid/3b43bb1e0ebd454db6d4a94d74a14e8a",
+              "image_field": "image",
+              "title": "gitec.png"
+            }
+          ],
+          "styles": {
+            "align": "left"
+          },
+          "title": "GITEC"
+        },
+        "fca56051-7ba5-4d65-91ba-71e30abc9adb": {
+          "@type": "teaser",
+          "description": "A comunidade PloneGov-Br foi criada em maio de 2009 com o objetivo de conectar as institui\u00e7\u00f5es ligadas ao governo brasileiro que utilizam Python, Zope, Plone e tecnologias correlatas. ",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../resolveuid/5f0da7f666c74e63aecc9666a480bd44",
+              "@type": "Document",
+              "Description": "A comunidade PloneGov-Br foi criada em maio de 2009 com o objetivo de conectar as institui\u00e7\u00f5es ligadas ao governo brasileiro que utilizam Python, Zope, Plone e tecnologias correlatas. ",
+              "Subject": [],
+              "Title": "PloneGov-Br",
+              "description": "A comunidade PloneGov-Br foi criada em maio de 2009 com o objetivo de conectar as institui\u00e7\u00f5es ligadas ao governo brasileiro que utilizam Python, Zope, Plone e tecnologias correlatas. ",
+              "effective": "2025-09-03T20:00:26+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "start": null,
+              "title": "PloneGov-Br",
+              "type_title": "P\u00e1gina"
+            }
+          ],
+          "overwrite": true,
+          "preview_image": [
+            {
+              "@id": "../resolveuid/7d03a03e11f646ad9eaf3b0ae71eaa52",
+              "image_field": "image",
+              "title": "logo-plonegovbr.png"
+            }
+          ],
+          "styles": {
+            "align": "left"
+          },
+          "title": "PloneGov-Br"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "fca56051-7ba5-4d65-91ba-71e30abc9adb",
+          "bef41e03-0e36-4335-9d98-d4cfe986a3d0"
+        ]
+      },
+      "styles": {},
+      "theme": "default"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "5cf3bf81-179d-41a8-8f3e-6777995ae18b",
+      "f36aed4e-b388-4f52-9f5f-b35db4894b3d",
+      "450201b3-e902-433f-bafb-d434066a0257"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-03T19:57:29+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": "2025-09-03T19:57:32+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "comunidades",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-09-03T20:11:42+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Comunidades",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-09-03T19:57:29+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-09-03T19:57:32+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

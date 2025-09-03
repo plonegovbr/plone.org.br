@@ -1,0 +1,560 @@
+{
+  "@id": "/comunidades/gitec",
+  "@type": "Document",
+  "UID": "d9f57841bec5414c878a8d68f4a0802f",
+  "allow_discussion": null,
+  "blocks": {
+    "2e547d4b-b30b-42d5-bf32-efcedf04d32e": {
+      "@type": "slate",
+      "plaintext": "No discord temos os seguintes canais:",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "No "
+            },
+            {
+              "children": [
+                {
+                  "text": "discord"
+                }
+              ],
+              "data": {
+                "url": "https://discord.gg/QyPKgzzgpg"
+              },
+              "type": "link"
+            },
+            {
+              "text": " temos os seguintes canais:"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "3d15def8-1795-4626-a8af-32e719605852": {
+      "@type": "slate",
+      "plaintext": "\u200b XII Encontro Nacional do GITEC - 2022   \u200bXI Encontro Nacional do GITEC - 2019   \u200bX Encontro Nacional do GITEC - 2018   IX Encontro Nacional do GITEC - 2017   VIII Encontro Nacional do GITEC - 2016   VII Encontro Nacional do GITEC - 2015   VI Encontro Nacional do GITEC - 2013   V Encontro Nacional do GITEC - 2012   IV Encontro Nacional do GITEC - 2011   III Encontro Nacional do GITEC - 2010   II Encontro Nacional do GITEC - 2009   I Encontro Nacional do GITEC - 2007 ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "\u200b"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "XII Encontro Nacional do GITEC - 2022"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://plone.org.br/novidades/eventos/2022/12o-engitec-encontro-nacional-do-grupo-interlegis-de-tecnologia"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "\u200bXI Encontro Nacional do GITEC - 2019"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://engitec.interlegis.leg.br/"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "\u200bX Encontro Nacional do GITEC - 2018"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://engitec.interlegis.leg.br/edicoes-anteriores/x-encontro-nacional-do-gitec-2018"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "IX Encontro Nacional do GITEC - 2017"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://colab.interlegis.leg.br/wiki/IXEncontroGitec"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "VIII Encontro Nacional do GITEC - 2016"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://colab.interlegis.leg.br/wiki/VIIIEncontroGitec"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "VII Encontro Nacional do GITEC - 2015"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://colab.interlegis.leg.br/wiki/VIIEncontroGitec"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "VI Encontro Nacional do GITEC - 2013"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://colab.interlegis.leg.br/wiki/VIEncontroGitec"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "V Encontro Nacional do GITEC - 2012"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://colab.interlegis.leg.br/wiki/VEncontroGitec"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "IV Encontro Nacional do GITEC - 2011"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://colab.interlegis.leg.br/wiki/IVEncontroGitec"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "III Encontro Nacional do GITEC - 2010"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://colab.interlegis.leg.br/wiki/IIIEncontroGitec"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "II Encontro Nacional do GITEC - 2009"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://colab.interlegis.leg.br/wiki/IIEncontroGitec"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "I Encontro Nacional do GITEC - 2007"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://colab.interlegis.leg.br/wiki/IEncontroGitec"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    },
+    "4ca62b10-87c8-477b-ac97-698492def8ef": {
+      "@type": "slate",
+      "plaintext": "O grupo conta com membros de todo o Brasil e tamb\u00e9m do exterior. Seus participantes s\u00e3o:",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O grupo conta com membros de todo o Brasil e tamb\u00e9m do exterior. Seus participantes s\u00e3o:"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "57521bc2-ce25-4d54-a378-adbad572c1de": {
+      "@type": "image",
+      "align": "center",
+      "size": "l",
+      "styles": {
+        "blockWidth:noprefix": {
+          "--block-width": "var(--default-container-width)"
+        },
+        "size:noprefix": "large"
+      },
+      "url": "https://plone.org.br/comunidades/gitec/foto_oficial.jpg/@@images/image"
+    },
+    "6aabf702-f4c5-4bd0-99e0-4e1c95b3c81f": {
+      "@type": "slate",
+      "plaintext": "#contratacoes #controle-interno #email #infraestrutura #portal-brasil #portal_modelo #saap #sapl #siga-doc",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "#contratacoes"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "#controle-interno"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "#email"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "#infraestrutura"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "#portal-brasil"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "#portal_modelo"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "#saap"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "#sapl"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "#siga-doc"
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    },
+    "b38c1eea-1343-4bce-a14f-2308adcde3f2": {
+      "@type": "slate",
+      "plaintext": "Eventos",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Eventos"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "ed5fa316-f6b1-4d77-a9a0-900449e76915": {
+      "@type": "slate",
+      "plaintext": "Canal de discuss\u00e3o",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Canal de discuss\u00e3o"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "f8b19f53-5191-4c42-9bcc-418862af7815": {
+      "@type": "slate",
+      "plaintext": "Colaboradores de TI das Casas Legislativas Usu\u00e1rios dos sistemas Profissionais e cidad\u00e3os interessados Colaboradores do Interlegis",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "Colaboradores de TI das Casas Legislativas"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "Usu\u00e1rios dos sistemas"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "Profissionais e cidad\u00e3os interessados"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "Colaboradores do Interlegis"
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    },
+    "fc127e97-1db9-4e87-abf0-e500d76464b8": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "fc127e97-1db9-4e87-abf0-e500d76464b8",
+      "4ca62b10-87c8-477b-ac97-698492def8ef",
+      "f8b19f53-5191-4c42-9bcc-418862af7815",
+      "ed5fa316-f6b1-4d77-a9a0-900449e76915",
+      "2e547d4b-b30b-42d5-bf32-efcedf04d32e",
+      "6aabf702-f4c5-4bd0-99e0-4e1c95b3c81f",
+      "b38c1eea-1343-4bce-a14f-2308adcde3f2",
+      "57521bc2-ce25-4d54-a378-adbad572c1de",
+      "3d15def8-1795-4626-a8af-32e719605852"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-03T20:00:45+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "O GITEC \u00e9 uma comunidade de pr\u00e1tica com o objetivo de promover o interc\u00e2mbio de informa\u00e7\u00f5es e conhecimento sobre os sistemas desenvolvidos pelo Interlegis e pela comunidade, a gest\u00e3o do seu desenvolvimento e discuss\u00f5es sobre qualquer assunto relacionado a tecnologia da informa\u00e7\u00e3o com objetivo de resolver problemas pr\u00e1ticos das Casas Legislativas. ",
+  "effective": "2025-09-03T20:00:49+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "gitec",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-09-03T20:06:33+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "GITEC",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-09-03T20:00:45+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-09-03T20:00:49+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

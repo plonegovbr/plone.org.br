@@ -1,0 +1,46 @@
+{
+  "@id": "/imagens/plonegovbr.jpeg",
+  "@type": "Image",
+  "UID": "3340d7c36e8f407c993d36995a6ee551",
+  "allow_discussion": null,
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-03T20:03:31+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "plonegovbr.jpeg",
+  "image": {
+    "blob_path": "3340d7c36e8f407c993d36995a6ee551/image/plonegovbr.jpeg",
+    "content-type": "image/jpeg",
+    "filename": "plonegovbr.jpeg",
+    "height": 1365,
+    "size": 677694,
+    "width": 2048
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-09-03T20:03:53+00:00",
+  "nav_title": null,
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "plonegovbr.jpeg",
+  "type_title": "Image",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

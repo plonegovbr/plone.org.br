@@ -1,0 +1,101 @@
+{
+  "@id": "/noticias",
+  "@type": "News Item",
+  "UID": "24270554e1784b929c2c769056f9ba00",
+  "allow_discussion": null,
+  "blocks": {
+    "42f3ac59-03b5-40da-b4ff-a27b4261cccc": {
+      "@type": "listing",
+      "headline": "\u00daltimas not\u00edcias",
+      "headlineTag": "h2",
+      "querystring": {
+        "limit": "20",
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "News Item"
+            ]
+          }
+        ],
+        "sort_on": "effective",
+        "sort_order": "descending",
+        "sort_order_boolean": true
+      },
+      "styles": {},
+      "theme": "default",
+      "variation": "default"
+    },
+    "88be349d-315e-419b-a4dd-4693a788d040": {
+      "@type": "title"
+    },
+    "8ff2f5c9-59b1-49b1-90c2-e81d29defafb": {
+      "@type": "slate",
+      "plaintext": "\u00daltimas not\u00edcias e eventos da comunidade",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "\u00daltimas not\u00edcias e eventos da comunidade"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "88be349d-315e-419b-a4dd-4693a788d040",
+      "8ff2f5c9-59b1-49b1-90c2-e81d29defafb",
+      "42f3ac59-03b5-40da-b4ff-a27b4261cccc"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-03T19:40:16+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "noticias",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "newsitem_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-09-03T19:41:32+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "private",
+  "rights": "",
+  "subjects": [],
+  "title": "Novidades",
+  "type_title": "News Item",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-09-03T19:40:16+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

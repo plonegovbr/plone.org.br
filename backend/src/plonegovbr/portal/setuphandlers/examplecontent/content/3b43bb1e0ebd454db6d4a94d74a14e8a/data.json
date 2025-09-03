@@ -1,0 +1,46 @@
+{
+  "@id": "/imagens/gitec.png",
+  "@type": "Image",
+  "UID": "3b43bb1e0ebd454db6d4a94d74a14e8a",
+  "allow_discussion": null,
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-03T20:11:06+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "gitec.png",
+  "image": {
+    "blob_path": "3b43bb1e0ebd454db6d4a94d74a14e8a/image/gitec.png",
+    "content-type": "image/png",
+    "filename": "gitec.png",
+    "height": 250,
+    "size": 17346,
+    "width": 250
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-09-03T20:11:06+00:00",
+  "nav_title": null,
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "gitec.png",
+  "type_title": "Image",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}
