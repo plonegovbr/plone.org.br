@@ -3637,6 +3637,7 @@ dependencies = [
     { name = "plone-volto" },
     { name = "plonegovbr-brfields" },
     { name = "plonegovbr-socialmedia" },
+    { name = "products-cmfplone" },
 ]
 
 [package.dev-dependencies]
@@ -3669,6 +3670,7 @@ requires-dist = [
     { name = "plone-volto" },
     { name = "plonegovbr-brfields" },
     { name = "plonegovbr-socialmedia", specifier = ">=2.0.0a6" },
+    { name = "products-cmfplone", specifier = "==6.1.2" },
 ]
 
 [package.metadata.requires-dev]
