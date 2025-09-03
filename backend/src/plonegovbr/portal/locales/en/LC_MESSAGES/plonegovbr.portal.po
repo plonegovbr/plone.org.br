@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-05-25 17:12+0000\n"
+"POT-Creation-Date: 2025-09-03 03:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,3 +13,27 @@ msgstr ""
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: plonegovbr.portal\n"
+
+#: plonegovbr/portal/profiles.zcml:30
+msgid "Configura a autenticação via OAuth (GitHub)"
+msgstr ""
+
+#: plonegovbr/portal/profiles.zcml:22
+msgid "Create example content to showcase the new website"
+msgstr ""
+
+#: plonegovbr/portal/profiles.zcml:13
+msgid "Package to configure a new Plone Brasil site"
+msgstr ""
+
+#: plonegovbr/portal/profiles.zcml:13
+msgid "Plone Brasil"
+msgstr ""
+
+#: plonegovbr/portal/profiles.zcml:30
+msgid "Plone Brasil: Autenticação OAuth"
+msgstr ""
+
+#: plonegovbr/portal/profiles.zcml:22
+msgid "Plone Brasil: Conteúdo de exemplo"
+msgstr ""

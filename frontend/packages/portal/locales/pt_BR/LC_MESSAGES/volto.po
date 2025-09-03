@@ -15,3 +15,58 @@ msgstr ""
 "Language-Name: Português do Brasil\n"
 "Preferred-Encodings: utf-8\n"
 "Domain: volto\n"
+
+#. Default: "Alignment"
+#: components/blocks/LeadImage/LeadImageSidebar
+msgid "Alignment"
+msgstr ""
+
+#. Default: "Alt text"
+#: components/blocks/LeadImage/LeadImageSidebar
+msgid "Alt text"
+msgstr ""
+
+#. Default: "External URL"
+#: components/blocks/LeadImage/LeadImageSidebar
+msgid "External URL"
+msgstr ""
+
+#. Default: "Image"
+#: components/blocks/LeadImage/LeadImageSidebar
+msgid "Image"
+msgstr ""
+
+#. Default: "Lead Image"
+#: components/blocks/LeadImage/LeadImageSidebar
+msgid "Lead Image"
+msgstr ""
+
+#. Default: "Link to"
+#: components/blocks/LeadImage/LeadImageSidebar
+msgid "Link to"
+msgstr ""
+
+#. Default: "No image set in Lead Image content field"
+#: components/blocks/LeadImage/LeadImageSidebar
+msgid "No image set in Lead Image content field"
+msgstr ""
+
+#. Default: "No image set in image content field"
+#: components/blocks/LeadImage/LeadImageSidebar
+msgid "No image set in image content field"
+msgstr ""
+
+#. Default: "Open in a new tab"
+#: components/blocks/LeadImage/LeadImageSidebar
+msgid "Open in a new tab"
+msgstr ""
+
+#. Default: "Origin"
+#: components/blocks/LeadImage/LeadImageSidebar
+msgid "Origin"
+msgstr ""
+
+#. Default: "Upload a lead image in the 'Lead Image' content field."
+#: components/blocks/LeadImage/Edit
+msgid "Upload a lead image in the 'Lead Image' content field."
+msgstr ""
