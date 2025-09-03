@@ -1,0 +1,46 @@
+{
+  "@id": "/imagens/norte-a-sul.png",
+  "@type": "Image",
+  "UID": "f58351ffbd574e739abb3b6f504691ba",
+  "allow_discussion": null,
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-03T20:32:30+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "norte-a-sul.png",
+  "image": {
+    "blob_path": "f58351ffbd574e739abb3b6f504691ba/image/norte-a-sul.png",
+    "content-type": "image/png",
+    "filename": "norte-a-sul.png",
+    "height": 450,
+    "size": 183991,
+    "width": 800
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-09-03T20:32:30+00:00",
+  "nav_title": null,
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "norte-a-sul.png",
+  "type_title": "Image",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

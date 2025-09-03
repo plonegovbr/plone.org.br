@@ -1,0 +1,77 @@
+{
+  "@id": "/documentacao/mao-na-massa",
+  "@type": "Document",
+  "UID": "8ea8e013125b4daf90d83f4811988243",
+  "allow_discussion": null,
+  "blocks": {
+    "b74b905f-6607-4899-a4be-6c90742c41be": {
+      "@type": "title"
+    },
+    "d28b57f8-e35d-4f85-b5e7-61848f1d7f95": {
+      "@type": "slate",
+      "plaintext": "A comunidade PloneGov-Br disponibiliza uma serie de v\u00eddeos sobre como tirar o m\u00e1ximo de sua instala\u00e7\u00e3o Plone.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "A comunidade PloneGov-Br disponibiliza uma serie de v\u00eddeos sobre como tirar o m\u00e1ximo de sua instala\u00e7\u00e3o Plone."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "b74b905f-6607-4899-a4be-6c90742c41be",
+      "d28b57f8-e35d-4f85-b5e7-61848f1d7f95"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-03T20:21:09+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "A comunidade PloneGov-Br disponibiliza uma serie de v\u00eddeos sobre como tirar o m\u00e1ximo de sua instala\u00e7\u00e3o Plone.",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "mao-na-massa",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-09-03T20:29:48+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "private",
+  "rights": "",
+  "subjects": [],
+  "title": "M\u00e3o na Massa",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-09-03T20:21:09+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

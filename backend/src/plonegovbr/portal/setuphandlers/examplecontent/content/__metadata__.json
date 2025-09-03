@@ -9,17 +9,24 @@
     "6e0545a6e2f847d8872507af4786c664/image/plone-azul.png",
     "a58ccead718140c1baa98d43595fc3e6/image/plone-foundation.png",
     "bbc80dd1e71642d390ebc8d6742d49c4/image/plone6.png",
-    "6bbf92bf83e3430fa8f064bcdb71921f/preview_image/mncr.png"
+    "6bbf92bf83e3430fa8f064bcdb71921f/preview_image/mncr.png",
+    "6739599fe4504fd482acca8a4ecafd7e/image/mao-na-massa.png",
+    "f58351ffbd574e739abb3b6f504691ba/image/norte-a-sul.png"
   ],
   "_data_files_": [
     "plone_site_root/data.json",
     "4655c2d00880407fa3ac6ddc6106c01c/data.json",
     "d9f57841bec5414c878a8d68f4a0802f/data.json",
     "5f0da7f666c74e63aecc9666a480bd44/data.json",
+    "5958ae5341fc476d813f0b976d12c9bb/data.json",
+    "8ea8e013125b4daf90d83f4811988243/data.json",
+    "1dbd834dce1b45be8b81b76b567c4449/data.json",
     "86dc9d37549f42cf84844680398b290f/data.json",
     "a720393b3c0240e5bd27c43fcd2cfd1e/data.json",
     "3b43bb1e0ebd454db6d4a94d74a14e8a/data.json",
     "7d03a03e11f646ad9eaf3b0ae71eaa52/data.json",
+    "6739599fe4504fd482acca8a4ecafd7e/data.json",
+    "f58351ffbd574e739abb3b6f504691ba/data.json",
     "7b9eebfef8384e32a1405bb02a9aac0d/data.json",
     "6e0545a6e2f847d8872507af4786c664/data.json",
     "a58ccead718140c1baa98d43595fc3e6/data.json",
@@ -34,11 +41,14 @@
   ],
   "default_page": {},
   "local_permissions": {
+    "1dbd834dce1b45be8b81b76b567c4449": {},
     "24270554e1784b929c2c769056f9ba00": {},
     "3340d7c36e8f407c993d36995a6ee551": {},
     "3b43bb1e0ebd454db6d4a94d74a14e8a": {},
     "4655c2d00880407fa3ac6ddc6106c01c": {},
+    "5958ae5341fc476d813f0b976d12c9bb": {},
     "5f0da7f666c74e63aecc9666a480bd44": {},
+    "6739599fe4504fd482acca8a4ecafd7e": {},
     "6bbf92bf83e3430fa8f064bcdb71921f": {},
     "6e0545a6e2f847d8872507af4786c664": {},
     "6e676c774b554bffb6ee78c4b06da2cd": {},
@@ -47,11 +57,13 @@
     "7d03a03e11f646ad9eaf3b0ae71eaa52": {},
     "86dc9d37549f42cf84844680398b290f": {},
     "8ba36dc26ec2449686bd008372e6eb66": {},
+    "8ea8e013125b4daf90d83f4811988243": {},
     "a58ccead718140c1baa98d43595fc3e6": {},
     "a720393b3c0240e5bd27c43fcd2cfd1e": {},
     "b25d87d1a7d448c3b35156749dd566fe": {},
     "bbc80dd1e71642d390ebc8d6742d49c4": {},
     "d9f57841bec5414c878a8d68f4a0802f": {},
+    "f58351ffbd574e739abb3b6f504691ba": {},
     "plone_site_root": {
       "Add portal member": {
         "acquire": false,
@@ -106,6 +118,13 @@
     }
   },
   "local_roles": {
+    "1dbd834dce1b45be8b81b76b567c4449": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
     "24270554e1784b929c2c769056f9ba00": {
       "local_roles": {
         "admin": [
@@ -134,7 +153,21 @@
         ]
       }
     },
+    "5958ae5341fc476d813f0b976d12c9bb": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
     "5f0da7f666c74e63aecc9666a480bd44": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "6739599fe4504fd482acca8a4ecafd7e": {
       "local_roles": {
         "admin": [
           "Owner"
@@ -197,6 +230,13 @@
         ]
       }
     },
+    "8ea8e013125b4daf90d83f4811988243": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
     "a58ccead718140c1baa98d43595fc3e6": {
       "local_roles": {
         "admin": [
@@ -232,6 +272,13 @@
         ]
       }
     },
+    "f58351ffbd574e739abb3b6f504691ba": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
     "plone_site_root": {
       "local_roles": {
         "admin": [
@@ -241,24 +288,29 @@
     }
   },
   "ordering": {
+    "1dbd834dce1b45be8b81b76b567c4449": 1,
     "24270554e1784b929c2c769056f9ba00": 43,
     "3340d7c36e8f407c993d36995a6ee551": 5,
     "3b43bb1e0ebd454db6d4a94d74a14e8a": 6,
-    "4655c2d00880407fa3ac6ddc6106c01c": 45,
+    "4655c2d00880407fa3ac6ddc6106c01c": 46,
+    "5958ae5341fc476d813f0b976d12c9bb": 45,
     "5f0da7f666c74e63aecc9666a480bd44": 0,
+    "6739599fe4504fd482acca8a4ecafd7e": 7,
     "6bbf92bf83e3430fa8f064bcdb71921f": 0,
     "6e0545a6e2f847d8872507af4786c664": 4,
     "6e676c774b554bffb6ee78c4b06da2cd": 0,
     "7631e4c9dc6349b3b25119d635dc1478": 0,
     "7b9eebfef8384e32a1405bb02a9aac0d": 2,
     "7d03a03e11f646ad9eaf3b0ae71eaa52": 1,
-    "86dc9d37549f42cf84844680398b290f": 46,
+    "86dc9d37549f42cf84844680398b290f": 47,
     "8ba36dc26ec2449686bd008372e6eb66": 44,
+    "8ea8e013125b4daf90d83f4811988243": 0,
     "a58ccead718140c1baa98d43595fc3e6": 0,
     "a720393b3c0240e5bd27c43fcd2cfd1e": 41,
     "b25d87d1a7d448c3b35156749dd566fe": 42,
     "bbc80dd1e71642d390ebc8d6742d49c4": 3,
-    "d9f57841bec5414c878a8d68f4a0802f": 1
+    "d9f57841bec5414c878a8d68f4a0802f": 1,
+    "f58351ffbd574e739abb3b6f504691ba": 8
   },
   "relations": []
 }
