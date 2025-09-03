@@ -1,0 +1,48 @@
+{
+  "@id": "/imagens/plone-foundation.png",
+  "@type": "Image",
+  "UID": "a58ccead718140c1baa98d43595fc3e6",
+  "allow_discussion": null,
+  "changeNote": "",
+  "contributors": [],
+  "created": "2024-05-27T03:23:37+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "plone-foundation.png",
+  "image": {
+    "blob_path": "a58ccead718140c1baa98d43595fc3e6/image/plone-foundation.png",
+    "content-type": "image/png",
+    "filename": "plone-foundation.png",
+    "height": 439,
+    "size": 50737,
+    "width": 2000
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-09-03T02:25:19+00:00",
+  "nav_title": null,
+  "review_state": null,
+  "rights": "",
+  "subjects": [
+    "Plone"
+  ],
+  "title": "Plone Foundation Logo",
+  "type_title": "Image",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+        meta_type="Dexterity FTI"
+        name="Plone Site"
+        i18n:domain="plone"
+>
+
+  <!-- Enabled behaviors -->
+  <property name="behaviors"
+            purge="true"
+  >
+    <element value="volto.preview_image_link" />
+    <element value="voltolighttheme.header" />
+    <element value="voltolighttheme.theme" />
+    <element value="voltolighttheme.footer" />
+    <element value="kitconcept.footer" />
+    <element value="plonegovbr.socialmedia.settings" />
+    <element value="plone.basic" />
+    <element value="plone.relateditems" />
+    <element value="plone.locking" />
+    <element value="volto.blocks" />
+  </property>
+
+</object>

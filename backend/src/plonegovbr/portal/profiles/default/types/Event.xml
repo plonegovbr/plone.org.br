@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+        meta_type="Dexterity FTI"
+        name="Event"
+        i18n:domain="plone"
+>
+  <property name="filter_content_types">False</property>
+  <property name="klass">plone.volto.content.FolderishEvent</property>
+  <property name="behaviors">
+    <element value="plone.eventbasic" />
+    <element value="plone.eventrecurrence" />
+    <element value="plone.eventlocation" />
+    <element value="plone.eventattendees" />
+    <element value="plone.eventcontact" />
+    <element value="plone.basic" />
+    <element value="volto.preview_image_link" />
+    <element value="volto.kicker" />
+    <element value="plone.categorization" />
+    <element value="plone.publication" />
+    <element value="plone.ownership" />
+    <element value="plone.shortname" />
+    <element value="volto.navtitle" />
+    <element value="plone.excludefromnavigation" />
+    <element value="plone.allowdiscussion" />
+    <element value="plone.relateditems" />
+    <element value="volto.blocks" />
+    <element value="plone.constraintypes" />
+    <element value="plone.namefromtitle" />
+    <element value="plone.textindexer" />
+    <element value="plone.versioning" />
+    <element value="plone.locking" />
+  </property>
+</object>

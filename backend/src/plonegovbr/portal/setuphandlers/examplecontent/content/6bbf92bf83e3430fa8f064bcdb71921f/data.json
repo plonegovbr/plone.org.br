@@ -1,0 +1,133 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/mncr",
+  "@type": "CaseStudy",
+  "UID": "6bbf92bf83e3430fa8f064bcdb71921f",
+  "allow_discussion": null,
+  "blocks": {
+    "2ccf5dee-30fe-4ccb-9001-d6943b9a1590": {
+      "@type": "slate",
+      "plaintext": "O site do Movimento Nacional dos Catadores de Materiais Recicl\u00e1veis (MNCR), desenvolvido pela SImples Consultoria , utiliza Plone com um frontend Volto",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O site do Movimento Nacional dos Catadores de Materiais Recicl\u00e1veis (MNCR), desenvolvido pela\u00a0"
+            },
+            {
+              "children": [
+                {
+                  "text": "SImples Consultoria"
+                }
+              ],
+              "data": {
+                "url": "https://simplesconsultoria.com.br/"
+              },
+              "type": "link"
+            },
+            {
+              "text": ", utiliza Plone com um frontend Volto"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "42db32a0-c3f4-4c17-ae93-2766ebd77152": {
+      "@type": "title"
+    },
+    "837f8eef-c146-4946-b58c-d0723b2310a8": {
+      "@type": "leadimage",
+      "align": "center"
+    },
+    "d840326a-1af8-4421-b457-4467dd32999d": {
+      "@type": "slate",
+      "plaintext": "",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "42db32a0-c3f4-4c17-ae93-2766ebd77152",
+      "837f8eef-c146-4946-b58c-d0723b2310a8",
+      "2ccf5dee-30fe-4ccb-9001-d6943b9a1590",
+      "d840326a-1af8-4421-b457-4467dd32999d"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-03T02:32:14+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Site do Movimento Nacional dos Catadores de Materiais Recicl\u00e1veis (MNCR)",
+  "effective": "2025-09-03T02:47:31+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "mncr",
+  "industry": "ngo",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2025-09-03T03:12:17+00:00",
+  "nav_title": null,
+  "preview_caption": null,
+  "preview_image": {
+    "blob_path": "6bbf92bf83e3430fa8f064bcdb71921f/preview_image/mncr.png",
+    "content-type": "image/png",
+    "filename": "mncr.png",
+    "height": 1080,
+    "size": 1400106,
+    "width": 1920
+  },
+  "remoteUrl": "https://mncr.org.br",
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "MNCR",
+  "type_title": "Case Study",
+  "usages": [
+    "portal"
+  ],
+  "version": "current",
+  "versioning_enabled": true,
+  "versions": [
+    "6.0"
+  ],
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-09-03T02:32:14+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-09-03T02:47:31+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

@@ -1,7 +1,8 @@
 from AccessControl.SecurityManagement import newSecurityManager
-from ploneorgbr.core.interfaces import IPloneOrgBrCoreLayer
+from plonegovbr.portal.interfaces import IBrowserLayer
 from Products.CMFPlone.factory import _DEFAULT_PROFILE
 from Products.CMFPlone.factory import addPloneSite
+from Products.GenericSetup.tool import SetupTool
 from Testing.makerequest import makerequest
 from zope.interface import directlyProvidedBy
 from zope.interface import directlyProvides
@@ -26,14 +27,15 @@ def asbool(s):
 
 
 DELETE_EXISTING = asbool(os.getenv("DELETE_EXISTING"))
+EXAMPLE_CONTENT = asbool(os.getenv("EXAMPLE_CONTENT", "1"))
 
-app = makerequest(app)  # noQA
+app = makerequest(globals()["app"])
 
 request = app.REQUEST
 
-ifaces = [
-    IPloneOrgBrCoreLayer,
-] + list(directlyProvidedBy(request))
+ifaces = [IBrowserLayer]
+for iface in directlyProvidedBy(request):
+    ifaces.append(iface)
 
 directlyProvides(request, *ifaces)
 
@@ -45,13 +47,10 @@ site_id = "Plone"
 payload = {
     "title": "Plone Brasil",
     "profile_id": _DEFAULT_PROFILE,
-    "extension_ids": [
-        "ploneorgbr.core:default",
-        "ploneorgbr.core:initial",
-    ],
+    "distribution_name": "volto",
     "setup_content": False,
     "default_language": "pt-br",
-    "portal_timezone": "America/Sao_Paulo",
+    "portal_timezone": "UTC",
 }
 
 if site_id in app.objectIds() and DELETE_EXISTING:
@@ -62,4 +61,12 @@ if site_id in app.objectIds() and DELETE_EXISTING:
 if site_id not in app.objectIds():
     site = addPloneSite(app, site_id, **payload)
     transaction.commit()
+
+    portal_setup: SetupTool = site.portal_setup
+    portal_setup.runAllImportStepsFromProfile("profile-plonegovbr.portal:default")
+    transaction.commit()
+
+    if EXAMPLE_CONTENT:
+        portal_setup.runAllImportStepsFromProfile("profile-plonegovbr.portal:initial")
+        transaction.commit()
     app._p_jar.sync()

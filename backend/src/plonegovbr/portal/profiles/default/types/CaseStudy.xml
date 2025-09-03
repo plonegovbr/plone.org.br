@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+        meta_type="Dexterity FTI"
+        name="CaseStudy"
+        i18n:domain="collective.casestudy"
+>
+  <property name="behaviors"
+            purge="True"
+  >
+    <element value="collective.casestudy.providers" />
+    <element value="plone.dublincore" />
+    <element value="plone.namefromtitle" />
+    <element value="plone.shortname" />
+    <element value="plone.excludefromnavigation" />
+    <element value="plone.relateditems" />
+    <element value="plone.versioning" />
+    <element value="volto.blocks" />
+    <element value="volto.navtitle" />
+    <element value="volto.preview_image" />
+    <element value="volto.head_title" />
+  </property>
+</object>

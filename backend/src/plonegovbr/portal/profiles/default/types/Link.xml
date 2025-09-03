@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+        meta_type="Dexterity FTI"
+        name="Link"
+        i18n:domain="plone"
+>
+  <!-- Enabled behaviors -->
+  <property name="behaviors">
+    <element value="plone.basic" />
+    <element value="volto.preview_image_link" />
+    <element value="volto.kicker" />
+    <element value="plone.categorization" />
+    <element value="plone.publication" />
+    <element value="plone.ownership" />
+    <element value="plone.shortname" />
+    <element value="volto.navtitle" />
+    <element value="plone.excludefromnavigation" />
+    <element value="plone.namefromtitle" />
+    <element value="plone.versioning" />
+    <element value="plone.locking" />
+  </property>
+
+</object>

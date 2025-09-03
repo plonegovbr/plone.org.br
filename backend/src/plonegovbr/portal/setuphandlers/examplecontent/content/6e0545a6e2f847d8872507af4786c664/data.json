@@ -1,0 +1,46 @@
+{
+  "@id": "/imagens/plone-azul.png",
+  "@type": "Image",
+  "UID": "6e0545a6e2f847d8872507af4786c664",
+  "allow_discussion": null,
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-03T02:27:49+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "plone-azul.png",
+  "image": {
+    "blob_path": "6e0545a6e2f847d8872507af4786c664/image/plone-azul.png",
+    "content-type": "image/png",
+    "filename": "plone-azul.png",
+    "height": 400,
+    "size": 40748,
+    "width": 600
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-09-03T02:27:49+00:00",
+  "nav_title": null,
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "plone-azul.png",
+  "type_title": "Image",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

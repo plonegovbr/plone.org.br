@@ -1,0 +1,122 @@
+{
+  "@id": "/provedores",
+  "@type": "Document",
+  "UID": "8ba36dc26ec2449686bd008372e6eb66",
+  "allow_discussion": null,
+  "blocks": {
+    "202e6000-a584-41d5-82a2-473250d05182": {
+      "@type": "search",
+      "facets": [
+        {
+          "@id": "a7a3b56e-0fa9-4a1d-9802-4437d7faeb8c",
+          "advanced": false,
+          "field": {
+            "label": "Servi\u00e7os",
+            "value": "country"
+          },
+          "hidden": false,
+          "multiple": false,
+          "title": "Servi\u00e7os",
+          "type": "checkboxFacet"
+        }
+      ],
+      "facetsTitle": "Filtros",
+      "listingBodyTemplate": "grid",
+      "query": {
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "Provider"
+            ]
+          }
+        ],
+        "sort_on": "sortable_title",
+        "sort_order": "ascending"
+      },
+      "showSearchInput": true,
+      "showSortOn": true,
+      "showTotalResults": true,
+      "styles": {},
+      "theme": "default"
+    },
+    "210dcb66-d98c-444d-8d31-6efff2d1fb63": {
+      "@type": "slate"
+    },
+    "49d2b67b-0a92-460e-854b-a4c71af26785": {
+      "@type": "description"
+    },
+    "ca232c61-ebc0-4d56-a649-c3a7e59aada7": {
+      "@type": "title"
+    },
+    "undefined": {
+      "@type": "search",
+      "listingBodyTemplate": "default",
+      "showSearchInput": true,
+      "showSortOn": true,
+      "showTotalResults": true,
+      "styles": {},
+      "theme": "default"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "ca232c61-ebc0-4d56-a649-c3a7e59aada7",
+      "49d2b67b-0a92-460e-854b-a4c71af26785",
+      "202e6000-a584-41d5-82a2-473250d05182",
+      "210dcb66-d98c-444d-8d31-6efff2d1fb63"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-03T02:34:30+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Provedores de servi\u00e7os em Plone",
+  "effective": "2025-09-03T02:38:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "provedores",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-09-03T02:38:13+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Provedores",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-09-03T02:34:30+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-09-03T02:38:13+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}
