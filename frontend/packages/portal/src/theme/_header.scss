@@ -1,0 +1,20 @@
+/* Fat menu implementation */
+.navigation {
+  .item {
+    &.active::before,
+    &:hover::before {
+      position: absolute;
+      bottom: -49px;
+      width: 100%;
+      border-bottom: 9px solid #D6D6D6;
+      content: '';
+    }
+  }
+
+  ul.desktop-menu {
+    & > li > button,
+    & > li > a {
+      font-weight: 500;
+    }
+  }
+}

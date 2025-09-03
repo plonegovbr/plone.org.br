@@ -1,0 +1,1 @@
+Ajusta as cores principais e secundárias do tema Volto Light Theme.
