@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<registry>
+  <records interface="collective.casestudy.interfaces.ICaseStudySettings"
+           prefix="casestudy"
+  >
+    <value key="industries">
+      <element>gov|Governo</element>
+      <element>edu|Educação</element>
+      <element>ngo|Terceiro Setor</element>
+      <element>corporate|Corporativo</element>
+      <element>media|Mídia</element>
+    </value>
+    <value key="services">
+      <element>design|Design / Temas</element>
+      <element>dev|Desenvolvimento / Integração</element>
+      <element>hosting|Hospedagem</element>
+      <element>training|Treinamento</element>
+    </value>
+    <value key="usages">
+      <element>portal|Portal / Site</element>
+      <element>intranet|Intranet</element>
+      <element>kb|Base de Conhecimento</element>
+      <element>other|Outro</element>
+    </value>
+    <value key="versions">
+      <element>6.1</element>
+      <element>6.0</element>
+      <element>5.2</element>
+      <element>5.1</element>
+      <element>5.0</element>
+      <element>4.3</element>
+      <element>4.2</element>
+      <element>4.1</element>
+      <element>4.0</element>
+      <element>3.3</element>
+      <element>3.2</element>
+      <element>3.1</element>
+      <element>3.0</element>
+      <element>2.5</element>
+      <element>2.0</element>
+    </value>
+  </records>
+</registry>

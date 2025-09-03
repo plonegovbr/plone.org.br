@@ -1,0 +1,62 @@
+{
+  "name": "@plonegovbr/portal",
+  "version": "20250903.1.0",
+  "description": "Site da comunidade brasileira de Plone",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "keywords": [
+    "volto-addon",
+    "volto",
+    "plone",
+    "react"
+  ],
+  "author": "PloneGov-BR",
+  "homepage": "https://github.com/plonegovbr/plone.org.br#readme",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:plonegovbr/plone.org.br"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon",
+    "dry-release": "release-it --dry-run",
+    "release": "release-it",
+    "release-major-alpha": "release-it major --preRelease=alpha",
+    "release-alpha": "release-it --preRelease=alpha"
+  },
+  "addons": [
+    "@eeacms/volto-accordion-block",
+    "@kitconcept/volto-slider-block",
+    "@kitconcept/volto-social-blocks",
+    "@kitconcept/volto-separator-block",
+    "@mbarde/volto-image-crop-widget",
+    "volto-form-block",
+    "@plonegovbr/volto-social-media",
+    "@kitconcept/volto-button-block",
+    "@plone-collective/volto-authomatic",
+    "@eeacms/volto-timeline-block",
+    "@plonegovbr/volto-vlibras",
+    "@kitconcept/volto-light-theme"
+  ],
+  "dependencies": {
+    "@plone/components": "workspace:*",
+    "@plone/registry": "workspace:*",
+    "@plone-collective/volto-authomatic": "3.0.0-alpha.4",
+    "@kitconcept/volto-social-blocks": "1.0.0-alpha.8",
+    "@mbarde/volto-image-crop-widget": "0.5.1",
+    "@kitconcept/volto-light-theme": "7.0.0-alpha.25",
+    "@eeacms/volto-timeline-block": "*",
+    "@plonegovbr/volto-vlibras": "0.4.1",
+    "volto-form-block": "*"
+  },
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@plone/scripts": "workspace:*",
+    "release-it": "^17.1.1"
+  }
+}

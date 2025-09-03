@@ -1,0 +1,103 @@
+{
+  "@id": "/o-plone",
+  "@type": "Document",
+  "UID": "b25d87d1a7d448c3b35156749dd566fe",
+  "allow_discussion": null,
+  "blocks": {
+    "037c5790-2ad5-4da7-83e4-1a2e2dd2888c": {
+      "@type": "title"
+    },
+    "13fbc7d7-a9b2-4f90-83d2-c17ad9763d5f": {
+      "@type": "slate",
+      "plaintext": "O Plone est\u00e1 entre os top 2% de todos os projetos de c\u00f3digo-aberto do mundo, com cerca de 400 desenvolvedores distribu\u00eddos em mais de 60 pa\u00edses.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O Plone est\u00e1 entre os top 2% de todos os projetos de c\u00f3digo-aberto do mundo, com cerca de 400 desenvolvedores distribu\u00eddos em mais de 60 pa\u00edses."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "2b3a04f0-d109-426c-8584-68282712f84b": {
+      "@type": "slate",
+      "plaintext": "O projeto, criado por Alexander Limi e Alan Runyan, \u00e9 desenvolvido ativamente desde 2001, est\u00e1 dispon\u00edvel em mais de 40 idiomas e tem o melhor hist\u00f3rico de seguran\u00e7a entre os grandes sistemas de gest\u00e3o de conte\u00fado.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O projeto, criado por Alexander Limi e Alan Runyan, \u00e9 desenvolvido ativamente desde 2001, est\u00e1 dispon\u00edvel em mais de 40 idiomas e tem o melhor hist\u00f3rico de seguran\u00e7a entre os grandes sistemas de gest\u00e3o de conte\u00fado."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "340e94c9-1daa-4e58-8f3d-05e5521e3080": {
+      "@type": "description"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "037c5790-2ad5-4da7-83e4-1a2e2dd2888c",
+      "340e94c9-1daa-4e58-8f3d-05e5521e3080",
+      "13fbc7d7-a9b2-4f90-83d2-c17ad9763d5f",
+      "2b3a04f0-d109-426c-8584-68282712f84b"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-03T02:29:09+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Sistema de Gest\u00e3o de Conteudo",
+  "effective": "2025-09-03T02:33:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "o-plone",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-09-03T02:33:16+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "O Plone",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-09-03T02:29:09+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-09-03T02:33:16+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

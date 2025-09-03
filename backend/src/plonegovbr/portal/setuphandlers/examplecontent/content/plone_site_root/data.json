@@ -1,0 +1,73 @@
+{
+  "@id": "/Plone",
+  "@type": "Plone Site",
+  "UID": "plone_site_root",
+  "accent_color": null,
+  "accent_foreground_color": null,
+  "allow_discussion": null,
+  "blocks": {
+    "5f31e9e4-173f-4ec1-ab48-64e9e2789b76": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "5f31e9e4-173f-4ec1-ab48-64e9e2789b76"
+    ]
+  },
+  "complementary_logo": null,
+  "description": "",
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "facebook_app_id": "",
+  "facebook_username": "",
+  "footer_address": null,
+  "footer_colophon_text": null,
+  "footer_column_left": [],
+  "footer_column_left_header": null,
+  "footer_column_middle": [],
+  "footer_column_middle_header": null,
+  "footer_column_right": [],
+  "footer_column_right_header": null,
+  "footer_links": [],
+  "footer_logo": null,
+  "footer_logos": [],
+  "footer_logos_container_width": "default",
+  "footer_logos_size": "s",
+  "has_fat_menu": true,
+  "has_intranet_header": false,
+  "header_actions": [],
+  "id": "Plone",
+  "intranet_flag": null,
+  "is_folderish": true,
+  "items_total": 3,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "logo": {
+    "blob_path": "plone_site_root/logo/logo.svg",
+    "content-type": "image/svg+xml",
+    "filename": "logo.svg",
+    "height": 70,
+    "size": 6221,
+    "width": 184
+  },
+  "post_footer_logo": null,
+  "post_footer_logo_link": null,
+  "preview_caption_link": null,
+  "primary_foreground_color": null,
+  "review_state": null,
+  "secondary_color": null,
+  "secondary_foreground_color": null,
+  "share_social_data": true,
+  "social_links": [],
+  "title": "Plone Brasil",
+  "type_title": "Plone Site",
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null,
+  "x_username": ""
+}

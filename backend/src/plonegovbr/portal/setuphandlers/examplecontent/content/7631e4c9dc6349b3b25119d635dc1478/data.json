@@ -1,0 +1,111 @@
+{
+  "@id": "/o-plone/casos-de-sucesso",
+  "@type": "Document",
+  "UID": "7631e4c9dc6349b3b25119d635dc1478",
+  "allow_discussion": null,
+  "blocks": {
+    "011d6e29-a91d-451e-b900-b803859b497a": {
+      "@type": "slate"
+    },
+    "181248ff-4e8e-4b3c-9ae0-5ca942528d68": {
+      "@type": "description"
+    },
+    "29a1b365-2efc-4303-a631-38f14792fa37": {
+      "@type": "search",
+      "listingBodyTemplate": "grid",
+      "query": {
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "CaseStudy"
+            ]
+          }
+        ],
+        "sort_order": "ascending"
+      },
+      "showSearchInput": true,
+      "showSortOn": true,
+      "showTotalResults": true,
+      "styles": {},
+      "theme": "default"
+    },
+    "9387bb1a-bda7-4430-a47a-0be36461dd5b": {
+      "@type": "title"
+    },
+    "undefined": {
+      "@type": "search",
+      "listingBodyTemplate": "default",
+      "query": {
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "CaseStudy"
+            ]
+          }
+        ],
+        "sort_order": "ascending"
+      },
+      "showSearchInput": true,
+      "showSortOn": true,
+      "showTotalResults": true,
+      "styles": {},
+      "theme": "default"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "9387bb1a-bda7-4430-a47a-0be36461dd5b",
+      "181248ff-4e8e-4b3c-9ae0-5ca942528d68",
+      "29a1b365-2efc-4303-a631-38f14792fa37",
+      "011d6e29-a91d-451e-b900-b803859b497a"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-03T02:30:31+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Conhe\u00e7a quem usa Plone",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "casos-de-sucesso",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-09-03T02:33:48+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "private",
+  "rights": "",
+  "subjects": [],
+  "title": "Casos de sucesso",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-09-03T02:30:31+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

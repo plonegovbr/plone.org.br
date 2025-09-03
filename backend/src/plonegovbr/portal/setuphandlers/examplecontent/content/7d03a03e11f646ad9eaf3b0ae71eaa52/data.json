@@ -1,0 +1,46 @@
+{
+  "@id": "/imagens/logo-plonegovbr.png",
+  "@type": "Image",
+  "UID": "7d03a03e11f646ad9eaf3b0ae71eaa52",
+  "allow_discussion": null,
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-03T02:27:49+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "logo-plonegovbr.png",
+  "image": {
+    "blob_path": "7d03a03e11f646ad9eaf3b0ae71eaa52/image/logo-plonegovbr.png",
+    "content-type": "image/png",
+    "filename": "logo-plonegovbr.png",
+    "height": 794,
+    "size": 47185,
+    "width": 1123
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-09-03T02:27:49+00:00",
+  "nav_title": null,
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "logo-plonegovbr.png",
+  "type_title": "Image",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

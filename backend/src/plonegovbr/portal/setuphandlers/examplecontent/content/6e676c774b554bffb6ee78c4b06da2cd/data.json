@@ -1,0 +1,80 @@
+{
+  "@id": "/provedores/simples-consultoria",
+  "@type": "Provider",
+  "UID": "6e676c774b554bffb6ee78c4b06da2cd",
+  "address": null,
+  "address_2": null,
+  "allow_discussion": null,
+  "blocks": {
+    "6e32fba1-b30c-46ac-a709-97c1530d7837": {
+      "@type": "description"
+    },
+    "dad28880-b161-418d-ac15-574a042f7000": {
+      "@type": "title"
+    },
+    "dce29131-33fc-482d-a808-c5f8aaad8135": {
+      "@type": "slate"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "dad28880-b161-418d-ac15-574a042f7000",
+      "6e32fba1-b30c-46ac-a709-97c1530d7837",
+      "dce29131-33fc-482d-a808-c5f8aaad8135"
+    ]
+  },
+  "changeNote": "",
+  "city": null,
+  "contact_email": "ericof@simplesconsultoria.com.br",
+  "contact_name": "\u00c9rico Andrei",
+  "contact_phone": "+5511942893964",
+  "country": "BR",
+  "created": "2025-09-03T02:35:57+00:00",
+  "description": "A Simples Consultoria oferece servi\u00e7os de treinamento, hospedagem e consultoria em Plone",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "simples-consultoria",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2025-09-03T02:38:13+00:00",
+  "organization_size": "small",
+  "postal_code": null,
+  "preview_caption": null,
+  "preview_image": null,
+  "remoteUrl": "https://www.simplesconsultoria.com.br/",
+  "review_state": "published",
+  "services": [
+    "dev",
+    "hosting",
+    "training"
+  ],
+  "state": null,
+  "subjects": [],
+  "title": "Simples Consultoria",
+  "type_title": "Provider",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "provider_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-09-03T02:35:57+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-09-03T02:38:13+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

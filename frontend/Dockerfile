@@ -1,34 +1,35 @@
-FROM node:16-slim as base
-FROM base as builder
+# syntax=docker/dockerfile:1
+ARG VOLTO_VERSION
+FROM plone/frontend-builder:${VOLTO_VERSION} AS builder
 
-RUN apt-get update \
-    && buildDeps="python3 build-essential git ca-certificates" \
-    && apt-get install -y --no-install-recommends $buildDeps \
-    && rm -rf /var/lib/apt/lists/*
+COPY --chown=node packages/portal /app/packages/portal
+COPY --chown=node volto.config.js /app/
+COPY --chown=node package.json /app/package.json.temp
+COPY --chown=node mrs.developer.json /app/
+COPY --chown=node pnpm-workspace.yaml /app/
 
-COPY --chown=node . /build/
-RUN corepack enable
-USER node
-WORKDIR /build
-RUN yarn install --network-timeout 1000000 \
-    && yarn build
+RUN --mount=type=cache,id=pnpm,target=/app/.pnpm-store,uid=1000 <<EOT
+    set -e
+    python3 -c "import json; orig_data = json.load(open('package.json.temp')); orig_deps = orig_data['dependencies']; data = json.load(open('package.json')); data['dependencies'].update(orig_deps); json.dump(data, open('package.json', 'w'), indent=2)"
+    rm package.json.temp
+    pnpm dlx mrs-developer missdev --no-config --fetch-https
+    pnpm install && pnpm build:deps
+    pnpm build
+    pnpm install --prod
+EOT
 
-FROM base
+FROM plone/frontend-prod-config:${VOLTO_VERSION}
 
 LABEL maintainer="PloneGov-BR <gov@plone.org.br>" \
-      org.label-schema.name="site-frontend" \
-      org.label-schema.description="Plone.org.br frontend image." \
+      org.label-schema.name="plone.org.br-frontend" \
+      org.label-schema.description="Plone Brasil frontend image." \
       org.label-schema.vendor="PloneGov-BR"
 
-RUN apt-get update \
-    && buildDeps="busybox" \
-    && apt-get install -y --no-install-recommends $buildDeps \
-    && busybox --install -s \
-    && rm -rf /var/lib/apt/lists/*
+COPY --from=builder /app/ /app/
 
-USER node
-COPY --from=builder /build/ /app/
-
-WORKDIR /app
-EXPOSE 3000
-CMD ["yarn", "start:prod"]
+RUN <<EOT
+    set -e
+    npm i -g corepack@latest && corepack enable pnpm
+    corepack use pnpm@9.1.1
+    corepack prepare pnpm@9.1.1 --activate
+EOT

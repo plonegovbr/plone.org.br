@@ -1,56 +1,195 @@
-## Documentation
+# Plone Brasil (portal)
 
-A training on how to create your own website using Volto is available as part of the Plone training at [https://training.plone.org/5/volto/index.html](https://training.plone.org/5/volto/index.html).
+Site da comunidade brasileira de Plone
 
-## Quick Start
+[![npm](https://img.shields.io/npm/v/portal)](https://www.npmjs.com/package/portal)
+[![](https://img.shields.io/badge/-Storybook-ff4785?logo=Storybook&logoColor=white&style=flat-square)](https://plonegovbr.github.io/portal/)
+[![CI](https://github.com/plonegovbr/plone.org.br/actions/workflows/main.yml/badge.svg)](https://github.com/plonegovbr/plone.org.br/actions/workflows/main.yml)
 
-Below is a list of commands you will probably find useful.
 
-### `yarn start`
+## Features
 
-Runs the project in development mode.
-You can view your application at `http://localhost:3000`
+<!-- List your awesome features here -->
 
-The page will reload if you make edits.
+## Installation
 
-### `yarn build`
+To install your project, you must choose the method appropriate to your version of Volto.
 
-Builds the app for production to the build folder.
 
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
+### Volto 18 and later
 
-### `yarn start:prod`
+Add `@plonegovbr/portal` to your `package.json`.
 
-Runs the compiled app in production.
-
-You can again view your application at `http://localhost:3000`
-
-### `yarn test`
-
-Runs the test watcher (Jest) in an interactive mode.
-By default, runs tests related to files changed since the last commit.
-
-### `yarn i18n`
-
-Runs the test i18n runner which extracts all the translation strings and
-generates the needed files.
-
-### mrs-developer
-
-[mrs-developer](https://github.com/collective/mrs-developer) is a great tool
-for developing multiple packages at the same time.
-
-mrs-developer should work with this project by running the configured shortcut script:
-
-```bash
-yarn develop
+```json
+"dependencies": {
+    "@plonegovbr/portal": "*"
+}
 ```
 
-Volto's latest razzle config will pay attention to your tsconfig.json (or jsconfig.json) file for any customizations.
+Add `portal` to your `volto.config.js`.
 
-In case you don't want (or can't) install mrs-developer globally, you can install it in this project by running:
-
-```bash
-yarn add -W mrs-developer
+```javascript
+const addons = ['@plonegovbr/portal'];
 ```
+
+If this package provides a Volto theme, and you want to activate it, then add the following to your `volto.config.js`.
+
+```javascript
+const theme = '@kitconcept/volto-light-theme';
+```
+
+### Volto 17 and earlier
+
+Create a new Volto project.
+You can skip this step if you already have one.
+
+```
+npm install -g yo @plone/generator-volto
+yo @plone/volto my-volto-project --addon portal
+cd my-volto-project
+```
+
+Add `portal` to your `package.json`.
+
+```JSON
+"addons": [
+    "portal"
+],
+
+"dependencies": {
+    "portal": "*"
+}
+```
+
+Download and install the new add-on.
+
+```
+yarn install
+```
+
+Start Volto.
+
+```
+yarn start
+```
+
+## Test installation
+
+Visit http://localhost:3000/ in a browser, login, and check the awesome new features.
+
+
+## Development
+
+The development of this add-on is done in isolation using pnpm workspaces, the latest `mrs-developer`, and other Volto core improvements.
+For these reasons, it only works with pnpm and Volto 18.
+
+
+### Prerequisites ✅
+
+-   An [operating system](https://6.docs.plone.org/install/create-project-cookieplone.html#prerequisites-for-installation) that runs all the requirements mentioned.
+-   [nvm](https://6.docs.plone.org/install/create-project-cookieplone.html#nvm)
+-   [Node.js and pnpm](https://6.docs.plone.org/install/create-project.html#node-js) 22
+-   [Make](https://6.docs.plone.org/install/create-project-cookieplone.html#make)
+-   [Git](https://6.docs.plone.org/install/create-project-cookieplone.html#git)
+-   [Docker](https://docs.docker.com/get-started/get-docker/) (optional)
+
+### Installation 🔧
+
+1.  Clone this repository, then change your working directory.
+
+    ```shell
+    git clone git@github.com:plonegovbr/plone.org.br.git
+    cd plone.org.br/frontend
+    ```
+
+2.  Install this code base.
+
+    ```shell
+    make install
+    ```
+
+
+### Make convenience commands
+
+Run `make help` to list the available Make commands.
+
+
+### Set up development environment
+
+Install package requirements.
+
+```shell
+make install
+```
+
+### Start developing
+
+Start the backend.
+
+```shell
+make backend-docker-start
+```
+
+In a separate terminal session, start the frontend.
+
+```shell
+make start
+```
+
+### Lint code
+
+Run ESlint, Prettier, and Stylelint in analyze mode.
+
+```shell
+make lint
+```
+
+### Format code
+
+Run ESlint, Prettier, and Stylelint in fix mode.
+
+```shell
+make format
+```
+
+### i18n
+
+Extract the i18n messages to locales.
+
+```shell
+make i18n
+```
+
+### Unit tests
+
+Run unit tests.
+
+```shell
+make test
+```
+
+### Run Cypress tests
+
+Run each of these steps in separate terminal sessions.
+
+In the first session, start the frontend in development mode.
+
+```shell
+make acceptance-frontend-dev-start
+```
+
+In the second session, start the backend acceptance server.
+
+```shell
+make acceptance-backend-start
+```
+
+In the third session, start the Cypress interactive test runner.
+
+```shell
+make acceptance-test
+```
+
+## License
+
+The project is licensed under the MIT license.

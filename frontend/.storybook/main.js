@@ -1,12 +1,13 @@
 const webpack = require('webpack');
+const fs = require('fs');
 const path = require('path');
-const makeLoaderFinder = require('razzle-dev-utils/makeLoaderFinder');
-const fileLoaderFinder = makeLoaderFinder('file-loader');
 
 const projectRootPath = path.resolve('.');
 const lessPlugin = require('@plone/volto/webpack-plugins/webpack-less-plugin');
+const RelativeResolverPlugin = require('@plone/volto/webpack-plugins/webpack-relative-resolver');
+const scssPlugin = require('razzle-plugin-scss');
 
-const createConfig = require('../node_modules/razzle/config/createConfigAsync.js');
+const createConfig = require('razzle/config/createConfigAsync.js');
 const razzleConfig = require(path.join(projectRootPath, 'razzle.config.js'));
 
 const SVGLOADER = {
@@ -19,23 +20,73 @@ const SVGLOADER = {
       loader: 'svgo-loader',
       options: {
         plugins: [
-          { removeTitle: true },
-          { convertPathData: false },
-          { removeUselessStrokeAndFill: true },
-          { removeViewBox: false },
+          {
+            name: 'preset-default',
+            params: {
+              overrides: {
+                convertPathData: false,
+                removeViewBox: false,
+              },
+            },
+          },
+          'removeTitle',
+          'removeUselessStrokeAndFill',
         ],
       },
     },
   ],
 };
 
+const defaultRazzleOptions = {
+  verbose: false,
+  debug: {},
+  buildType: 'iso',
+  cssPrefix: 'static/css',
+  jsPrefix: 'static/js',
+  enableSourceMaps: true,
+  enableReactRefresh: true,
+  enableTargetBabelrc: false,
+  enableBabelCache: true,
+  forceRuntimeEnvVars: [],
+  mediaPrefix: 'static/media',
+  staticCssInDev: false,
+  emitOnErrors: false,
+  disableWebpackbar: false,
+  browserslist: [
+    '>1%',
+    'last 4 versions',
+    'Firefox ESR',
+    'not ie 11',
+    'not dead',
+  ],
+};
+
 module.exports = {
-  stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
+  stories: [
+    '../packages/**/*.mdx',
+    '../packages/**/*.stories.@(js|jsx|ts|tsx)',
+  ],
   addons: [
     '@storybook/addon-links',
     '@storybook/addon-essentials',
-    // '@storybook/preset-scss',
+    '@storybook/addon-webpack5-compiler-babel',
   ],
+  framework: {
+    name: '@storybook/react-webpack5',
+    options: { builder: { useSWC: true } },
+  },
+  typescript: {
+    check: false,
+    checkOptions: {},
+    reactDocgen: 'react-docgen-typescript',
+    reactDocgenTypescriptOptions: {
+      compilerOptions: {
+        allowSyntheticDefaultImports: false,
+        esModuleInterop: false,
+      },
+      propFilter: () => true,
+    },
+  },
   webpackFinal: async (config, { configType }) => {
     // `configType` has a value of 'DEVELOPMENT' or 'PRODUCTION'
     // You can change the configuration based on that.
@@ -52,10 +103,14 @@ module.exports = {
         plugins: razzleConfig.plugins,
       },
       webpack,
+      false,
+      undefined,
+      [],
+      defaultRazzleOptions,
     );
-    const AddonConfigurationRegistry = require('@plone/volto/addon-registry');
+    const { AddonRegistry } = require('@plone/registry/addon-registry');
 
-    const registry = new AddonConfigurationRegistry(projectRootPath);
+    const { registry } = AddonRegistry.init(projectRootPath);
 
     config = lessPlugin({ registry }).modifyWebpackConfig({
       env: { target: 'web', dev: 'dev' },
@@ -64,11 +119,20 @@ module.exports = {
       options: {},
     });
 
-    // putting SVG loader on top, fix the fileloader manually (Volto plugin does not
-    // work) since it needs to go first
+    config = scssPlugin.modifyWebpackConfig({
+      env: { target: 'web', dev: 'dev' },
+      webpackConfig: config,
+      webpackObject: webpack,
+      options: { razzleOptions: {} },
+    });
+
+    // Put the SVG loader on top and prevent the asset/resource rule
+    // from processing the app's SVGs
     config.module.rules.unshift(SVGLOADER);
-    const fileLoader = config.module.rules.find(fileLoaderFinder);
-    fileLoader.exclude = [/\.(config|variables|overrides)$/, /icons\/.*\.svg$/];
+    const fileLoaderRule = config.module.rules.find((rule) =>
+      rule.test.test('.svg'),
+    );
+    fileLoaderRule.exclude = /icons\/.*\.svg$/;
 
     config.plugins.unshift(
       new webpack.DefinePlugin({
@@ -83,9 +147,33 @@ module.exports = {
       resolve: {
         ...config.resolve,
         alias: { ...config.resolve.alias, ...baseConfig.resolve.alias },
+        fallback: { ...config.resolve.fallback, zlib: false },
+        plugins: [
+          ...(config.resolve.plugins || []),
+          new RelativeResolverPlugin(registry),
+        ],
       },
     };
-    resultConfig.module.rules[1].exclude = /node_modules\/(?!(@plone\/volto)\/)/;
+
+    // Add-ons have to be loaded with babel
+    const addonPaths = registry
+      .getAddons()
+      .map((addon) => fs.realpathSync(addon.modulePath));
+
+    resultConfig.module.rules[13].exclude = (input) =>
+      // exclude every input from node_modules except from @plone/volto
+      /node_modules\/(?!(@plone\/volto)\/)/.test(input) &&
+      // Storybook default exclusions
+      /storybook-config-entry\.js$/.test(input) &&
+      /storybook-stories\.js$/.test(input) &&
+      // If input is in an addon, DON'T exclude it
+      !addonPaths.some((p) => input.includes(p));
+
+    resultConfig.module.rules[13].include = [
+      /preview\.jsx/,
+      ...resultConfig.module.rules[13].include,
+      ...addonPaths,
+    ];
 
     const addonExtenders = registry.getAddonExtenders().map((m) => require(m));
 
@@ -101,20 +189,5 @@ module.exports = {
     // loaders).
 
     return extendedConfig;
-  },
-  babel: async (options) => {
-    return {
-      ...options,
-      plugins: [
-        ...options.plugins,
-        [
-          './node_modules/babel-plugin-root-import/build/index.js',
-          {
-            rootPathSuffix: './src',
-          },
-        ],
-      ],
-      // any extra options you want to set
-    };
   },
 };
