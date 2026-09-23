@@ -1,0 +1,205 @@
+{
+  "@id": "/novidades/noticias/2025/rafahela-bazzanella-recebe-premio-dorneles-tremea-jean-ferri",
+  "@type": "News Item",
+  "UID": "91d76f55e27e4ecd83c2cdba6db5f5e7",
+  "allow_discussion": null,
+  "blocks": {
+    "0934d7d3-94eb-4f98-8c7a-1b8dffbaa676": {
+      "@type": "slate",
+      "plaintext": "Cr\u00e9ditos: Amana Matos Veloso",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Cr\u00e9ditos: Amana Matos Veloso"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "3b65a888-00b4-431d-9d33-738c4af3b055": {
+      "@type": "description"
+    },
+    "3ef7b95e-96b2-4455-a235-f7333e6e4d8f": {
+      "@type": "slate",
+      "plaintext": "Em uma palestra inspiradora, Rafahela contou de sua trajet\u00f3ria de envolvimento com as comunidades Python, Zope e Plone, desde a faculdade, at\u00e9 o momento.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Em uma palestra inspiradora, Rafahela contou de sua trajet\u00f3ria de envolvimento com as comunidades Python, Zope e Plone, desde a faculdade, at\u00e9 o momento."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "405f3fd3-5c0e-437b-b439-d97acf17b364": {
+      "@type": "slate",
+      "plaintext": "A servidora do Senado Federal trabalha na manuten\u00e7\u00e3o do Portal Modelo, do Programa Interlegis . Ela desenvolveu a primeira vers\u00e3o desse produto, feito em Plone, que \u00e9 oferecido gratuitamente \u00e0s c\u00e2maras e assembleias a fim de conferir mais transpar\u00eancia \u00e0s casas legislativas.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "A servidora do Senado Federal trabalha na manuten\u00e7\u00e3o do Portal Modelo, do "
+            },
+            {
+              "children": [
+                {
+                  "text": "Programa Interlegis"
+                }
+              ],
+              "data": {
+                "url": "https://www12.senado.leg.br/interlegis"
+              },
+              "type": "link"
+            },
+            {
+              "text": ". Ela desenvolveu a primeira vers\u00e3o desse produto, feito em Plone, que \u00e9 oferecido gratuitamente \u00e0s c\u00e2maras e assembleias a fim de conferir mais transpar\u00eancia \u00e0s casas legislativas."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "6c6efc01-5239-4104-9f4f-603df3f72b2a": {
+      "@type": "title"
+    },
+    "8244b8a8-d124-44bf-b949-bea945d29375": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "963f8689-b5f2-4aad-8f08-62f639bc6043": {
+      "@type": "slate",
+      "plaintext": "Ap\u00f3s 25 anos trabalhando com a linguagem de programa\u00e7\u00e3o Python, Rafahela Bazzanella foi uma das seis principais palestrantes no evento Python Brasil 2025. O encontro \u00e9 o maior sobre a linguagem Python no pa\u00eds e aconteceu de 21 a 27 de outubro em S\u00e3o Paulo. Na ocasi\u00e3o, ela tamb\u00e9m recebeu o pr\u00eamio Pr\u00eamio Dorneles Trem\u00e9a/Jean Ferri, da Associa\u00e7\u00e3o Python Brasil (APyB).",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Ap\u00f3s 25 anos trabalhando com a linguagem de programa\u00e7\u00e3o Python, Rafahela Bazzanella foi uma das seis principais palestrantes no evento Python Brasil 2025. O encontro \u00e9 o maior sobre a linguagem Python no pa\u00eds e aconteceu de 21 a 27 de outubro em S\u00e3o Paulo. Na ocasi\u00e3o, ela tamb\u00e9m recebeu o pr\u00eamio Pr\u00eamio Dorneles Trem\u00e9a/Jean Ferri, da Associa\u00e7\u00e3o Python Brasil (APyB)."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "9a3f55d5-4f48-40c4-a323-3641b59b03df": {
+      "@type": "mainImageBlock",
+      "align": "center",
+      "size": "l",
+      "styles": {
+        "blockWidth:noprefix": {
+          "--block-width": "var(--narrow-container-width)"
+        }
+      },
+      "theme": "default"
+    },
+    "de4d3721-72c8-4645-a6dd-c892c1ac8500": {
+      "@type": "slate",
+      "plaintext": "Rafahela \u00e9 co-fundadora da comunidade PloneGov-BR e co-organizadora da Plone Conference de 2013 e 2024. Ela tamb\u00e9m \u00e9 membra da diretoria da Plone Foundation desde 2024, onde preside a comiss\u00e3o de admiss\u00e3o de novos membros da Plone Foundation.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Rafahela \u00e9 co-fundadora da comunidade PloneGov-BR e co-organizadora da Plone Conference de 2013 e 2024. Ela tamb\u00e9m \u00e9 membra da "
+            },
+            {
+              "children": [
+                {
+                  "text": "diretoria da Plone Foundation"
+                }
+              ],
+              "data": {
+                "url": "https://plone.org/foundation/board"
+              },
+              "type": "link"
+            },
+            {
+              "text": " desde 2024, onde preside a comiss\u00e3o de admiss\u00e3o de novos membros da Plone Foundation. "
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "9a3f55d5-4f48-40c4-a323-3641b59b03df",
+      "6c6efc01-5239-4104-9f4f-603df3f72b2a",
+      "3b65a888-00b4-431d-9d33-738c4af3b055",
+      "963f8689-b5f2-4aad-8f08-62f639bc6043",
+      "405f3fd3-5c0e-437b-b439-d97acf17b364",
+      "3ef7b95e-96b2-4455-a235-f7333e6e4d8f",
+      "de4d3721-72c8-4645-a6dd-c892c1ac8500",
+      "0934d7d3-94eb-4f98-8c7a-1b8dffbaa676",
+      "8244b8a8-d124-44bf-b949-bea945d29375"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-11-04T19:42:13+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "A homenagem ocorreu durante a Python Brasil 2025, realizada em S\u00e3o Paulo.",
+  "effective": "2025-11-14T18:47:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "rafahela-bazzanella-recebe-premio-dorneles-tremea-jean-ferri",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "newsitem_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-23T16:37:33+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [
+    "Comunidade"
+  ],
+  "title": "Rafahela Bazzanella recebe pr\u00eamio Dorneles Trem\u00e9a / Jean Ferri",
+  "type_title": "News Item",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-11-04T19:42:13+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "rafahela",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-11-14T18:47:21+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

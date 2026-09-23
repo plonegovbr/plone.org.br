@@ -1,0 +1,102 @@
+{
+  "@id": "/novidades/noticias/2025",
+  "@type": "Document",
+  "UID": "2476d044e3064057938ff2d01e8aec2c",
+  "allow_discussion": false,
+  "blocks": {
+    "50bc89de-556c-4f50-b355-2a6530b3f38f": {
+      "@type": "listing",
+      "block": "50bc89de-556c-4f50-b355-2a6530b3f38f",
+      "headlineTag": "h2",
+      "query": [],
+      "querystring": {
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "News Item"
+            ]
+          },
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.relativePath",
+            "v": "./"
+          }
+        ],
+        "sort_order": "ascending"
+      },
+      "variation": "summary"
+    },
+    "542ee7ed-cc42-48c8-bffc-50e7bba9fa94": {
+      "@type": "title"
+    },
+    "5f702be5-cb6b-45b2-bf5c-434ed1ab22ef": {
+      "@type": "slate"
+    },
+    "fe634046-a6ed-4111-9e71-1cdae74e70a7": {
+      "@type": "description"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "542ee7ed-cc42-48c8-bffc-50e7bba9fa94",
+      "fe634046-a6ed-4111-9e71-1cdae74e70a7",
+      "50bc89de-556c-4f50-b355-2a6530b3f38f",
+      "5f702be5-cb6b-45b2-bf5c-434ed1ab22ef"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-11-04T19:44:53+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "Not\u00edcias do ano de 2025",
+  "effective": "2025-11-14T18:32:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "2025",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-11-14T19:26:36+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "2025",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-11-04T19:44:53+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "rafahela",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-11-14T18:32:22+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

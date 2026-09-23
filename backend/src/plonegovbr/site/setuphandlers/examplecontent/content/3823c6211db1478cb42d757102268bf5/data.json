@@ -1,0 +1,40 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/tse/tse.png",
+  "@type": "Image",
+  "UID": "3823c6211db1478cb42d757102268bf5",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2022-05-26T01:38:41+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "tse.png",
+  "image": {
+    "blob_path": "3823c6211db1478cb42d757102268bf5/image/tse.png",
+    "content-type": "image/png",
+    "filename": "tse.png",
+    "height": 1080,
+    "size": 1138248,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2022-05-26T01:38:41+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "tse.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

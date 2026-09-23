@@ -1,0 +1,598 @@
+{
+  "@id": "/projetos/portal-brasil",
+  "@type": "Document",
+  "UID": "b8047c6807c944a986f511653a7603cb",
+  "allow_discussion": false,
+  "blocks": {
+    "1219e410-6a88-498f-9abf-056694a0b69d": {
+      "@type": "slate",
+      "plaintext": "Tipos de conte\u00fado especializados Conte\u00fados de Exemplo Design padronizado, mas com possibilidade de pequenos ajustes",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Tipos de conte\u00fado especializados"
+                    }
+                  ],
+                  "type": "p"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Conte\u00fados de Exemplo"
+                    }
+                  ],
+                  "type": "p"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Design padronizado, mas com possibilidade de pequenos ajustes"
+                    }
+                  ],
+                  "type": "p"
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    },
+    "2ce23915-f3f8-4505-87b7-a5ea3b8fed68": {
+      "@type": "slate",
+      "plaintext": "Perfil do Portal Brasil a ser utilizado por sites de Universidades e Institutos de ensino",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Perfil do Portal Brasil a ser utilizado por sites de Universidades e Institutos de ensino"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "3086699b-e49e-48e9-a22e-d3be07af2651": {
+      "@type": "slate",
+      "plaintext": "PortalBrasil.gov",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "PortalBrasil.gov"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "3400e319-a872-4631-8d0e-d74f4573148f": {
+      "@type": "slate",
+      "plaintext": "Sobre o Projeto",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Sobre o Projeto"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "3555dfa0-f10d-485a-8792-fd59eddbd9af": {
+      "@type": "description"
+    },
+    "4cdf2532-2a10-411f-a646-808492fde506": {
+      "@type": "slate",
+      "plaintext": "PortalBrasil.jus",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "PortalBrasil.jus"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "4fc54d4a-9d01-4fc9-ab4e-3a6724034966": {
+      "@type": "slate",
+      "plaintext": "Sucessor tecnol\u00f3gico do Portal Modelo e do Portal Padr\u00e3o , a distribui\u00e7\u00e3o oferece aos seus usu\u00e1rios:",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Sucessor tecnol\u00f3gico do "
+            },
+            {
+              "children": [
+                {
+                  "text": "Portal Modelo"
+                }
+              ],
+              "data": {
+                "url": "/projetos/portal-modelo"
+              },
+              "type": "link"
+            },
+            {
+              "text": " e do "
+            },
+            {
+              "children": [
+                {
+                  "text": "Portal Padr\u00e3o"
+                }
+              ],
+              "data": {
+                "url": "/projetos/portal-padrao"
+              },
+              "type": "link"
+            },
+            {
+              "text": ", a distribui\u00e7\u00e3o oferece aos seus usu\u00e1rios:"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "53ced856-bf15-44a3-ad0c-29350799105d": {
+      "@type": "slate",
+      "plaintext": "PortalBrasil.edu",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "PortalBrasil.edu"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "56c5bd68-5140-4a78-b648-5ae283f57d5d": {
+      "@type": "slate",
+      "plaintext": "No lan\u00e7amento, o Portal Brasil dever\u00e1 apresentar \"Perfis\" de instala\u00e7\u00e3o contemplando os seguintes casos de uso",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "No lan\u00e7amento, o Portal Brasil dever\u00e1 apresentar \"Perfis\" de instala\u00e7\u00e3o contemplando os seguintes casos de uso"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "5b59d4bc-9a41-4954-939b-0d3e1ef745bd": {
+      "@type": "slate",
+      "plaintext": "Defini\u00e7\u00f5es T\u00e9cnicas",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Defini\u00e7\u00f5es T\u00e9cnicas"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "68691387-6d21-4699-a1c8-b3b3f9e81cdf": {
+      "@type": "slate",
+      "plaintext": "Reposit\u00f3rios e Componentes",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Reposit\u00f3rios e Componentes"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "73c8db6b-d24a-438f-ac1c-d798248c29df": {
+      "@type": "slate",
+      "plaintext": "Perfil do Portal Brasil a ser utilizado por sites da justi\u00e7a",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Perfil do Portal Brasil a ser utilizado por sites da justi\u00e7a"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "74cf4b20-62d6-4908-bea1-e0dab5dc5707": {
+      "@type": "slate",
+      "plaintext": "O Portal Brasil \u00e9 a distribui\u00e7\u00e3o Plone que contempla casos de uso do sistema de gest\u00e3o de conte\u00fado Plone para organiza\u00e7\u00f5es brasileiras.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O Portal Brasil \u00e9 a distribui\u00e7\u00e3o Plone que contempla casos de uso do sistema de gest\u00e3o de conte\u00fado Plone para organiza\u00e7\u00f5es brasileiras. "
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "95cf06de-7881-4704-83d1-58a24749e3b5": {
+      "@type": "image",
+      "align": "right",
+      "alt": "Logo do Portal Brasil",
+      "size": "m",
+      "url": "/projetos/portal-brasil/portalbrasil.png"
+    },
+    "9ca841b1-5ddd-4432-9426-f7c3e39286b4": {
+      "@type": "slate",
+      "plaintext": "PortalBrasil.leg",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "PortalBrasil.leg"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "ab5f90cb-7bdf-4f2d-ab56-e15fac9d2a8c": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "b3e300c5-9526-40b9-80a3-4278aae7d7b8": {
+      "@type": "slate",
+      "plaintext": "Premissas",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Premissas"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "bc3e7273-3955-42a5-a7b7-d61850e9f9f5": {
+      "@type": "slate",
+      "plaintext": "plonegovbr.portal: Pacote Python representando o Portal Brasil. Agrega todos os perfis em uma \u00fanica instala\u00e7\u00e3o; plonegovbr.portal_base: Pacote Python com tipos de conte\u00fado compartilhados entre todos os perfis plonegovbr.portal_leg: Pacote Python com a distribui\u00e7\u00e3o PortalBrasil.leg plonegovbr.portal_edu: Pacote Python com a distribui\u00e7\u00e3o PortalBrasil.edu plonegovbr.portal_gov: Pacote Python com a distribui\u00e7\u00e3o PortalBrasil.gov plonegovbr.portal_jus: Pacote Python com a distribui\u00e7\u00e3o PortalBrasil.jus @plonegovbr/portal: Pacote JavaScript com componentes comuns ao Portal Brasil @plonegovbr/volto-brasil-tema: Pacote JavaScript com tema visual do Portal Brasil portal-brasil: Reposit\u00f3rio com projeto Plone 6 respons\u00e1vel pela integra\u00e7\u00e3o de todos os componentes do Portal Brasil",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "plonegovbr.portal: Pacote Python representando o Portal Brasil. Agrega todos os perfis em uma \u00fanica instala\u00e7\u00e3o;"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "plonegovbr.portal_base: Pacote Python com tipos de conte\u00fado compartilhados entre todos os perfis"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "plonegovbr.portal_leg: Pacote Python com a distribui\u00e7\u00e3o PortalBrasil.leg"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "plonegovbr.portal_edu: Pacote Python com a distribui\u00e7\u00e3o PortalBrasil.edu"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "plonegovbr.portal_gov: Pacote Python com a distribui\u00e7\u00e3o PortalBrasil.gov"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "plonegovbr.portal_jus: Pacote Python com a distribui\u00e7\u00e3o PortalBrasil.jus"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "@plonegovbr/portal: Pacote JavaScript com componentes comuns ao Portal Brasil"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "@plonegovbr/volto-brasil-tema: Pacote JavaScript com tema visual do Portal Brasil"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "portal-brasil: Reposit\u00f3rio com projeto Plone 6 respons\u00e1vel pela integra\u00e7\u00e3o de todos os componentes do Portal Brasil"
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    },
+    "e7c04263-c4d3-4646-b9dc-b495863dd87b": {
+      "@type": "slate",
+      "plaintext": "Sucessor do Portal Padr\u00e3o, esse perfil do Portal Brasil deve ser utilizado em sites ligados ao poder executivo nas esferas municipal, estadual e federal.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Sucessor do Portal Padr\u00e3o, esse perfil do Portal Brasil deve ser utilizado em sites ligados ao poder executivo nas esferas municipal, estadual e federal."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "f3c5c8d4-d797-4581-9059-df001cb5dec8": {
+      "@type": "slate",
+      "plaintext": "Projeto de c\u00f3digo-aberto e gratuito, desenvolvido pela comunidade PloneGov-Br Manter-se atualizado com as novas vers\u00f5es do Plone Implementar design utilizando a interface Volto, escrita em React e NodeJS Re-uso de tipos de conte\u00fado existentes entre os diferentes perfis Uso do plone.distribution para a cria\u00e7\u00e3o de cada um dos perfis Uso do pytest e do pytest-plone , para os testes automatizados do Backend/API Utilizar tecnologia de conteiners para a instala\u00e7\u00e3o e produ\u00e7\u00e3o dos portais",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "Projeto de c\u00f3digo-aberto e gratuito, desenvolvido pela comunidade PloneGov-Br"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "Manter-se atualizado com as novas vers\u00f5es do Plone"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "Implementar design utilizando a interface Volto, escrita em React e NodeJS"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "Re-uso de tipos de conte\u00fado existentes entre os diferentes perfis"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "Uso do "
+                },
+                {
+                  "children": [
+                    {
+                      "text": "plone.distribution"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://github.com/plone/plone.distribution/"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": " para a cria\u00e7\u00e3o de cada um dos perfis"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "Uso do "
+                },
+                {
+                  "children": [
+                    {
+                      "text": "pytest"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://docs.pytest.org"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": " e do "
+                },
+                {
+                  "children": [
+                    {
+                      "text": "pytest-plone"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://github.com/collective/pytest-plone"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ", para os testes automatizados do Backend/API"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "Utilizar tecnologia de conteiners para a instala\u00e7\u00e3o e produ\u00e7\u00e3o dos portais"
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    },
+    "f58440e8-74d4-4dd1-9ca3-f0532b8d81e3": {
+      "@type": "title"
+    },
+    "ffa227ee-472a-4153-ac95-aaf9e5003e06": {
+      "@type": "slate",
+      "plaintext": "Sucessor direto do Portal Modelo, este perfil do Portal Brasil deve ser utilizado em sites de C\u00e2maras municipais, Assembl\u00e9ias Legislativas.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Sucessor direto do Portal Modelo, este perfil do Portal Brasil deve ser utilizado em sites de C\u00e2maras municipais, Assembl\u00e9ias Legislativas."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "95cf06de-7881-4704-83d1-58a24749e3b5",
+      "f58440e8-74d4-4dd1-9ca3-f0532b8d81e3",
+      "3555dfa0-f10d-485a-8792-fd59eddbd9af",
+      "3400e319-a872-4631-8d0e-d74f4573148f",
+      "74cf4b20-62d6-4908-bea1-e0dab5dc5707",
+      "4fc54d4a-9d01-4fc9-ab4e-3a6724034966",
+      "1219e410-6a88-498f-9abf-056694a0b69d",
+      "56c5bd68-5140-4a78-b648-5ae283f57d5d",
+      "53ced856-bf15-44a3-ad0c-29350799105d",
+      "2ce23915-f3f8-4505-87b7-a5ea3b8fed68",
+      "3086699b-e49e-48e9-a22e-d3be07af2651",
+      "e7c04263-c4d3-4646-b9dc-b495863dd87b",
+      "4cdf2532-2a10-411f-a646-808492fde506",
+      "73c8db6b-d24a-438f-ac1c-d798248c29df",
+      "9ca841b1-5ddd-4432-9426-f7c3e39286b4",
+      "ffa227ee-472a-4153-ac95-aaf9e5003e06",
+      "5b59d4bc-9a41-4954-939b-0d3e1ef745bd",
+      "b3e300c5-9526-40b9-80a3-4278aae7d7b8",
+      "f3c5c8d4-d797-4581-9059-df001cb5dec8",
+      "68691387-6d21-4699-a1c8-b3b3f9e81cdf",
+      "bc3e7273-3955-42a5-a7b7-d61850e9f9f5",
+      "ab5f90cb-7bdf-4f2d-ab56-e15fac9d2a8c"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2023-06-21T00:48:42+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "Solu\u00e7\u00e3o em desenvolvimento pela comunidade PloneGov-BR, o Portal Brasil \u00e9 o sucessor tecnol\u00f3gico do Portal Modelo e do Portal Padr\u00e3o.",
+  "effective": "2023-06-21T01:04:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "portal-brasil",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2023-06-28T10:58:26+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [
+    "PloneGov-Br",
+    "Open Source",
+    "Projetos"
+  ],
+  "title": "Portal Brasil",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2023-06-21T00:48:42+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2023-06-21T01:04:15+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

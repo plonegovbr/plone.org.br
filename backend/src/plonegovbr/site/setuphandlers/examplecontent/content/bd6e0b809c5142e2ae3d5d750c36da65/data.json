@@ -1,0 +1,40 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/governo-brasileiro/govbr.png",
+  "@type": "Image",
+  "UID": "bd6e0b809c5142e2ae3d5d750c36da65",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2022-05-25T18:43:22+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "govbr.png",
+  "image": {
+    "blob_path": "bd6e0b809c5142e2ae3d5d750c36da65/image/govbr.png",
+    "content-type": "image/png",
+    "filename": "govbr.png",
+    "height": 1080,
+    "size": 921121,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2022-05-25T18:43:22+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "govbr.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

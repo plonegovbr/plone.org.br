@@ -1,0 +1,216 @@
+{
+  "@id": "/comunidades",
+  "@type": "Document",
+  "UID": "863deb49763e4581901bfbbb434f4324",
+  "allow_discussion": false,
+  "blocks": {
+    "645b107a-0fea-4c74-be16-6d9042fa8896": {
+      "@type": "title"
+    },
+    "b7452cfc-c6b0-4f1f-82b7-0de88412da50": {
+      "@type": "gridBlock",
+      "columns": [
+        {
+          "@type": "teaser",
+          "description": "A comunidade PloneGov-Br foi criada com o intuito de estabelecer um canal de colabora\u00e7\u00e3o entre as institui\u00e7\u00f5es do governo que fazem uso, desenvolvem e incentivam as tecnologias em Software Livre Python e Plone",
+          "href": [
+            {
+              "@id": "/comunidades/gov",
+              "Description": "comunidade de institui\u00e7\u00f5es ligadas ao governo brasileiro que utilizam Python, Zope, Plone e tecnologias correlatas.",
+              "Title": "PloneGov-Br",
+              "hasPreviewImage": false,
+              "head_title": null,
+              "image_field": "",
+              "title": "PloneGov-Br"
+            }
+          ],
+          "id": "ed0fa532-7403-46ae-adbf-371e6d92f6e4",
+          "preview_image": [
+            {
+              "@id": "/images/plonegovbr.png"
+            }
+          ],
+          "title": "PloneGov-Br"
+        },
+        {
+          "@type": "teaser",
+          "description": "O GITEC \u00e9 uma comunidade de pr\u00e1tica com o objetivo de promover o interc\u00e2mbio de informa\u00e7\u00f5es e conhecimento sobre os sistemas desenvolvidos pelo Interlegis e pela comunidade, a gest\u00e3o do seu desenvolvimento e discuss\u00f5es sobre qualquer assunto relacionado a tecnologia da informa\u00e7\u00e3o com objetivo de resolver problemas pr\u00e1ticos das Casas Legislativas. ",
+          "href": [
+            {
+              "@id": "/comunidades/gitec",
+              "Description": "Grupo Interlegis de Tecnologia",
+              "Title": "GITEC",
+              "hasPreviewImage": false,
+              "head_title": null,
+              "image_field": "",
+              "title": "GITEC"
+            }
+          ],
+          "id": "dba7e078-8463-4683-8424-ea0fa04a8a34",
+          "preview_image": [
+            {
+              "@id": "/images/gitec.png",
+              "@type": "Image",
+              "CreationDate": "2022-05-24T16:20:07+00:00",
+              "Creator": "ploneorgbr",
+              "Date": "2022-05-24T16:20:07+00:00",
+              "Description": "",
+              "EffectiveDate": "None",
+              "ExpirationDate": "None",
+              "ModificationDate": "2022-05-24T16:20:07+00:00",
+              "Subject": [],
+              "Title": "Logo Gitec",
+              "Type": "Imagem",
+              "UID": "41be02fbdc714ef584c8233775fa5d2e",
+              "author_name": null,
+              "cmf_uid": null,
+              "commentators": [],
+              "created": "2022-05-24T16:20:07+00:00",
+              "description": "",
+              "effective": "1969-12-31T00:00:00+00:00",
+              "end": null,
+              "exclude_from_nav": false,
+              "expires": "2499-12-31T00:00:00+00:00",
+              "getIcon": true,
+              "getId": "gitec.png",
+              "getObjSize": "26.2 KB",
+              "getPath": "/Plone/images/gitec.png",
+              "getRemoteUrl": null,
+              "getURL": "https://plone.org.br/images/gitec.png",
+              "hasPreviewImage": null,
+              "head_title": null,
+              "id": "gitec.png",
+              "image_field": "image",
+              "image_scales": {
+                "image": [
+                  {
+                    "content-type": "image/png",
+                    "download": "@@images/image",
+                    "filename": null,
+                    "height": 250,
+                    "scales": {
+                      "icon": {
+                        "download": "@@images/image/icon",
+                        "height": 32,
+                        "width": 32
+                      },
+                      "mini": {
+                        "download": "@@images/image/mini",
+                        "height": 200,
+                        "width": 200
+                      },
+                      "thumb": {
+                        "download": "@@images/image/thumb",
+                        "height": 128,
+                        "width": 128
+                      },
+                      "tile": {
+                        "download": "@@images/image/tile",
+                        "height": 64,
+                        "width": 64
+                      }
+                    },
+                    "size": 26817,
+                    "width": 250
+                  }
+                ]
+              },
+              "in_response_to": null,
+              "industry": null,
+              "is_folderish": false,
+              "last_comment_date": null,
+              "listCreators": [
+                "ploneorgbr"
+              ],
+              "location": null,
+              "mime_type": "image/png",
+              "modified": "2022-05-24T16:20:07+00:00",
+              "nav_title": null,
+              "portal_type": "Image",
+              "review_state": null,
+              "start": null,
+              "sync_uid": null,
+              "title": "Logo Gitec",
+              "total_comments": 0
+            }
+          ],
+          "title": "GITEC"
+        }
+      ]
+    },
+    "ef647394-a069-438f-88c5-73bd3a992b2f": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "645b107a-0fea-4c74-be16-6d9042fa8896",
+      "b7452cfc-c6b0-4f1f-82b7-0de88412da50",
+      "ef647394-a069-438f-88c5-73bd3a992b2f"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-05-24T16:20:07+00:00",
+  "creators": [
+    "ploneorgbr"
+  ],
+  "description": "Comunidades Brasileira ligadas ao Plone.",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "comunidades",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2022-08-22T21:51:54+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Comunidades",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-05-24T16:20:07+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-05-24T16:20:07+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

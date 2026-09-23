@@ -1,0 +1,300 @@
+{
+  "@id": "/Plone",
+  "@type": "Plone Site",
+  "UID": "plone_site_root",
+  "allow_discussion": null,
+  "blocks": {
+    "2e2be7b2-10d2-4103-9cae-825005125f17": {
+      "@type": "listing",
+      "align": "left",
+      "gridColumns": 2,
+      "headline": "Not\u00edcias",
+      "headlineTag": "h2",
+      "querystring": {
+        "limit": "1",
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "News Item"
+            ]
+          }
+        ],
+        "sort_on": "effective",
+        "sort_order": "descending",
+        "sort_order_boolean": true
+      },
+      "styles": {},
+      "theme": "default",
+      "variation": "teaser"
+    },
+    "6fdc43b4-023b-47ef-8d6a-62cfd06de96d": {
+      "@type": "teaser",
+      "description": "A comunidade PloneGov-BR realizar\u00e1 a edi\u00e7\u00e3o 2026 do Cerrado Sprint entre os dias 03 e 06 de Novembro, em Bras\u00edlia, DF.",
+      "head_title": null,
+      "href": [
+        {
+          "@id": "resolveuid/e1736363b19f448ea8fb2236ab00a942",
+          "@type": "Event",
+          "Description": "A comunidade PloneGov-BR realizar\u00e1 a edi\u00e7\u00e3o 2026 do Cerrado Sprint entre os dias 03 e 06 de Novembro, em Bras\u00edlia, DF.",
+          "Title": "Cerrado Sprint 2026",
+          "description": "A comunidade PloneGov-BR realizar\u00e1 a edi\u00e7\u00e3o 2026 do Cerrado Sprint entre os dias 03 e 06 de Novembro, em Bras\u00edlia, DF.",
+          "effective": "2026-09-17T18:35:00+00:00",
+          "end": "2026-11-06T21:00:00+00:00",
+          "getRemoteUrl": null,
+          "hasPreviewImage": null,
+          "head_title": null,
+          "image_field": "",
+          "start": "2026-11-03T12:00:00+00:00",
+          "title": "Cerrado Sprint 2026"
+        }
+      ],
+      "overwrite": false,
+      "styles": {
+        "align": "left"
+      },
+      "theme": "default",
+      "title": "Cerrado Sprint 2026"
+    },
+    "f6b6fe92-ffa6-4678-83ac-6a650fa99c70": {
+      "@type": "listing",
+      "align": "left",
+      "gridColumns": 2,
+      "headlineTag": "h2",
+      "querystring": {
+        "limit": "4",
+        "offset": "1",
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "News Item"
+            ]
+          }
+        ],
+        "sort_on": "effective",
+        "sort_order": "descending",
+        "sort_order_boolean": true
+      },
+      "styles": {},
+      "theme": "default",
+      "variation": "grid"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "6fdc43b4-023b-47ef-8d6a-62cfd06de96d",
+      "2e2be7b2-10d2-4103-9cae-825005125f17",
+      "f6b6fe92-ffa6-4678-83ac-6a650fa99c70"
+    ]
+  },
+  "description": "Comunidade Brasileira de usu\u00e1rios do CMS Plone",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "facebook_app_id": "",
+  "facebook_username": "Plone-Brasil-101606785972720",
+  "footer_address": null,
+  "footer_brand_message": null,
+  "footer_brand_slogan": "Comunidade Brasileira de Plone",
+  "footer_colophon_text": [
+    {
+      "children": [
+        {
+          "text": "Powered by Plone and Volto Light Theme\nThe Plone\u00ae Open Source CMS/WCM is \u00a9 2000-2026 by the "
+        },
+        {
+          "children": [
+            {
+              "text": "Plone Foundation"
+            }
+          ],
+          "data": {
+            "url": "http://plone.org"
+          },
+          "type": "link"
+        },
+        {
+          "text": " and friends.\nDistributed under the "
+        },
+        {
+          "children": [
+            {
+              "text": "GNU GPL v2 license"
+            }
+          ],
+          "data": {
+            "url": "https://www.gnu.org/licenses/old-licenses/lgpl-2.0.html"
+          },
+          "type": "link"
+        },
+        {
+          "text": "."
+        }
+      ],
+      "type": "p"
+    }
+  ],
+  "footer_column_left": [],
+  "footer_column_left_header": null,
+  "footer_column_middle": [],
+  "footer_column_middle_header": null,
+  "footer_column_right": [],
+  "footer_column_right_header": null,
+  "footer_links": [],
+  "footer_logo": {
+    "blob_path": "plone_site_root/footer_logo/plonebr-reverso.png",
+    "content-type": "image/png",
+    "filename": "plonebr-reverso.png",
+    "height": 363,
+    "size": 14339,
+    "width": 1033
+  },
+  "footer_logos": [],
+  "footer_logos_container_width": "default",
+  "footer_logos_size": "s",
+  "has_fat_menu": true,
+  "header_actions": [],
+  "id": "Plone",
+  "is_folderish": true,
+  "items_total": 8,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "logo": {
+    "blob_path": "plone_site_root/logo/plonebr.png",
+    "content-type": "image/png",
+    "filename": "plonebr.png",
+    "height": 348,
+    "size": 51502,
+    "width": 943
+  },
+  "preview_caption_link": null,
+  "review_state": null,
+  "share_social_data": true,
+  "social_links": [
+    {
+      "@id": "cf831218-9687-45d4-8a47-11aab39943f6",
+      "href": [
+        {
+          "@id": "https://bsky.app/profile/plone.org.br",
+          "title": "bsky.app/profile/plone.org.br"
+        }
+      ],
+      "id": "bluesky",
+      "title": "BlueSky"
+    },
+    {
+      "@id": "52d73fd6-3292-430f-bd4b-6becbea5a05e",
+      "href": [
+        {
+          "@id": "https://plone.social/@ploneorgbr",
+          "title": "plone.social/@ploneorgbr"
+        }
+      ],
+      "id": "mastodon",
+      "title": "Mastodon"
+    },
+    {
+      "@id": "849b641c-3567-44f2-9c65-13c6355c3193",
+      "href": [
+        {
+          "@id": "https://www.instagram.com/plonebr/",
+          "title": "www.instagram.com/plonebr/"
+        }
+      ],
+      "id": "instagram",
+      "title": "Instagram"
+    },
+    {
+      "@id": "cd8c4efe-cdb6-4c42-9ad7-fec96a78804f",
+      "href": [
+        {
+          "@id": "http://youtube.com/@ploneCMS",
+          "title": "youtube.com/@ploneCMS"
+        }
+      ],
+      "id": "youtube",
+      "title": "YouTube"
+    },
+    {
+      "@id": "ee857d4c-664c-45de-bd92-5ca9a7cb6b55",
+      "href": [
+        {
+          "@id": "https://www.facebook.com/Plone-Brasil-101606785972720",
+          "title": "www.facebook.com/Plone-Brasil-101606785972720"
+        }
+      ],
+      "id": "facebook",
+      "title": "Facebook"
+    },
+    {
+      "@id": "b0ed03c5-51d5-44a1-82f0-c43e5bc9fd0f",
+      "href": [
+        {
+          "@id": "https://twitter.com/ploneorgbr",
+          "title": "twitter.com/ploneorgbr"
+        }
+      ],
+      "id": "x",
+      "title": "X (Twitter)"
+    }
+  ],
+  "theme": {
+    "title": "Plone Brasil",
+    "token": "default",
+    "value": {
+      "accent_accent_color_dark": "#ffffff",
+      "accent_accent_color_light": "#FFCC29",
+      "accent_color_dark": "#b55e1c",
+      "accent_color_light": "#002776",
+      "accent_foreground_color_dark": "#ffffff",
+      "accent_foreground_color_light": "#ffffff",
+      "accent_low_foreground_color_dark": "#f8f8f8",
+      "accent_low_foreground_color_light": "#cfe0f5",
+      "event_color_dark": "#d32f2f",
+      "event_color_light": "#007a2e",
+      "file_color_dark": "#1976d2",
+      "file_color_light": "#1976d2",
+      "font_family_primary": "Inter, sans-serif",
+      "font_family_secondary": "Inter, sans-serif",
+      "image_color_dark": "#388e3c",
+      "image_color_light": "#388e3c",
+      "neutral_accent_color_dark": "#f4822c",
+      "neutral_accent_color_light": "#f4822c",
+      "neutral_color_dark": "#333333",
+      "neutral_color_light": "#edeff0",
+      "neutral_foreground_color_dark": "#ffffff",
+      "neutral_foreground_color_light": "#000000",
+      "neutral_low_foreground_color_dark": "#e6e6e6",
+      "neutral_low_foreground_color_light": "#333333",
+      "primary_accent_color_dark": "#f4822c",
+      "primary_accent_color_light": "#0074a8",
+      "primary_color_dark": "#000000",
+      "primary_color_light": "#ffffff",
+      "primary_foreground_color_dark": "#ffffff",
+      "primary_foreground_color_light": "#000000",
+      "primary_low_foreground_color_dark": "#f8f8f8",
+      "primary_low_foreground_color_light": "#333333",
+      "secondary_accent_color_dark": "#f4822c",
+      "secondary_accent_color_light": "#FFCC29",
+      "secondary_color_dark": "#ffffff",
+      "secondary_color_light": "#002776",
+      "secondary_foreground_color_dark": "#000000",
+      "secondary_foreground_color_light": "#ffffff",
+      "secondary_low_foreground_color_dark": "#333333",
+      "secondary_low_foreground_color_light": "#cfe0f5"
+    }
+  },
+  "title": "Plone Brasil",
+  "type_title": "Plone Site",
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null,
+  "x_username": "ploneorgbr"
+}

@@ -1,0 +1,218 @@
+{
+  "@id": "/novidades",
+  "@type": "Document",
+  "UID": "f56cb0e8053c44b1b054035cf7df7955",
+  "allow_discussion": false,
+  "blocks": {
+    "157ccf90-0eb9-4dde-86ef-6797d4ae50ec": {
+      "@type": "listing",
+      "block": "157ccf90-0eb9-4dde-86ef-6797d4ae50ec",
+      "headlineTag": "h2",
+      "query": [],
+      "querystring": {
+        "b_size": "5",
+        "limit": "5",
+        "query": [
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.absolutePath",
+            "v": "/novidades/noticias/"
+          },
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "News Item"
+            ]
+          }
+        ],
+        "sort_on": "effective",
+        "sort_order": "descending",
+        "sort_order_boolean": true
+      },
+      "variation": "summary"
+    },
+    "7be35e86-19b5-4c74-98c5-88cb47db1ffd": {
+      "@type": "slate",
+      "plaintext": "Veja os pr\u00f3ximos eventos de nossa comunidade",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Veja os pr\u00f3ximos eventos de nossa comunidade"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "7c8aa7f9-e009-4972-828d-ee9934fc5f97": {
+      "@type": "title"
+    },
+    "8bb4b4bf-97f8-4700-a890-df16d3769544": {
+      "@type": "slate",
+      "plaintext": "\u00daltimas not\u00edcias sobre Plone e sobre a comunidade brasileira de Plone",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "\u00daltimas not\u00edcias sobre Plone e sobre a comunidade brasileira de Plone"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "ad75b2c4-88e1-41e5-96c5-1c774f47f8e9": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "c1f50c65-34e2-4d92-aad8-81995e23a6e3": {
+      "@type": "slate",
+      "plaintext": "Eventos",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Eventos"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "dc3fae02-f857-48d4-9297-d901e89f2476": {
+      "@type": "listing",
+      "block": "dc3fae02-f857-48d4-9297-d901e89f2476",
+      "headlineTag": "h2",
+      "query": [],
+      "querystring": {
+        "query": [
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.absolutePath",
+            "v": "/novidades/eventos/"
+          },
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "Event"
+            ]
+          },
+          {
+            "i": "end",
+            "o": "plone.app.querystring.operation.date.afterToday",
+            "v": ""
+          }
+        ],
+        "sort_on": "end",
+        "sort_order": "ascending",
+        "sort_order_boolean": false
+      },
+      "variation": "summary"
+    },
+    "ea385071-bdef-422a-9fdb-9f311f55519e": {
+      "@type": "slate",
+      "plaintext": "Not\u00edcias",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Not\u00edcias"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "7c8aa7f9-e009-4972-828d-ee9934fc5f97",
+      "ea385071-bdef-422a-9fdb-9f311f55519e",
+      "8bb4b4bf-97f8-4700-a890-df16d3769544",
+      "157ccf90-0eb9-4dde-86ef-6797d4ae50ec",
+      "c1f50c65-34e2-4d92-aad8-81995e23a6e3",
+      "7be35e86-19b5-4c74-98c5-88cb47db1ffd",
+      "dc3fae02-f857-48d4-9297-d901e89f2476",
+      "ad75b2c4-88e1-41e5-96c5-1c774f47f8e9"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-05-24T16:20:07+00:00",
+  "creators": [
+    "ploneorgbr"
+  ],
+  "description": "\u00daltimas not\u00edcias.",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {
+    "immediately_addable_types": [
+      "News Item"
+    ],
+    "locally_allowed_types": [
+      "Document",
+      "Link",
+      "File",
+      "Image",
+      "News Item",
+      "Event",
+      "CaseStudy"
+    ]
+  },
+  "exportimport.conversation": [],
+  "id": "novidades",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-23T16:40:45+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Novidades",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-05-24T16:20:07+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-05-24T16:20:07+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

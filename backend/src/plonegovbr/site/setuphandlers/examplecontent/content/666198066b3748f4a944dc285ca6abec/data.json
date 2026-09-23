@@ -1,0 +1,284 @@
+{
+  "@id": "/novidades/eventos/2025/mao-na-massa-comecando-um-projeto-com-plone-6.1",
+  "@type": "Event",
+  "UID": "666198066b3748f4a944dc285ca6abec",
+  "allow_discussion": false,
+  "attendees": [
+    "\u00c9rico Andrei"
+  ],
+  "blocks": {
+    "5324c3f5-8180-4476-96c5-7d333d4311a9": {
+      "@type": "title"
+    },
+    "56b8d865-9232-4551-8d47-b4ca1a9c7b4f": {
+      "@type": "slate",
+      "plaintext": "Enviem suas perguntas e sugest\u00f5es pelos seguintes canais:",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Enviem suas perguntas e sugest\u00f5es pelos seguintes canais:"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "5f2a3287-5238-4731-b180-92ac06dd9f94": {
+      "@type": "slate",
+      "plaintext": "O Plone 6.1 j\u00e1 \u00e9 uma realidade e voc\u00ea pode se beneficiar das novidades. A comunidade PloneGov-Br vai te contar como, rapidamente, iniciar um novo projeto com a mais recente vers\u00e3o do Plone!",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O Plone 6.1 j\u00e1 \u00e9 uma realidade e voc\u00ea pode se beneficiar das novidades. A comunidade PloneGov-Br vai te contar como, rapidamente, iniciar um novo projeto com a mais recente vers\u00e3o do Plone!"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "8b4f3b55-7525-4161-a6a3-2866cf9964c1": {
+      "@type": "slate",
+      "plaintext": "Falem conosco",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Falem conosco"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "b57a99e1-173f-49e8-b713-5d0e0aec5841": {
+      "@type": "slate",
+      "plaintext": "Nesse epis\u00f3dio, \u00c9rico Andrei abordar\u00e1 a cria\u00e7\u00e3o de um novo projeto para Plone 6.1 utilizando o cookieplone. ",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Nesse epis\u00f3dio, \u00c9rico Andrei abordar\u00e1 a cria\u00e7\u00e3o de um novo projeto para Plone 6.1 utilizando o "
+            },
+            {
+              "children": [
+                {
+                  "text": "cookieplone."
+                }
+              ],
+              "data": {
+                "url": "https://github.com/plone/cookieplone"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "c49b4404-e254-47cf-90bd-ea788fd02835": {
+      "@type": "slate",
+      "plaintext": "Mastodon: https://plone.social/@ploneorgbr  BlueSky: @plone.org.br  X (Twitter): @ploneorgbr  YouTube: Chat da Live   Lista plonegovbr@plone.org.br ",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "Mastodon: "
+                },
+                {
+                  "children": [
+                    {
+                      "text": "https://plone.social/@ploneorgbr"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://plone.social/@ploneorgbr"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "BlueSky: "
+                },
+                {
+                  "children": [
+                    {
+                      "text": "@plone.org.br"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://bsky.app/profile/plone.org.br"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "X (Twitter): "
+                },
+                {
+                  "children": [
+                    {
+                      "text": "@ploneorgbr"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://twitter.com/ploneorgbr"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "YouTube: "
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Chat da Live"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://www.youtube.com/watch?v=x7QX9tQxEBc"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Lista plonegovbr@plone.org.br"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://groups.google.com/a/plone.org.br/g/plonegovbr"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    },
+    "e9e0ec36-d304-4ef3-9595-c614c93784aa": {
+      "@type": "video",
+      "url": "https://www.youtube.com/watch?v=x7QX9tQxEBc"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "5324c3f5-8180-4476-96c5-7d333d4311a9",
+      "5f2a3287-5238-4731-b180-92ac06dd9f94",
+      "b57a99e1-173f-49e8-b713-5d0e0aec5841",
+      "e9e0ec36-d304-4ef3-9595-c614c93784aa",
+      "8b4f3b55-7525-4161-a6a3-2866cf9964c1",
+      "56b8d865-9232-4551-8d47-b4ca1a9c7b4f",
+      "c49b4404-e254-47cf-90bd-ea788fd02835"
+    ]
+  },
+  "changeNote": "",
+  "contact_email": null,
+  "contact_name": null,
+  "contact_phone": null,
+  "contributors": [],
+  "created": "2025-03-31T19:12:41+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "Nesse epis\u00f3dio da s\u00e9rie \"M\u00e3o na Massa\" apresentamos como criar um novo projeto utilizando o Plone 6.1",
+  "effective": "2025-03-31T19:12:00+00:00",
+  "end": "2025-04-02T19:00:00+00:00",
+  "event_url": "https://www.youtube.com/watch?v=x7QX9tQxEBc",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "mao-na-massa-comecando-um-projeto-com-plone-6.1",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "event_view",
+  "location": null,
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-04-02T17:30:49+00:00",
+  "nav_title": null,
+  "open_end": false,
+  "preview_caption_link": null,
+  "recurrence": null,
+  "review_state": "published",
+  "rights": "",
+  "start": "2025-04-02T18:00:00+00:00",
+  "subjects": [],
+  "sync_uid": null,
+  "title": "M\u00e3o na Massa: Come\u00e7ando um projeto com Plone 6.1",
+  "type_title": "Event",
+  "version": "current",
+  "versioning_enabled": true,
+  "whole_day": false,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-03-31T19:12:41+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-03-31T19:12:48+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

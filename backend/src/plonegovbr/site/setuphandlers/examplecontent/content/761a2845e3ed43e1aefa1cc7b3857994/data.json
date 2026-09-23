@@ -1,0 +1,125 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/universita-di-bologna",
+  "@type": "CaseStudy",
+  "UID": "761a2845e3ed43e1aefa1cc7b3857994",
+  "allow_discussion": null,
+  "blocks": {
+    "3d5e1d02-1cbd-41af-a7bc-b3ee1f96b2bf": {
+      "@type": "image",
+      "alt": "",
+      "url": "/o-plone/casos-de-sucesso/universita-di-bologna/unibo.png"
+    },
+    "8696a921-1905-482c-b8d9-0f65fab9b683": {
+      "@type": "buttonBlock",
+      "href": [
+        {
+          "@id": "https://www.unibo.it/en",
+          "title": "www.unibo.it/en"
+        }
+      ],
+      "title": "Visite o Site"
+    },
+    "f34292e7-0e68-4b0f-8cfe-edfc7d68c264": {
+      "@type": "title"
+    },
+    "f3dd8456-d816-4e8f-97d4-0940f0d6a81d": {
+      "@type": "slate",
+      "plaintext": " A Universidade de Bologna, considerada a universidade mais antiga do mundo, utiliza Plone para seu portal. ",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "A Universidade de Bologna, considerada a universidade mais antiga do mundo, utiliza Plone para seu portal."
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "f34292e7-0e68-4b0f-8cfe-edfc7d68c264",
+      "f3dd8456-d816-4e8f-97d4-0940f0d6a81d",
+      "3d5e1d02-1cbd-41af-a7bc-b3ee1f96b2bf",
+      "8696a921-1905-482c-b8d9-0f65fab9b683"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-05-26T01:44:50+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "A Universidade de Bologna, considerada a universidade mais antiga do mundo, utiliza Plone para seu portal.",
+  "effective": "2022-05-26T01:45:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "universita-di-bologna",
+  "industry": "edu",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2022-05-26T01:46:28+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "remoteUrl": "https://www.unibo.it/en",
+  "review_state": "listed",
+  "rights": "",
+  "subjects": [
+    "Casos de Sucesso"
+  ],
+  "title": "Universit\u00e0 di Bologna",
+  "type_title": "Case Study",
+  "usages": [],
+  "version": "current",
+  "versioning_enabled": true,
+  "versions": [],
+  "workflow_history": {
+    "casestudy_workflow": [
+      {
+        "action": "list",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "listed",
+        "time": "2026-09-23T16:39:59+00:00"
+      }
+    ],
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-05-26T01:44:50+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-05-26T01:45:07+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "casestudy_workflow|listed"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

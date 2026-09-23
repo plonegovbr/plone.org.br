@@ -1,2 +1,0 @@
--r requirements/unreleased.txt
-src/ploneorgbr.core

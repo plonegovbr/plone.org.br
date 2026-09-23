@@ -1,0 +1,57 @@
+{
+  "@id": "/documentacao/primeiros-passos/demo-sites/plone-6-demo",
+  "@type": "Link",
+  "UID": "bd75eddf3a9548abac4ef93c9f27ee90",
+  "allow_discussion": null,
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-06-20T15:26:12+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "Site de demonstra\u00e7\u00e3o do Plone 6 com a nova interface",
+  "effective": "2022-06-20T15:26:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "plone-6-demo",
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "link_redirect_view",
+  "lock": {},
+  "modified": "2022-06-20T15:26:17+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "remoteUrl": "https://6.demo.plone.org/",
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Plone 6 Demo",
+  "type_title": "Link",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-06-20T15:26:12+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-06-20T15:26:17+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

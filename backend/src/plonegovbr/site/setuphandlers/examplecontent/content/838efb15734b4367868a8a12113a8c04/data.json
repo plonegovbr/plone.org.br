@@ -1,0 +1,114 @@
+{
+  "@id": "/novidades/noticias",
+  "@type": "Document",
+  "UID": "838efb15734b4367868a8a12113a8c04",
+  "allow_discussion": false,
+  "blocks": {
+    "a55ab8cf-ed2a-4503-ad69-2e136ae74226": {
+      "@type": "title"
+    },
+    "d84111a3-05e5-4ddd-9c75-81fc7c68e184": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "f19f3478-68c0-46ee-b989-9a2cf486e42c": {
+      "@type": "listing",
+      "block": "157ccf90-0eb9-4dde-86ef-6797d4ae50ec",
+      "headline": "\u00daltimas not\u00edcias",
+      "headlineTag": "h2",
+      "query": [],
+      "querystring": {
+        "b_size": "7",
+        "limit": "7",
+        "query": [
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.absolutePath",
+            "v": "/novidades/noticias/"
+          },
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "News Item"
+            ]
+          }
+        ],
+        "sort_on": "effective",
+        "sort_order": "descending",
+        "sort_order_boolean": true
+      },
+      "variation": "summary"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "a55ab8cf-ed2a-4503-ad69-2e136ae74226",
+      "d84111a3-05e5-4ddd-9c75-81fc7c68e184",
+      "f19f3478-68c0-46ee-b989-9a2cf486e42c"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-12-15T15:12:47+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "\u00daltimas not\u00edcias sobre Plone no Brasil",
+  "effective": "2022-12-15T15:12:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "noticias",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-23T16:40:51+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Not\u00edcias",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-12-15T15:12:47+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-12-15T15:12:51+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

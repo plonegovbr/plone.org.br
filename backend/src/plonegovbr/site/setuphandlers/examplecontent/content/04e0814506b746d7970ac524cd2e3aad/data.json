@@ -1,0 +1,40 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/osaka-university/osaka.png",
+  "@type": "Image",
+  "UID": "04e0814506b746d7970ac524cd2e3aad",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2022-05-26T01:17:13+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "osaka.png",
+  "image": {
+    "blob_path": "04e0814506b746d7970ac524cd2e3aad/image/osaka.png",
+    "content-type": "image/png",
+    "filename": "osaka.png",
+    "height": 1080,
+    "size": 1178602,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2022-05-26T01:18:51+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "osaka.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

@@ -1,0 +1,137 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/mncr",
+  "@type": "CaseStudy",
+  "UID": "88e023727ed04fa7af434fe86f1c4968",
+  "allow_discussion": null,
+  "blocks": {
+    "48d9c517-075a-4292-8aa1-779cc4057ed5": {
+      "@type": "image",
+      "alt": "",
+      "url": "/o-plone/casos-de-sucesso/mncr/mncr.png"
+    },
+    "ccf1d451-82b2-4f89-903f-1fb7777e9e12": {
+      "@type": "buttonBlock",
+      "href": [
+        {
+          "@id": "https://www.mncr.org.br/s",
+          "title": "www.mncr.org.br/s"
+        }
+      ],
+      "title": "Visite o Site"
+    },
+    "fd7aca2b-44b8-4407-b86a-7046ffecc6a5": {
+      "@type": "slate",
+      "plaintext": " O site do Movimento Nacional dos Catadores de Materiais Recicl\u00e1veis (MNCR), desenvolvido pela SImples Consultoria , utiliza Plone com um frontend Volto ",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "O site do Movimento Nacional dos Catadores de Materiais Recicl\u00e1veis (MNCR), desenvolvido pela "
+                },
+                {
+                  "children": [
+                    {
+                      "text": "SImples Consultoria"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://simplesconsultoria.com.br"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ", utiliza Plone com um frontend Volto"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "fd944b7e-ac9c-4f58-bb88-4cf2dd4a4ccc": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "fd944b7e-ac9c-4f58-bb88-4cf2dd4a4ccc",
+      "fd7aca2b-44b8-4407-b86a-7046ffecc6a5",
+      "48d9c517-075a-4292-8aa1-779cc4057ed5",
+      "ccf1d451-82b2-4f89-903f-1fb7777e9e12"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-05-26T01:25:34+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "O site do Movimento Nacional dos Catadores de Materiais Recicl\u00e1veis (MNCR), desenvolvido pela SImples Consultoria, utiliza Plone com um frontend Volto",
+  "effective": "2022-05-26T01:26:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "mncr",
+  "industry": "ngo",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2022-05-26T01:26:22+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "remoteUrl": "https://mncr.org.br",
+  "review_state": "listed",
+  "rights": "",
+  "subjects": [],
+  "title": "MNCR",
+  "type_title": "Case Study",
+  "usages": [],
+  "version": "current",
+  "versioning_enabled": true,
+  "versions": [],
+  "workflow_history": {
+    "casestudy_workflow": [
+      {
+        "action": "list",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "listed",
+        "time": "2026-09-23T16:39:59+00:00"
+      }
+    ],
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-05-26T01:25:34+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-05-26T01:26:22+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "casestudy_workflow|listed"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

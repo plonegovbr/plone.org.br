@@ -1,0 +1,615 @@
+{
+  "@id": "/projetos",
+  "@type": "Document",
+  "UID": "fa21311033e9408fbc91e117919c9e11",
+  "allow_discussion": false,
+  "blocks": {
+    "16429940-15cd-41cd-adb0-52d777551b0f": {
+      "@type": "gridBlock",
+      "columns": [
+        {
+          "@type": "teaser",
+          "description": "Solu\u00e7\u00e3o desenvolvida e oferecida pelo Projeto Interlegis, o Portal Modelo oferece a implanta\u00e7\u00e3o de um modelo de portal na internet para as Casas Legislativas.",
+          "head_title": "Legislativo",
+          "href": [
+            {
+              "@id": "/projetos/portal-modelo",
+              "@type": "Document",
+              "Description": "Solu\u00e7\u00e3o desenvolvida e oferecida pelo Projeto Interlegis, o Portal Modelo oferece a implanta\u00e7\u00e3o de um modelo de portal na internet para as Casas Legislativas.",
+              "Title": "Portal Modelo",
+              "effective": "1969-12-31T00:00:00+00:00",
+              "getObjSize": "105.2 KB",
+              "hasPreviewImage": true,
+              "head_title": null,
+              "image_field": "preview_image",
+              "image_scales": {
+                "preview_image": [
+                  {
+                    "content-type": "image/png",
+                    "download": "@@images/preview_image-2908-ada5f8a534ea5e262ab369829c390a75.png",
+                    "filename": "PM.png",
+                    "height": 1754,
+                    "scales": {
+                      "great": {
+                        "download": "@@images/preview_image-1200-4fea67d2332b01e8408fb8b6e61662f6.png",
+                        "height": 723,
+                        "width": 1200
+                      },
+                      "huge": {
+                        "download": "@@images/preview_image-1600-6991eaef14ebbc37e5fdff1d70769a91.png",
+                        "height": 965,
+                        "width": 1600
+                      },
+                      "icon": {
+                        "download": "@@images/preview_image-32-f2b89f990c7c4893c3cc7dc37d49e45b.png",
+                        "height": 19,
+                        "width": 32
+                      },
+                      "large": {
+                        "download": "@@images/preview_image-800-68fe30f159225d4223363a818466d912.png",
+                        "height": 482,
+                        "width": 800
+                      },
+                      "larger": {
+                        "download": "@@images/preview_image-1000-a9fb51c0cc71024e63214c2bc6a82c53.png",
+                        "height": 603,
+                        "width": 1000
+                      },
+                      "mini": {
+                        "download": "@@images/preview_image-200-72482d9cb8b649e92845f007ded4b1c5.png",
+                        "height": 120,
+                        "width": 200
+                      },
+                      "preview": {
+                        "download": "@@images/preview_image-400-c78a01b5aca1c82ab16529b6bd2f15b8.png",
+                        "height": 241,
+                        "width": 400
+                      },
+                      "teaser": {
+                        "download": "@@images/preview_image-600-10ae1f18037ea86c9597bff6aa2007c8.png",
+                        "height": 361,
+                        "width": 600
+                      },
+                      "thumb": {
+                        "download": "@@images/preview_image-128-90daae31465b9846099a8a1d861cb921.png",
+                        "height": 77,
+                        "width": 128
+                      },
+                      "tile": {
+                        "download": "@@images/preview_image-64-4ae725d4c83f0fc0f75a52f8e4d6caa5.png",
+                        "height": 38,
+                        "width": 64
+                      }
+                    },
+                    "size": 107739,
+                    "width": 2908
+                  }
+                ]
+              },
+              "mime_type": "text/plain",
+              "title": "Portal Modelo"
+            }
+          ],
+          "id": "b0a24a0f-2a1c-49e7-954b-7aba6e162bf5",
+          "title": "Portal Modelo"
+        },
+        {
+          "@type": "teaser",
+          "description": "Solu\u00e7\u00e3o desenvolvida e oferecida pela comunidade PloneGov-BR e pelo SERPRO o Portal Padr\u00e3o \u00e9 uma solu\u00e7\u00e3o completa de Portal para sites de Governo.",
+          "head_title": "Educa\u00e7\u00e3o e Executivo",
+          "href": [
+            {
+              "@id": "/projetos/portal-padrao",
+              "@type": "Document",
+              "Description": "Solu\u00e7\u00e3o desenvolvida e oferecida pela comunidade PloneGov-BR e pelo SERPRO o Portal Padr\u00e3o \u00e9 uma solu\u00e7\u00e3o completa de Portal para sites de Governo.",
+              "Title": "Portal Padr\u00e3o",
+              "effective": "1969-12-31T00:00:00+00:00",
+              "getObjSize": "362.4 KB",
+              "hasPreviewImage": true,
+              "head_title": null,
+              "image_field": "preview_image",
+              "image_scales": {
+                "preview_image": [
+                  {
+                    "content-type": "image/png",
+                    "download": "@@images/preview_image-800-ad06ed7808b66137981b1d7c35ec8ef5.png",
+                    "filename": "portalpadrao.png",
+                    "height": 600,
+                    "scales": {
+                      "icon": {
+                        "download": "@@images/preview_image-32-67ca41d5aba2da2ce81226ef7b0d5451.png",
+                        "height": 24,
+                        "width": 32
+                      },
+                      "large": {
+                        "download": "@@images/preview_image-800-9e1375004e3cd2704374c6a1af20f04a.png",
+                        "height": 600,
+                        "width": 800
+                      },
+                      "mini": {
+                        "download": "@@images/preview_image-200-400ccc230d899a9617ecaeb840c9d0dd.png",
+                        "height": 150,
+                        "width": 200
+                      },
+                      "preview": {
+                        "download": "@@images/preview_image-400-c3e3844ebb6d3e63b14db030d66c0bbc.png",
+                        "height": 300,
+                        "width": 400
+                      },
+                      "teaser": {
+                        "download": "@@images/preview_image-600-8d480c5d66add3ff118ea105186368b7.png",
+                        "height": 450,
+                        "width": 600
+                      },
+                      "thumb": {
+                        "download": "@@images/preview_image-128-2f5eb8d3baa928d62a807cd7acef764d.png",
+                        "height": 96,
+                        "width": 128
+                      },
+                      "tile": {
+                        "download": "@@images/preview_image-64-4ad3ce07e10bf62207f9264077fdefd6.png",
+                        "height": 48,
+                        "width": 64
+                      }
+                    },
+                    "size": 371060,
+                    "width": 800
+                  }
+                ]
+              },
+              "mime_type": "text/plain",
+              "title": "Portal Padr\u00e3o"
+            }
+          ],
+          "id": "511538f5-6686-49f0-ba66-a56502afbf74",
+          "title": "Portal Padr\u00e3o"
+        }
+      ]
+    },
+    "6f260228-cd56-4b30-a3ef-31f2b74cb164": {
+      "@type": "separator"
+    },
+    "8e08842b-513e-4a83-866f-64384595f3c1": {
+      "@type": "gridBlock",
+      "columns": [
+        {
+          "@type": "teaser",
+          "description": "Solu\u00e7\u00e3o em desenvolvimento pela comunidade PloneGov-BR, o Portal Brasil \u00e9 o sucessor tecnol\u00f3gico do Portal Modelo e do Portal Padr\u00e3o.",
+          "head_title": "Legislativo, Educa\u00e7\u00e3o e Executivo",
+          "href": [
+            {
+              "@id": "/projetos/portal-brasil",
+              "@type": "Document",
+              "Description": "Solu\u00e7\u00e3o em desenvolvimento pela comunidade PloneGov-BR, o Portal Brasil \u00e9 o sucessor tecnol\u00f3gico do Portal Modelo e do Portal Padr\u00e3o.",
+              "Title": "Portal Brasil",
+              "effective": "2023-06-21T01:04:15+00:00",
+              "getObjSize": "546.3 KB",
+              "hasPreviewImage": true,
+              "head_title": null,
+              "image_field": "preview_image",
+              "image_scales": {
+                "preview_image": [
+                  {
+                    "content-type": "image/png",
+                    "download": "@@images/preview_image-10667-0172753f46083cb415376a1bde399b70.png",
+                    "filename": "Logotipo portal Brasil 16x9_Logotipo Portal Brasil versa\u0303o 3 (16-9).png",
+                    "height": 6000,
+                    "scales": {
+                      "great": {
+                        "download": "@@images/preview_image-1200-a63ba04f938ce33ab67ad6ac381ec800.png",
+                        "height": 674,
+                        "width": 1200
+                      },
+                      "huge": {
+                        "download": "@@images/preview_image-1600-7306af7bffed98217cdbdf0cd37e7ba4.png",
+                        "height": 899,
+                        "width": 1600
+                      },
+                      "icon": {
+                        "download": "@@images/preview_image-32-5b3baa7e7def5e5763b5748dd37b557d.png",
+                        "height": 17,
+                        "width": 32
+                      },
+                      "large": {
+                        "download": "@@images/preview_image-800-2189711c084550324004bf77f4d315c1.png",
+                        "height": 449,
+                        "width": 800
+                      },
+                      "larger": {
+                        "download": "@@images/preview_image-1000-dfece0e3e89d7a40b42e7be5b5dc543d.png",
+                        "height": 562,
+                        "width": 1000
+                      },
+                      "mini": {
+                        "download": "@@images/preview_image-200-6b6f7364860d06c9e47e32b72e1450bc.png",
+                        "height": 112,
+                        "width": 200
+                      },
+                      "preview": {
+                        "download": "@@images/preview_image-400-e5d08ad0412dd233e8b083bb7017ab3c.png",
+                        "height": 224,
+                        "width": 400
+                      },
+                      "teaser": {
+                        "download": "@@images/preview_image-600-9cd0bcfc92c963b2c290edf8d6b76485.png",
+                        "height": 337,
+                        "width": 600
+                      },
+                      "thumb": {
+                        "download": "@@images/preview_image-128-615bd6891e8c12f05ff3e4f12912d1ab.png",
+                        "height": 71,
+                        "width": 128
+                      },
+                      "tile": {
+                        "download": "@@images/preview_image-64-82be240ba038a4355ad943a03407d4bc.png",
+                        "height": 35,
+                        "width": 64
+                      }
+                    },
+                    "size": 559438,
+                    "width": 10667
+                  }
+                ]
+              },
+              "mime_type": "text/plain",
+              "title": "Portal Brasil"
+            }
+          ],
+          "id": "90ef67f7-b88f-4c1e-a70c-11acb218c286",
+          "title": "Portal Brasil"
+        }
+      ]
+    },
+    "ae96e8ae-966d-4a26-8b42-2a529aa1c847": {
+      "@type": "slate",
+      "plaintext": "As comunidades de Plone no Brasil desenvolveram, ao longo dos anos, diversas solu\u00e7\u00f5es de c\u00f3digo aberto, conhe\u00e7a essas iniciativas.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "As comunidades de Plone no Brasil desenvolveram, ao longo dos anos, diversas solu\u00e7\u00f5es de c\u00f3digo aberto, conhe\u00e7a essas iniciativas."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "af3c74f7-6e82-4c5c-a459-70cf8f967e61": {
+      "@type": "gridBlock",
+      "columns": [
+        {
+          "@type": "teaser",
+          "description": "Complemento para Volto implementando o VLibras, um servi\u00e7o e tradu\u00e7\u00e3o autom\u00e1tica de conte\u00fados web para a Lingua Brasileira de Sinais.",
+          "head_title": "Plone 6",
+          "href": [
+            {
+              "@id": "/projetos/volto-vlibras",
+              "@type": "Document",
+              "Description": "Complemento para Volto implementando o VLibras, um servi\u00e7o e tradu\u00e7\u00e3o autom\u00e1tica de conte\u00fados web para a Lingua Brasileira de Sinais.",
+              "Title": "volto-vlibras",
+              "effective": "2023-06-13T09:35:21+00:00",
+              "getObjSize": "0 KB",
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "image_scales": null,
+              "mime_type": "text/plain",
+              "title": "volto-vlibras"
+            }
+          ],
+          "id": "b2872c35-7559-4379-bff4-c96b1c286c57",
+          "preview_image": [
+            {
+              "@id": "/projetos/volto-vlibras/vlibras-opening.gif",
+              "@type": "Image",
+              "CreationDate": "2023-06-13T09:34:46+00:00",
+              "Creator": "813a2bd7-3bac-4e77-8da5-bb381a59284a",
+              "Date": "2023-06-13T09:34:46+00:00",
+              "Description": "",
+              "EffectiveDate": "None",
+              "ExpirationDate": "None",
+              "ModificationDate": "2023-06-13T09:34:46+00:00",
+              "Subject": [],
+              "Title": "vlibras-opening.gif",
+              "Type": "Imagem",
+              "UID": "6db312d923e7492ab4016a827b3ea7a2",
+              "author_name": null,
+              "cmf_uid": null,
+              "commentators": [],
+              "created": "2023-06-13T09:34:46+00:00",
+              "description": "",
+              "effective": "1969-12-31T00:00:00+00:00",
+              "end": null,
+              "exclude_from_nav": false,
+              "expires": "2499-12-31T00:00:00+00:00",
+              "getIcon": true,
+              "getId": "vlibras-opening.gif",
+              "getObjSize": "526.5 KB",
+              "getPath": "/Plone/projetos/volto-vlibras/vlibras-opening.gif",
+              "getRemoteUrl": null,
+              "getURL": "https://plone.org.br/projetos/volto-vlibras/vlibras-opening.gif",
+              "hasPreviewImage": null,
+              "head_title": null,
+              "id": "vlibras-opening.gif",
+              "image_field": "image",
+              "image_scales": {
+                "image": [
+                  {
+                    "content-type": "image/gif",
+                    "download": "@@images/image-1280-c1517534f78e34c3ff78d6b48cf3337a.gif",
+                    "filename": "vlibras-opening.gif",
+                    "height": 720,
+                    "scales": {
+                      "great": {
+                        "download": "@@images/image-1200-7b4d4fea782576026c29627d79d2780b.gif",
+                        "height": 675,
+                        "width": 1200
+                      },
+                      "icon": {
+                        "download": "@@images/image-32-3da178bdeb19be25c81e8dc6db89f4d0.gif",
+                        "height": 18,
+                        "width": 32
+                      },
+                      "large": {
+                        "download": "@@images/image-800-5c2d213302d67cb39fb7a71ebb2b54c4.gif",
+                        "height": 450,
+                        "width": 800
+                      },
+                      "larger": {
+                        "download": "@@images/image-1000-5266d357c7422a70d3657d88dccc1aa9.gif",
+                        "height": 562,
+                        "width": 1000
+                      },
+                      "mini": {
+                        "download": "@@images/image-200-507cb8ff64e75062ca25ba1fbd9cd736.gif",
+                        "height": 112,
+                        "width": 200
+                      },
+                      "preview": {
+                        "download": "@@images/image-400-5614d8e7d972542a5bb2cd6c862a9546.gif",
+                        "height": 225,
+                        "width": 400
+                      },
+                      "teaser": {
+                        "download": "@@images/image-600-df43e895582aa7b297f261f73e64d6c7.gif",
+                        "height": 337,
+                        "width": 600
+                      },
+                      "thumb": {
+                        "download": "@@images/image-128-952a68f5769d909caea8d8935d1b0438.gif",
+                        "height": 72,
+                        "width": 128
+                      },
+                      "tile": {
+                        "download": "@@images/image-64-c64d1fbdef52155c503f9c76a28fb68f.gif",
+                        "height": 36,
+                        "width": 64
+                      }
+                    },
+                    "size": 539087,
+                    "width": 1280
+                  }
+                ]
+              },
+              "in_response_to": null,
+              "industry": null,
+              "is_folderish": false,
+              "last_comment_date": null,
+              "listCreators": [
+                "813a2bd7-3bac-4e77-8da5-bb381a59284a"
+              ],
+              "location": null,
+              "mime_type": "image/gif",
+              "modified": "2023-06-13T09:34:46+00:00",
+              "nav_title": null,
+              "portal_type": "Image",
+              "review_state": null,
+              "start": null,
+              "sync_uid": null,
+              "title": "vlibras-opening.gif",
+              "total_comments": 0
+            }
+          ],
+          "title": "@plonegovbr/volto-vlibras"
+        },
+        {
+          "@type": "teaser",
+          "description": "Complemento para Volto implementando um bloco para exibi\u00e7\u00e3o de c\u00f3digo",
+          "head_title": "Plone 6",
+          "href": [
+            {
+              "@id": "/projetos/volto-code-block",
+              "@type": "Document",
+              "Description": "Complemento para Volto implementando um bloco para exibi\u00e7\u00e3o de c\u00f3digo",
+              "Title": "volto-code-block",
+              "effective": "1969-12-31T00:00:00+00:00",
+              "getObjSize": "153.6 KB",
+              "hasPreviewImage": true,
+              "head_title": null,
+              "image_field": "preview_image",
+              "image_scales": {
+                "preview_image": [
+                  {
+                    "content-type": "image/png",
+                    "download": "@@images/preview_image-1920-90dd0baa72c1a98aa6f483e71d90d018.png",
+                    "filename": "block-dark.png",
+                    "height": 1080,
+                    "scales": {
+                      "great": {
+                        "download": "@@images/preview_image-1200-5dba09049bca2cd2fd6e3177aa4c7759.png",
+                        "height": 675,
+                        "width": 1200
+                      },
+                      "huge": {
+                        "download": "@@images/preview_image-1600-c2ea89b916e7b613d5ba0b6d89228b1e.png",
+                        "height": 900,
+                        "width": 1600
+                      },
+                      "icon": {
+                        "download": "@@images/preview_image-32-0e51e5768650751aac3c4eaef075c717.png",
+                        "height": 18,
+                        "width": 32
+                      },
+                      "large": {
+                        "download": "@@images/preview_image-800-74ef5509ee66d25a21d3074b525df56d.png",
+                        "height": 450,
+                        "width": 800
+                      },
+                      "larger": {
+                        "download": "@@images/preview_image-1000-c844adb5da44149ea485d9a7184db760.png",
+                        "height": 562,
+                        "width": 1000
+                      },
+                      "mini": {
+                        "download": "@@images/preview_image-200-82f4fd75a045fbcfe535c298a4725728.png",
+                        "height": 112,
+                        "width": 200
+                      },
+                      "preview": {
+                        "download": "@@images/preview_image-400-b413ef9d16a0ae8dcdd5e1238f7336c8.png",
+                        "height": 225,
+                        "width": 400
+                      },
+                      "teaser": {
+                        "download": "@@images/preview_image-600-e57e69ea8998f5a470ed08e691e21e02.png",
+                        "height": 337,
+                        "width": 600
+                      },
+                      "thumb": {
+                        "download": "@@images/preview_image-128-facf3bf5ba7e7fe6288001e3ad95c1d5.png",
+                        "height": 72,
+                        "width": 128
+                      },
+                      "tile": {
+                        "download": "@@images/preview_image-64-6d4af52e93f8e993f1af2eba6da84202.png",
+                        "height": 36,
+                        "width": 64
+                      }
+                    },
+                    "size": 157276,
+                    "width": 1920
+                  }
+                ]
+              },
+              "mime_type": "text/plain",
+              "title": "volto-code-block"
+            }
+          ],
+          "id": "d5627d18-c775-495a-ad8b-6901ba58df85",
+          "title": "@plonegovbr/volto-code-block"
+        }
+      ]
+    },
+    "c2ec27dc-9e43-43f2-a8e7-3003b796d6a3": {
+      "@type": "title"
+    },
+    "c4054568-251b-434a-a6cf-b5b4c17abb81": {
+      "@type": "slate",
+      "plaintext": "Componentes / Complementos",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Componentes / Complementos"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "d31fb918-dc0f-49b8-a52e-113e75c9de51": {
+      "@type": "slate",
+      "plaintext": "Portais",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Portais"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "f173d840-3cc0-4158-8779-d87a3bcc6122": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "c2ec27dc-9e43-43f2-a8e7-3003b796d6a3",
+      "ae96e8ae-966d-4a26-8b42-2a529aa1c847",
+      "d31fb918-dc0f-49b8-a52e-113e75c9de51",
+      "8e08842b-513e-4a83-866f-64384595f3c1",
+      "16429940-15cd-41cd-adb0-52d777551b0f",
+      "6f260228-cd56-4b30-a3ef-31f2b74cb164",
+      "c4054568-251b-434a-a6cf-b5b4c17abb81",
+      "af3c74f7-6e82-4c5c-a459-70cf8f967e61",
+      "f173d840-3cc0-4158-8779-d87a3bcc6122"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2023-06-12T20:39:56+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "As comunidades de Plone no Brasil desenvolveram, ao longo dos anos, diversas solu\u00e7\u00f5es de c\u00f3digo aberto, conhe\u00e7a essas iniciativas.",
+  "effective": "2023-06-12T21:33:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "projetos",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2023-06-21T01:06:07+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Projetos",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2023-06-12T20:39:56+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2023-06-12T21:33:09+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

@@ -1,0 +1,40 @@
+{
+  "@id": "/projetos/portal-brasil/portalbrasil-edu.png",
+  "@type": "Image",
+  "UID": "97e86156162b406d90331d2feee9800a",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2023-06-28T10:55:14+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "portalbrasil-edu.png",
+  "image": {
+    "blob_path": "97e86156162b406d90331d2feee9800a/image/portalbrasil-edu.png",
+    "content-type": "image/png",
+    "filename": "portalbrasil-edu.png",
+    "height": 6400,
+    "size": 273652,
+    "width": 8533
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2023-06-28T10:55:14+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "portalbrasil-edu.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

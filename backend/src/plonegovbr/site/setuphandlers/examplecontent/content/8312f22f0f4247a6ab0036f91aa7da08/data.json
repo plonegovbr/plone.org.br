@@ -1,0 +1,40 @@
+{
+  "@id": "/projetos/portal-padrao/utfpr.png",
+  "@type": "Image",
+  "UID": "8312f22f0f4247a6ab0036f91aa7da08",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2023-06-12T21:17:39+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": "2023-06-12T21:33:00+00:00",
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "utfpr.png",
+  "image": {
+    "blob_path": "8312f22f0f4247a6ab0036f91aa7da08/image/UTFPR.png",
+    "content-type": "image/png",
+    "filename": "UTFPR.png",
+    "height": 2160,
+    "size": 2014227,
+    "width": 3840
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2023-06-12T21:33:22+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "UTFPR.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

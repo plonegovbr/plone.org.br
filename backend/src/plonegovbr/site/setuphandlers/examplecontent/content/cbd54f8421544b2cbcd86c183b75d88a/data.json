@@ -1,0 +1,40 @@
+{
+  "@id": "/projetos/portal-brasil/logotipo-portal-brasil_logotipo-portal-brasil-versao-3-1-1.png",
+  "@type": "Image",
+  "UID": "cbd54f8421544b2cbcd86c183b75d88a",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2023-06-21T00:49:12+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "logotipo-portal-brasil_logotipo-portal-brasil-versao-3-1-1.png",
+  "image": {
+    "blob_path": "cbd54f8421544b2cbcd86c183b75d88a/image/Logotipo Portal Brasil_Logotipo Portal Brasil versa\u0303o 3 (1-1.png",
+    "content-type": "image/png",
+    "filename": "Logotipo Portal Brasil_Logotipo Portal Brasil versa\u0303o 3 (1-1.png",
+    "height": 4500,
+    "size": 260568,
+    "width": 4500
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2023-06-21T00:49:15+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "Logotipo Portal Brasil_Logotipo Portal Brasil vers\u00e3o 3 (1-1.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

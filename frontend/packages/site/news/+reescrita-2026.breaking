@@ -1,0 +1,1 @@
+Substitui o app Volto na raiz do `frontend` por um workspace pnpm com o add-on `@plonegovbr/site` em `packages/site`, sobre o Volto 19.4.1. @ericof

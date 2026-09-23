@@ -1,0 +1,57 @@
+{
+  "@id": "/forum",
+  "@type": "Link",
+  "UID": "d64a5ff083f9450d8c25b05e18d490f9",
+  "allow_discussion": null,
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-05-24T18:08:47+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": "2022-05-24T18:08:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "forum",
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "link_redirect_view",
+  "lock": {},
+  "modified": "2022-05-24T18:08:51+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "remoteUrl": "https://comunidade.plone.org.br",
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "F\u00f3rum",
+  "type_title": "Link",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-05-24T18:08:47+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-05-24T18:08:51+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

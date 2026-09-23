@@ -1,0 +1,40 @@
+{
+  "@id": "/projetos/portal-brasil/portalbrasil-jus.png",
+  "@type": "Image",
+  "UID": "23a4cd0fb12f4dcbb30e561f7da473bd",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2023-06-28T10:55:17+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "portalbrasil-jus.png",
+  "image": {
+    "blob_path": "23a4cd0fb12f4dcbb30e561f7da473bd/image/portalbrasil-jus.png",
+    "content-type": "image/png",
+    "filename": "portalbrasil-jus.png",
+    "height": 6400,
+    "size": 285677,
+    "width": 8533
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2023-06-28T10:55:17+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "portalbrasil-jus.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

@@ -1,0 +1,185 @@
+{
+  "@id": "/o-plone",
+  "@type": "Document",
+  "UID": "b1fa8ba3e754479382b5bafe561c38ef",
+  "allow_discussion": false,
+  "blocks": {
+    "2081f634-fd3f-47ed-8d0d-2d9a1c64b6c6": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "4b44c400-8c80-4142-9912-8727d693ea78": {
+      "@type": "title"
+    },
+    "556b4940-ad40-4001-bfd5-e6d1fdeaa2e2": {
+      "@type": "image",
+      "alt": "",
+      "styles": {
+        "align:noprefix": "right",
+        "blockWidth:noprefix": "narrow",
+        "size:noprefix": "s"
+      },
+      "url": "../resolveuid/42961291c64e4b92b6cc104d7fd1e38f"
+    },
+    "7e0ead41-b220-45cf-8818-07197b9f5a2b": {
+      "@type": "slate",
+      "plaintext": "O Plone est\u00e1 entre os top 2% de todos os projetos de c\u00f3digo-aberto do mundo, com cerca de 400 desenvolvedores distribu\u00eddos em mais de 60 pa\u00edses.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O Plone est\u00e1 entre os top 2% de todos os projetos de c\u00f3digo-aberto do mundo, com cerca de 400 desenvolvedores distribu\u00eddos em mais de 60 pa\u00edses."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "b6ff79dc-ee1e-4412-9d23-1e9ec040e72e": {
+      "@type": "slate",
+      "plaintext": "O projeto, criado por Alexander Limi e Alan Runyan, \u00e9 desenvolvido ativamente desde 2001, est\u00e1 dispon\u00edvel em mais de 40 idiomas e tem o melhor hist\u00f3rico de seguran\u00e7a entre os grandes sistemas de gest\u00e3o de conte\u00fado.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O projeto, criado por Alexander Limi e Alan Runyan, \u00e9 desenvolvido ativamente desde 2001, est\u00e1 dispon\u00edvel em mais de 40 idiomas e tem o melhor hist\u00f3rico de seguran\u00e7a entre os grandes sistemas de gest\u00e3o de conte\u00fado. "
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "fc989508-4d19-447c-8ea7-c24627a29d2b": {
+      "@type": "slate",
+      "plaintext": "Sistema de Gest\u00e3o de Conteudo",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Sistema de Gest\u00e3o de Conteudo"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "undefined": {
+      "@type": "search",
+      "facets": [
+        {
+          "@id": "215e9297-a19c-42a1-8bec-48b852345eca",
+          "field": {
+            "label": "Industry",
+            "value": "industry"
+          },
+          "hidden": false,
+          "multiple": false,
+          "title": "Segmento",
+          "type": "checkboxFacet"
+        }
+      ],
+      "facetsTitle": "Filtrar",
+      "headline": "Quem usa Plone",
+      "listingBodyTemplate": "summary",
+      "query": {
+        "b_size": "5",
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "CaseStudy"
+            ]
+          },
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.absolutePath",
+            "v": "/o-plone/"
+          }
+        ],
+        "sort_on": "sortable_title",
+        "sort_order": "ascending"
+      },
+      "showSearchInput": false,
+      "showSortOn": true,
+      "showTotalResults": true,
+      "styles": {},
+      "theme": "default"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "4b44c400-8c80-4142-9912-8727d693ea78",
+      "556b4940-ad40-4001-bfd5-e6d1fdeaa2e2",
+      "fc989508-4d19-447c-8ea7-c24627a29d2b",
+      "7e0ead41-b220-45cf-8818-07197b9f5a2b",
+      "b6ff79dc-ee1e-4412-9d23-1e9ec040e72e",
+      "2081f634-fd3f-47ed-8d0d-2d9a1c64b6c6"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-05-24T19:30:57+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "O Plone est\u00e1 entre os top 2% de todos os projetos de c\u00f3digo-aberto do mundo, com cerca de 400 desenvolvedores distribu\u00eddos em mais de 60 pa\u00edses.",
+  "effective": "2022-05-26T01:04:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "o-plone",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-23T16:40:20+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "O Plone",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-05-24T19:30:57+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-05-26T01:04:47+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}
