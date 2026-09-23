@@ -1,0 +1,61 @@
+{
+  "name": "@plonegovbr/site",
+  "version": "20260921.1.0",
+  "description": "Site da comunidade brasileira de Plone",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "keywords": [
+    "volto-addon",
+    "volto",
+    "plone",
+    "react"
+  ],
+  "author": "PloneGov-BR",
+  "homepage": "https://github.com/plonegovbr/site#readme",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:plonegovbr/site"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon",
+    "dry-release": "release-it --dry-run",
+    "release": "release-it",
+    "release-major-alpha": "release-it major --preRelease=alpha",
+    "release-alpha": "release-it --preRelease=alpha"
+  },
+  "addons": [
+    "@plone-collective/volto-identity",
+    "@plone-collective/volto-casestudy",
+    "@simplesconsultoria/volto-videos",
+    "@plonegovbr/volto-code-block",
+    "@plonegovbr/volto-social-media",
+    "@simplesconsultoria/volto-light-theme"
+  ],
+  "theme": "@kitconcept/volto-light-theme",
+  "dependencies": {
+    "@plone-collective/volto-identity": "1.0.0-alpha.8",
+    "@plone-collective/volto-casestudy": "2.0.0-alpha.1",
+    "@simplesconsultoria/volto-videos": "1.0.0-alpha.3",
+    "@simplesconsultoria/volto-light-theme": "1.0.0-alpha.7",
+    "@plonegovbr/volto-code-block": "3.0.0",
+    "@plonegovbr/volto-social-media": "3.0.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@plone/registry": "workspace:*",
+    "@plone/scripts": "workspace:*",
+    "@plone/types": "workspace:*",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "typescript": "^5.7.3",
+    "@testing-library/react": "^16.2.0",
+    "release-it": "^19.0.5",
+    "vitest": "^3.1.2"
+  }
+}
