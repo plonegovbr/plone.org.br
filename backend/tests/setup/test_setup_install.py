@@ -42,10 +42,14 @@ class TestHiddenProfiles:
         self.portal = portal
         self.utility = getUtility(INonInstallable, name=PACKAGE_NAME)
 
-    @pytest.mark.parametrize("profile", HIDDEN_PROFILES)
-    def test_non_installable_profile(self, profile: str):
-        """Test a profile is hidden from site creation and quickinstaller."""
-        assert profile in self.utility.getNonInstallableProfiles()
+    def test_non_installable_profiles(self):
+        """Test exactly which profiles are hidden from the control panel.
+
+        Asserted as a whole rather than one parametrized case per profile:
+        :data:`HIDDEN_PROFILES` is empty, and an empty ``parametrize`` skips
+        the test instead of failing it.
+        """
+        assert list(self.utility.getNonInstallableProfiles()) == list(HIDDEN_PROFILES)
 
     @pytest.mark.parametrize("product", HIDDEN_PRODUCTS)
     def test_non_installable_product(self, product: str):

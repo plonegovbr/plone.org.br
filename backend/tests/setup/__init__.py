@@ -121,7 +121,9 @@ VERSIONABLE_TYPES = (
 )
 
 #: Profiles hidden from the add-ons control panel by ``HiddenProfiles``.
-HIDDEN_PROFILES = (f"{PACKAGE_NAME}:uninstall",)
+#: Empty: the package ships only ``default`` and ``initial``, and hiding an
+#: uninstall profile that does not exist is what this used to claim to do.
+HIDDEN_PROFILES = ()
 
 #: Products hidden from the add-ons control panel by ``HiddenProfiles``.
 HIDDEN_PRODUCTS = (f"{PACKAGE_NAME}.upgrades",)
