@@ -1,0 +1,300 @@
+{
+  "@id": "/documentacao/primeiros-passos/demo-sites",
+  "@type": "Document",
+  "UID": "f5349ee73cfb4baa90b9fb584d766c01",
+  "allow_discussion": false,
+  "blocks": {
+    "ac9d825b-6e84-436f-8481-70a604d0a9bc": {
+      "@type": "gridBlock",
+      "columns": [
+        {
+          "@type": "teaser",
+          "description": "Site de demonstra\u00e7\u00e3o do Plone 6 com a nova interface",
+          "href": [
+            {
+              "@id": "/documentacao/primeiros-passos/demo-sites/plone-6-demo",
+              "Description": "Site de demonstra\u00e7\u00e3o do Plone 6 com a nova interface",
+              "Title": "Plone 6 Demo",
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "title": "Plone 6 Demo"
+            }
+          ],
+          "id": "f3d3a017-365b-4a78-96f5-1b898244c0fe",
+          "preview_image": [
+            {
+              "@id": "/documentacao/primeiros-passos/demo-sites/6-demo-plone-org.png",
+              "@type": "Image",
+              "CreationDate": "2022-06-20T15:19:32+00:00",
+              "Creator": "813a2bd7-3bac-4e77-8da5-bb381a59284a",
+              "Date": "2022-06-20T15:19:32+00:00",
+              "Description": "",
+              "EffectiveDate": "None",
+              "ExpirationDate": "None",
+              "ModificationDate": "2022-06-20T15:19:32+00:00",
+              "Subject": [],
+              "Title": "6-demo-plone-org.png",
+              "Type": "Imagem",
+              "UID": "ead0660e1d064741bf016c6113b31a1d",
+              "author_name": null,
+              "cmf_uid": null,
+              "commentators": [],
+              "created": "2022-06-20T15:19:32+00:00",
+              "description": "",
+              "effective": "1969-12-31T00:00:00+00:00",
+              "end": null,
+              "exclude_from_nav": false,
+              "expires": "2499-12-31T00:00:00+00:00",
+              "getIcon": true,
+              "getId": "6-demo-plone-org.png",
+              "getObjSize": "148.3 KB",
+              "getPath": "/Plone/documentacao/primeiros-passos/demo-sites/6-demo-plone-org.png",
+              "getRemoteUrl": null,
+              "getURL": "https://plone.org.br/documentacao/primeiros-passos/demo-sites/6-demo-plone-org.png",
+              "hasPreviewImage": null,
+              "head_title": null,
+              "id": "6-demo-plone-org.png",
+              "image_field": "image",
+              "in_response_to": null,
+              "industry": null,
+              "is_folderish": false,
+              "last_comment_date": null,
+              "listCreators": [
+                "813a2bd7-3bac-4e77-8da5-bb381a59284a"
+              ],
+              "location": null,
+              "mime_type": "image/png",
+              "modified": "2022-06-20T15:19:32+00:00",
+              "nav_title": null,
+              "portal_type": "Image",
+              "review_state": null,
+              "start": null,
+              "sync_uid": null,
+              "title": "6-demo-plone-org.png",
+              "total_comments": 0
+            }
+          ],
+          "title": "Plone 6 Demo"
+        },
+        {
+          "@type": "teaser",
+          "description": "Site de demonstra\u00e7\u00e3o do Plone 6 com a interface cl\u00e1ssica",
+          "href": [
+            {
+              "@id": "/documentacao/primeiros-passos/demo-sites/plone-6-classica-demo",
+              "Description": "Site de demonstra\u00e7\u00e3o do Plone 6 com a interface cl\u00e1ssica",
+              "Title": "Plone 6 Cl\u00e1ssica Demo",
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "title": "Plone 6 Cl\u00e1ssica Demo"
+            }
+          ],
+          "id": "9322fe1b-ddec-419c-8aaa-b233a79365a8",
+          "preview_image": [
+            {
+              "@id": "/documentacao/primeiros-passos/demo-sites/6-classic-demo-plone-org.png",
+              "@type": "Image",
+              "CreationDate": "2022-06-20T15:19:39+00:00",
+              "Creator": "813a2bd7-3bac-4e77-8da5-bb381a59284a",
+              "Date": "2022-06-20T15:19:39+00:00",
+              "Description": "",
+              "EffectiveDate": "None",
+              "ExpirationDate": "None",
+              "ModificationDate": "2022-06-20T15:19:39+00:00",
+              "Subject": [],
+              "Title": "6-classic-demo-plone-org.png",
+              "Type": "Imagem",
+              "UID": "8a0d1f42ad7b47239d2a2af161a16758",
+              "author_name": null,
+              "cmf_uid": null,
+              "commentators": [],
+              "created": "2022-06-20T15:19:39+00:00",
+              "description": "",
+              "effective": "1969-12-31T00:00:00+00:00",
+              "end": null,
+              "exclude_from_nav": false,
+              "expires": "2499-12-31T00:00:00+00:00",
+              "getIcon": true,
+              "getId": "6-classic-demo-plone-org.png",
+              "getObjSize": "202.9 KB",
+              "getPath": "/Plone/documentacao/primeiros-passos/demo-sites/6-classic-demo-plone-org.png",
+              "getRemoteUrl": null,
+              "getURL": "https://plone.org.br/documentacao/primeiros-passos/demo-sites/6-classic-demo-plone-org.png",
+              "hasPreviewImage": null,
+              "head_title": null,
+              "id": "6-classic-demo-plone-org.png",
+              "image_field": "image",
+              "in_response_to": null,
+              "industry": null,
+              "is_folderish": false,
+              "last_comment_date": null,
+              "listCreators": [
+                "813a2bd7-3bac-4e77-8da5-bb381a59284a"
+              ],
+              "location": null,
+              "mime_type": "image/png",
+              "modified": "2022-06-20T15:19:39+00:00",
+              "nav_title": null,
+              "portal_type": "Image",
+              "review_state": null,
+              "start": null,
+              "sync_uid": null,
+              "title": "6-classic-demo-plone-org.png",
+              "total_comments": 0
+            }
+          ],
+          "title": "Plone 6 Cl\u00e1ssica Demo"
+        },
+        {
+          "@type": "teaser",
+          "description": "Site de demonstra\u00e7\u00e3o do Plone 5.2",
+          "href": [
+            {
+              "@id": "/documentacao/primeiros-passos/demo-sites/plone-5-2-demo",
+              "Description": "Site de demonstra\u00e7\u00e3o do Plone 5.2",
+              "Title": "Plone 5.2 Demo",
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "title": "Plone 5.2 Demo"
+            }
+          ],
+          "id": "6149187e-b93d-47bf-a3c8-d04934cd5c83",
+          "preview_image": [
+            {
+              "@id": "/documentacao/primeiros-passos/demo-sites/demo-plone-org.png",
+              "@type": "Image",
+              "CreationDate": "2022-06-20T15:19:45+00:00",
+              "Creator": "813a2bd7-3bac-4e77-8da5-bb381a59284a",
+              "Date": "2022-06-20T15:19:46+00:00",
+              "Description": "",
+              "EffectiveDate": "None",
+              "ExpirationDate": "None",
+              "ModificationDate": "2022-06-20T15:19:46+00:00",
+              "Subject": [],
+              "Title": "demo-plone-org.png",
+              "Type": "Imagem",
+              "UID": "585879e216d240ffb15a044b61745e2b",
+              "author_name": null,
+              "cmf_uid": null,
+              "commentators": [],
+              "created": "2022-06-20T15:19:45+00:00",
+              "description": "",
+              "effective": "1969-12-31T00:00:00+00:00",
+              "end": null,
+              "exclude_from_nav": false,
+              "expires": "2499-12-31T00:00:00+00:00",
+              "getIcon": true,
+              "getId": "demo-plone-org.png",
+              "getObjSize": "209.8 KB",
+              "getPath": "/Plone/documentacao/primeiros-passos/demo-sites/demo-plone-org.png",
+              "getRemoteUrl": null,
+              "getURL": "https://plone.org.br/documentacao/primeiros-passos/demo-sites/demo-plone-org.png",
+              "hasPreviewImage": null,
+              "head_title": null,
+              "id": "demo-plone-org.png",
+              "image_field": "image",
+              "in_response_to": null,
+              "industry": null,
+              "is_folderish": false,
+              "last_comment_date": null,
+              "listCreators": [
+                "813a2bd7-3bac-4e77-8da5-bb381a59284a"
+              ],
+              "location": null,
+              "mime_type": "image/png",
+              "modified": "2022-06-20T15:19:46+00:00",
+              "nav_title": null,
+              "portal_type": "Image",
+              "review_state": null,
+              "start": null,
+              "sync_uid": null,
+              "title": "demo-plone-org.png",
+              "total_comments": 0
+            }
+          ],
+          "title": "Plone 5.2 Demo"
+        }
+      ]
+    },
+    "d9ad4c2a-5b65-49c6-9072-895933ac5d24": {
+      "@type": "slate",
+      "plaintext": "A comunidade disponibiliza alguns sites de demonstra\u00e7\u00e3o, que podem ser utilizados para conhecer as funcionalidades do Plone",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "A comunidade disponibiliza alguns sites de demonstra\u00e7\u00e3o, que podem ser utilizados para conhecer as funcionalidades do Plone"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "e79f9eef-416f-42cd-8515-f44921f08bdb": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "e79f9eef-416f-42cd-8515-f44921f08bdb",
+      "d9ad4c2a-5b65-49c6-9072-895933ac5d24",
+      "ac9d825b-6e84-436f-8481-70a604d0a9bc"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-06-20T15:19:15+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": "2022-06-20T15:24:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "demo-sites",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2022-06-20T15:31:06+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Demo Sites",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-06-20T15:19:15+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-06-20T15:24:00+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

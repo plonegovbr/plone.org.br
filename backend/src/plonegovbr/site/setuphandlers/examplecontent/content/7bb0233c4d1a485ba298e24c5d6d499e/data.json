@@ -1,0 +1,40 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/camara-municipal-de-curitiba/curitiba.png",
+  "@type": "Image",
+  "UID": "7bb0233c4d1a485ba298e24c5d6d499e",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2022-05-26T01:08:25+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "curitiba.png",
+  "image": {
+    "blob_path": "7bb0233c4d1a485ba298e24c5d6d499e/image/curitiba.png",
+    "content-type": "image/png",
+    "filename": "curitiba.png",
+    "height": 1080,
+    "size": 1053051,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2022-05-26T01:08:25+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "curitiba.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

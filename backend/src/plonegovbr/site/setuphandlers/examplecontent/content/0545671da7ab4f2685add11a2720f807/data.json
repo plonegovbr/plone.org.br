@@ -1,0 +1,271 @@
+{
+  "@id": "/projetos/volto-vlibras",
+  "@type": "Document",
+  "UID": "0545671da7ab4f2685add11a2720f807",
+  "allow_discussion": false,
+  "blocks": {
+    "06e0429a-de5f-4092-97dd-c01aa977ae85": {
+      "@type": "slate",
+      "plaintext": "Para injetar o componente respons\u00e1vel pelo VLibras em seu projeto, adicione as configura\u00e7\u00f5es ao arquivo config.js na sess\u00e3o appExtras .",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Para injetar o componente respons\u00e1vel pelo VLibras em seu projeto, adicione as configura\u00e7\u00f5es ao arquivo "
+            },
+            {
+              "children": [
+                {
+                  "text": "config.js"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " na sess\u00e3o "
+            },
+            {
+              "children": [
+                {
+                  "text": "appExtras"
+                }
+              ],
+              "type": "code"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "0eeb1aff-314d-4134-8063-1b46242e64c9": {
+      "@type": "slate",
+      "plaintext": "Em um projeto Plone 6, utilizando o Volto, edite o arquivo 'package.json' do projeto e adicione:",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Em um projeto Plone 6, utilizando o Volto, edite o arquivo 'package.json' do projeto e adicione:"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "350d9308-151d-4ea7-ad5f-1e0ce9990d80": {
+      "@type": "title"
+    },
+    "503237b8-cc38-40c6-9568-f1a800677e5e": {
+      "@type": "image",
+      "align": "right",
+      "alt": "",
+      "url": "/projetos/volto-vlibras/vlibras-opening.gif"
+    },
+    "7016e933-66ef-4d34-a698-ab4027af8ecf": {
+      "@type": "codeBlock",
+      "code": "import '@plone/volto/config';\nimport Libras from '@plonegovbr/volto-vlibras/components/Libras';\n\nexport default function applyConfig(config) {\n\n  config.settings = {\n    ...config.settings,\n    appExtras: [\n      ...defaultSettings.appExtras,\n      {\n        match: '',\n        component: Libras,\n      },\n    ],\n  }\n\n  return config;\n  \n};",
+      "language": "javascript",
+      "showLineNumbers": true,
+      "style": "dark",
+      "wrapLongLines": true
+    },
+    "899ee5d0-5bff-4aed-91c8-6ef8203b5403": {
+      "@type": "slate",
+      "plaintext": "Complemento para Volto implementando o VLibras , um servi\u00e7o e tradu\u00e7\u00e3o autom\u00e1tica de conte\u00fados web para a Lingua Brasileira de Sinais.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Complemento para Volto implementando o "
+            },
+            {
+              "children": [
+                {
+                  "text": "VLibras"
+                }
+              ],
+              "data": {
+                "url": "https://www.gov.br/governodigital/pt-br/vlibras/"
+              },
+              "type": "link"
+            },
+            {
+              "text": ", um servi\u00e7o e tradu\u00e7\u00e3o autom\u00e1tica de conte\u00fados web para a Lingua Brasileira de Sinais."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "8ec3f3d0-cc52-4530-804e-74b3669a9e1f": {
+      "@type": "slate",
+      "plaintext": "A maneira recomendada de utilizar o appExtras diretamente do objeto settings ( documenta\u00e7\u00e3o ):",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "A maneira recomendada de utilizar o "
+            },
+            {
+              "children": [
+                {
+                  "text": "appExtras"
+                }
+              ],
+              "type": "code"
+            },
+            {
+              "text": " diretamente do objeto "
+            },
+            {
+              "children": [
+                {
+                  "text": "settings"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " ("
+            },
+            {
+              "children": [
+                {
+                  "text": "documenta\u00e7\u00e3o"
+                }
+              ],
+              "data": {
+                "url": "https://6.dev-docs.plone.org/volto/recipes/appextras.html"
+              },
+              "type": "link"
+            },
+            {
+              "text": "):"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "afc46166-9c87-4a0a-824a-454030e5c630": {
+      "@type": "slate",
+      "plaintext": "Configura\u00e7\u00e3o",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Configura\u00e7\u00e3o"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "b2afb3ce-ef32-48e0-962d-343e61086edd": {
+      "@type": "codeBlock",
+      "code": "\"addons\": [\n    \"@plonegovbr/volto-vlibras\"\n],\n\n\"dependencies\": {\n    \"@plonegovbr/volto-vlibras\": \"*\"\n}",
+      "language": "javascript",
+      "showLineNumbers": true,
+      "style": "dark",
+      "wrapLongLines": true
+    },
+    "dc1562a8-f0cc-42d0-a116-7769576b54dd": {
+      "@type": "slate",
+      "plaintext": "O que \u00e9",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O que \u00e9"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "f9d158ab-35f5-48db-a2dd-82533387a1de": {
+      "@type": "slate",
+      "plaintext": "Como usar",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Como usar"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "350d9308-151d-4ea7-ad5f-1e0ce9990d80",
+      "503237b8-cc38-40c6-9568-f1a800677e5e",
+      "dc1562a8-f0cc-42d0-a116-7769576b54dd",
+      "899ee5d0-5bff-4aed-91c8-6ef8203b5403",
+      "f9d158ab-35f5-48db-a2dd-82533387a1de",
+      "0eeb1aff-314d-4134-8063-1b46242e64c9",
+      "b2afb3ce-ef32-48e0-962d-343e61086edd",
+      "afc46166-9c87-4a0a-824a-454030e5c630",
+      "06e0429a-de5f-4092-97dd-c01aa977ae85",
+      "8ec3f3d0-cc52-4530-804e-74b3669a9e1f",
+      "7016e933-66ef-4d34-a698-ab4027af8ecf"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2023-06-13T09:34:32+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "Complemento para Volto implementando o VLibras, um servi\u00e7o e tradu\u00e7\u00e3o autom\u00e1tica de conte\u00fados web para a Lingua Brasileira de Sinais.",
+  "effective": "2023-06-13T09:35:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "volto-vlibras",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2023-06-13T09:35:21+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "volto-vlibras",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2023-06-13T09:34:32+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2023-06-13T09:35:21+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

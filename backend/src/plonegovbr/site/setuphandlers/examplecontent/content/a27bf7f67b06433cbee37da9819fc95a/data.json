@@ -1,0 +1,108 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/camara-municipal-de-curitiba",
+  "@type": "CaseStudy",
+  "UID": "a27bf7f67b06433cbee37da9819fc95a",
+  "allow_discussion": null,
+  "blocks": {
+    "1d424ba6-b2f4-4ddb-a8e9-84e963228fbf": {
+      "@type": "title"
+    },
+    "e0c8e827-3f9e-40a6-aab6-8adfe7e1f83a": {
+      "@type": "slate",
+      "plaintext": " O site da C\u00e2mara \u00e9 implementado utilizando o Portal Modelo, desenvolvido pelo Interlegis ",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "O site da C\u00e2mara \u00e9 implementado utilizando o Portal Modelo, desenvolvido pelo Interlegis"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "1d424ba6-b2f4-4ddb-a8e9-84e963228fbf",
+      "e0c8e827-3f9e-40a6-aab6-8adfe7e1f83a"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-05-25T18:32:55+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "O site da C\u00e2mara \u00e9 implementado utilizando o Portal Modelo, desenvolvido pelo Interlegis",
+  "effective": "2022-05-26T01:05:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "camara-municipal-de-curitiba",
+  "industry": "gov",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2022-06-07T23:34:28+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "remoteUrl": "https://www.curitiba.pr.leg.br/",
+  "review_state": "listed",
+  "rights": "",
+  "subjects": [
+    "Casos de Sucesso"
+  ],
+  "title": "C\u00e2mara Municipal de Curitiba",
+  "type_title": "Case Study",
+  "usages": [],
+  "version": "current",
+  "versioning_enabled": true,
+  "versions": [],
+  "workflow_history": {
+    "casestudy_workflow": [
+      {
+        "action": "list",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "listed",
+        "time": "2026-09-23T16:40:00+00:00"
+      }
+    ],
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-05-25T18:32:55+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-05-26T01:05:17+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "casestudy_workflow|listed"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

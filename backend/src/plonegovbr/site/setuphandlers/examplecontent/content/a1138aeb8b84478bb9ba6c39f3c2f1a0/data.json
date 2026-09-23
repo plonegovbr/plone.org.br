@@ -1,0 +1,135 @@
+{
+  "@id": "/o-plone/casos-de-sucesso",
+  "@type": "Document",
+  "UID": "a1138aeb8b84478bb9ba6c39f3c2f1a0",
+  "allow_discussion": false,
+  "blocks": {
+    "4616430b-7cdc-4fda-829d-6fe323b67611": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "71319a4b-1a46-4dc7-8490-815391f0ebba": {
+      "@type": "slate",
+      "plaintext": "Educa\u00e7\u00e3o",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Educa\u00e7\u00e3o"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "9d71bc1f-ac64-4e3c-8938-7a820e293895": {
+      "@type": "slate",
+      "plaintext": "Governo",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Governo"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "b1db3868-688c-4075-b295-ac6b80602ba9": {
+      "@type": "slate",
+      "plaintext": "Terceiro Setor",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Terceiro Setor"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "b74066f7-5cc4-4dd0-bff0-b0584911e7f5": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "b74066f7-5cc4-4dd0-bff0-b0584911e7f5",
+      "9d71bc1f-ac64-4e3c-8938-7a820e293895",
+      "71319a4b-1a46-4dc7-8490-815391f0ebba",
+      "b1db3868-688c-4075-b295-ac6b80602ba9",
+      "4616430b-7cdc-4fda-829d-6fe323b67611"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-05-25T18:27:32+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": "2022-05-26T01:05:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "casos-de-sucesso",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-23T16:01:27+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Casos de Sucesso",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-05-25T18:27:32+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-05-26T01:05:37+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

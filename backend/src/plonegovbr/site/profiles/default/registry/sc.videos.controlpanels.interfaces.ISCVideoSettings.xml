@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<registry>
+  <records interface="sc.videos.controlpanels.interfaces.ISCVideoSettings"
+           prefix="sc.videos"
+  >
+    <value key="enable_series">True</value>
+    <value key="youtube_api_enabled">False</value>
+  </records>
+</registry>

@@ -1,0 +1,190 @@
+{
+  "@id": "/novidades/eventos",
+  "@type": "Document",
+  "UID": "5007d0bef62648ce8832d2669c890b78",
+  "allow_discussion": false,
+  "blocks": {
+    "10e066a2-8ae7-47ce-bd54-fc99f8592ecd": {
+      "@type": "slate",
+      "plaintext": "Pr\u00f3ximos Eventos",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Pr\u00f3ximos Eventos"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "41bb0298-f42a-4dab-a7d7-01ee0451b07d": {
+      "@type": "title"
+    },
+    "462758c7-ca8f-4ec8-9079-a2a6267f25a4": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "4b2a20ec-7243-4854-b665-5b3e73d98c9f": {
+      "@type": "listing",
+      "block": "4b2a20ec-7243-4854-b665-5b3e73d98c9f",
+      "headlineTag": "h2",
+      "query": [],
+      "querystring": {
+        "query": [
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.absolutePath",
+            "v": "/novidades//eventos/"
+          },
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "Event"
+            ]
+          },
+          {
+            "i": "end",
+            "o": "plone.app.querystring.operation.date.beforeToday",
+            "v": ""
+          }
+        ],
+        "sort_on": "end",
+        "sort_order": "descending",
+        "sort_order_boolean": true
+      },
+      "variation": "summary"
+    },
+    "665a07a2-b9d2-406d-9234-2c3f3e3bb56d": {
+      "@type": "slate",
+      "plaintext": "Eventos Anteriores",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Eventos Anteriores"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "7388e081-9ee8-44d5-b6e8-970239010c6a": {
+      "@type": "listing",
+      "block": "7388e081-9ee8-44d5-b6e8-970239010c6a",
+      "headlineTag": "h2",
+      "query": [],
+      "querystring": {
+        "query": [
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.absolutePath",
+            "v": "/novidades/eventos/"
+          },
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "Event"
+            ]
+          },
+          {
+            "i": "end",
+            "o": "plone.app.querystring.operation.date.afterToday",
+            "v": ""
+          }
+        ],
+        "sort_on": "end",
+        "sort_order": "ascending"
+      },
+      "variation": "summary"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "41bb0298-f42a-4dab-a7d7-01ee0451b07d",
+      "10e066a2-8ae7-47ce-bd54-fc99f8592ecd",
+      "7388e081-9ee8-44d5-b6e8-970239010c6a",
+      "665a07a2-b9d2-406d-9234-2c3f3e3bb56d",
+      "4b2a20ec-7243-4854-b665-5b3e73d98c9f",
+      "462758c7-ca8f-4ec8-9079-a2a6267f25a4"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-05-24T16:20:07+00:00",
+  "creators": [
+    "ploneorgbr"
+  ],
+  "description": "Eventos com participa\u00e7\u00e3o da comunidade Brasileira.",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {
+    "immediately_addable_types": [
+      "Event"
+    ],
+    "locally_allowed_types": [
+      "Document",
+      "Link",
+      "File",
+      "Image",
+      "News Item",
+      "Event",
+      "CaseStudy"
+    ]
+  },
+  "exportimport.conversation": [],
+  "id": "eventos",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-23T16:41:16+00:00",
+  "nav_title": "Eventos",
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Eventos",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-05-24T16:20:07+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-05-24T16:20:07+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

@@ -1,0 +1,40 @@
+{
+  "@id": "/novidades/noticias/2025/rafahela-bazzanella-recebe-premio-dorneles-tremea-jean-ferri/tmp-6300cacb-c4f9-40b0-9981-e5800043620f.jpg",
+  "@type": "Image",
+  "UID": "629451c8bc544cfa85130a5e7baa3691",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2026-09-23T15:57:10+00:00",
+  "creators": [
+    "ploneorgbr"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "tmp-6300cacb-c4f9-40b0-9981-e5800043620f.jpg",
+  "image": {
+    "blob_path": "629451c8bc544cfa85130a5e7baa3691/image/tmp_6300cacb-c4f9-40b0-9981-e5800043620f.jpg",
+    "content-type": "image/jpeg",
+    "filename": "tmp_6300cacb-c4f9-40b0-9981-e5800043620f.jpg",
+    "height": 2410,
+    "size": 3219002,
+    "width": 2950
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2026-09-23T15:57:13+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "tmp-6300cacb-c4f9-40b0-9981-e5800043620f.jpg",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

@@ -1,0 +1,40 @@
+{
+  "@id": "/images/historia/plone-6-editing.png",
+  "@type": "Image",
+  "UID": "0498f7a392fc4cd897a3e76f71fa90ce",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2022-05-24T19:37:13+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "plone-6-editing.png",
+  "image": {
+    "blob_path": "0498f7a392fc4cd897a3e76f71fa90ce/image/plone-6-editing.png",
+    "content-type": "image/png",
+    "filename": "plone-6-editing.png",
+    "height": 1562,
+    "size": 147338,
+    "width": 1280
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2022-05-24T19:37:13+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "plone-6-editing.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

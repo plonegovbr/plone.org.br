@@ -1,0 +1,106 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/tse",
+  "@type": "CaseStudy",
+  "UID": "03890824c2c7432ab85ef190f9ebc057",
+  "allow_discussion": null,
+  "blocks": {
+    "597c36ff-45cf-4fe8-a492-163754ef5374": {
+      "@type": "slate",
+      "plaintext": " O Tribunal Superior Eleitoral (TSE), \u00f3rg\u00e3o m\u00e1ximo da Justi\u00e7a Eleitoral,  exerce papel fundamental na constru\u00e7\u00e3o e no exerc\u00edcio da democracia  brasileira. ",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "O Tribunal Superior Eleitoral (TSE), \u00f3rg\u00e3o m\u00e1ximo da Justi\u00e7a Eleitoral,  exerce papel fundamental na constru\u00e7\u00e3o e no exerc\u00edcio da democracia  brasileira."
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "5b41a975-fd51-4529-b3e5-494d807e5e93": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "5b41a975-fd51-4529-b3e5-494d807e5e93",
+      "597c36ff-45cf-4fe8-a492-163754ef5374"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-05-26T01:38:07+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "O Tribunal Superior Eleitoral (TSE), \u00f3rg\u00e3o m\u00e1ximo da Justi\u00e7a Eleitoral, exerce papel fundamental na constru\u00e7\u00e3o e no exerc\u00edcio da democracia brasileira.",
+  "effective": "2022-05-26T01:38:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "tse",
+  "industry": "gov",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2022-06-07T23:34:55+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "remoteUrl": "https://www.tse.jus.br",
+  "review_state": "listed",
+  "rights": "",
+  "subjects": [],
+  "title": "TSE",
+  "type_title": "Case Study",
+  "usages": [],
+  "version": "current",
+  "versioning_enabled": true,
+  "versions": [],
+  "workflow_history": {
+    "casestudy_workflow": [
+      {
+        "action": "list",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "listed",
+        "time": "2026-09-23T16:39:59+00:00"
+      }
+    ],
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-05-26T01:38:07+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-05-26T01:38:24+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "casestudy_workflow|listed"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

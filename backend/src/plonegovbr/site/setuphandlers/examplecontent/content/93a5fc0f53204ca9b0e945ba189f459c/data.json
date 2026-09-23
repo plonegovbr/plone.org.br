@@ -1,0 +1,40 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/mncr/mncr.png",
+  "@type": "Image",
+  "UID": "93a5fc0f53204ca9b0e945ba189f459c",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2022-05-26T01:25:59+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "mncr.png",
+  "image": {
+    "blob_path": "93a5fc0f53204ca9b0e945ba189f459c/image/mncr.png",
+    "content-type": "image/png",
+    "filename": "mncr.png",
+    "height": 1080,
+    "size": 1400106,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2022-05-26T01:25:59+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "mncr.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

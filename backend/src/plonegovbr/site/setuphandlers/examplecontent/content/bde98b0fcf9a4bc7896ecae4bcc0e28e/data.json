@@ -1,0 +1,249 @@
+{
+  "@id": "/comunidades/gov/perguntas-frequentes",
+  "@type": "Document",
+  "UID": "bde98b0fcf9a4bc7896ecae4bcc0e28e",
+  "allow_discussion": false,
+  "blocks": {
+    "07385263-c484-4a9d-8ecd-427734a9e6b1": {
+      "@type": "slate",
+      "plaintext": "2. Quais s\u00e3o as institui\u00e7\u00f5es parceiras?",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "2. Quais s\u00e3o as institui\u00e7\u00f5es parceiras?"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "0bc15239-607a-414b-ac27-326fe1de8413": {
+      "@type": "slate",
+      "plaintext": "Hoje a comunidade \u00e9 composta por: SERPRO, Minist\u00e9rio do Planejamento,  Interlegis, C\u00e2mara dos Deputados, EBC e Presid\u00eancia da Rep\u00fablica, mas  nossa expectativa \u00e9 aumentar essa rela\u00e7\u00e3o de institui\u00e7\u00f5es em pouqu\u00edssimo  tempo, visto que a for\u00e7a da rede est\u00e1 tanto na quantidade quanto na  qualidade e comprometimento de seus integrantes. Para isso, o convite  para integrar o grupo \u00e9 aberto e est\u00e1 sendo feito a diversas  institui\u00e7\u00f5es e profissionais que trabalham com a tecnologia.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Hoje a comunidade \u00e9 composta por: SERPRO, Minist\u00e9rio do Planejamento,  Interlegis, C\u00e2mara dos Deputados, EBC e Presid\u00eancia da Rep\u00fablica, mas  nossa expectativa \u00e9 aumentar essa rela\u00e7\u00e3o de institui\u00e7\u00f5es em pouqu\u00edssimo  tempo, visto que a for\u00e7a da rede est\u00e1 tanto na quantidade quanto na  qualidade e comprometimento de seus integrantes. Para isso, o convite  para integrar o grupo \u00e9 aberto e est\u00e1 sendo feito a diversas  institui\u00e7\u00f5es e profissionais que trabalham com a tecnologia. "
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "0fedbc07-f66e-40b4-8e76-9b0214a2c87c": {
+      "@type": "slate",
+      "plaintext": "3. De quem \u00e9 a iniciativa?",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "3. De quem \u00e9 a iniciativa?"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "1dc62b11-30a5-4a5b-8444-291acfd63a3d": {
+      "@type": "slate",
+      "plaintext": "O Plone possui algumas peculiaridades e caracter\u00edsticas que justificam o  crescimento da sua utiliza\u00e7\u00e3o em portais e s\u00edtios de governo. J\u00e1 s\u00e3o  previstas solu\u00e7\u00f5es, por exemplo, de acessibilidade numa instala\u00e7\u00e3o  padr\u00e3o do Plone que, para s\u00edtios de governo \u00e9 imprescind\u00edvel. A  facilidade de uso (usabilidade) por parte do gestor de conte\u00fado e a n\u00e3o  obrigatoriedade de conhecimentos t\u00e9cnicos em linguagem de marca\u00e7\u00e3o de  texto (HTML) \u00e9 outra particularidade que fazem do Plone uma escolha  bastante atraente para quem busca uma solu\u00e7\u00e3o de CMS (sistema de  gerenciamento de conte\u00fados). Al\u00e9m do mais, \u00e9 uma plataforma de software  livre que conta com uma grande comunidade de colaboradores no Brasil e  no exterior.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": " O Plone possui algumas peculiaridades e caracter\u00edsticas que justificam o  crescimento da sua utiliza\u00e7\u00e3o em portais e s\u00edtios de governo. J\u00e1 s\u00e3o  previstas solu\u00e7\u00f5es, por exemplo, de acessibilidade numa instala\u00e7\u00e3o  padr\u00e3o do Plone que, para s\u00edtios de governo \u00e9 imprescind\u00edvel. A  facilidade de uso (usabilidade) por parte do gestor de conte\u00fado e a n\u00e3o  obrigatoriedade de conhecimentos t\u00e9cnicos em linguagem de marca\u00e7\u00e3o de  texto (HTML) \u00e9 outra particularidade que fazem do Plone uma escolha  bastante atraente para quem busca uma solu\u00e7\u00e3o de CMS (sistema de  gerenciamento de conte\u00fados). Al\u00e9m do mais, \u00e9 uma plataforma de software  livre que conta com uma grande comunidade de colaboradores no Brasil e  no exterior. "
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "6c75f46b-962b-4794-b9b5-459d68c9e4e8": {
+      "@type": "title"
+    },
+    "74d693c2-a0e7-4738-945c-c3fe240679e1": {
+      "@type": "slate",
+      "plaintext": "Nossa id\u00e9ia \u00e9 atuar em diversas frentes, reunindo \u00e1reas de interesse que  permeiam as atividades de implementa\u00e7\u00e3o de um s\u00edtio Plone. Num primeiro  momento, queremos conhecer e reunir a maior quantidade poss\u00edvel de  \u00f3rg\u00e3os que j\u00e1 utilizam ou que tem interesse na ferramenta, a fim de  estabelecer os elos dessa rede. A partir da\u00ed, pretendemos estabelecer  uma agenda de trabalho para aquecer e movimentar essa rede, que vai  desde encontros t\u00e9cnicos at\u00e9 repasse de conhecimento para usu\u00e1rios e  gestores de conte\u00fado.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": " Nossa id\u00e9ia \u00e9 atuar em diversas frentes, reunindo \u00e1reas de interesse que  permeiam as atividades de implementa\u00e7\u00e3o de um s\u00edtio Plone. Num primeiro  momento, queremos conhecer e reunir a maior quantidade poss\u00edvel de  \u00f3rg\u00e3os que j\u00e1 utilizam ou que tem interesse na ferramenta, a fim de  estabelecer os elos dessa rede. A partir da\u00ed, pretendemos estabelecer  uma agenda de trabalho para aquecer e movimentar essa rede, que vai  desde encontros t\u00e9cnicos at\u00e9 repasse de conhecimento para usu\u00e1rios e  gestores de conte\u00fado. "
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "917d3b79-722d-4afe-bfd4-50c95930e5ee": {
+      "@type": "slate",
+      "plaintext": "A iniciativa se consolidou a partir dos anseios de um coletivo de  profissionais, entusiastas de Software Livre, que trabalham em diversos  \u00f3rg\u00e3os do governo e entendem colabora\u00e7\u00e3o como premissa para a evolu\u00e7\u00e3o  da tecnologia no Brasil.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": " A iniciativa se consolidou a partir dos anseios de um coletivo de  profissionais, entusiastas de Software Livre, que trabalham em diversos  \u00f3rg\u00e3os do governo e entendem colabora\u00e7\u00e3o como premissa para a evolu\u00e7\u00e3o  da tecnologia no Brasil. "
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "96618ff8-1084-42e8-8d95-33fd3a0412ce": {
+      "@type": "slate",
+      "plaintext": "O objetivo maior da comunidade PloneGov-BR \u00e9 estabelecer um canal de colabora\u00e7\u00e3o entre institui\u00e7\u00f5es que fazem uso, desenvolvem e incentivam a tecnologia Zope / Plone e o Software Livre. Queremos fomentar a cria\u00e7\u00e3o de uma rede de  profissionais que trabalham com essas tecnologias, trocar experi\u00eancias,  auxiliar institui\u00e7\u00f5es que estejam iniciando a implanta\u00e7\u00e3o em suas  unidades, compartilhar conhecimento.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": " O objetivo maior da comunidade PloneGov-BR \u00e9 estabelecer um canal de colabora\u00e7\u00e3o entre institui\u00e7\u00f5es que fazem uso, desenvolvem e incentivam a tecnologia Zope / Plone e o Software Livre. Queremos fomentar a cria\u00e7\u00e3o de uma rede de  profissionais que trabalham com essas tecnologias, trocar experi\u00eancias,  auxiliar institui\u00e7\u00f5es que estejam iniciando a implanta\u00e7\u00e3o em suas  unidades, compartilhar conhecimento. "
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "9e8b5f54-a120-4bc0-82c2-b09d7271e693": {
+      "@type": "slate",
+      "plaintext": "5. Qual a import\u00e2ncia de uma comunidade de coopera\u00e7\u00e3o para a Administra\u00e7\u00e3o P\u00fablica?",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "5. Qual a import\u00e2ncia de uma comunidade de coopera\u00e7\u00e3o para a Administra\u00e7\u00e3o P\u00fablica?"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "b6c23193-5419-4489-a778-776929db9c1c": {
+      "@type": "slate",
+      "plaintext": "6. Qual a abrang\u00eancia desta comunidade?",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "6. Qual a abrang\u00eancia desta comunidade?"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "fc04a865-182e-4beb-9aec-515b75be4977": {
+      "@type": "slate",
+      "plaintext": "Na Administra\u00e7\u00e3o P\u00fablica, correndo o risco de ser generalista, \u00e9 comum a  aquisi\u00e7\u00e3o ou desenvolvimento de uma mesma solu\u00e7\u00e3o por diversos \u00f3rg\u00e3os  em separado, de forma descoordenada. Isso gera gastos desnecess\u00e1rios,  al\u00e9m do consumo de tempo e recursos. Uma comunidade funciona aqui como  um f\u00f3rum institucionalizado para contato entre esses atores, de modo a  somar esfor\u00e7os para um mesmo resultado. Dessa forma consegue-se executar  mais em menos tempo e com mais qualidade.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": " Na Administra\u00e7\u00e3o P\u00fablica, correndo o risco de ser generalista, \u00e9 comum a  aquisi\u00e7\u00e3o ou desenvolvimento de uma mesma solu\u00e7\u00e3o por diversos \u00f3rg\u00e3os  em separado, de forma descoordenada. Isso gera gastos desnecess\u00e1rios,  al\u00e9m do consumo de tempo e recursos. Uma comunidade funciona aqui como  um f\u00f3rum institucionalizado para contato entre esses atores, de modo a  somar esfor\u00e7os para um mesmo resultado. Dessa forma consegue-se executar  mais em menos tempo e com mais qualidade. "
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "fc319502-4c23-4b96-9579-cb4fb3c0a1d7": {
+      "@type": "slate",
+      "plaintext": "1. Qual o objetivo da Comunidade?",
+      "value": [
+        {
+          "children": [
+            {
+              "text": " 1. Qual o objetivo da Comunidade?"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "fdd29ad6-c10f-4306-90f1-86fefbf7f5eb": {
+      "@type": "slate",
+      "plaintext": "4. Porque utilizar o Plone nos s\u00edtios do governo?",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "4. Porque utilizar o Plone nos s\u00edtios do governo?"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "6c75f46b-962b-4794-b9b5-459d68c9e4e8",
+      "fc319502-4c23-4b96-9579-cb4fb3c0a1d7",
+      "96618ff8-1084-42e8-8d95-33fd3a0412ce",
+      "07385263-c484-4a9d-8ecd-427734a9e6b1",
+      "0bc15239-607a-414b-ac27-326fe1de8413",
+      "0fedbc07-f66e-40b4-8e76-9b0214a2c87c",
+      "917d3b79-722d-4afe-bfd4-50c95930e5ee",
+      "fdd29ad6-c10f-4306-90f1-86fefbf7f5eb",
+      "1dc62b11-30a5-4a5b-8444-291acfd63a3d",
+      "9e8b5f54-a120-4bc0-82c2-b09d7271e693",
+      "fc04a865-182e-4beb-9aec-515b75be4977",
+      "b6c23193-5419-4489-a778-776929db9c1c",
+      "74d693c2-a0e7-4738-945c-c3fe240679e1"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-05-24T19:03:58+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": "2023-04-10T17:47:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "perguntas-frequentes",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2023-04-10T17:47:55+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Perguntas Frequentes",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-05-24T19:03:58+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2023-04-10T17:47:55+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

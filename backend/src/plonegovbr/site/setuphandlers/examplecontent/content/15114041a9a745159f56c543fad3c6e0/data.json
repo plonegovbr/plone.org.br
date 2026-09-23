@@ -1,0 +1,122 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/governo-brasileiro",
+  "@type": "CaseStudy",
+  "UID": "15114041a9a745159f56c543fad3c6e0",
+  "allow_discussion": null,
+  "blocks": {
+    "17680f0f-c393-4940-a27e-a3cec9d3ab78": {
+      "@type": "slate",
+      "plaintext": "O site gov.b r \u00e9 implementado, pelo SERPRO , utilizando o Plone.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O site "
+            },
+            {
+              "children": [
+                {
+                  "text": "gov.b"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": "r \u00e9 implementado, pelo "
+            },
+            {
+              "children": [
+                {
+                  "text": "SERPRO"
+                }
+              ],
+              "data": {
+                "url": "https://serpro.gov.br"
+              },
+              "type": "link"
+            },
+            {
+              "text": ", utilizando o Plone."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "da192f19-e30e-4afd-ba10-a9e8f0e01d78": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "da192f19-e30e-4afd-ba10-a9e8f0e01d78",
+      "17680f0f-c393-4940-a27e-a3cec9d3ab78"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-05-25T18:29:30+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "O site gov.br \u00e9 implementado, pelo SERPRO, em Plone.",
+  "effective": "2022-05-26T01:05:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "governo-brasileiro",
+  "industry": "gov",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2022-06-07T23:34:07+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "remoteUrl": "https://gov.br",
+  "review_state": "listed",
+  "rights": "",
+  "subjects": [
+    "Casos de Sucesso"
+  ],
+  "title": "Governo Brasileiro",
+  "type_title": "Case Study",
+  "usages": [],
+  "version": "current",
+  "versioning_enabled": true,
+  "versions": [],
+  "workflow_history": {
+    "casestudy_workflow": [
+      {
+        "action": "list",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "listed",
+        "time": "2026-09-23T16:39:59+00:00"
+      }
+    ],
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-05-25T18:29:30+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-05-26T01:05:18+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "casestudy_workflow|listed"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

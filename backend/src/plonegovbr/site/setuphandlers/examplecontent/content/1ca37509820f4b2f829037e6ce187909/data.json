@@ -1,0 +1,116 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/camara-municipal-do-recife",
+  "@type": "CaseStudy",
+  "UID": "1ca37509820f4b2f829037e6ce187909",
+  "allow_discussion": null,
+  "blocks": {
+    "5017230b-0a73-4659-8bfb-0ccf1de18270": {
+      "@type": "title"
+    },
+    "8432b33b-aedc-40b7-8a0a-1838c961d87e": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "9c6bb9d2-bdbc-4818-9df3-0009dffd6474": {
+      "@type": "slate",
+      "plaintext": "Premiado com o Selo de Qualidade em Transpar\u00eancia Ouro do Sistema Tribunais de Conta, o Portal da Transpar\u00eancia da C\u00e2mara Municipal do Recife \u00e9 desenvolvido com Plone 6.1 e Volto.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Premiado com o Selo de Qualidade em Transpar\u00eancia Ouro do Sistema Tribunais de Conta, o Portal da Transpar\u00eancia da C\u00e2mara Municipal do Recife \u00e9 desenvolvido com Plone 6.1 e Volto."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "e9f8389b-5667-4964-9dbe-bd6dc8344bfa": {
+      "@type": "description"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "5017230b-0a73-4659-8bfb-0ccf1de18270",
+      "e9f8389b-5667-4964-9dbe-bd6dc8344bfa",
+      "9c6bb9d2-bdbc-4818-9df3-0009dffd6474",
+      "8432b33b-aedc-40b7-8a0a-1838c961d87e"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2026-01-18T13:25:58+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "Portal da Transpar\u00eancia da C\u00e2mara Municipal do Recife",
+  "effective": "2026-01-18T13:26:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "camara-municipal-do-recife",
+  "industry": "gov",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2026-01-18T13:26:04+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "remoteUrl": "https://transparencia.recife.pe.leg.br/",
+  "review_state": "listed",
+  "rights": "",
+  "subjects": [
+    "Casos de Sucesso"
+  ],
+  "title": "C\u00e2mara Municipal do Recife",
+  "type_title": "Case Study",
+  "usages": [],
+  "version": "current",
+  "versioning_enabled": true,
+  "versions": [],
+  "workflow_history": {
+    "casestudy_workflow": [
+      {
+        "action": "list",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "listed",
+        "time": "2026-09-23T16:39:59+00:00"
+      }
+    ],
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-01-18T13:25:58+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-01-18T13:26:04+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "casestudy_workflow|listed"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

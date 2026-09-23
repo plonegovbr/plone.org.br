@@ -1,0 +1,113 @@
+{
+  "@id": "/documentacao",
+  "@type": "Document",
+  "UID": "1e1239a08c54453196a83b71cb67971e",
+  "allow_discussion": false,
+  "blocks": {
+    "0b92f8b0-8efe-4af0-9baa-22458b61f010": {
+      "@type": "title"
+    },
+    "c5dff804-d424-4b44-81c9-3aff796414c6": {
+      "@type": "gridBlock",
+      "blocks": {
+        "96eb8a3f-cf77-473d-aa0a-b93e5a69b5a5": {
+          "@type": "teaser",
+          "description": "A s\u00e9rie de v\u00eddeos explicando como tirar o m\u00e1ximo do Plone",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../resolveuid/eb4d65ad013f42f3995fd51514c2508a",
+              "@type": "VideoSeries",
+              "Description": "A s\u00e9rie de v\u00eddeos explicando como tirar o m\u00e1ximo do Plone",
+              "Title": "M\u00e3o na Massa",
+              "description": "A s\u00e9rie de v\u00eddeos explicando como tirar o m\u00e1ximo do Plone",
+              "effective": "2026-09-23T16:45:33+00:00",
+              "end": null,
+              "getRemoteUrl": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "start": null,
+              "title": "M\u00e3o na Massa"
+            }
+          ],
+          "overwrite": false,
+          "styles": {
+            "align": "left"
+          },
+          "title": "M\u00e3o na Massa"
+        },
+        "dbd0dbfb-6786-4b72-b2aa-68fec64c93e5": {
+          "@type": "empty"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "96eb8a3f-cf77-473d-aa0a-b93e5a69b5a5",
+          "dbd0dbfb-6786-4b72-b2aa-68fec64c93e5"
+        ]
+      },
+      "styles": {},
+      "theme": "default"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "0b92f8b0-8efe-4af0-9baa-22458b61f010",
+      "c5dff804-d424-4b44-81c9-3aff796414c6"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-06-20T13:45:05+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": "2022-06-20T16:01:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "documentacao",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-23T16:48:58+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Documenta\u00e7\u00e3o",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-06-20T13:45:06+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-06-20T16:01:06+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

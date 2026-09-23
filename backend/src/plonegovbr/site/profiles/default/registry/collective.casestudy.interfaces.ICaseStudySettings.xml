@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<registry xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+          i18n:domain="collective.casestudy"
+>
+
+  <!-- CaseStudy settings.
+
+       Each record is an ordered array of {token, title}. The token is what
+       gets stored on content, so it is the half that must not change; the
+       title is only ever displayed. Before profile version 2100 a term was
+       the string "token|title" - see upgrades/v2100. -->
+  <records interface="collective.casestudy.interfaces.ICaseStudySettings"
+           prefix="casestudy"
+  >
+    <value key="versions">
+      [
+        {"token": "6.2", "title": "Plone 6.2"},
+        {"token": "6.1", "title": "Plone 6.1"},
+        {"token": "6.0", "title": "Plone 6.0"},
+        {"token": "5.2", "title": "Plone 5.2"},
+        {"token": "5.1", "title": "Plone 5.1"},
+        {"token": "5.0", "title": "Plone 5.0"},
+        {"token": "4.3", "title": "Plone 4.3"},
+        {"token": "4.2", "title": "Plone 4.2"},
+        {"token": "4.1", "title": "Plone 4.1"},
+        {"token": "4.0", "title": "Plone 4.0"},
+        {"token": "3.3", "title": "Plone 3.3"},
+        {"token": "3.2", "title": "Plone 3.2"},
+        {"token": "3.1", "title": "Plone 3.1"},
+        {"token": "3.0", "title": "Plone 3.0"},
+        {"token": "2.5", "title": "Plone 2.5"},
+        {"token": "2.1", "title": "Plone 2.1"},
+        {"token": "1.0", "title": "Plone 1.0"}
+      ]
+    </value>
+
+    <value key="industries">
+      [
+        {"token": "edu", "title": "Universidade &amp; Educação"},
+        {"token": "ngo", "title": "ONG &amp; Terceiro Setor"},
+        {"token": "gov", "title": "Governo  &amp; Setor Público"},
+        {"token": "finance", "title": "Finanças &amp; Setor Bancário"},
+        {"token": "healthcare", "title": "Saúde &amp; Ciências da Vida"},
+        {"token": "media", "title": "Mídia &amp; Publicação"},
+        {"token": "transport", "title": "Transporte &amp; Logística"},
+        {"token": "retail", "title": "Varejo &amp; Comércio Eletrônico"},
+        {"token": "technology", "title": "Tecnologia &amp; Serviços de TI"},
+        {"token": "legal", "title": "Serviços Jurídicos"},
+        {"token": "professional-services", "title": "Serviços Profissionais"},
+        {"token": "manufacturing", "title": "Manufatura &amp; Indústria"},
+        {"token": "energy", "title": "Energia &amp; Utilidades"},
+        {"token": "telecom", "title": "Telecomunicações"},
+        {"token": "corporate", "title": "Corporativo"}
+      ]
+    </value>
+
+    <value key="usages">
+      [
+        {"token": "portal", "title": "Portal"},
+        {"token": "intranet", "title": "Intranet"},
+        {"token": "kb", "title": "Base de Conhecimento"},
+        {"token": "other", "title": "Outro"}
+      ]
+    </value>
+
+    <value key="services">
+      [
+        {"token": "design", "title": "Design / Theming"},
+        {"token": "dev", "title": "Desenvolvimento / Integração"},
+        {"token": "hosting", "title": "Hospedagem"},
+        {"token": "training", "title": "Treinamento"}
+      ]
+    </value>
+
+    <value key="organization_sizes">
+      [
+        {"token": "me", "title": "Apenas eu"},
+        {"token": "small", "title": "Até 5 funcionários"},
+        {"token": "medium", "title": "De 5 a 30 funcionários"},
+        {"token": "large", "title": "Mais de 30 funcionários"}
+      ]
+    </value>
+  </records>
+
+</registry>

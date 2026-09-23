@@ -1,0 +1,101 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/instituto-federal-da-paraiba",
+  "@type": "CaseStudy",
+  "UID": "5dec306a3f7c4f93b659f34d9a3ff365",
+  "allow_discussion": null,
+  "blocks": {
+    "4955bcd7-e8c0-4c7f-ba96-58759538c35c": {
+      "@type": "title"
+    },
+    "4d29868a-8ad6-4421-bf48-c0098200b1fc": {
+      "@type": "description"
+    },
+    "e457f5f2-a01a-4eea-a3da-4f78da04bd12": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "4955bcd7-e8c0-4c7f-ba96-58759538c35c",
+      "4d29868a-8ad6-4421-bf48-c0098200b1fc",
+      "e457f5f2-a01a-4eea-a3da-4f78da04bd12"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2026-01-18T13:50:09+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "O site do IFPB e de todos os seus campi, \u00e9 desenvolvido com Plone 6 e Volto",
+  "effective": "2026-01-18T13:50:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "instituto-federal-da-paraiba",
+  "industry": "edu",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2026-01-18T13:50:25+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "remoteUrl": "https://www.ifpb.edu.br/",
+  "review_state": "listed",
+  "rights": "",
+  "subjects": [
+    "Casos de Sucesso"
+  ],
+  "title": "Instituto Federal da Para\u00edba",
+  "type_title": "Case Study",
+  "usages": [],
+  "version": "current",
+  "versioning_enabled": true,
+  "versions": [],
+  "workflow_history": {
+    "casestudy_workflow": [
+      {
+        "action": "list",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "listed",
+        "time": "2026-09-23T16:39:59+00:00"
+      }
+    ],
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-01-18T13:50:09+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-01-18T13:50:25+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "casestudy_workflow|listed"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

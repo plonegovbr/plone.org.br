@@ -1,0 +1,77 @@
+{
+  "@id": "/images/logos",
+  "@type": "Document",
+  "UID": "0e98cfdcf5e94e42b64106054ac31abc",
+  "allow_discussion": false,
+  "blocks": {
+    "3ad038ce-e8a4-4527-9042-aab752685ef5": {
+      "@type": "title"
+    },
+    "94b0ea11-1b5b-4b63-9a00-4ae796708cc2": {
+      "@type": "listing",
+      "headline": "",
+      "headlineTag": "h2",
+      "styles": {},
+      "variation": "listing"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "3ad038ce-e8a4-4527-9042-aab752685ef5",
+      "94b0ea11-1b5b-4b63-9a00-4ae796708cc2"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-06-20T15:03:41+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": "2022-06-20T15:03:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "logos",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2022-06-20T15:38:41+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Logos",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-06-20T15:03:41+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-06-20T15:03:46+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

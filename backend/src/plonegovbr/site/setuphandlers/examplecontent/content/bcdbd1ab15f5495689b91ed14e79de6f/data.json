@@ -1,0 +1,77 @@
+{
+  "@id": "/images/historia",
+  "@type": "Document",
+  "UID": "bcdbd1ab15f5495689b91ed14e79de6f",
+  "allow_discussion": false,
+  "blocks": {
+    "70956c62-fa08-422b-b549-5ab1769ad9a9": {
+      "@type": "listing",
+      "headline": "",
+      "headlineTag": "h2",
+      "styles": {},
+      "variation": "imageGallery"
+    },
+    "a4267aa3-3a2a-4265-a3c2-924cbcc5eb93": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "a4267aa3-3a2a-4265-a3c2-924cbcc5eb93",
+      "70956c62-fa08-422b-b549-5ab1769ad9a9"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-05-24T19:31:55+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": "2022-05-24T19:36:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "historia",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2022-05-24T22:49:20+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Hist\u00f3ria",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-05-24T19:31:55+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-05-24T19:36:52+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

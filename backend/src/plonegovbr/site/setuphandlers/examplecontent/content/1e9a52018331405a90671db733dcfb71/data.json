@@ -1,0 +1,40 @@
+{
+  "@id": "/novidades/noticias/2025/novo-conselho-da-plone-foundation-para-2025-2026/whatsapp-image-2025-11-04-at-18-19-06.jpeg",
+  "@type": "Image",
+  "UID": "1e9a52018331405a90671db733dcfb71",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2026-09-23T15:57:10+00:00",
+  "creators": [
+    "ploneorgbr"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "whatsapp-image-2025-11-04-at-18-19-06.jpeg",
+  "image": {
+    "blob_path": "1e9a52018331405a90671db733dcfb71/image/WhatsApp Image 2025-11-04 at 18.19.06.jpeg",
+    "content-type": "image/jpeg",
+    "filename": "WhatsApp Image 2025-11-04 at 18.19.06.jpeg",
+    "height": 531,
+    "size": 118442,
+    "width": 1079
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2026-09-23T15:57:13+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "whatsapp-image-2025-11-04-at-18-19-06.jpeg",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}
