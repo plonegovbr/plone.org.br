@@ -7,6 +7,8 @@ WORKDIR /src
 
 # Install package
 RUN --mount=type=cache,target=/root/.cache \
+    # --mount=type=bind,source=uv.lock,target=uv.lock \
+    # --mount=type=bind,source=pyproject.toml,target=pyproject.toml \
     --mount=type=bind,source=mx.ini,target=mx.ini \
     uv tool run mxdev[uv] -c mx.ini && \
     uv sync \
@@ -28,18 +30,19 @@ RUN <<EOT
     /app/bin/python /compile_mo.py
 EOT
 
-FROM plone/server-prod-config:uv-${PYTHON_VERSION}
+FROM plone/server-acceptance:uv-${PYTHON_VERSION}
 
 LABEL maintainer="PloneGov-BR <gov@plone.org>" \
-      org.label-schema.name="plone.org.br-backend" \
-      org.label-schema.description="Plone Brasil backend image." \
+      org.label-schema.name="plone.org.br-acceptance" \
+      org.label-schema.description="Plone Brasil backend acceptance image." \
       org.label-schema.vendor="PloneGov-BR"
 
-# Copy the pre-built `/app` directory to the runtime container
-# and change the ownership to user app and group app in one step.
-COPY --from=builder --chown=500:500 /app /app
+ENV CONFIGURE_PACKAGES="plone.restapi,plone.volto,plone.volto.cors,plonegovbr.site"
+ENV APPLY_PROFILES="plonegovbr.site:default"
+
+# Copy /app from builder
+COPY --from=builder /app /app
 
 RUN <<EOT
     ln -s /data /app/var
-    chown -R 500:500 /data
 EOT

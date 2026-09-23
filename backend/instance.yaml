@@ -1,8 +1,5 @@
+# Configuration for https://github.com/plone/cookiecutter-zope-instance
+
 default_context:
-    initial_user_name: 'admin'
     initial_user_password: 'admin'
-
-    load_zcml:
-        package_includes: ['ploneorgbr.core']
-
-    db_storage: direct
+    zcml_package_includes: 'plonegovbr.site'
