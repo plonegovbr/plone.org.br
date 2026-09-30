@@ -31,7 +31,7 @@ dependencies = [
     "pas.plugins.identity==1.0.0a8",
     "collective.casestudy==2.0.0a1",
     "sc.videos==1.0.0a3",
-    "sc.voltolighttheme==1.0.0a7",
+    "sc.voltolighttheme==1.0.0a9",
     "plonegovbr.socialmedia==3.0.0",
 ]
 

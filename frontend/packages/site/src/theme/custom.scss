@@ -1,0 +1,203 @@
+// (Design Plone.org.br)
+body,
+:root {
+  // Configuração das cores semânticas baseadas no design (plone.org.br)
+
+  // ===========================================================================
+  // Mapeamento dos Temas de Blocos (Padrão sc-vlt)
+  // ===========================================================================
+
+  // 1. Theme: Default
+  // Ground
+  --block-theme-default-bg: var(--primary-color);
+  --block-theme-default-text: var(--primary-foreground-color);
+  --block-theme-default-high-contrast: var(--primary-foreground-color);
+  --block-theme-default-low-contrast: var(--primary-low-foreground-color);
+  --block-theme-default-accent-color: var(--primary-accent-color);
+  // High Ground
+  --block-theme-default-high-bg: var(--primary-color);
+  --block-theme-default-top-text: var(--primary-foreground-color);
+  --block-theme-default-top-high-contrast: var(--primary-foreground-color);
+  --block-theme-default-top-low-contrast: var(--primary-low-foreground-color);
+  --block-theme-default-top-accent-color: var(--primary-accent-color);
+  // Border (sobrescrito via extraStyles no TS, mas definindo fallbacks)
+  --block-theme-default-border: unset;
+  --block-theme-default-border-width: 0;
+  // Pattern
+  --block-theme-default-pattern-image: none;
+  --block-theme-default-pattern-opacity: 0;
+
+  // 2. Theme: DarkBlue
+  // Ground (usa Secondary)
+  --block-theme-darkBlue-bg: var(--secondary-color);
+  --block-theme-darkBlue-text: var(--secondary-foreground-color);
+  --block-theme-darkBlue-high-contrast: var(--secondary-foreground-color);
+  --block-theme-darkBlue-low-contrast: var(--secondary-low-foreground-color);
+  --block-theme-darkBlue-accent-color: var(--secondary-accent-color);
+  // High Ground (usa Primary)
+  --block-theme-darkBlue-high-bg: var(--primary-color);
+  --block-theme-darkBlue-top-text: var(--primary-foreground-color);
+  --block-theme-darkBlue-top-high-contrast: var(--primary-foreground-color);
+  --block-theme-darkBlue-top-low-contrast: var(--primary-low-foreground-color);
+  --block-theme-darkBlue-top-accent-color: var(--primary-accent-color);
+  // Border
+  --block-theme-darkBlue-border: unset;
+  --block-theme-darkBlue-border-width: 0;
+  // Pattern
+  --block-theme-darkBlue-pattern-image: none;
+  --block-theme-darkBlue-pattern-opacity: 0;
+
+  // 3. Theme: LightBlue
+  // Ground (usa Neutral)
+  --block-theme-lightBlue-bg: var(--neutral-color);
+  --block-theme-lightBlue-text: var(--neutral-foreground-color);
+  --block-theme-lightBlue-high-contrast: var(--neutral-foreground-color);
+  --block-theme-lightBlue-low-contrast: var(--neutral-low-foreground-color);
+  --block-theme-lightBlue-accent-color: var(--neutral-accent-color);
+  // High Ground (usa Neutral)
+  --block-theme-lightBlue-high-bg: var(--neutral-color);
+  --block-theme-lightBlue-top-text: var(--neutral-foreground-color);
+  --block-theme-lightBlue-top-high-contrast: var(--neutral-foreground-color);
+  --block-theme-lightBlue-top-low-contrast: var(--neutral-low-foreground-color);
+  --block-theme-lightBlue-top-accent-color: var(--neutral-accent-color);
+  // Border
+  --block-theme-lightBlue-border: unset;
+  --block-theme-lightBlue-border-width: 0;
+  // Pattern
+  --block-theme-lightBlue-pattern-image: none;
+  --block-theme-lightBlue-pattern-opacity: 0;
+
+  // 4. Theme: WhiteB
+  // Ground (usa Primary)
+  --block-theme-whiteB-bg: var(--primary-color);
+  --block-theme-whiteB-text: var(--primary-foreground-color);
+  --block-theme-whiteB-high-contrast: var(--primary-foreground-color);
+  --block-theme-whiteB-low-contrast: var(--primary-low-foreground-color);
+  --block-theme-whiteB-accent-color: var(--primary-accent-color);
+  // High Ground (usa Primary)
+  --block-theme-whiteB-high-bg: var(--secondary-color);
+  --block-theme-whiteB-top-text: var(--secondary-foreground-color);
+  --block-theme-whiteB-top-high-contrast: var(--secondary-foreground-color);
+  --block-theme-whiteB-top-low-contrast: var(--secondary-low-foreground-color);
+  --block-theme-whiteB-top-accent-color: var(--secondary-accent-color);
+  // Border (sobrescrito via extraStyles no TS, mas definindo fallbacks)
+  --block-theme-whiteB-border: var(--primary-foreground-color);
+  --block-theme-whiteB-border-width: 0;
+  // Pattern
+  --block-theme-whiteB-pattern-image: none;
+  --block-theme-whiteB-pattern-opacity: 0;
+}
+
+body .casestudy-metadata-block {
+  display: block !important;
+  background-color: var(--primary-color) !important;
+  color: var(--primary-foreground-color) !important;
+  width: auto !important;
+  // Metade do container padrão, igual ao comportamento do floated-figure
+  max-width: calc(var(--default-container-width, 940px) / 2 - 10px) !important;
+  word-break: break-word;
+  float: right !important;
+  // Alinha o aside com a borda direita do container de conteúdo (fórmula de _mainImageBlock.scss)
+  margin-right: max(1rem, calc(50vw - var(--default-container-width, 940px) / 2)) !important;
+  margin-left: 2rem !important;
+  margin-top: 0 !important;
+  margin-bottom: 2rem !important;
+
+  .ui.dividing.sub.header {
+    color: var(--primary-foreground-color) !important;
+  }
+
+  @media only screen and (max-width: 991px) {
+    display: block !important;
+    float: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+}
+
+.casestudy-view .blocks-group-wrapper {
+  > .block.introduction,
+  > .block.image.align.center,
+  > .block.gridBlock {
+    clear: right !important;
+  }
+}
+
+#page-edit .block-editor-case_study_metadata {
+  // Anula o float que body .casestudy-metadata-block aplica ao aside interno
+  .casestudy-metadata-block {
+    float: none !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  // O bloco editor em si ocupa meia largura e se alinha à direita
+  width: calc(var(--default-container-width, 940px) / 2 - 10px) !important;
+  max-width: calc(var(--default-container-width, 940px) / 2 - 10px) !important;
+  margin-right: max(1rem, calc(50vw - var(--default-container-width, 940px) / 2)) !important;
+  margin-left: auto !important;
+
+  @media only screen and (max-width: 991px) {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+}
+
+
+// ===========================================================================
+// Estilização da Paginação (Design Plone.org.br)
+// ===========================================================================
+body .block.listing .pagination-wrapper {
+  // Esconde o texto "Resultado 1-1 de 3"
+  .total {
+    display: none;
+  }
+
+  div.ui.pagination.menu {
+    border: none;
+    box-shadow: none;
+    background: transparent;
+
+    a.item {
+      background: var(--theme-color, var(--primary-color)) !important;
+      border: none;
+      color: var(--theme-foreground-accent-color, var(--primary-accent-color)) !important;
+      min-width: unset;
+      padding: 0.5rem 0.75rem;
+
+      // Remove a borda entre os itens gerada pelo Semantic UI
+      &:before,
+      &:after {
+        display: none;
+      }
+
+      // Estilo da página atual
+      &.active {
+        background-color: var(--theme-foreground-accent-color, #003366) !important;
+        color: var(--theme-color, #ffffff) !important;
+        font-weight: bold;
+      }
+
+      // Hover nos itens interativos
+      &:hover:not(.active):not(.disabled),
+      &:focus:not(.active):not(.disabled) {
+        background: color-mix(in srgb, var(--theme-foreground-accent-color) 10%, var(--theme-color)) !important;
+        color: var(--theme-foreground-accent-color, #ffffff) !important;
+        text-decoration: underline;
+      }
+
+      // Estado desativado (ex: "Página anterior" na primeira página)
+      &.disabled {
+        opacity: 0.5;
+        background: transparent;
+        color: var(--theme-foreground-accent-color, #003366) !important;
+      }
+    }
+  }
+}
