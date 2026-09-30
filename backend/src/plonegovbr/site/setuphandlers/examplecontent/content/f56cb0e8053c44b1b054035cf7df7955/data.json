@@ -7,6 +7,10 @@
     "157ccf90-0eb9-4dde-86ef-6797d4ae50ec": {
       "@type": "listing",
       "block": "157ccf90-0eb9-4dde-86ef-6797d4ae50ec",
+      "blockWidth": {
+        "--block-width": "var(--default-container-width)"
+      },
+      "gridColumns": 2,
       "headlineTag": "h2",
       "query": [],
       "querystring": {
@@ -30,6 +34,10 @@
         "sort_order": "descending",
         "sort_order_boolean": true
       },
+      "styles": {
+        "--cardBorderColor": ""
+      },
+      "theme": "default",
       "variation": "summary"
     },
     "7be35e86-19b5-4c74-98c5-88cb47db1ffd": {
@@ -94,6 +102,10 @@
     "dc3fae02-f857-48d4-9297-d901e89f2476": {
       "@type": "listing",
       "block": "dc3fae02-f857-48d4-9297-d901e89f2476",
+      "blockWidth": {
+        "--block-width": "var(--default-container-width)"
+      },
+      "gridColumns": 2,
       "headlineTag": "h2",
       "query": [],
       "querystring": {
@@ -120,6 +132,10 @@
         "sort_order": "ascending",
         "sort_order_boolean": false
       },
+      "styles": {
+        "--cardBorderColor": ""
+      },
+      "theme": "default",
       "variation": "summary"
     },
     "ea385071-bdef-422a-9fdb-9f311f55519e": {
@@ -182,7 +198,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2026-09-23T16:40:45+00:00",
+  "modified": "2026-09-29T15:12:34+00:00",
   "nav_title": null,
   "preview_caption_link": null,
   "review_state": "published",

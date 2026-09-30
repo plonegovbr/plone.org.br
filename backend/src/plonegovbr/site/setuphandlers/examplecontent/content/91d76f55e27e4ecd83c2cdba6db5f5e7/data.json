@@ -1,5 +1,5 @@
 {
-  "@id": "/novidades/noticias/2025/rafahela-bazzanella-recebe-premio-dorneles-tremea-jean-ferri",
+  "@id": "/novidades/noticias/2025/rafahela-bazzanella-recebe-premio-dorneles-tremea-jean-ferri-muito-legal",
   "@type": "News Item",
   "UID": "91d76f55e27e4ecd83c2cdba6db5f5e7",
   "allow_discussion": null,
@@ -95,12 +95,13 @@
       ]
     },
     "9a3f55d5-4f48-40c4-a323-3641b59b03df": {
+      "--cardBorderColor": "",
       "@type": "mainImageBlock",
       "align": "center",
       "size": "l",
       "styles": {
         "blockWidth:noprefix": {
-          "--block-width": "var(--narrow-container-width)"
+          "--block-width": "var(--default-container-width)"
         }
       },
       "theme": "default"
@@ -159,7 +160,7 @@
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "id": "rafahela-bazzanella-recebe-premio-dorneles-tremea-jean-ferri",
+  "id": "rafahela-bazzanella-recebe-premio-dorneles-tremea-jean-ferri-muito-legal",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "newsitem_view",
@@ -167,7 +168,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2026-09-23T16:37:33+00:00",
+  "modified": "2026-09-30T14:30:16+00:00",
   "nav_title": null,
   "preview_caption_link": null,
   "review_state": "published",
@@ -175,7 +176,7 @@
   "subjects": [
     "Comunidade"
   ],
-  "title": "Rafahela Bazzanella recebe pr\u00eamio Dorneles Trem\u00e9a / Jean Ferri",
+  "title": "Rafahela Bazzanella recebe pr\u00eamio Dorneles Trem\u00e9a / Jean Ferri - muito legal",
   "type_title": "News Item",
   "version": "current",
   "versioning_enabled": true,

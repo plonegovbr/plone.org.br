@@ -18,57 +18,71 @@
         }
       ]
     },
+    "25165ba3-2461-4fd7-b9ce-e10dd8669779": {
+      "@type": "accordion",
+      "collapsed": false,
+      "data": {
+        "blocks": {
+          "cb307a3f-4919-4023-9716-d397cb8b11db": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "cf6ecf82-3a5d-41bf-8373-4fc8204cce92": {
+                "@type": "listing",
+                "blockWidth": "layout",
+                "gridColumns": 2,
+                "headlineTag": "h2",
+                "querystring": {
+                  "query": [
+                    {
+                      "i": "portal_type",
+                      "o": "plone.app.querystring.operation.selection.any",
+                      "v": [
+                        "Event"
+                      ]
+                    },
+                    {
+                      "i": "end",
+                      "o": "plone.app.querystring.operation.date.lessThan",
+                      "v": "2026-09-29"
+                    }
+                  ],
+                  "sort_order": "ascending"
+                },
+                "styles": {
+                  "--cardBorderColor": ""
+                },
+                "theme": "default",
+                "variation": "summary"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "cf6ecf82-3a5d-41bf-8373-4fc8204cce92"
+              ]
+            },
+            "title": "Eventos anteriores"
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "cb307a3f-4919-4023-9716-d397cb8b11db"
+          ]
+        }
+      },
+      "filtering": false,
+      "non_exclusive": false,
+      "right_arrows": true,
+      "styles": {},
+      "theme": "lightBlue"
+    },
     "41bb0298-f42a-4dab-a7d7-01ee0451b07d": {
       "@type": "title"
-    },
-    "462758c7-ca8f-4ec8-9079-a2a6267f25a4": {
-      "@type": "slate",
-      "plaintext": "",
-      "value": [
-        {
-          "children": [
-            {
-              "text": ""
-            }
-          ],
-          "type": "p"
-        }
-      ]
-    },
-    "4b2a20ec-7243-4854-b665-5b3e73d98c9f": {
-      "@type": "listing",
-      "block": "4b2a20ec-7243-4854-b665-5b3e73d98c9f",
-      "headlineTag": "h2",
-      "query": [],
-      "querystring": {
-        "query": [
-          {
-            "i": "path",
-            "o": "plone.app.querystring.operation.string.absolutePath",
-            "v": "/novidades//eventos/"
-          },
-          {
-            "i": "portal_type",
-            "o": "plone.app.querystring.operation.selection.any",
-            "v": [
-              "Event"
-            ]
-          },
-          {
-            "i": "end",
-            "o": "plone.app.querystring.operation.date.beforeToday",
-            "v": ""
-          }
-        ],
-        "sort_on": "end",
-        "sort_order": "descending",
-        "sort_order_boolean": true
-      },
-      "variation": "summary"
     },
     "665a07a2-b9d2-406d-9234-2c3f3e3bb56d": {
       "@type": "slate",
       "plaintext": "Eventos Anteriores",
+      "styles": {},
+      "theme": "default",
       "value": [
         {
           "children": [
@@ -83,6 +97,10 @@
     "7388e081-9ee8-44d5-b6e8-970239010c6a": {
       "@type": "listing",
       "block": "7388e081-9ee8-44d5-b6e8-970239010c6a",
+      "blockWidth": {
+        "--block-width": "var(--default-container-width)"
+      },
+      "gridColumns": 2,
       "headlineTag": "h2",
       "query": [],
       "querystring": {
@@ -108,7 +126,11 @@
         "sort_on": "end",
         "sort_order": "ascending"
       },
-      "variation": "summary"
+      "styles": {
+        "--cardBorderColor": ""
+      },
+      "theme": "default",
+      "variation": "events"
     }
   },
   "blocks_layout": {
@@ -117,8 +139,7 @@
       "10e066a2-8ae7-47ce-bd54-fc99f8592ecd",
       "7388e081-9ee8-44d5-b6e8-970239010c6a",
       "665a07a2-b9d2-406d-9234-2c3f3e3bb56d",
-      "4b2a20ec-7243-4854-b665-5b3e73d98c9f",
-      "462758c7-ca8f-4ec8-9079-a2a6267f25a4"
+      "25165ba3-2461-4fd7-b9ce-e10dd8669779"
     ]
   },
   "changeNote": "",
@@ -154,7 +175,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2026-09-23T16:41:16+00:00",
+  "modified": "2026-09-29T15:16:29+00:00",
   "nav_title": "Eventos",
   "preview_caption_link": null,
   "review_state": "published",

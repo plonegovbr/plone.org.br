@@ -1,0 +1,247 @@
+{
+  "@id": "/novidades/noticias/rafahela-bazzanella-recebe-premio-dorneles-tremea-jean-ferri",
+  "@type": "News Item",
+  "UID": "bdeb4101c94340fa86a18f13f2ba1026",
+  "allow_discussion": null,
+  "blocks": {
+    "2f851746-03b5-48ef-a5d9-6d6585d84775": {
+      "@type": "slate",
+      "plaintext": "A cerim\u00f4nia aconteceu no encerramento da Python Brasil 2025, em S\u00e3o Paulo. A comunidade Plone Brasil parabeniza Rafahela pelo reconhecimento.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "A cerim\u00f4nia aconteceu no encerramento da Python Brasil 2025, em S\u00e3o Paulo. A comunidade Plone Brasil parabeniza Rafahela pelo reconhecimento."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "41c4d8ee-4c00-42a3-9d07-a002be1a5a8d": {
+      "@type": "title"
+    },
+    "4792efed-ee85-49f9-9c8e-c8c010dbdfe3": {
+      "@type": "slate",
+      "plaintext": "Uma trajet\u00f3ria na comunidade Plone",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Uma trajet\u00f3ria na comunidade Plone"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "70efccf5-01a4-41ca-88b1-5482dbeda8bd": {
+      "@type": "slate",
+      "plaintext": "Rafahela participa da comunidade Plone h\u00e1 anos, organizando encontros, revisando tradu\u00e7\u00f5es para o portugu\u00eas e representando o Brasil em confer\u00eancias internacionais. Leia a entrevista completa no f\u00f3rum.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Rafahela participa da comunidade Plone h\u00e1 anos, organizando encontros, revisando tradu\u00e7\u00f5es para o portugu\u00eas e representando o Brasil em confer\u00eancias internacionais. "
+            },
+            {
+              "children": [
+                {
+                  "text": "Leia a entrevista completa"
+                }
+              ],
+              "data": {
+                "url": null
+              },
+              "type": "link"
+            },
+            {
+              "text": " no f\u00f3rum."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "8d8b5b0b-e974-4b03-92e9-74ddde0a9bd8": {
+      "@type": "introduction",
+      "plaintext": "Durante a Python Brasil 2025, realizada em S\u00e3o Paulo, Rafahela foi agraciada com o pr\u00eamio Dorneles Trem\u00e9a / Jean Ferri.",
+      "styles": {
+        "align": "left"
+      },
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Durante a Python Brasil 2025, realizada em S\u00e3o Paulo, Rafahela foi agraciada com o pr\u00eamio Dorneles Trem\u00e9a / Jean Ferri."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "9d157461-2187-492c-8895-f04fa9a009e0": {
+      "@type": "quoteBlock",
+      "backgroundStyle": "transparent",
+      "plaintext": "\u201cComunidade se faz aparecendo, ajudando e voltando.\u201d",
+      "styles": {
+        "--cardBorderColor": "#FF0000"
+      },
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "\u201cComunidade se faz aparecendo, ajudando e voltando.\u201d"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "a12fba8f-658c-4ee3-8a5f-62a0a1a909b9": {
+      "@type": "listing",
+      "blockWidth": {
+        "--block-width": "var(--default-container-width)"
+      },
+      "gridColumns": 3,
+      "headline": "Mais not\u00edcias",
+      "headlineTag": "h2",
+      "querystring": {
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "News Item"
+            ]
+          }
+        ],
+        "sort_order": "ascending",
+        "sort_order_boolean": false
+      },
+      "styles": {
+        "--cardBorderColor": ""
+      },
+      "theme": "lightBlue",
+      "variation": "grid"
+    },
+    "ae2f5ad5-cc84-464f-9758-404261c0aba3": {
+      "--cardBorderColor": "",
+      "@type": "mainImageBlock",
+      "align": "center",
+      "description": "Rafahela no palco da Python Brasil 2025. Foto: comunidade.",
+      "size": "l",
+      "styles": {
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default"
+    },
+    "b238c12e-c3a2-459b-ba4e-cc9a97ac0535": {
+      "@type": "slate",
+      "plaintext": "O pr\u00eamio Dorneles Trem\u00e9a / Jean Ferri \u00e9 concedido anualmente pela comunidade Python brasileira a pessoas que se destacam pela contribui\u00e7\u00e3o volunt\u00e1ria, pela constru\u00e7\u00e3o de comunidade e pelo cuidado com quem chega.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O pr\u00eamio Dorneles Trem\u00e9a / Jean Ferri \u00e9 concedido anualmente pela comunidade Python brasileira a pessoas que se destacam pela contribui\u00e7\u00e3o volunt\u00e1ria, pela constru\u00e7\u00e3o de comunidade e pelo cuidado com quem chega."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "c723338e-b2f4-4c4c-9222-fbb7ed437a22": {
+      "@type": "slate",
+      "plaintext": "Por Comunidade Plone Brasil \u00b7 publicado em 28 de agosto de 2026 \u00b7 atualizado em 30 de agosto de 2026",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Por Comunidade Plone Brasil \u00b7 publicado em 28 de agosto de 2026 \u00b7 atualizado em 30 de agosto de 2026"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "41c4d8ee-4c00-42a3-9d07-a002be1a5a8d",
+      "8d8b5b0b-e974-4b03-92e9-74ddde0a9bd8",
+      "c723338e-b2f4-4c4c-9222-fbb7ed437a22",
+      "ae2f5ad5-cc84-464f-9758-404261c0aba3",
+      "b238c12e-c3a2-459b-ba4e-cc9a97ac0535",
+      "4792efed-ee85-49f9-9c8e-c8c010dbdfe3",
+      "70efccf5-01a4-41ca-88b1-5482dbeda8bd",
+      "9d157461-2187-492c-8895-f04fa9a009e0",
+      "2f851746-03b5-48ef-a5d9-6d6585d84775",
+      "a12fba8f-658c-4ee3-8a5f-62a0a1a909b9"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2026-09-29T15:08:10+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Durante a Python Brasil 2025, realizada em S\u00e3o Paulo, Rafahela foi agraciada com o pr\u00eamio Dorneles Trem\u00e9a / Jean Ferri.",
+  "effective": "2026-09-29T15:12:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "rafahela-bazzanella-recebe-premio-dorneles-tremea-jean-ferri",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "newsitem_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-30T21:37:15+00:00",
+  "nav_title": null,
+  "preview_caption_link": "Rafahela no palco da Python Brasil 2025. Foto: comunidade.",
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Rafahela Bazzanella recebe pr\u00eamio Dorneles Trem\u00e9a / Jean Ferri",
+  "type_title": "News Item",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-09-29T15:08:10+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-09-29T15:13:00+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

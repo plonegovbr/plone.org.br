@@ -4,31 +4,89 @@
   "UID": "838efb15734b4367868a8a12113a8c04",
   "allow_discussion": false,
   "blocks": {
-    "a55ab8cf-ed2a-4503-ad69-2e136ae74226": {
-      "@type": "title"
+    "004cd7a8-3796-431b-a116-915a14beeb1b": {
+      "@type": "teaser",
+      "description": "A homenagem ocorreu durante a Python Brasil 2025, realizada em S\u00e3o Paulo.",
+      "head_title": null,
+      "href": [
+        {
+          "@id": "../../resolveuid/91d76f55e27e4ecd83c2cdba6db5f5e7",
+          "@type": "News Item",
+          "Description": "A homenagem ocorreu durante a Python Brasil 2025, realizada em S\u00e3o Paulo.",
+          "Subject": [
+            "Comunidade"
+          ],
+          "Title": "Rafahela Bazzanella recebe pr\u00eamio Dorneles Trem\u00e9a / Jean Ferri",
+          "description": "A homenagem ocorreu durante a Python Brasil 2025, realizada em S\u00e3o Paulo.",
+          "effective": "2025-11-14T18:47:00+00:00",
+          "end": null,
+          "facets": null,
+          "getObjSize": "0 KB",
+          "getRemoteUrl": null,
+          "hasPreviewImage": null,
+          "head_title": null,
+          "image_field": "preview_image_link",
+          "mime_type": "text/plain",
+          "nav_title": null,
+          "review_state": "published",
+          "social_links": null,
+          "start": null,
+          "title": "Rafahela Bazzanella recebe pr\u00eamio Dorneles Trem\u00e9a / Jean Ferri - muito legal",
+          "type_title": "Not\u00edcia",
+          "workflow_states": [
+            "simple_publication_workflow|published"
+          ]
+        }
+      ],
+      "overwrite": false,
+      "styles": {
+        "--cardBorderColor": "",
+        "--cardBorderWidth": "",
+        "align": "left"
+      },
+      "theme": "default",
+      "title": "Rafahela Bazzanella recebe pr\u00eamio Dorneles Trem\u00e9a / Jean Ferri - muito legal"
     },
-    "d84111a3-05e5-4ddd-9c75-81fc7c68e184": {
-      "@type": "slate",
-      "plaintext": "",
+    "6410b5f7-12b8-4b01-a176-62e4bbb57baa": {
+      "@type": "introduction",
+      "plaintext": "Novidades da comunidade Plone Brasil, lan\u00e7amentos, pr\u00eamios e a s\u00e9rie de lives M\u00e3o na Massa.",
+      "styles": {},
+      "theme": "default",
       "value": [
         {
           "children": [
             {
-              "text": ""
+              "text": "Novidades da comunidade Plone Brasil, lan\u00e7amentos, pr\u00eamios e a s\u00e9rie de lives M\u00e3o na Massa."
             }
           ],
           "type": "p"
         }
       ]
     },
+    "a55ab8cf-ed2a-4503-ad69-2e136ae74226": {
+      "@type": "title"
+    },
+    "c7bf3ce3-0ca8-4b63-87ee-d116d9b3e29d": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "default",
+        "shortLine": true
+      },
+      "theme": "default",
+      "thickness": "2"
+    },
     "f19f3478-68c0-46ee-b989-9a2cf486e42c": {
       "@type": "listing",
       "block": "157ccf90-0eb9-4dde-86ef-6797d4ae50ec",
-      "headline": "\u00daltimas not\u00edcias",
+      "blockWidth": {
+        "--block-width": "var(--default-container-width)"
+      },
+      "gridColumns": 2,
       "headlineTag": "h2",
       "query": [],
       "querystring": {
-        "b_size": "7",
+        "b_size": "1",
         "limit": "7",
         "query": [
           {
@@ -48,13 +106,19 @@
         "sort_order": "descending",
         "sort_order_boolean": true
       },
+      "styles": {
+        "--cardBorderColor": ""
+      },
+      "theme": "whiteB",
       "variation": "summary"
     }
   },
   "blocks_layout": {
     "items": [
       "a55ab8cf-ed2a-4503-ad69-2e136ae74226",
-      "d84111a3-05e5-4ddd-9c75-81fc7c68e184",
+      "6410b5f7-12b8-4b01-a176-62e4bbb57baa",
+      "004cd7a8-3796-431b-a116-915a14beeb1b",
+      "c7bf3ce3-0ca8-4b63-87ee-d116d9b3e29d",
       "f19f3478-68c0-46ee-b989-9a2cf486e42c"
     ]
   },
@@ -78,7 +142,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2026-09-23T16:40:51+00:00",
+  "modified": "2026-09-30T16:49:23+00:00",
   "nav_title": null,
   "preview_caption_link": null,
   "review_state": "published",

@@ -1,0 +1,338 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/portal-padrao-do-governo-federal",
+  "@type": "CaseStudy",
+  "UID": "53c0b8723a504b9a97f0016bfefdfeae",
+  "allow_discussion": null,
+  "blocks": {
+    "10482bba-f613-423e-8e78-fdd2bf345699": {
+      "@type": "slate",
+      "plaintext": "Identidade \u00fanica, conformidade eMAG por padr\u00e3o e menor custo de manuten\u00e7\u00e3o. Texto a validar com a equipe do \u00f3rg\u00e3o.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Identidade \u00fanica, conformidade eMAG por padr\u00e3o e menor custo de manuten\u00e7\u00e3o. Texto a validar com a equipe do \u00f3rg\u00e3o."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "1cf563de-a06d-461f-8991-c20a48be4395": {
+      "@type": "case_study_metadata",
+      "case_study_source": [
+        {
+          "@id": "../../../resolveuid/53c0b8723a504b9a97f0016bfefdfeae",
+          "@type": "CaseStudy",
+          "CreationDate": "2026-09-29T12:40:00-03:00",
+          "Creator": "admin",
+          "Date": "2026-09-29T12:40:28-03:00",
+          "Description": "",
+          "EffectiveDate": "None",
+          "ExpirationDate": "None",
+          "ModificationDate": "2026-09-29T12:40:28-03:00",
+          "Subject": [],
+          "Title": "Portal Padr\u00e3o do Governo Federal",
+          "Type": "Caso de Uso",
+          "UID": "53c0b8723a504b9a97f0016bfefdfeae",
+          "block_types": {
+            "case_study_metadata": 1,
+            "empty": 3,
+            "gridBlock": 1,
+            "introduction": 1,
+            "listing": 1,
+            "mainImageBlock": 1,
+            "slate": 6,
+            "title": 1
+          },
+          "cmf_uid": 55,
+          "country": null,
+          "created": "2026-09-29T15:40:00+00:00",
+          "description": "",
+          "duration": null,
+          "effective": "1969-12-31T03:00:00+00:00",
+          "end": null,
+          "exclude_from_nav": false,
+          "expires": "2499-12-31T03:00:00+00:00",
+          "facets": null,
+          "getIcon": null,
+          "getId": "portal-padrao-do-governo-federal",
+          "getObjSize": "0 KB",
+          "getPath": "/Plone/o-plone/casos-de-sucesso/portal-padrao-do-governo-federal",
+          "getRemoteUrl": null,
+          "getURL": "http://localhost:3000/o-plone/casos-de-sucesso/portal-padrao-do-governo-federal",
+          "hasPreviewImage": null,
+          "has_video": false,
+          "head_title": "Portal institucional \u00b7 Governo Federal",
+          "id": "portal-padrao-do-governo-federal",
+          "image_field": "preview_image_link",
+          "industry": "gov",
+          "is_folderish": true,
+          "listCreators": [
+            "admin"
+          ],
+          "location": null,
+          "mime_type": "text/plain",
+          "modified": "2026-09-29T15:40:28+00:00",
+          "nav_title": null,
+          "portal_type": "CaseStudy",
+          "review_state": "created",
+          "services": null,
+          "social_links": null,
+          "start": null,
+          "sync_uid": null,
+          "title": "Portal Padr\u00e3o do Governo Federal",
+          "type_title": "Caso de Uso",
+          "usages": [
+            "portal"
+          ],
+          "versions": [
+            "6.2"
+          ],
+          "videoUrl": null,
+          "workflow_states": [
+            "casestudy_workflow|created"
+          ]
+        }
+      ]
+    },
+    "1f844296-f886-47b2-b54f-125a7ac7087d": {
+      "@type": "introduction",
+      "plaintext": "Uma base comum em Plone para os portais de dezenas de \u00f3rg\u00e3os, com identidade \u00fanica e publica\u00e7\u00e3o descentralizada.",
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Uma base comum em Plone para os portais de dezenas de \u00f3rg\u00e3os, com identidade \u00fanica e publica\u00e7\u00e3o descentralizada."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "2585dfed-967e-4043-9b59-3d24cfbd9aee": {
+      "@type": "slate",
+      "plaintext": "Resultado",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Resultado"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "3562bae2-3f18-4b72-ba5d-eada414bd0ca": {
+      "--cardBorderColor": "",
+      "@type": "mainImageBlock",
+      "align": "center",
+      "size": "l",
+      "styles": {
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default"
+    },
+    "3d0625a1-5124-49db-ae69-6f37e898f742": {
+      "@type": "slate",
+      "plaintext": "Um pacote Plone comum (tema, tipos de conte\u00fado, fluxo editorial) instalado por cada \u00f3rg\u00e3o, com atualiza\u00e7\u00f5es centralizadas e publica\u00e7\u00e3o descentralizada.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Um pacote Plone comum (tema, tipos de conte\u00fado, fluxo editorial) instalado por cada \u00f3rg\u00e3o, com atualiza\u00e7\u00f5es centralizadas e publica\u00e7\u00e3o descentralizada."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "5a6274db-ec52-4c3c-8f43-25840027f1af": {
+      "@type": "gridBlock",
+      "blocks": {
+        "44a78736-6b48-4b94-a5c8-7c7a6657a66d": {
+          "@type": "teaser",
+          "description": "gov.br",
+          "overwrite": true,
+          "styles": {
+            "--cardBorderColor": "#2F9ACA"
+          },
+          "title": "Site"
+        },
+        "9412af8a-f183-46a2-9afd-4fa8f6dcd30d": {
+          "@type": "teaser",
+          "description": "2014 \u00b7 migrado para Plone 6 em 2025",
+          "overwrite": true,
+          "styles": {
+            "--cardBorderColor": "#2F9ACA"
+          },
+          "title": "Em produ\u00e7\u00e3o desde"
+        },
+        "d7fc7c0f-7f77-4da0-bd48-6720ed88cc42": {
+          "@type": "teaser",
+          "description": "Secretaria de Comunica\u00e7\u00e3o \u00b7 Presid\u00eancia",
+          "overwrite": true,
+          "styles": {
+            "--cardBorderColor": "#2F9ACA"
+          },
+          "title": "\u00d3rg\u00e3o"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "d7fc7c0f-7f77-4da0-bd48-6720ed88cc42",
+          "9412af8a-f183-46a2-9afd-4fa8f6dcd30d",
+          "44a78736-6b48-4b94-a5c8-7c7a6657a66d"
+        ]
+      },
+      "styles": {},
+      "theme": "default"
+    },
+    "5e2bf72c-12cd-402b-8fe6-3be09a6d07c4": {
+      "@type": "listing",
+      "blockWidth": {
+        "--block-width": "var(--default-container-width)"
+      },
+      "gridColumns": 3,
+      "headline": "Outros casos",
+      "headlineTag": "h2",
+      "querystring": {
+        "limit": "3",
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "CaseStudy"
+            ]
+          }
+        ],
+        "sort_order": "ascending"
+      },
+      "styles": {
+        "--cardBorderColor": ""
+      },
+      "theme": "lightBlue",
+      "variation": "grid"
+    },
+    "81c394ee-a4d1-4792-ab76-8a784911f9aa": {
+      "@type": "slate",
+      "plaintext": "Solu\u00e7\u00e3o",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Solu\u00e7\u00e3o"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "b72f78dc-adfb-4b1c-be62-55a579654ead": {
+      "@type": "title"
+    },
+    "dcce0a40-e8f2-4248-8b6d-27abf9a7d9cd": {
+      "@type": "slate",
+      "plaintext": "Dezenas de portais com tecnologias, identidades e n\u00edveis de acessibilidade diferentes, mantidos por equipes pequenas.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Dezenas de portais com tecnologias, identidades e n\u00edveis de acessibilidade diferentes, mantidos por equipes pequenas."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "dd3cb69d-bc7a-4fcd-9b98-46843fb9d694": {
+      "@type": "slate",
+      "plaintext": "Desafio",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Desafio"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "b72f78dc-adfb-4b1c-be62-55a579654ead",
+      "1f844296-f886-47b2-b54f-125a7ac7087d",
+      "3562bae2-3f18-4b72-ba5d-eada414bd0ca",
+      "5a6274db-ec52-4c3c-8f43-25840027f1af",
+      "1cf563de-a06d-461f-8991-c20a48be4395",
+      "dd3cb69d-bc7a-4fcd-9b98-46843fb9d694",
+      "dcce0a40-e8f2-4248-8b6d-27abf9a7d9cd",
+      "81c394ee-a4d1-4792-ab76-8a784911f9aa",
+      "3d0625a1-5124-49db-ae69-6f37e898f742",
+      "2585dfed-967e-4043-9b59-3d24cfbd9aee",
+      "10482bba-f613-423e-8e78-fdd2bf345699",
+      "5e2bf72c-12cd-402b-8fe6-3be09a6d07c4"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2026-09-29T15:40:00+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": "Portal institucional \u00b7 Governo Federal",
+  "id": "portal-padrao-do-governo-federal",
+  "industry": "gov",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2026-09-30T18:38:59+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "remoteUrl": "https://claude.ai/code/artifact/a3334129-131a-41cb-9f78-333d34e5b98f",
+  "review_state": "created",
+  "rights": "",
+  "subjects": [],
+  "title": "Portal Padr\u00e3o do Governo Federal",
+  "type_title": "Case Study",
+  "usages": [
+    "portal"
+  ],
+  "version": "current",
+  "versioning_enabled": true,
+  "versions": [
+    "6.2"
+  ],
+  "workflow_history": {
+    "casestudy_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "created",
+        "time": "2026-09-29T15:40:00+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "casestudy_workflow|created"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

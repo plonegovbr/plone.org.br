@@ -1,11 +1,10 @@
 {
   "__version__": "1.0.0",
   "_blob_files_": [
-    "61f795da17c2429e8ec0df75d2e823ec/preview_image/maxresdefault.jpg",
-    "plone_site_root/logo/plonebr.png",
-    "plone_site_root/footer_logo/plonebr-reverso.png",
+    "629451c8bc544cfa85130a5e7baa3691/image/tmp_6300cacb-c4f9-40b0-9981-e5800043620f.jpg",
     "c575d2a1a71043e5a68a0512db31063f/image/foto_oficial.jpg",
     "d40b417fd6004d319d3bb584c94f2589/image/6-dev-docs-plone-org.png",
+    "61f795da17c2429e8ec0df75d2e823ec/preview_image/maxresdefault.jpg",
     "8a0d1f42ad7b47239d2a2af161a16758/image/6-classic-demo-plone-org.png",
     "ead0660e1d064741bf016c6113b31a1d/image/6-demo-plone-org.png",
     "585879e216d240ffb15a044b61745e2b/image/demo-plone-org.png",
@@ -50,7 +49,6 @@
     "317af75a6ed64df087f2b77006d300f0/image/logo-plonegovbr.png",
     "7ab223b0184f4ab38c547b9fb8ed620d/image/logo-simples.png",
     "1e9a52018331405a90671db733dcfb71/image/WhatsApp Image 2025-11-04 at 18.19.06.jpeg",
-    "629451c8bc544cfa85130a5e7baa3691/image/tmp_6300cacb-c4f9-40b0-9981-e5800043620f.jpg",
     "7bb0233c4d1a485ba298e24c5d6d499e/image/curitiba.png",
     "86e89de617da459aa104233c6a45f1f1/image/fsf.png",
     "bd6e0b809c5142e2ae3d5d750c36da65/image/govbr.png",
@@ -59,7 +57,6 @@
     "3823c6211db1478cb42d757102268bf5/image/tse.png",
     "3a510a82d2b54643af5dc5eefb89ba79/image/unibo.png",
     "4ef4397c226c48999425e2a529d9633a/image/jyu.png",
-    "cbd54f8421544b2cbcd86c183b75d88a/image/Logotipo Portal Brasil_Logotipo Portal Brasil versa\u0303o 3 (1-1.png",
     "97e86156162b406d90331d2feee9800a/image/portalbrasil-edu.png",
     "1c4de0e1b5e843749c83dc31a2665715/image/portalbrasil-gov.png",
     "23a4cd0fb12f4dcbb30e561f7da473bd/image/portalbrasil-jus.png",
@@ -146,6 +143,7 @@
     "049ba202c24242a1a278a623f2f6e334/data.json",
     "317af75a6ed64df087f2b77006d300f0/data.json",
     "7ab223b0184f4ab38c547b9fb8ed620d/data.json",
+    "ddf970133a3c423fb85d0f568bf919cc/data.json",
     "08459b8598be48da999fa9c9cfe5e96c/data.json",
     "838efb15734b4367868a8a12113a8c04/data.json",
     "2476d044e3064057938ff2d01e8aec2c/data.json",
@@ -153,6 +151,7 @@
     "1e9a52018331405a90671db733dcfb71/data.json",
     "91d76f55e27e4ecd83c2cdba6db5f5e7/data.json",
     "629451c8bc544cfa85130a5e7baa3691/data.json",
+    "bdeb4101c94340fa86a18f13f2ba1026/data.json",
     "b1fa8ba3e754479382b5bafe561c38ef/data.json",
     "a1138aeb8b84478bb9ba6c39f3c2f1a0/data.json",
     "a27bf7f67b06433cbee37da9819fc95a/data.json",
@@ -168,6 +167,7 @@
     "93a5fc0f53204ca9b0e945ba189f459c/data.json",
     "7ebf58b00ec84391bf61d3bb3da88165/data.json",
     "04e0814506b746d7970ac524cd2e3aad/data.json",
+    "53c0b8723a504b9a97f0016bfefdfeae/data.json",
     "03890824c2c7432ab85ef190f9ebc057/data.json",
     "3823c6211db1478cb42d757102268bf5/data.json",
     "761a2845e3ed43e1aefa1cc7b3857994/data.json",
@@ -230,6 +230,7 @@
     "4ef4397c226c48999425e2a529d9633a": {},
     "4fd7156752d04e90a9e71f72bd2239e6": {},
     "5007d0bef62648ce8832d2669c890b78": {},
+    "53c0b8723a504b9a97f0016bfefdfeae": {},
     "585879e216d240ffb15a044b61745e2b": {},
     "5cbf5393ee6c46d2bc55b6ec9e222f39": {},
     "5dec306a3f7c4f93b659f34d9a3ff365": {},
@@ -285,6 +286,7 @@
     "bd75eddf3a9548abac4ef93c9f27ee90": {},
     "bd782ca15bd248cfa88e9c5aac4061c5": {},
     "bde98b0fcf9a4bc7896ecae4bcc0e28e": {},
+    "bdeb4101c94340fa86a18f13f2ba1026": {},
     "c37835e7d9a6418b8540f5a88aadf69d": {},
     "c430ce7b89e74d9daaa16bf53ff13078": {},
     "c575d2a1a71043e5a68a0512db31063f": {},
@@ -296,6 +298,7 @@
     "d64a5ff083f9450d8c25b05e18d490f9": {},
     "d910e1fedd614c838f4d43029caaf6cc": {},
     "ddf91cb8ce694a199d41fa0a235773f0": {},
+    "ddf970133a3c423fb85d0f568bf919cc": {},
     "de214924c36b45edb3a39d192ef7d909": {},
     "e148752e7fed4355b704cb936cc058b9": {},
     "e1736363b19f448ea8fb2236ab00a942": {},
@@ -770,6 +773,13 @@
         ]
       }
     },
+    "53c0b8723a504b9a97f0016bfefdfeae": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
     "585879e216d240ffb15a044b61745e2b": {
       "local_roles": {
         "admin": [
@@ -1155,6 +1165,13 @@
         ]
       }
     },
+    "bdeb4101c94340fa86a18f13f2ba1026": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
     "c37835e7d9a6418b8540f5a88aadf69d": {
       "local_roles": {
         "admin": [
@@ -1226,6 +1243,13 @@
       }
     },
     "ddf91cb8ce694a199d41fa0a235773f0": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "ddf970133a3c423fb85d0f568bf919cc": {
       "local_roles": {
         "admin": [
           "Owner"
@@ -1383,6 +1407,7 @@
     "4ef4397c226c48999425e2a529d9633a": 0,
     "4fd7156752d04e90a9e71f72bd2239e6": 10,
     "5007d0bef62648ce8832d2669c890b78": 0,
+    "53c0b8723a504b9a97f0016bfefdfeae": 11,
     "585879e216d240ffb15a044b61745e2b": 2,
     "5cbf5393ee6c46d2bc55b6ec9e222f39": 4,
     "5dec306a3f7c4f93b659f34d9a3ff365": 10,
@@ -1438,6 +1463,7 @@
     "bd75eddf3a9548abac4ef93c9f27ee90": 3,
     "bd782ca15bd248cfa88e9c5aac4061c5": 1,
     "bde98b0fcf9a4bc7896ecae4bcc0e28e": 0,
+    "bdeb4101c94340fa86a18f13f2ba1026": 1,
     "c37835e7d9a6418b8540f5a88aadf69d": 3,
     "c430ce7b89e74d9daaa16bf53ff13078": 3,
     "c575d2a1a71043e5a68a0512db31063f": 0,
@@ -1449,6 +1475,7 @@
     "d64a5ff083f9450d8c25b05e18d490f9": 48,
     "d910e1fedd614c838f4d43029caaf6cc": 2,
     "ddf91cb8ce694a199d41fa0a235773f0": 0,
+    "ddf970133a3c423fb85d0f568bf919cc": 2,
     "de214924c36b45edb3a39d192ef7d909": 5,
     "e148752e7fed4355b704cb936cc058b9": 2,
     "e1736363b19f448ea8fb2236ab00a942": 1,

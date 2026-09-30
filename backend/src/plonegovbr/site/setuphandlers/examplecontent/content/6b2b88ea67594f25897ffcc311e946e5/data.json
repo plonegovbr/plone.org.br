@@ -4,20 +4,17 @@
   "UID": "6b2b88ea67594f25897ffcc311e946e5",
   "allow_discussion": null,
   "blocks": {
-    "c3585ac6-3a86-48de-9d9b-66f06eb27b1f": {
-      "@type": "buttonBlock",
-      "href": [
-        {
-          "@id": "https://www.fsf.org/",
-          "title": "www.fsf.org/"
-        }
-      ],
-      "title": "Visite o Site"
-    },
     "c67c4696-8135-4b44-88fc-13d26efcd6f6": {
       "@type": "image",
+      "align": "center",
       "alt": "",
-      "url": "/o-plone/casos-de-sucesso/free-software-foundation/fsf.png"
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "narrow",
+        "size:noprefix": "l"
+      },
+      "theme": "default",
+      "url": "../../../resolveuid/86e89de617da459aa104233c6a45f1f1"
     },
     "d9a8fb41-b359-4c5a-b168-8ab95e829557": {
       "@type": "slate",
@@ -52,8 +49,7 @@
     "items": [
       "e87ce1e3-1ff8-424e-9aaa-9689763cabc7",
       "d9a8fb41-b359-4c5a-b168-8ab95e829557",
-      "c67c4696-8135-4b44-88fc-13d26efcd6f6",
-      "c3585ac6-3a86-48de-9d9b-66f06eb27b1f"
+      "c67c4696-8135-4b44-88fc-13d26efcd6f6"
     ]
   },
   "changeNote": "",
@@ -75,7 +71,7 @@
   "language": "##DEFAULT##",
   "layout": "view",
   "lock": {},
-  "modified": "2022-05-26T01:28:56+00:00",
+  "modified": "2026-09-28T15:22:35+00:00",
   "nav_title": null,
   "preview_caption_link": null,
   "remoteUrl": "https://www.fsf.org/",
