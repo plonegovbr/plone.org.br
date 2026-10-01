@@ -132,6 +132,67 @@
   "exportimport.conversation": [],
   "facebook_app_id": "",
   "facebook_username": "Plone-Brasil-101606785972720",
+  "footer_address": null,
+  "footer_brand_message": null,
+  "footer_brand_slogan": "Comunidade Brasileira de Plone",
+  "footer_colophon_text": [
+    {
+      "children": [
+        {
+          "text": "Powered by Plone and Volto Light Theme\nThe Plone\u00ae Open Source CMS/WCM is \u00a9 2000-2026 by the "
+        },
+        {
+          "children": [
+            {
+              "text": "Plone Foundation"
+            }
+          ],
+          "data": {
+            "url": "http://plone.org"
+          },
+          "type": "link"
+        },
+        {
+          "text": " and friends.\nDistributed under the "
+        },
+        {
+          "children": [
+            {
+              "text": "GNU GPL v2 license"
+            }
+          ],
+          "data": {
+            "url": "https://www.gnu.org/licenses/old-licenses/lgpl-2.0.html"
+          },
+          "type": "link"
+        },
+        {
+          "text": "."
+        }
+      ],
+      "type": "p"
+    }
+  ],
+  "footer_column_left": [],
+  "footer_column_left_header": null,
+  "footer_column_middle": [],
+  "footer_column_middle_header": null,
+  "footer_column_right": [],
+  "footer_column_right_header": null,
+  "footer_links": [],
+  "footer_logo": {
+    "blob_path": "plone_site_root/footer_logo/plonebr-reverso.png",
+    "content-type": "image/png",
+    "filename": "plonebr-reverso.png",
+    "height": 363,
+    "size": 14339,
+    "width": 1033
+  },
+  "footer_logos": [],
+  "footer_logos_container_width": "default",
+  "footer_logos_size": "s",
+  "has_fat_menu": true,
+  "header_actions": [],
   "id": "Plone",
   "is_folderish": true,
   "items_total": 8,
@@ -140,6 +201,14 @@
   "lock": {
     "locked": false,
     "stealable": true
+  },
+  "logo": {
+    "blob_path": "plone_site_root/logo/plonebr.png",
+    "content-type": "image/png",
+    "filename": "plonebr.png",
+    "height": 348,
+    "size": 51502,
+    "width": 943
   },
   "preview_caption_link": null,
   "review_state": null,
@@ -212,6 +281,52 @@
       "title": "X (Twitter)"
     }
   ],
+  "theme": {
+    "title": "Plone Brasil",
+    "token": "default",
+    "value": {
+      "accent_accent_color_dark": "#ffffff",
+      "accent_accent_color_light": "#FFCC29",
+      "accent_color_dark": "#b55e1c",
+      "accent_color_light": "#002776",
+      "accent_foreground_color_dark": "#ffffff",
+      "accent_foreground_color_light": "#ffffff",
+      "accent_low_foreground_color_dark": "#f8f8f8",
+      "accent_low_foreground_color_light": "#cfe0f5",
+      "event_color_dark": "#d32f2f",
+      "event_color_light": "#007a2e",
+      "file_color_dark": "#1976d2",
+      "file_color_light": "#1976d2",
+      "font_family_primary": "Inter, sans-serif",
+      "font_family_secondary": "Inter, sans-serif",
+      "image_color_dark": "#388e3c",
+      "image_color_light": "#388e3c",
+      "neutral_accent_color_dark": "#f4822c",
+      "neutral_accent_color_light": "#f4822c",
+      "neutral_color_dark": "#333333",
+      "neutral_color_light": "#edeff0",
+      "neutral_foreground_color_dark": "#ffffff",
+      "neutral_foreground_color_light": "#000000",
+      "neutral_low_foreground_color_dark": "#e6e6e6",
+      "neutral_low_foreground_color_light": "#333333",
+      "primary_accent_color_dark": "#f4822c",
+      "primary_accent_color_light": "#0074a8",
+      "primary_color_dark": "#000000",
+      "primary_color_light": "#ffffff",
+      "primary_foreground_color_dark": "#ffffff",
+      "primary_foreground_color_light": "#000000",
+      "primary_low_foreground_color_dark": "#f8f8f8",
+      "primary_low_foreground_color_light": "#333333",
+      "secondary_accent_color_dark": "#f4822c",
+      "secondary_accent_color_light": "#FFCC29",
+      "secondary_color_dark": "#ffffff",
+      "secondary_color_light": "#002776",
+      "secondary_foreground_color_dark": "#000000",
+      "secondary_foreground_color_light": "#ffffff",
+      "secondary_low_foreground_color_dark": "#333333",
+      "secondary_low_foreground_color_light": "#cfe0f5"
+    }
+  },
   "title": "Plone Brasil",
   "type_title": "Plone Site",
   "workflow_history": {},
