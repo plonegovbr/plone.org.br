@@ -33,6 +33,7 @@ dependencies = [
     "sc.videos==1.0.0a3",
     "sc.voltolighttheme==1.0.0a10",
     "plonegovbr.socialmedia==3.0.0",
+    "plone.exportimport>=2.2.0",
 ]
 
 [dependency-groups]
@@ -299,7 +300,6 @@ constraint-dependencies = [
     "plone.dexterity==4.0.0",
     "plone.distribution==4.0.0",
     "plone.event==3.0.0",
-    "plone.exportimport==2.1.0",
     "plone.folder==5.0.0",
     "plone.formwidget.autocomplete==2.0.0",
     "plone.formwidget.namedfile==4.0.0",

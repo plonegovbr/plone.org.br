@@ -184,7 +184,6 @@ constraints = [
     { name = "plone-dexterity", specifier = "==4.0.0" },
     { name = "plone-distribution", specifier = "==4.0.0" },
     { name = "plone-event", specifier = "==3.0.0" },
-    { name = "plone-exportimport", specifier = "==2.1.0" },
     { name = "plone-folder", specifier = "==5.0.0" },
     { name = "plone-formwidget-autocomplete", specifier = "==2.0.0" },
     { name = "plone-formwidget-namedfile", specifier = "==4.0.0" },
@@ -3046,7 +3045,7 @@ wheels = [
 
 [[package]]
 name = "plone-exportimport"
-version = "2.1.0"
+version = "2.2.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "plone-api" },
@@ -3055,14 +3054,18 @@ dependencies = [
     { name = "plone-app-redirector" },
     { name = "plone-app-textfield" },
     { name = "plone-app-users" },
+    { name = "plone-autoform" },
     { name = "plone-base" },
+    { name = "plone-behavior" },
     { name = "plone-dexterity" },
     { name = "plone-namedfile" },
     { name = "plone-restapi" },
+    { name = "plone-supermodel" },
     { name = "plone-uuid" },
     { name = "products-cmfeditions" },
     { name = "products-cmfplone" },
     { name = "products-dcworkflow" },
+    { name = "products-genericsetup" },
     { name = "products-plonepas" },
     { name = "products-portaltransforms" },
     { name = "python-dateutil" },
@@ -3070,9 +3073,9 @@ dependencies = [
     { name = "zc-relation" },
     { name = "zope" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/06/97/053166b9ff0c0c628d3e86e25bff161ef50a450df60bf0aafd1ea00ce171/plone_exportimport-2.1.0.tar.gz", hash = "sha256:ffdcc20f233cee7532e2f5f1d8fdcd8325a4d58c37b305ce12e972297a0cd186", size = 203655, upload-time = "2026-09-10T11:08:23.461Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/85/b9/42d0cb11f8f09738da6499f09dd767792cc419221000ebb255903367e004/plone_exportimport-2.2.0.tar.gz", hash = "sha256:bfee2b85b45b2a85d4c5ae65db450543684b4766cfb52af51e57c6adaed5dad2", size = 220649, upload-time = "2026-10-01T19:19:49.475Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f2/df/e56e75c9188bca3ab45e2e7980ea4b214800672df6bc93a810dc60d24842/plone_exportimport-2.1.0-py3-none-any.whl", hash = "sha256:9103a0c0614b725ad174ed9a16ac6a46c2c6ee1ce57c968f05097d2993d1f0b8", size = 69572, upload-time = "2026-09-10T11:08:21.907Z" },
+    { url = "https://files.pythonhosted.org/packages/51/f8/7f2578b16f9e213c94fac8afadb662c1c3d17459e13b840970f48f6a6bc9/plone_exportimport-2.2.0-py3-none-any.whl", hash = "sha256:f71ca075dd106e69564a86d551f4e13ddafabd9850dffbf96e8f21980701f683", size = 79376, upload-time = "2026-10-01T19:19:47.172Z" },
 ]
 
 [[package]]
@@ -3725,6 +3728,7 @@ dependencies = [
     { name = "collective-casestudy" },
     { name = "pas-plugins-identity" },
     { name = "plone-api" },
+    { name = "plone-exportimport" },
     { name = "plone-restapi" },
     { name = "plone-volto" },
     { name = "plonegovbr-socialmedia" },
@@ -3754,6 +3758,7 @@ requires-dist = [
     { name = "collective-casestudy", specifier = "==2.0.0a1" },
     { name = "pas-plugins-identity", specifier = "==1.0.0a8" },
     { name = "plone-api" },
+    { name = "plone-exportimport", specifier = ">=2.2.0" },
     { name = "plone-restapi" },
     { name = "plone-volto" },
     { name = "plonegovbr-socialmedia", specifier = "==3.0.0" },
