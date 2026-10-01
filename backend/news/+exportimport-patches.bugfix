@@ -1,0 +1,1 @@
+Aplica em `plonegovbr.site.patches` os dois fixes do PR `plone/plone.exportimport#111`, ainda sem release na versão fixada 2.1.0: blocos de grid sem `image_scales` quebravam o export e o import, e o export por linha de comando descartava silenciosamente campos cuja permissão de leitura não é concedida ao papel `Manager`. @ericof
