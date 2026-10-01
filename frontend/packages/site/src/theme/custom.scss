@@ -90,18 +90,21 @@ body,
 
 body .casestudy-metadata-block {
   display: block !important;
-  background-color: var(--primary-color) !important;
-  color: var(--primary-foreground-color) !important;
   width: auto !important;
   // Metade do container padrão, igual ao comportamento do floated-figure
   max-width: calc(var(--default-container-width, 940px) / 2 - 10px) !important;
-  word-break: break-word;
-  float: right !important;
-  // Alinha o aside com a borda direita do container de conteúdo (fórmula de _mainImageBlock.scss)
-  margin-right: max(1rem, calc(50vw - var(--default-container-width, 940px) / 2)) !important;
-  margin-left: 2rem !important;
   margin-top: 0 !important;
+  // Alinha o aside com a borda direita do container de conteúdo (fórmula de _mainImageBlock.scss)
+  margin-right: max(
+    1rem,
+    calc(50vw - var(--default-container-width, 940px) / 2)
+  ) !important;
   margin-bottom: 2rem !important;
+  margin-left: 2rem !important;
+  background-color: var(--primary-color) !important;
+  color: var(--primary-foreground-color) !important;
+  float: right !important;
+  word-break: break-word;
 
   .ui.dividing.sub.header {
     color: var(--primary-foreground-color) !important;
@@ -109,11 +112,11 @@ body .casestudy-metadata-block {
 
   @media only screen and (max-width: 991px) {
     display: block !important;
-    float: none !important;
     width: 100% !important;
     max-width: 100% !important;
     margin-right: auto !important;
     margin-left: auto !important;
+    float: none !important;
   }
 }
 
@@ -128,17 +131,20 @@ body .casestudy-metadata-block {
 #page-edit .block-editor-case_study_metadata {
   // Anula o float que body .casestudy-metadata-block aplica ao aside interno
   .casestudy-metadata-block {
-    float: none !important;
-    max-width: 100% !important;
     width: 100% !important;
+    max-width: 100% !important;
     margin-right: 0 !important;
     margin-left: 0 !important;
+    float: none !important;
   }
 
   // O bloco editor em si ocupa meia largura e se alinha à direita
   width: calc(var(--default-container-width, 940px) / 2 - 10px) !important;
   max-width: calc(var(--default-container-width, 940px) / 2 - 10px) !important;
-  margin-right: max(1rem, calc(50vw - var(--default-container-width, 940px) / 2)) !important;
+  margin-right: max(
+    1rem,
+    calc(50vw - var(--default-container-width, 940px) / 2)
+  ) !important;
   margin-left: auto !important;
 
   @media only screen and (max-width: 991px) {
@@ -148,7 +154,6 @@ body .casestudy-metadata-block {
     margin-left: auto !important;
   }
 }
-
 
 // ===========================================================================
 // Estilização da Paginação (Design Plone.org.br)
@@ -161,15 +166,18 @@ body .block.listing .pagination-wrapper {
 
   div.ui.pagination.menu {
     border: none;
-    box-shadow: none;
     background: transparent;
+    box-shadow: none;
 
     a.item {
-      background: var(--theme-color, var(--primary-color)) !important;
-      border: none;
-      color: var(--theme-foreground-accent-color, var(--primary-accent-color)) !important;
       min-width: unset;
       padding: 0.5rem 0.75rem;
+      border: none;
+      background: var(--theme-color, var(--primary-color)) !important;
+      color: var(
+        --theme-foreground-accent-color,
+        var(--primary-accent-color)
+      ) !important;
 
       // Remove a borda entre os itens gerada pelo Semantic UI
       &:before,
@@ -179,7 +187,10 @@ body .block.listing .pagination-wrapper {
 
       // Estilo da página atual
       &.active {
-        background-color: var(--theme-foreground-accent-color, #003366) !important;
+        background-color: var(
+          --theme-foreground-accent-color,
+          #003366
+        ) !important;
         color: var(--theme-color, #ffffff) !important;
         font-weight: bold;
       }
@@ -187,16 +198,20 @@ body .block.listing .pagination-wrapper {
       // Hover nos itens interativos
       &:hover:not(.active):not(.disabled),
       &:focus:not(.active):not(.disabled) {
-        background: color-mix(in srgb, var(--theme-foreground-accent-color) 10%, var(--theme-color)) !important;
+        background: color-mix(
+          in srgb,
+          var(--theme-foreground-accent-color) 10%,
+          var(--theme-color)
+        ) !important;
         color: var(--theme-foreground-accent-color, #ffffff) !important;
         text-decoration: underline;
       }
 
       // Estado desativado (ex: "Página anterior" na primeira página)
       &.disabled {
-        opacity: 0.5;
         background: transparent;
         color: var(--theme-foreground-accent-color, #003366) !important;
+        opacity: 0.5;
       }
     }
   }
