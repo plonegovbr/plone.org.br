@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<registry>
+  <records interface="pas.plugins.identity.core.controlpanel.interfaces.IIdentitySettings"
+           prefix="pas.plugins.identity"
+  >
+    <value key="callback_url">/login-identity</value>
+    <value key="discovery_timeout">10</value>
+    <value key="portrait_max_bytes">2097152</value>
+    <value key="portrait_timeout">5</value>
+    <value key="sync_portraits">True</value>
+  </records>
+  <records interface="pas.plugins.identity.core.controlpanel.interfaces.IProfileSettings"
+           prefix="pas.plugins.identity"
+  >
+    <value key="group_enumeration_states">
+      <element>active</element>
+    </value>
+    <value key="group_container_id">grupos</value>
+    <value key="group_container_title">Grupos</value>
+    <value key="group_container_type">PrincipalsContainer</value>
+    <value key="profile_container_id">membros</value>
+    <value key="profile_container_parent" />
+    <value key="profile_container_title">Membros</value>
+    <value key="profile_container_type">PrincipalsContainer</value>
+    <value key="profile_enumeration_states">
+      <element>incomplete</element>
+      <element>complete</element>
+    </value>
+  </records>
+  <records interface="pas.plugins.identity.server.interfaces.IServerSettings"
+           prefix="pas.plugins.identity"
+  >
+    <value key="server_access_token_ttl">900</value>
+    <value key="server_refresh_token_ttl">1209600</value>
+  </records>
+</registry>
