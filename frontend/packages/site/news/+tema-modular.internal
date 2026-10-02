@@ -1,0 +1,1 @@
+Divide o `custom.scss` do tema em `root.scss` e parciais por componente, agregados por `_main.scss`, e remove o import direto do tema no `index.ts`. @ericof

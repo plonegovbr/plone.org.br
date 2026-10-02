@@ -1,0 +1,1093 @@
+{
+  "@id": "/documentacao/primeiros-passos/containers",
+  "@type": "Document",
+  "UID": "b8fbe2c1e111435593db7c5757b9c247",
+  "allow_discussion": false,
+  "blocks": {
+    "0f2a7e9f-2b2f-4730-a8b5-3255a601edaf": {
+      "@type": "slate",
+      "plaintext": "Primeiramente voc\u00ea deve instalar o Docker em seu computador, consulte a documenta\u00e7\u00e3o (em Ingl\u00eas) para instru\u00e7\u00f5es de instala\u00e7\u00e3o em seu sistema operacional.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Primeiramente voc\u00ea deve instalar o Docker em seu computador, consulte a "
+            },
+            {
+              "children": [
+                {
+                  "text": "documenta\u00e7\u00e3o"
+                }
+              ],
+              "data": {
+                "url": "https://docs.docker.com/get-docker/"
+              },
+              "type": "link"
+            },
+            {
+              "text": " (em Ingl\u00eas) para instru\u00e7\u00f5es de instala\u00e7\u00e3o em seu sistema operacional."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "25ae9898-a3f3-4bb7-99a9-c80d67363716": {
+      "@type": "codeBlock",
+      "code": "docker run --name plone6-classic -e SITE=Plone -e SETUP_CONTENT=1 -e TYPE=classic -d -p 8080:8080 plone/plone-backend:6.0.0rc1",
+      "language": "bash",
+      "showLineNumbers": false,
+      "style": "dark",
+      "wrapLongLines": true
+    },
+    "2a7d3d03-da02-410f-98fc-91675e512646": {
+      "@type": "slate",
+      "plaintext": "Interface Cl\u00e1ssica",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Interface Cl\u00e1ssica"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "364460d8-d04e-40dc-abc0-c8fc98a18894": {
+      "@type": "slate",
+      "plaintext": "Explicando este comando:",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Explicando este comando:"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "37c4b1bb-1074-4909-974b-a722c6524c06": {
+      "@type": "slate",
+      "plaintext": "Para iniciar o container do backend, rode o comando:",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Para iniciar o container do backend, rode o comando:"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "3a839feb-4690-47ff-aaef-d6aae55c1c85": {
+      "@type": "codeBlock",
+      "code": "docker rm plone6--backend plone6-frontend",
+      "language": "bash",
+      "showLineNumbers": false,
+      "style": "dark",
+      "wrapLongLines": false
+    },
+    "455db6fa-6a6b-427a-af20-153d3180da80": {
+      "@type": "slate",
+      "plaintext": "Quando quiser parar os containere, rode o comando",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Quando quiser parar os containere, rode o comando"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "49e047cb-02d3-494c-9835-377dc104b3d7": {
+      "@type": "codeBlock",
+      "code": "docker run --name plone6-frontend --link plone6-backend:backend \\\n-e RAZZLE_API_PATH= \\\n-e RAZZLE_INTERNAL_API_PATH=http://backend:8080/Plone \\\n-d -p 3000:3000 plone/plone-frontend:latest",
+      "language": "bash",
+      "showLineNumbers": false,
+      "style": "dark",
+      "wrapLongLines": true
+    },
+    "65bf5dab-b3e4-48aa-a577-69db35de0f3e": {
+      "@type": "slate",
+      "plaintext": "Quando quiser parar este container, rode o comando",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Quando quiser parar este container, rode o comando"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "6d16f183-95ab-43ea-bd97-a12fadf8f2f8": {
+      "@type": "slate",
+      "plaintext": " docker run : Inicie um novo container  --name plone6-frontend : Nomeie o novo container como plone6-frontend  --link plone6-backend:backend : Link (conecte) o container plone6-backend a este novo container, usando o nome de backend  -e RAZZLE_API_PATH= : Reescreva as chamadas de API utilizando este endere\u00e7o  -e RAZZLE_INTERNAL_API_PATH=http://backend:8080/Plone :  Internamente se comunique com o backend atrav\u00e9s deste endere\u00e7o  -d : Rode o container como um daemon (N\u00e3o bloqueia o terminal)  -p 3000:3000 : Disponibilize a porta 3000 do container (padr\u00e3o do servidor NodeJS) como porta 3000 no seu computador  plone/plone-frontend:latest : Utilize a image plone/plone-backend:latest para este container.",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "docker run"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": Inicie um novo container"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "--name plone6-frontend"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": Nomeie o novo container como plone6-frontend"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "--link plone6-backend:backend"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": " : Link (conecte) o container plone6-backend a este novo container, usando o nome de backend"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "-e RAZZLE_API_PATH="
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": Reescreva as chamadas de API utilizando este endere\u00e7o"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "-e RAZZLE_INTERNAL_API_PATH=http://backend:8080/Plone"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ":  Internamente se comunique com o backend atrav\u00e9s deste endere\u00e7o"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "-d"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": Rode o container como um daemon (N\u00e3o bloqueia o terminal)"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "-p 3000:3000"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": " : Disponibilize a porta 3000 do container (padr\u00e3o do servidor NodeJS) como porta 3000 no seu computador"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "plone/plone-frontend:latest"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": " : Utilize a image "
+                },
+                {
+                  "children": [
+                    {
+                      "text": "plone/plone-backend:latest"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://hub.docker.com/r/plone/plone-frontend"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": " para este container."
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    },
+    "710610a0-4105-4412-8db5-00aec8a89923": {
+      "@type": "slate",
+      "plaintext": "Explicando este comando:",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Explicando este comando:"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "794758e5-dcc5-4c84-a44c-18125a0653cd": {
+      "@type": "slate",
+      "plaintext": "Com o Docker instalado, abra um terminal e digite o comando:",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Com o Docker instalado, abra um terminal e digite o comando:"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "7c5f6ab9-3303-46ba-b530-c4b832161276": {
+      "@type": "slate",
+      "plaintext": "E para remover o container",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "E para remover o container"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "7cf856c6-bfba-4d00-af4b-805a606a31b6": {
+      "@type": "codeBlock",
+      "code": "docker stop plone6-backend plone6-frontend",
+      "language": "bash",
+      "showLineNumbers": false,
+      "style": "dark",
+      "wrapLongLines": false
+    },
+    "7cfc196d-70b5-4305-8e4f-bdacb6af23f7": {
+      "@type": "codeBlock",
+      "code": "docker run --name plone6-backend -e SITE=Plone -e CORS_ALLOW_ORIGIN='*' -d -p 8080:8080 plone/plone-backend:6.0.0rc1",
+      "language": "bash",
+      "showLineNumbers": false,
+      "style": "dark",
+      "wrapLongLines": false
+    },
+    "8b7e5bb8-6ecd-47aa-b52f-f352b2bf3fa8": {
+      "@type": "slate",
+      "plaintext": "Esta \u00e9 a maneira recomendada de usar as novas vers\u00f5es do Plone",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Esta \u00e9 a maneira recomendada de usar as novas vers\u00f5es do Plone"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "90e6275b-3eeb-4af6-b3bc-22625fe83b70": {
+      "@type": "slate",
+      "plaintext": " docker run : Inicie um novo container  --name plone6-classic : Nomeie o novo container como plone6-classic  -e SITE=Plone : Durante a inicializa\u00e7\u00e3o do container, crie um novo site com o id Plone  -e SETUP_CONTENT=1 : Durante a inicializa\u00e7\u00e3o, crie conte\u00fado de exemplo  -e TYPE=classic : Durante a inicializa\u00e7\u00e3o, crie o site com a interface cl\u00e1ssica do Plone  -d : Rode o container como um daemon (N\u00e3o bloqueia o terminal)  -p 8080:8080 : Disponibilize a porta 8080 do container (padr\u00e3o para servidores Plone) como porta 8080 no seu computador  plone/plone-backend:6.0.0rc1 : Utilize a image plone/plone-backend:6.0.0rc1 para este container.",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "docker run"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": Inicie um novo container"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "--name plone6-classic"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": Nomeie o novo container como plone6-classic"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "-e SITE=Plone"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": Durante a inicializa\u00e7\u00e3o do container, crie um novo site com o id Plone"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "-e SETUP_CONTENT=1"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": Durante a inicializa\u00e7\u00e3o, crie conte\u00fado de exemplo"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "-e TYPE=classic"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": Durante a inicializa\u00e7\u00e3o, crie o site com a interface cl\u00e1ssica do Plone"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "-d"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": Rode o container como um daemon (N\u00e3o bloqueia o terminal)"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "-p 8080:8080"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": " : Disponibilize a porta 8080 do container (padr\u00e3o para servidores Plone) como porta 8080 no seu computador"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "plone/plone-backend:6.0.0rc1"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": " : Utilize a image "
+                },
+                {
+                  "children": [
+                    {
+                      "text": "plone/plone-backend:6.0.0rc1"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://hub.docker.com/r/plone/plone-backend"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": " para este container."
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    },
+    "94c4721c-cdda-4691-9777-8f2f9c185c0c": {
+      "@type": "slate",
+      "plaintext": "E para remover ambos os containers",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "E para remover ambos os containers"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "9af8c175-c149-4b61-bc0c-dd364dd47440": {
+      "@type": "gridBlock",
+      "columns": [
+        {
+          "@type": "text",
+          "id": "826856e5-3f85-4582-bc0e-cbd5a5251d9e",
+          "text": {
+            "blocks": [
+              {
+                "data": {},
+                "depth": 0,
+                "entityRanges": [
+                  {
+                    "key": 0,
+                    "length": 21,
+                    "offset": 66
+                  }
+                ],
+                "inlineStyleRanges": [],
+                "key": "majb",
+                "text": "Ap\u00f3s a inicializa\u00e7\u00e3o do container, abra seu navegador no endere\u00e7o http://localhost:3000 e voc\u00ea ter\u00e1 acesso ao site criado.",
+                "type": "unstyled"
+              },
+              {
+                "data": {},
+                "depth": 0,
+                "entityRanges": [],
+                "inlineStyleRanges": [],
+                "key": "b2sel",
+                "text": "",
+                "type": "unstyled"
+              },
+              {
+                "data": {},
+                "depth": 0,
+                "entityRanges": [],
+                "inlineStyleRanges": [
+                  {
+                    "length": 5,
+                    "offset": 34,
+                    "style": "BOLD"
+                  },
+                  {
+                    "length": 5,
+                    "offset": 48,
+                    "style": "BOLD"
+                  }
+                ],
+                "key": "4qdk7",
+                "text": "Fa\u00e7a o login utilizando o usu\u00e1rio admin e senha admin.",
+                "type": "unstyled"
+              },
+              {
+                "data": {},
+                "depth": 0,
+                "entityRanges": [],
+                "inlineStyleRanges": [],
+                "key": "5u8it",
+                "text": "",
+                "type": "unstyled"
+              },
+              {
+                "data": {},
+                "depth": 0,
+                "entityRanges": [],
+                "inlineStyleRanges": [],
+                "key": "tnjp",
+                "text": "Este site utiliza a interface padr\u00e3o do Plone -- conhecida como Volto -- que se comunica com o servidor de backend atrav\u00e9s de uma API Rest.",
+                "type": "unstyled"
+              }
+            ],
+            "entityMap": {
+              "0": {
+                "data": {
+                  "url": "http://localhost:3000"
+                },
+                "mutability": "MUTABLE",
+                "type": "LINK"
+              }
+            }
+          }
+        },
+        {
+          "@type": "image",
+          "alt": "",
+          "id": "dfe13066-9d73-4ae8-b152-ba744b49d258",
+          "size": "m",
+          "url": "/documentacao/primeiros-passos/plone-6-volto.png"
+        }
+      ]
+    },
+    "a25c450d-79d9-4bf2-a841-89303b1225d5": {
+      "@type": "title"
+    },
+    "a4828f11-fbfc-4e11-9006-55bcf6374063": {
+      "@type": "slate",
+      "plaintext": "Diferentemente do que fizemos com a interface Cl\u00e1ssica, agora necessitamos iniciar dois containers: Um para o backend e outro para a interface de usu\u00e1rio.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Diferentemente do que fizemos com a interface Cl\u00e1ssica, agora necessitamos iniciar dois containers: Um para o backend e outro para a interface de usu\u00e1rio."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "a51ddd3a-fac4-435d-9fc7-9bf6079e4210": {
+      "@type": "slate",
+      "plaintext": " docker run : Inicie um novo container  --name plone6-backend : Nomeie o novo container como plone6-backend  -e SITE=Plone : Durante a inicializa\u00e7\u00e3o do container, crie um novo site com o id Plone  -e CORS_ALLOW_ORIGIN='*' : Durante a inicializa\u00e7\u00e3o, configure o backend para aceitar requisi\u00e7\u00f5es a partir de qualquer endere\u00e7o    -d : Rode o container como um daemon (N\u00e3o bloqueia o terminal)  -p 8080:8080 : Disponibilize a porta 8080 do container (padr\u00e3o para servidores Plone) como porta 8080 no seu computador  plone/plone-backend:6.0.0rc1 : Utilize a image plone/plone-backend:6.0.0rc1 para este container.",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "docker run"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": Inicie um novo container"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "--name plone6-backend"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": Nomeie o novo container como plone6-backend"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "-e SITE=Plone"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": Durante a inicializa\u00e7\u00e3o do container, crie um novo site com o id Plone"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "-e CORS_ALLOW_ORIGIN='*'"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": Durante a inicializa\u00e7\u00e3o, configure o backend para aceitar requisi\u00e7\u00f5es a partir de qualquer endere\u00e7o"
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "-d"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": Rode o container como um daemon (N\u00e3o bloqueia o terminal)"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "-p 8080:8080"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": " : Disponibilize a porta 8080 do container (padr\u00e3o para servidores Plone) como porta 8080 no seu computador"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "plone/plone-backend:6.0.0rc1"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": " : Utilize a image "
+                },
+                {
+                  "children": [
+                    {
+                      "text": "plone/plone-backend:6.0.0rc1 "
+                    }
+                  ],
+                  "data": {
+                    "url": "https://hub.docker.com/r/plone/plone-backend"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": "para este container."
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    },
+    "a892d711-18b1-4f3e-aa06-5991d7cd815c": {
+      "@type": "slate",
+      "plaintext": "O Plone, a partir de sua vers\u00e3o 6, ter\u00e1 uma interface de usu\u00e1rio implementada inteiramente em React. Esta interface utiliza um servidor NodeJS para servir o conte\u00fado gerado pelo backend Plone.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O Plone, a partir de sua vers\u00e3o 6, ter\u00e1 uma interface de usu\u00e1rio implementada inteiramente em React. Esta interface utiliza um servidor NodeJS para servir o conte\u00fado gerado pelo backend Plone."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "ac324058-69b8-4661-ba93-0383f8f441fe": {
+      "@type": "gridBlock",
+      "columns": [
+        {
+          "@type": "text",
+          "id": "c762b381-e581-4ea4-839a-1703681e91f5",
+          "text": {
+            "blocks": [
+              {
+                "data": {},
+                "depth": 0,
+                "entityRanges": [
+                  {
+                    "key": 0,
+                    "length": 27,
+                    "offset": 66
+                  }
+                ],
+                "inlineStyleRanges": [],
+                "key": "5hjim",
+                "text": "Ap\u00f3s a inicializa\u00e7\u00e3o do container, abra seu navegador no endere\u00e7o  e voc\u00ea ter\u00e1 acesso ao site criado.\n",
+                "type": "unstyled"
+              },
+              {
+                "data": {},
+                "depth": 0,
+                "entityRanges": [],
+                "inlineStyleRanges": [
+                  {
+                    "length": 5,
+                    "offset": 34,
+                    "style": "BOLD"
+                  },
+                  {
+                    "length": 5,
+                    "offset": 48,
+                    "style": "BOLD"
+                  }
+                ],
+                "key": "64uuq",
+                "text": "Fa\u00e7a o login utilizando o usu\u00e1rio admin e senha admin.\n\nEste site utiliza a interface cl\u00e1ssica do Plone -- conhecida como Barceloneta -- que \u00e9 gerada diretamente no pelo servidor de backend.\n",
+                "type": "unstyled"
+              }
+            ],
+            "entityMap": {
+              "0": {
+                "data": {
+                  "url": ""
+                },
+                "mutability": "MUTABLE",
+                "type": "LINK"
+              }
+            }
+          }
+        },
+        {
+          "@type": "image",
+          "align": "center",
+          "alt": "",
+          "id": "fdb3a0c1-9778-403f-bf58-109acae8f162",
+          "size": "m",
+          "url": "/documentacao/primeiros-passos/plone-6-classic.png"
+        }
+      ]
+    },
+    "af7c2d3b-5aa5-4c6d-b088-0a41462df8b7": {
+      "@type": "slate",
+      "plaintext": "Interface Padr\u00e3o",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Interface Padr\u00e3o"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "bc670ea9-bf43-499d-ae60-983b324567ab": {
+      "@type": "codeBlock",
+      "code": "docker rm plone6-classic",
+      "language": "bash",
+      "showLineNumbers": false,
+      "style": "dark",
+      "wrapLongLines": true
+    },
+    "cc269d77-9088-42d4-a1fd-9948cbd15611": {
+      "@type": "codeBlock",
+      "code": "docker stop plone6-classic",
+      "language": "bash",
+      "showLineNumbers": false,
+      "style": "dark",
+      "wrapLongLines": true
+    },
+    "d891809f-9989-4718-8120-ae631a311cd4": {
+      "@type": "slate",
+      "plaintext": "Explicando este comando:",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Explicando este comando:"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "da3fe83e-5a45-4f9c-b553-5eb956228146": {
+      "@type": "image",
+      "align": "right",
+      "alt": "",
+      "size": "s",
+      "url": "/images/logos/docker.png"
+    },
+    "f2e20367-c6c1-47e1-be1f-ecdcfc9cf213": {
+      "@type": "slate",
+      "plaintext": "Para iniciar o container de frontend, rode o comando:",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Para iniciar o container de frontend, rode o comando:"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "f54bfb9c-d1c3-41b6-9dc1-2fabddd99bdd": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "a25c450d-79d9-4bf2-a841-89303b1225d5",
+      "da3fe83e-5a45-4f9c-b553-5eb956228146",
+      "8b7e5bb8-6ecd-47aa-b52f-f352b2bf3fa8",
+      "0f2a7e9f-2b2f-4730-a8b5-3255a601edaf",
+      "2a7d3d03-da02-410f-98fc-91675e512646",
+      "794758e5-dcc5-4c84-a44c-18125a0653cd",
+      "25ae9898-a3f3-4bb7-99a9-c80d67363716",
+      "d891809f-9989-4718-8120-ae631a311cd4",
+      "90e6275b-3eeb-4af6-b3bc-22625fe83b70",
+      "ac324058-69b8-4661-ba93-0383f8f441fe",
+      "65bf5dab-b3e4-48aa-a577-69db35de0f3e",
+      "cc269d77-9088-42d4-a1fd-9948cbd15611",
+      "7c5f6ab9-3303-46ba-b530-c4b832161276",
+      "bc670ea9-bf43-499d-ae60-983b324567ab",
+      "af7c2d3b-5aa5-4c6d-b088-0a41462df8b7",
+      "a892d711-18b1-4f3e-aa06-5991d7cd815c",
+      "a4828f11-fbfc-4e11-9006-55bcf6374063",
+      "37c4b1bb-1074-4909-974b-a722c6524c06",
+      "7cfc196d-70b5-4305-8e4f-bdacb6af23f7",
+      "710610a0-4105-4412-8db5-00aec8a89923",
+      "a51ddd3a-fac4-435d-9fc7-9bf6079e4210",
+      "f2e20367-c6c1-47e1-be1f-ecdcfc9cf213",
+      "49e047cb-02d3-494c-9835-377dc104b3d7",
+      "364460d8-d04e-40dc-abc0-c8fc98a18894",
+      "6d16f183-95ab-43ea-bd97-a12fadf8f2f8",
+      "9af8c175-c149-4b61-bc0c-dd364dd47440",
+      "455db6fa-6a6b-427a-af20-153d3180da80",
+      "7cf856c6-bfba-4d00-af4b-805a606a31b6",
+      "94c4721c-cdda-4691-9777-8f2f9c185c0c",
+      "3a839feb-4690-47ff-aaef-d6aae55c1c85",
+      "f54bfb9c-d1c3-41b6-9dc1-2fabddd99bdd"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-06-20T13:51:24+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": "2022-06-20T15:40:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "containers",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2023-01-30T08:56:34+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Container (Docker)",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-06-20T14:28:29+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-06-20T15:40:01+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

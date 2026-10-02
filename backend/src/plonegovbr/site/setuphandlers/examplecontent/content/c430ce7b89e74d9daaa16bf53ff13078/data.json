@@ -1,0 +1,147 @@
+{
+  "@id": "/projetos/volto-code-block",
+  "@type": "Document",
+  "UID": "c430ce7b89e74d9daaa16bf53ff13078",
+  "allow_discussion": false,
+  "blocks": {
+    "17846b51-bc10-4e99-914f-48686fcada0b": {
+      "@type": "slate",
+      "plaintext": "Complemento para Volto implementando um bloco para exibi\u00e7\u00e3o de c\u00f3digo com syntax-highlighting.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Complemento para Volto implementando um bloco para exibi\u00e7\u00e3o de c\u00f3digo com syntax-highlighting."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "993817e7-78e1-45ae-9318-f386ce073650": {
+      "@type": "codeBlock",
+      "code": "\"addons\": [\n    \"@plonegovbr/volto-code-block\"\n],\n\n\"dependencies\": {\n    \"@plonegovbr/volto-code-block\": \"*\"\n}",
+      "language": "javascript",
+      "showLineNumbers": true,
+      "style": "dark",
+      "wrapLongLines": true
+    },
+    "9ce66e3c-e880-4eae-8062-60514e71401b": {
+      "@type": "title"
+    },
+    "bea17c21-3837-4ba5-9cb2-aa8cadbd67ef": {
+      "@type": "slate",
+      "plaintext": "Como usar",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Como usar"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "bebf8b35-b7f3-42e0-880b-bbafafe96e1e": {
+      "@type": "slate",
+      "plaintext": "O que \u00e9",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O que \u00e9"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "c123563b-3648-4d09-bfa3-9001650f2994": {
+      "@type": "slate",
+      "plaintext": "Em um projeto Plone 6, utilizando o Volto, edite o arquivo 'package.json' do projeto e adicione:",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Em um projeto Plone 6, utilizando o Volto, edite o arquivo 'package.json' do projeto e adicione:"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "fda762ac-468c-447c-9ccc-d1f2c6eab676": {
+      "@type": "codeBlock",
+      "code": "print(\"Plone Brasil!\")",
+      "language": "python",
+      "showLineNumbers": true,
+      "style": "dark",
+      "wrapLongLines": true
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "9ce66e3c-e880-4eae-8062-60514e71401b",
+      "bebf8b35-b7f3-42e0-880b-bbafafe96e1e",
+      "17846b51-bc10-4e99-914f-48686fcada0b",
+      "fda762ac-468c-447c-9ccc-d1f2c6eab676",
+      "bea17c21-3837-4ba5-9cb2-aa8cadbd67ef",
+      "c123563b-3648-4d09-bfa3-9001650f2994",
+      "993817e7-78e1-45ae-9318-f386ce073650"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2023-06-12T21:31:25+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "Complemento para Volto implementando um bloco para exibi\u00e7\u00e3o de c\u00f3digo",
+  "effective": "2023-06-12T21:33:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "volto-code-block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2023-06-12T21:33:21+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "volto-code-block",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2023-06-12T21:31:25+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2023-06-12T21:33:21+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

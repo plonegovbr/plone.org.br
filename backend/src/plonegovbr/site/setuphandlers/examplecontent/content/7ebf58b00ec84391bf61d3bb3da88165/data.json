@@ -1,0 +1,125 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/osaka-university",
+  "@type": "CaseStudy",
+  "UID": "7ebf58b00ec84391bf61d3bb3da88165",
+  "allow_discussion": null,
+  "blocks": {
+    "1d60fdf4-8dec-41c2-b637-c2eb8cd5f239": {
+      "@type": "title"
+    },
+    "bb709800-e12c-4458-867b-e228d763f003": {
+      "@type": "buttonBlock",
+      "href": [
+        {
+          "@id": "https://www.osaka-u.ac.jp/en",
+          "title": "www.osaka-u.ac.jp/en"
+        }
+      ],
+      "title": "Visite o Site"
+    },
+    "c27ed8e3-7d31-46ea-8ecd-80fa762fd3bd": {
+      "@type": "image",
+      "alt": "",
+      "url": "/o-plone/casos-de-sucesso/osaka-university/osaka.png"
+    },
+    "d64f0183-4e10-4d45-bd47-c3065c3bfe6d": {
+      "@type": "slate",
+      "plaintext": " Desenvolvido pela empresa CMSCom, o site da universidade de Osaka utiliza Plone para servir conte\u00fado em japon\u00eas e ingl\u00eas ",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Desenvolvido pela empresa CMSCom, o site da universidade de Osaka utiliza Plone para servir conte\u00fado em japon\u00eas e ingl\u00eas"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "1d60fdf4-8dec-41c2-b637-c2eb8cd5f239",
+      "d64f0183-4e10-4d45-bd47-c3065c3bfe6d",
+      "c27ed8e3-7d31-46ea-8ecd-80fa762fd3bd",
+      "bb709800-e12c-4458-867b-e228d763f003"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-05-26T01:17:35+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "Desenvolvido pela empresa CMSCom, o site da universidade de Osaka utiliza Plone para servir conte\u00fado em japon\u00eas e ingl\u00eas",
+  "effective": "2022-05-26T01:19:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "osaka-university",
+  "industry": "edu",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2022-05-26T01:19:05+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "remoteUrl": "https://www.osaka-u.ac.jp/en",
+  "review_state": "listed",
+  "rights": "",
+  "subjects": [
+    "Casos de Sucesso"
+  ],
+  "title": "Osaka University",
+  "type_title": "Case Study",
+  "usages": [],
+  "version": "current",
+  "versioning_enabled": true,
+  "versions": [],
+  "workflow_history": {
+    "casestudy_workflow": [
+      {
+        "action": "list",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "listed",
+        "time": "2026-09-23T16:40:01+00:00"
+      }
+    ],
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-05-26T01:17:35+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-05-26T01:19:05+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "casestudy_workflow|listed"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

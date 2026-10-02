@@ -1,0 +1,563 @@
+{
+  "@id": "/novidades/eventos/2025/plone-day-brasil-2025",
+  "@type": "Event",
+  "UID": "27480d45245244a38e597e5380139900",
+  "allow_discussion": false,
+  "attendees": [],
+  "blocks": {
+    "16903103-03a9-4a09-a6c6-e65a9f4127d7": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "Local",
+      "tag": "h2"
+    },
+    "4c1f6c8b-0ec8-402b-bbf6-9cdebddd5b0f": {
+      "@type": "slate",
+      "plaintext": " Senado Federal, Instituto Legislativo Brasileiro   Av. N2, Bloco 12\nZona C\u00edvico-Administrativa\nBras\u00edlia - DF\n70165-900",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Senado Federal, Instituto Legislativo Brasileiro"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": "\nAv. N2, Bloco 12\nZona C\u00edvico-Administrativa\nBras\u00edlia - DF\n70165-900"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "4d6e02f0-2259-4dc4-b35d-2cc60ff718e2": {
+      "@type": "slate",
+      "plaintext": "A comunidade PloneGov-Br realizar\u00e1 a edi\u00e7\u00e3o 2025 do Plone Day Brasil no dia 26 de novembro, das 14h \u00e0s 17h, no audit\u00f3rio do Instituto Legislativo Brasileiro - ILB, a escola de governo do Senado Federal. O evento ter\u00e1 transmiss\u00e3o simult\u00e2nea pelo YouTube da comunidade Plone.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "A comunidade PloneGov-Br realizar\u00e1 a edi\u00e7\u00e3o 2025 do Plone Day Brasil no dia 26 de novembro, das 14h \u00e0s 17h, no audit\u00f3rio do Instituto Legislativo Brasileiro - ILB, a escola de governo do Senado Federal. O evento ter\u00e1 transmiss\u00e3o simult\u00e2nea pelo YouTube da comunidade Plone."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "548a4f4c-cd86-4af0-a9ba-63d7b0d19e0b": {
+      "@type": "maps",
+      "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.142864800886!2d-47.864556324079615!3d-15.796419184844165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3b4085dae493%3A0xbc08718222069289!2sInstituto%20Legislativo%20Brasileiro!5e0!3m2!1spt-BR!2sbr!4v1763147166927!5m2!1spt-BR!2sbr"
+    },
+    "5808a682-d5b9-4c76-8b12-0ffcfab5faa9": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "5c0503a7-ed24-40fc-842a-d2fbf8642917": {
+      "@type": "title"
+    },
+    "5fc0035f-1fbe-47e9-88d1-63a1a566504c": {
+      "@type": "slate",
+      "plaintext": "Streaming",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Streaming"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "646454e2-d1da-412f-a2d0-6fedadee10c9": {
+      "@type": "video",
+      "url": "https://www.youtube.com/watch?v=sSH-QvfRQnw"
+    },
+    "9501d0e5-a762-4c69-9c9c-c6efd7bd4a22": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "Agenda",
+      "tag": "h2"
+    },
+    "f195d624-51ac-456a-af6c-b79d05d1ecd8": {
+      "@type": "slateTable",
+      "table": {
+        "basic": true,
+        "celled": true,
+        "compact": true,
+        "fixed": true,
+        "hideHeaders": true,
+        "inverted": false,
+        "rows": [
+          {
+            "cells": [
+              {
+                "key": "ls26",
+                "type": "header",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "bht31",
+                "type": "header",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "3eopc",
+                "type": "header",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            ],
+            "key": "4vmbu"
+          },
+          {
+            "cells": [
+              {
+                "key": "bvnrv",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "14h00"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "887vt",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Abertura do Evento"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "alv3e",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            ],
+            "key": "atev7"
+          },
+          {
+            "cells": [
+              {
+                "key": "du1ci",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "14h30"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "d7qd0",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Resumo da Plone Conference 2025"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "32j3q",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Erico Andrei"
+                      }
+                    ],
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "PloneGov-BR"
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            ],
+            "key": "c0uqh"
+          },
+          {
+            "cells": [
+              {
+                "key": "5f3la",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "15h00"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "3at5i",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Plone Foundation"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "e6v8o",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Jo\u00e3o Henrique Gouveia"
+                      }
+                    ],
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Vice-presidente do conselho da Plone Foundation"
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            ],
+            "key": "e87av"
+          },
+          {
+            "cells": [
+              {
+                "key": "3eeb1",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "15h30"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "1pbii",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Uso de Plone na UFSCar"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "fbpek",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Silvio Marino"
+                      }
+                    ],
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "UFSCar - Universidade Federal de S\u00e3o Carlos"
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            ],
+            "key": "ajcqv"
+          },
+          {
+            "cells": [
+              {
+                "key": "15u84",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "16h00"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "93sbb",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "GSoC - Google Summer of Code"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "7p0qb",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Rafahela Bazzanella"
+                      }
+                    ],
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Conselheira da Plone Foundation"
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            ],
+            "key": "aia9r"
+          }
+        ],
+        "striped": false
+      }
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "5c0503a7-ed24-40fc-842a-d2fbf8642917",
+      "4d6e02f0-2259-4dc4-b35d-2cc60ff718e2",
+      "9501d0e5-a762-4c69-9c9c-c6efd7bd4a22",
+      "f195d624-51ac-456a-af6c-b79d05d1ecd8",
+      "5808a682-d5b9-4c76-8b12-0ffcfab5faa9",
+      "16903103-03a9-4a09-a6c6-e65a9f4127d7",
+      "4c1f6c8b-0ec8-402b-bbf6-9cdebddd5b0f",
+      "548a4f4c-cd86-4af0-a9ba-63d7b0d19e0b",
+      "5fc0035f-1fbe-47e9-88d1-63a1a566504c",
+      "646454e2-d1da-412f-a2d0-6fedadee10c9"
+    ]
+  },
+  "changeNote": "",
+  "contact_email": null,
+  "contact_name": null,
+  "contact_phone": null,
+  "contributors": [],
+  "created": "2025-11-14T18:52:40+00:00",
+  "creators": [
+    "rafahela"
+  ],
+  "description": "A PloneGov-Br te convida para uma tarde sobre Plone e as novidades da comunidade",
+  "effective": "2025-11-19T19:09:00+00:00",
+  "end": "2025-11-26T20:00:00+00:00",
+  "event_url": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "plone-day-brasil-2025",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "event_view",
+  "location": "Audit\u00f3rio do ILB/Senado Federal e Online",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-23T16:41:08+00:00",
+  "nav_title": null,
+  "open_end": false,
+  "preview_caption_link": null,
+  "recurrence": null,
+  "review_state": "published",
+  "rights": "",
+  "start": "2025-11-26T17:00:00+00:00",
+  "subjects": [
+    "Eventos",
+    "Plone Foundation"
+  ],
+  "sync_uid": null,
+  "title": "Plone Day Brasil 2025",
+  "type_title": "Event",
+  "version": "current",
+  "versioning_enabled": true,
+  "whole_day": false,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "rafahela",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-11-14T18:52:40+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-11-19T19:09:46+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

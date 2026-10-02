@@ -1,0 +1,26 @@
+#page-document {
+  &.organization-view,
+  &.provider-view {
+    margin-bottom: $spacing-medium;
+  }
+
+  &.provider-view {
+    .providerInfoBlocks {
+      margin-bottom: $spacing-medium;
+      .info-box {
+        h2.blockTitle {
+          margin-bottom: 0px;
+        }
+        &.address-info {
+          --info-block-border-color: var(--file-color-dark);
+        }
+        &.contact-info {
+          --info-block-border-color: var(--file-color-dark);
+        }
+        &.services-info {
+          --info-block-border-color: var(--file-color-dark);
+        }
+      }
+    }
+  }
+}

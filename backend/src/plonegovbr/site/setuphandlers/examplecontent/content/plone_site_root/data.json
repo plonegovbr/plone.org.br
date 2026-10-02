@@ -1,0 +1,590 @@
+{
+  "@id": "/Plone",
+  "@type": "Plone Site",
+  "UID": "plone_site_root",
+  "allow_discussion": null,
+  "blocks": {
+    "112fcb2b-ebe1-4a06-97b4-57333ce541a0": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "narrow",
+        "shortLine": false
+      },
+      "theme": "default",
+      "thickness": 1
+    },
+    "2e2be7b2-10d2-4103-9cae-825005125f17": {
+      "@type": "listing",
+      "align": "left",
+      "blockWidth": {
+        "--block-width": "var(--default-container-width)"
+      },
+      "gridColumns": 2,
+      "headline": "Not\u00edcias",
+      "headlineTag": "h2",
+      "querystring": {
+        "limit": "1",
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "News Item"
+            ]
+          }
+        ],
+        "sort_on": "effective",
+        "sort_order": "descending",
+        "sort_order_boolean": true
+      },
+      "styles": {
+        "--cardBorderColor": ""
+      },
+      "theme": "default",
+      "variation": "teaser"
+    },
+    "6fdc43b4-023b-47ef-8d6a-62cfd06de96d": {
+      "@type": "teaser",
+      "description": "A comunidade PloneGov-BR realizar\u00e1 a edi\u00e7\u00e3o 2026 do Cerrado Sprint entre os dias 03 e 06 de Novembro, em Bras\u00edlia, DF.",
+      "head_title": null,
+      "href": [
+        {
+          "@id": "resolveuid/e1736363b19f448ea8fb2236ab00a942",
+          "@type": "Event",
+          "Description": "A comunidade PloneGov-BR realizar\u00e1 a edi\u00e7\u00e3o 2026 do Cerrado Sprint entre os dias 03 e 06 de Novembro, em Bras\u00edlia, DF.",
+          "Subject": [
+            "CerradoSprint",
+            "Eventos"
+          ],
+          "Title": "Cerrado Sprint 2026",
+          "description": "A comunidade PloneGov-BR realizar\u00e1 a edi\u00e7\u00e3o 2026 do Cerrado Sprint entre os dias 03 e 06 de Novembro, em Bras\u00edlia, DF.",
+          "effective": "2026-09-17T18:35:00+00:00",
+          "end": "2026-11-06T21:00:00+00:00",
+          "facets": null,
+          "getObjSize": "0 KB",
+          "getRemoteUrl": null,
+          "hasPreviewImage": null,
+          "head_title": null,
+          "image_field": "preview_image_link",
+          "mime_type": "text/plain",
+          "nav_title": null,
+          "review_state": "published",
+          "social_links": null,
+          "start": "2026-11-03T12:00:00+00:00",
+          "title": "Cerrado Sprint 2026",
+          "type_title": "Evento",
+          "workflow_states": [
+            "simple_publication_workflow|published"
+          ]
+        }
+      ],
+      "overwrite": false,
+      "styles": {
+        "--cardBorderColor": "",
+        "align": "left"
+      },
+      "theme": "default",
+      "title": "Cerrado Sprint 2026"
+    },
+    "b5d732d6-20c9-4166-839d-2a32049a8ef7": {
+      "@type": "listing",
+      "blockWidth": {
+        "--block-width": "var(--default-container-width)"
+      },
+      "gridColumns": 2,
+      "headline": "Pr\u00f3ximos eventos",
+      "headlineButtonLink": [
+        {
+          "@id": "resolveuid/5007d0bef62648ce8832d2669c890b78",
+          "@type": "Document",
+          "CreationDate": "2022-05-24T13:20:07-03:00",
+          "Creator": "ploneorgbr",
+          "Date": "2026-09-23T13:41:16-03:00",
+          "Description": "Eventos com participa\u00e7\u00e3o da comunidade Brasileira.",
+          "EffectiveDate": "None",
+          "ExpirationDate": "None",
+          "ModificationDate": "2026-09-23T13:41:16-03:00",
+          "Subject": [],
+          "Title": "Eventos",
+          "Type": "P\u00e1gina",
+          "UID": "5007d0bef62648ce8832d2669c890b78",
+          "block_types": {
+            "listing": 2,
+            "slate": 3,
+            "title": 1
+          },
+          "cmf_uid": 22,
+          "country": null,
+          "created": "2022-05-24T16:20:07+00:00",
+          "description": "Eventos com participa\u00e7\u00e3o da comunidade Brasileira.",
+          "duration": null,
+          "effective": "1969-12-31T03:00:00+00:00",
+          "end": null,
+          "exclude_from_nav": false,
+          "expires": "2499-12-31T03:00:00+00:00",
+          "facets": null,
+          "getIcon": null,
+          "getId": "eventos",
+          "getObjSize": "0 KB",
+          "getPath": "/Plone/novidades/eventos",
+          "getRemoteUrl": null,
+          "getURL": "http://localhost:3000/novidades/eventos",
+          "hasPreviewImage": null,
+          "has_video": false,
+          "head_title": null,
+          "id": "eventos",
+          "image_field": "",
+          "industry": null,
+          "is_folderish": true,
+          "listCreators": [
+            "ploneorgbr"
+          ],
+          "location": null,
+          "mime_type": "text/plain",
+          "modified": "2026-09-23T16:41:16+00:00",
+          "nav_title": "Eventos",
+          "portal_type": "Document",
+          "review_state": "published",
+          "services": null,
+          "social_links": null,
+          "start": null,
+          "sync_uid": null,
+          "title": "Eventos",
+          "type_title": "P\u00e1gina",
+          "usages": null,
+          "versions": null,
+          "videoUrl": null,
+          "workflow_states": [
+            "simple_publication_workflow|published"
+          ]
+        }
+      ],
+      "headlineButtonText": "Agenda completa",
+      "headlineTag": "h2",
+      "querystring": {
+        "limit": "3",
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "Event"
+            ]
+          },
+          {
+            "i": "end",
+            "o": "plone.app.querystring.operation.date.afterToday",
+            "v": ""
+          }
+        ],
+        "sort_order": "ascending"
+      },
+      "styles": {
+        "--cardBorderColor": ""
+      },
+      "theme": "lightBlue",
+      "variation": "events"
+    },
+    "f6b6fe92-ffa6-4678-83ac-6a650fa99c70": {
+      "@type": "listing",
+      "align": "left",
+      "blockWidth": {
+        "--block-width": "var(--layout-container-width)"
+      },
+      "gridColumns": 2,
+      "headlineTag": "h2",
+      "querystring": {
+        "limit": "4",
+        "offset": "1",
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "News Item"
+            ]
+          }
+        ],
+        "sort_on": "effective",
+        "sort_order": "descending",
+        "sort_order_boolean": true
+      },
+      "styles": {
+        "--cardBorderColor": ""
+      },
+      "theme": "lightBlue",
+      "variation": "grid"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "6fdc43b4-023b-47ef-8d6a-62cfd06de96d",
+      "112fcb2b-ebe1-4a06-97b4-57333ce541a0",
+      "2e2be7b2-10d2-4103-9cae-825005125f17",
+      "f6b6fe92-ffa6-4678-83ac-6a650fa99c70",
+      "b5d732d6-20c9-4166-839d-2a32049a8ef7"
+    ]
+  },
+  "description": "Comunidade Brasileira de usu\u00e1rios do CMS Plone",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "facebook_app_id": "",
+  "facebook_username": "Plone-Brasil-101606785972720",
+  "footer_address": null,
+  "footer_brand_message": "A comunidade brasileira do Plone: quem usa, desenvolve e mant\u00e9m o CMS livre em portugu\u00eas.",
+  "footer_brand_slogan": "Comunidade Brasileira de Plone",
+  "footer_colophon_right_text": [
+    {
+      "children": [
+        {
+          "text": "Acessibilidade \u00b7 Privacidade \u00b7 Mapa do site"
+        }
+      ],
+      "type": "p"
+    }
+  ],
+  "footer_colophon_text": [
+    {
+      "children": [
+        {
+          "text": "\u00a9 Comunidade Plone Brasil \u00b7 Plone\u00ae \u00e9 marca registrada da Plone Foundation"
+        }
+      ],
+      "type": "p"
+    }
+  ],
+  "footer_column_left": [
+    {
+      "@id": "0e56f6ca-327a-4fce-b292-2f4d076094b0",
+      "href": [
+        {
+          "@id": "resolveuid/b1fa8ba3e754479382b5bafe561c38ef",
+          "@type": "Document",
+          "Description": "O Plone est\u00e1 entre os top 2% de todos os projetos de c\u00f3digo-aberto do mundo, com cerca de 400 desenvolvedores distribu\u00eddos em mais de 60 pa\u00edses.",
+          "Title": "O Plone",
+          "title": "O Plone"
+        }
+      ],
+      "title": "O que \u00e9 Plone"
+    },
+    {
+      "@id": "8814a2e4-5951-4973-aaa3-a0e2cb9995c4",
+      "href": [
+        {
+          "@id": "resolveuid/b1fa8ba3e754479382b5bafe561c38ef",
+          "@type": "Document",
+          "Description": "O Plone est\u00e1 entre os top 2% de todos os projetos de c\u00f3digo-aberto do mundo, com cerca de 400 desenvolvedores distribu\u00eddos em mais de 60 pa\u00edses.",
+          "Title": "O Plone",
+          "title": "O Plone"
+        }
+      ],
+      "title": "Comece a usar"
+    },
+    {
+      "@id": "bea4e831-73b9-4460-a4be-a4d8482dad1a",
+      "href": [
+        {
+          "@id": "resolveuid/b1fa8ba3e754479382b5bafe561c38ef",
+          "@type": "Document",
+          "Description": "O Plone est\u00e1 entre os top 2% de todos os projetos de c\u00f3digo-aberto do mundo, com cerca de 400 desenvolvedores distribu\u00eddos em mais de 60 pa\u00edses.",
+          "Title": "O Plone",
+          "title": "O Plone"
+        }
+      ],
+      "title": "Documenta\u00e7\u00e3o"
+    },
+    {
+      "@id": "9464e34b-0753-4a1c-b3fc-77e4b982c459",
+      "href": [
+        {
+          "@id": "resolveuid/b1fa8ba3e754479382b5bafe561c38ef",
+          "@type": "Document",
+          "Description": "O Plone est\u00e1 entre os top 2% de todos os projetos de c\u00f3digo-aberto do mundo, com cerca de 400 desenvolvedores distribu\u00eddos em mais de 60 pa\u00edses.",
+          "Title": "O Plone",
+          "title": "O Plone"
+        }
+      ],
+      "title": "Seguran\u00e7a"
+    }
+  ],
+  "footer_column_left_header": "Plone",
+  "footer_column_middle": [
+    {
+      "@id": "7b20e478-b6ee-494e-8b40-2fdb4c53a85e",
+      "href": [
+        {
+          "@id": "resolveuid/d64a5ff083f9450d8c25b05e18d490f9",
+          "@type": "Link",
+          "Description": "",
+          "Title": "F\u00f3rum",
+          "title": "F\u00f3rum"
+        }
+      ],
+      "title": "F\u00f3rum"
+    },
+    {
+      "@id": "5856bfed-30ca-47a8-9537-098b8a489feb",
+      "href": [
+        {
+          "@id": "resolveuid/d64a5ff083f9450d8c25b05e18d490f9",
+          "@type": "Link",
+          "Description": "",
+          "Title": "F\u00f3rum",
+          "title": "F\u00f3rum"
+        }
+      ],
+      "title": "Telegram"
+    },
+    {
+      "@id": "2d7f0c4f-1b53-4fe0-88ba-aa361b2887ec",
+      "href": [
+        {
+          "@id": "resolveuid/1e1239a08c54453196a83b71cb67971e",
+          "@type": "Document",
+          "Description": "",
+          "Title": "Documenta\u00e7\u00e3o",
+          "title": "Documenta\u00e7\u00e3o"
+        }
+      ],
+      "title": "GitHub"
+    },
+    {
+      "@id": "011fda08-be1c-457d-9dcd-03bc4501ffff",
+      "href": [
+        {
+          "@id": "resolveuid/5007d0bef62648ce8832d2669c890b78",
+          "@type": "Document",
+          "Description": "Eventos com participa\u00e7\u00e3o da comunidade Brasileira.",
+          "Title": "Eventos",
+          "title": "Eventos"
+        }
+      ],
+      "title": "Eventos"
+    },
+    {
+      "@id": "77d27d6e-69e8-4fd6-8496-a874231d8fb7",
+      "href": [
+        {
+          "@id": "resolveuid/76b9d94d3d604413a2bd353798ba21d6",
+          "@type": "Document",
+          "Description": "",
+          "Title": "Primeiros Passos",
+          "title": "Primeiros Passos"
+        }
+      ],
+      "title": "Como contribuir"
+    }
+  ],
+  "footer_column_middle_header": "Comunidade",
+  "footer_column_right": [
+    {
+      "@id": "0e990da4-b2b2-4c98-9312-74633b3e2542",
+      "href": [
+        {
+          "@id": "resolveuid/fa21311033e9408fbc91e117919c9e11",
+          "@type": "Document",
+          "Description": "As comunidades de Plone no Brasil desenvolveram, ao longo dos anos, diversas solu\u00e7\u00f5es de c\u00f3digo aberto, conhe\u00e7a essas iniciativas.",
+          "Title": "Projetos",
+          "title": "Projetos"
+        }
+      ],
+      "title": "PloneGov-BR"
+    },
+    {
+      "@id": "37f63eb6-099b-4d55-a3b9-31c3ff56aa55",
+      "href": [
+        {
+          "@id": "resolveuid/a1138aeb8b84478bb9ba6c39f3c2f1a0",
+          "@type": "Document",
+          "Description": "",
+          "Title": "Casos de Sucesso",
+          "title": "Casos de Sucesso"
+        }
+      ],
+      "title": "Casos de uso"
+    },
+    {
+      "@id": "bd4259d0-7b68-4d5a-bf7a-fedf1f7a9d03",
+      "href": [
+        {
+          "@id": "resolveuid/838efb15734b4367868a8a12113a8c04",
+          "@type": "Document",
+          "Description": "\u00daltimas not\u00edcias sobre Plone no Brasil",
+          "Title": "Not\u00edcias",
+          "title": "Not\u00edcias"
+        }
+      ],
+      "title": "Not\u00edcias"
+    },
+    {
+      "@id": "b3951328-f0f4-4467-a106-279ec8cc4e85",
+      "href": [
+        {
+          "@id": "resolveuid/d64a5ff083f9450d8c25b05e18d490f9",
+          "@type": "Link",
+          "Description": "",
+          "Title": "F\u00f3rum",
+          "title": "F\u00f3rum"
+        }
+      ],
+      "title": "Contato"
+    }
+  ],
+  "footer_column_right_header": "Brasil",
+  "footer_links": [],
+  "footer_logo": {
+    "blob_path": "plone_site_root/footer_logo/plonebr-reverso.png",
+    "content-type": "image/png",
+    "filename": "plonebr-reverso.png",
+    "height": 363,
+    "size": 14339,
+    "width": 1033
+  },
+  "footer_logos": [],
+  "footer_logos_container_width": "default",
+  "footer_logos_size": "s",
+  "has_fat_menu": true,
+  "header_actions": [],
+  "id": "Plone",
+  "is_folderish": true,
+  "items_total": 10,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "logo": {
+    "blob_path": "plone_site_root/logo/plonebr.png",
+    "content-type": "image/png",
+    "filename": "plonebr.png",
+    "height": 348,
+    "size": 51502,
+    "width": 943
+  },
+  "preview_caption_link": null,
+  "review_state": null,
+  "share_social_data": true,
+  "social_links": [
+    {
+      "@id": "cf831218-9687-45d4-8a47-11aab39943f6",
+      "href": [
+        {
+          "@id": "https://bsky.app/profile/plone.org.br",
+          "title": "bsky.app/profile/plone.org.br"
+        }
+      ],
+      "id": "bluesky",
+      "title": "BlueSky"
+    },
+    {
+      "@id": "52d73fd6-3292-430f-bd4b-6becbea5a05e",
+      "href": [
+        {
+          "@id": "https://plone.social/@ploneorgbr",
+          "title": "plone.social/@ploneorgbr"
+        }
+      ],
+      "id": "mastodon",
+      "title": "Mastodon"
+    },
+    {
+      "@id": "849b641c-3567-44f2-9c65-13c6355c3193",
+      "href": [
+        {
+          "@id": "https://www.instagram.com/plonebr/",
+          "title": "www.instagram.com/plonebr/"
+        }
+      ],
+      "id": "instagram",
+      "title": "Instagram"
+    },
+    {
+      "@id": "cd8c4efe-cdb6-4c42-9ad7-fec96a78804f",
+      "href": [
+        {
+          "@id": "http://youtube.com/@ploneCMS",
+          "title": "youtube.com/@ploneCMS"
+        }
+      ],
+      "id": "youtube",
+      "title": "YouTube"
+    },
+    {
+      "@id": "ee857d4c-664c-45de-bd92-5ca9a7cb6b55",
+      "href": [
+        {
+          "@id": "https://www.facebook.com/Plone-Brasil-101606785972720",
+          "title": "www.facebook.com/Plone-Brasil-101606785972720"
+        }
+      ],
+      "id": "facebook",
+      "title": "Facebook"
+    },
+    {
+      "@id": "b0ed03c5-51d5-44a1-82f0-c43e5bc9fd0f",
+      "href": [
+        {
+          "@id": "https://twitter.com/ploneorgbr",
+          "title": "twitter.com/ploneorgbr"
+        }
+      ],
+      "id": "x",
+      "title": "X (Twitter)"
+    }
+  ],
+  "theme": {
+    "title": "Plone Brasil",
+    "token": "default",
+    "value": {
+      "accent_accent_color_dark": "#ffffff",
+      "accent_accent_color_light": "#FFCC29",
+      "accent_color_dark": "#b55e1c",
+      "accent_color_light": "#002776",
+      "accent_foreground_color_dark": "#ffffff",
+      "accent_foreground_color_light": "#ffffff",
+      "accent_low_foreground_color_dark": "#f8f8f8",
+      "accent_low_foreground_color_light": "#cfe0f5",
+      "event_color_dark": "#d32f2f",
+      "event_color_light": "#007a2e",
+      "file_color_dark": "#1976d2",
+      "file_color_light": "#1976d2",
+      "font_family_primary": "Inter, sans-serif",
+      "font_family_secondary": "Inter, sans-serif",
+      "image_color_dark": "#388e3c",
+      "image_color_light": "#388e3c",
+      "neutral_accent_color_dark": "#f4822c",
+      "neutral_accent_color_light": "#f4822c",
+      "neutral_color_dark": "#333333",
+      "neutral_color_light": "#edeff0",
+      "neutral_foreground_color_dark": "#ffffff",
+      "neutral_foreground_color_light": "#000000",
+      "neutral_low_foreground_color_dark": "#e6e6e6",
+      "neutral_low_foreground_color_light": "#333333",
+      "primary_accent_color_dark": "#f4822c",
+      "primary_accent_color_light": "#0074a8",
+      "primary_color_dark": "#000000",
+      "primary_color_light": "#ffffff",
+      "primary_foreground_color_dark": "#ffffff",
+      "primary_foreground_color_light": "#000000",
+      "primary_low_foreground_color_dark": "#f8f8f8",
+      "primary_low_foreground_color_light": "#333333",
+      "secondary_accent_color_dark": "#f4822c",
+      "secondary_accent_color_light": "#FFCC29",
+      "secondary_color_dark": "#ffffff",
+      "secondary_color_light": "#002776",
+      "secondary_foreground_color_dark": "#000000",
+      "secondary_foreground_color_light": "#ffffff",
+      "secondary_low_foreground_color_dark": "#333333",
+      "secondary_low_foreground_color_light": "#cfe0f5"
+    }
+  },
+  "title": "Plone Brasil",
+  "type_title": "Plone Site",
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null,
+  "x_username": "ploneorgbr"
+}

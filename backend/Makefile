@@ -15,26 +15,38 @@ GREEN=`tput setaf 2`
 RESET=`tput sgr0`
 YELLOW=`tput setaf 3`
 
-PLONE_VERSION=6.0.6
+# Python checks
+UV?=uv
 
-ifndef LOG_LEVEL
-	LOG_LEVEL=INFO
+# installed?
+ifeq (, $(shell which $(UV) ))
+  $(error "UV=$(UV) not found in $(PATH)")
 endif
 
-CURRENT_USER=$$(whoami)
-USER_INFO=$$(id -u ${CURRENT_USER}):$$(getent group ${CURRENT_USER}|cut -d: -f3)
+REPOSITORY_SETTINGS := $(shell uvx repoplone settings dump)
+IMAGE_NAME_PREFIX := $(shell echo '$(REPOSITORY_SETTINGS)' | jq -r '.container_images_prefix')
+IMAGE_NAME_SEPARATOR := -
+IMAGE_NAME_PREFIX_WITH_SEPARATOR := $(IMAGE_NAME_PREFIX)$(IMAGE_NAME_SEPARATOR)
 
-BACKEND_FOLDER=$(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
-
-CODE_QUALITY_VERSION=2
-LINT=docker run -e LOG_LEVEL="${LOG_LEVEL}" --rm -v "${BACKEND_FOLDER}":/github/workspace plone/code-quality:${CODE_QUALITY_VERSION} check
-FORMAT=docker run --user="${USER_INFO}" -e LOG_LEVEL="${LOG_LEVEL}" --rm -v "${BACKEND_FOLDER}":/github/workspace plone/code-quality:${CODE_QUALITY_VERSION} format
-
-PACKAGE_NAME=ploneorgbr.core
-PACKAGE_PATH=src/ploneorgbr.core/src/
-IMAGE_NAME=ghcr.io/plonegovbr/ploneorgbr-backend
 IMAGE_TAG=latest
-CHECK_PATH=src/ploneorgbr.core/setup.py scripts/ $(PACKAGE_PATH)
+IMAGE_NAME=$(IMAGE_NAME_PREFIX_WITH_SEPARATOR)backend:$(IMAGE_TAG)
+
+PLONE_SITE_ID=Plone
+BACKEND_FOLDER=$(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
+PYTHON_VERSION := $(shell echo '$(REPOSITORY_SETTINGS)' | jq -r '.backend.python_version')
+PLONE_VERSION := $(shell echo '$(REPOSITORY_SETTINGS)' | jq -r '.backend.base_package_version')
+EXAMPLE_CONTENT_FOLDER := $(shell echo '$(REPOSITORY_SETTINGS)' | jq -r '.backend.code_path')/setuphandlers/examplecontent
+PACKAGE_NAME := $(shell echo '$(REPOSITORY_SETTINGS)' | jq -r '.backend.name')
+
+VENV_FOLDER=$(BACKEND_FOLDER)/.venv
+export VIRTUAL_ENV=$(VENV_FOLDER)
+BIN_FOLDER=$(VENV_FOLDER)/bin
+
+# Environment variables to be exported
+export PYTHONWARNINGS := ignore
+export DOCKER_BUILDKIT := 1
+
+all: build
 
 # Add the following 'help' target to your Makefile
 # And add help text after each target name starting with '\#\#'
@@ -42,128 +54,138 @@ CHECK_PATH=src/ploneorgbr.core/setup.py scripts/ $(PACKAGE_PATH)
 help: ## This help message
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
+.PHONY: debug-settings
+debug-settings:  ## Debug settings
+	@echo "Virtual Environment: $(VENV_FOLDER)"
+	@echo "PYTHON_VERSION: $(PYTHON_VERSION)"
+	@echo "PLONE_VERSION: $(PLONE_VERSION)"
+	@echo "PACKAGE_NAME: $(PACKAGE_NAME)"
+	@echo "EXAMPLE_CONTENT_FOLDER: $(EXAMPLE_CONTENT_FOLDER)"
+	@echo "IMAGE_NAME: $(IMAGE_NAME)"
+
+mxdev:
+	@echo "$(GREEN)==> Run mxdev to get deps from source$(RESET)"
+	@uvx mxdev[uv] -c mx.ini
+	@rm requirements-mxdev.txt
+
+############################################
+# Config
+############################################
+instance/etc/zope.ini instance/etc/zope.conf: instance.yaml ## Create instance configuration
+	@echo "$(GREEN)==> Create instance configuration$(RESET)"
+	@uvx cookiecutter -f --no-input -c 3.1.0 --config-file instance.yaml gh:plone/cookiecutter-zope-instance
+
+.PHONY: config
+config: instance/etc/zope.ini
+
+############################################
+# Installation / Cleanup
+############################################
+.PHONY: update-constraints
+update-constraints: ## Update backend constraints
+	@echo "$(GREEN)==> Update backend constraints$(RESET)"
+	@uvx repoplone deps constraints
+
+.PHONY: sync
+sync: update-constraints ## Sync project dependencies
+	@echo "$(GREEN)==> Sync project dependencies$(RESET)"
+	@uv sync
+
+.PHONY: install
+install: mxdev sync config ## Install Plone and dependencies
+
 .PHONY: clean
-clean: clean-build clean-pyc clean-test clean-venv clean-instance ## remove all build, test, coverage and Python artifacts
+clean: ## Clean installation and instance
+	@echo "$(RED)==> Cleaning environment and build$(RESET)"
+	@rm -rf $(VENV_FOLDER) pyvenv.cfg .installed.cfg instance/etc .venv .pytest_cache .ruff_cache constraints* requirements*
 
-.PHONY: clean-instance
-clean-instance: ## remove existing instance
-	rm -fr instance etc inituser var
+.PHONY: remove-data
+remove-data: ## Remove all content
+	@echo "$(RED)==> Removing all content$(RESET)"
+	rm -rf $(VENV_FOLDER) instance/var
 
-.PHONY: clean-venv
-clean-venv: ## remove virtual environment
-	rm -fr bin include lib lib64
-
-.PHONY: clean-build
-clean-build: ## remove build artifacts
-	rm -fr build/
-	rm -fr dist/
-	rm -fr .eggs/
-	find . -name '*.egg-info' -exec rm -fr {} +
-	find . -name '*.egg' -exec rm -rf {} +
-
-.PHONY: clean-pyc
-clean-pyc: ## remove Python file artifacts
-	find . -name '*.pyc' -exec rm -f {} +
-	find . -name '*.pyo' -exec rm -f {} +
-	find . -name '*~' -exec rm -f {} +
-	find . -name '__pycache__' -exec rm -fr {} +
-
-.PHONY: clean-test
-clean-test: ## remove test and coverage artifacts
-	rm -f .coverage
-	rm -fr htmlcov/
-
-bin/pip:
-	@echo "$(GREEN)==> Setup Virtual Env$(RESET)"
-	python3 -m venv .
-	bin/pip install -U "pip" "wheel" "cookiecutter"
-
-instance/etc/zope.ini:	bin/pip
-	@echo "$(GREEN)==> Install Plone and create instance$(RESET)"
-	bin/pip install Plone -c https://dist.plone.org/release/$(PLONE_VERSION)/constraints.txt
-	bin/cookiecutter -f --no-input --config-file instance.yaml https://github.com/plone/cookiecutter-zope-instance
-	mkdir -p var/{filestorage,blobstorage,cache,log}
-
-# i18n
-bin/i18ndude:	bin/pip
-	@echo "$(GREEN)==> Install translation tools$(RESET)"
-	bin/pip install i18ndude
-
-.PHONY: i18n
-i18n: bin/i18ndude ## Update locales
-	@echo "$(GREEN)==> Updating locales$(RESET)"
-	bin/update_locale
-
-.PHONY: build
-build: instance/etc/zope.ini ## Create virtualenv and run buildout
-	@echo "$(GREEN)==> Setup Build$(RESET)"
-	bin/pip install -r requirements.txt
-
-.PHONY: build
-build-dev: instance/etc/zope.ini ## Create virtualenv and run buildout
-	@echo "$(GREEN)==> Setup Build$(RESET)"
-	bin/pip install -r requirements/dev.txt
-
-.PHONY: format
-format: ## Format the codebase according to our standards
-	@echo "$(GREEN)==> Format codebase$(RESET)"
-	$(FORMAT)
-
-.PHONY: format-black
-format-black:  ## Format the codebase with black
-	@echo "$(GREEN)==> Format codebase with black$(RESET)"
-	$(FORMAT) black ${CODEPATH}
-
-.PHONY: format-isort
-format-isort:  ## Format the codebase with isort
-	@echo "$(GREEN)==> Format codebase with isort$(RESET)"
-	$(FORMAT) isort ${CODEPATH}
-
-.PHONY: format-zpretty
-format-zpretty:  ## Format the codebase with zpretty
-	@echo "$(GREEN)==> Format codebase with zpretty$(RESET)"
-	$(FORMAT) zpretty ${CODEPATH}
-
-.PHONY: lint
-lint:## check code style
-	$(LINT)
-
-.PHONY: lint-black
-lint-black: ## validate black formating
-	$(LINT) black ${CODEPATH}
-
-.PHONY: lint-flake8
-lint-flake8: ## validate black formating
-	$(LINT) flake8 ${CODEPATH}
-
-.PHONY: lint-isort
-lint-isort: ## validate using isort
-	$(LINT) isort ${CODEPATH}
-
-.PHONY: lint-zpretty
-lint-zpretty: ## validate ZCML/XML using zpretty
-	$(LINT) zpretty ${CODEPATH}
-
-.PHONY: test
-test: ## run tests
-	./bin/zope-testrunner --auto-color --auto-progress --test-path src/ploneorgbr.core/src/
-
-.PHONY: test_quiet
-test_quiet: ## run tests removing deprecation warnings
-	PYTHONWARNINGS=ignore ./bin/zope-testrunner --auto-color --auto-progress --test-path src/ploneorgbr.core/src/
-
-.PHONY: create-site
-create-site: instance/etc/zope.ini ## Create a new site from scratch
-	PYTHONWARNINGS=ignore ./bin/zconsole run instance/etc/zope.conf ./scripts/create_site.py
+############################################
+# Server Actions
+############################################
+.PHONY: start
+start: $(VENV_FOLDER) instance/etc/zope.ini ## Start a Plone instance on localhost:8080
+	@uv run runwsgi instance/etc/zope.ini
 
 .PHONY: console
-console: instance/etc/zope.ini ## Open a console
-	PYTHONWARNINGS=ignore ./bin/zconsole debug instance/etc/zope.conf
+console: $(VENV_FOLDER) instance/etc/zope.ini ## Start a console into a Plone instance
+	@uv run zconsole debug instance/etc/zope.conf
 
-.PHONY: start
-start: ## Start a Plone instance on localhost:8080
-	PYTHONWARNINGS=ignore ./bin/runwsgi instance/etc/zope.ini
+.PHONY: create-site
+create-site: $(VENV_FOLDER) instance/etc/zope.ini ## Create a new site from scratch
+	@uv run zconsole run instance/etc/zope.conf ./scripts/create_site.py
 
+############################################
+# Example Content
+############################################
+.PHONY: update-example-content
+update-example-content: $(VENV_FOLDER) ## Export example content inside package
+	@echo "$(GREEN)==> Export example content into $(EXAMPLE_CONTENT_FOLDER) $(RESET)"
+	if [ -d $(EXAMPLE_CONTENT_FOLDER)/content ]; then rm -r $(EXAMPLE_CONTENT_FOLDER)/* ;fi
+	@uv run plone-exporter instance/etc/zope.conf $(PLONE_SITE_ID) $(EXAMPLE_CONTENT_FOLDER)
+
+############################################
+# QA
+############################################
+.PHONY: lint
+lint: ## Check and fix code base according to Plone standards
+	@echo "$(GREEN)==> Lint codebase$(RESET)"
+	@uvx ruff@latest check --fix --config $(BACKEND_FOLDER)/pyproject.toml
+	@uvx pyroma@latest -d .
+	@uvx check-python-versions@latest .
+	@uvx zpretty@latest --check src
+
+.PHONY: format
+format: ## Check and fix code base according to Plone standards
+	@echo "$(GREEN)==> Format codebase$(RESET)"
+	@uvx ruff@latest check --select I --fix --config $(BACKEND_FOLDER)/pyproject.toml
+	@uvx ruff@latest format --config $(BACKEND_FOLDER)/pyproject.toml
+	@uvx zpretty@latest -i src
+
+############################################
+# i18n
+############################################
+.PHONY: i18n
+i18n: $(VENV_FOLDER) ## Update locales
+	@echo "$(GREEN)==> Updating locales$(RESET)"
+	@uv run python -m $(PACKAGE_NAME).locales
+
+############################################
+# Tests
+############################################
+.PHONY: test
+test: $(VENV_FOLDER) ## run tests
+	@uv run pytest
+
+.PHONY: test-coverage
+test-coverage: $(VENV_FOLDER) ## run tests with coverage
+	@uv run pytest --cov=$(PACKAGE_NAME) --cov-report term-missing
+
+############################################
+# Container images
+############################################
 .PHONY: build-image
-build-image:  ## Build Docker Image
-	@docker build . -t $(IMAGE_NAME):$(IMAGE_TAG) -f Dockerfile --build-arg PLONE_VERSION=$(PLONE_VERSION)
+build-image:  ## Build Container Images
+	@echo "$(GREEN)==> Building image $(IMAGE_NAME) $(RESET)"
+	@docker build . -t $(IMAGE_NAME) --build-arg PYTHON_VERSION=$(PYTHON_VERSION) --progress plain -f Dockerfile
+
+############################################
+# Acceptance Tests
+############################################
+.PHONY: acceptance-backend-start
+acceptance-backend-start: ## Start backend acceptance server
+	ZSERVER_HOST=0.0.0.0 ZSERVER_PORT=55001 LISTEN_PORT=55001 APPLY_PROFILES="$(PACKAGE_NAME):default" CONFIGURE_PACKAGES="plone.restapi,plone.volto,plone.volto.cors,$(PACKAGE_NAME)" uv run robot-server plone.app.robotframework.testing.VOLTO_ROBOT_TESTING
+
+.PHONY: acceptance-image-build
+acceptance-image-build:  ## Build Docker Images
+	@docker build . -t $(IMAGE_NAME_PREFIX_WITH_SEPARATOR)backend-acceptance:$(IMAGE_TAG) -f Dockerfile.acceptance --build-arg PLONE_VERSION=$(PLONE_VERSION) --build-arg PYTHON_VERSION=$(PYTHON_VERSION)
+
+############################################
+# Plone CLI
+############################################
+add: $(VENV_FOLDER)
+	@uvx plonecli add $(filter-out $@,$(MAKECMDGOALS))

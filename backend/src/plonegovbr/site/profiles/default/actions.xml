@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+
+  <object meta_type="CMF Action Category"
+          name="portal_tabs"
+  >
+    <object meta_type="CMF Action"
+            name="index_html"
+    >
+
+      <property name="visible">False</property>
+    </object>
+  </object>
+</object>

@@ -1,0 +1,632 @@
+{
+  "@id": "/o-plone",
+  "@type": "Document",
+  "UID": "b1fa8ba3e754479382b5bafe561c38ef",
+  "allow_discussion": false,
+  "blocks": {
+    "102d9cde-02a3-4b1e-97e0-99ce3a4aafd0": {
+      "@type": "introduction",
+      "plaintext": "Participe da comunidade Plone Brasil",
+      "styles": {
+        "align": "center"
+      },
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Participe da comunidade Plone Brasil"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "10ebf764-dc1b-4c1c-8073-72acea0076e0": {
+      "@type": "listing",
+      "blockWidth": {
+        "--block-width": "var(--layout-container-width)"
+      },
+      "gridColumns": 3,
+      "headline": "Casos PloneGov-BR",
+      "headlineButtonText": "Todos os casos",
+      "headlineTag": "h2",
+      "querystring": {
+        "limit": "3",
+        "offset": "3",
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "CaseStudy"
+            ]
+          }
+        ],
+        "sort_order": "descending",
+        "sort_order_boolean": true
+      },
+      "styles": {
+        "--cardBorderColor": ""
+      },
+      "theme": "lightBlue",
+      "variation": "grid"
+    },
+    "44af2284-faba-4379-9032-a0de59fef5d5": {
+      "@type": "__button",
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Como contribuir"
+    },
+    "4540dddf-bcbd-4b3b-bc53-0d92e7a82acc": {
+      "--cardBorderColor": "",
+      "@type": "heroBlock",
+      "blockWidth": {
+        "--block-width": "unset"
+      },
+      "button": true,
+      "buttonLink": [
+        {
+          "@id": "../resolveuid/b1fa8ba3e754479382b5bafe561c38ef",
+          "@type": "Document",
+          "CreationDate": "2022-05-24T16:30:57-03:00",
+          "Description": "O Plone est\u00e1 entre os top 2% de todos os projetos de c\u00f3digo-aberto do mundo, com cerca de 400 desenvolvedores distribu\u00eddos em mais de 60 pa\u00edses.",
+          "EffectiveDate": "2022-05-25T22:04:00-03:00",
+          "Title": "O Plone",
+          "effective": "2022-05-26T01:04:00+00:00",
+          "end": null,
+          "hasPreviewImage": null,
+          "head_title": null,
+          "image_field": "",
+          "start": null,
+          "title": "O Plone"
+        }
+      ],
+      "buttonText": "Ver casos de uso",
+      "buttons": [
+        {
+          "@id": "f1bee373-5c2f-4c99-9f6e-27921ea4a873",
+          "buttonLink": [
+            {
+              "@id": "../resolveuid/b1fa8ba3e754479382b5bafe561c38ef",
+              "@type": "Document",
+              "CreationDate": "2022-05-24T16:30:57-03:00",
+              "Creator": "ericof",
+              "Date": "2022-05-25T22:04:00-03:00",
+              "Description": "O Plone est\u00e1 entre os top 2% de todos os projetos de c\u00f3digo-aberto do mundo, com cerca de 400 desenvolvedores distribu\u00eddos em mais de 60 pa\u00edses.",
+              "EffectiveDate": "2022-05-25T22:04:00-03:00",
+              "ExpirationDate": "None",
+              "ModificationDate": "2026-09-28T10:05:10-03:00",
+              "Subject": [],
+              "Title": "O Plone",
+              "Type": "P\u00e1gina",
+              "UID": "b1fa8ba3e754479382b5bafe561c38ef",
+              "block_types": {
+                "__button": 1,
+                "eventCalendar": 1,
+                "gridBlock": 2,
+                "heading": 1,
+                "heroBlock": 2,
+                "listing": 3,
+                "teaser": 7
+              },
+              "cmf_uid": 34,
+              "country": null,
+              "created": "2022-05-24T19:30:57+00:00",
+              "description": "O Plone est\u00e1 entre os top 2% de todos os projetos de c\u00f3digo-aberto do mundo, com cerca de 400 desenvolvedores distribu\u00eddos em mais de 60 pa\u00edses.",
+              "duration": null,
+              "effective": "2022-05-26T01:04:00+00:00",
+              "end": null,
+              "exclude_from_nav": false,
+              "expires": "2499-12-31T03:00:00+00:00",
+              "facets": null,
+              "getIcon": null,
+              "getId": "o-plone",
+              "getObjSize": "0 KB",
+              "getPath": "/Plone/o-plone",
+              "getRemoteUrl": null,
+              "getURL": "http://localhost:3000/o-plone",
+              "hasPreviewImage": null,
+              "has_video": false,
+              "head_title": null,
+              "id": "o-plone",
+              "image_field": "",
+              "industry": null,
+              "is_folderish": true,
+              "listCreators": [
+                "ericof"
+              ],
+              "location": null,
+              "mime_type": "text/plain",
+              "modified": "2026-09-28T13:05:10+00:00",
+              "nav_title": null,
+              "portal_type": "Document",
+              "review_state": "published",
+              "services": null,
+              "social_links": null,
+              "start": null,
+              "sync_uid": null,
+              "title": "O Plone",
+              "type_title": "P\u00e1gina",
+              "usages": null,
+              "versions": null,
+              "videoUrl": null,
+              "workflow_states": [
+                "simple_publication_workflow|published"
+              ]
+            }
+          ],
+          "buttonText": "Conhe\u00e7a o Plone",
+          "theme": "outline"
+        },
+        {
+          "@id": "83551a00-c92a-4d68-9701-454048b95695",
+          "buttonLink": [
+            {
+              "@id": "../resolveuid/a1138aeb8b84478bb9ba6c39f3c2f1a0",
+              "@type": "Document",
+              "CreationDate": "2022-05-25T15:27:32-03:00",
+              "Creator": "ericof",
+              "Date": "2022-05-25T22:05:00-03:00",
+              "Description": "",
+              "EffectiveDate": "2022-05-25T22:05:00-03:00",
+              "ExpirationDate": "None",
+              "ModificationDate": "2026-09-23T13:01:27-03:00",
+              "Subject": [],
+              "Title": "Casos de Sucesso",
+              "Type": "P\u00e1gina",
+              "UID": "a1138aeb8b84478bb9ba6c39f3c2f1a0",
+              "block_types": {
+                "slate": 4,
+                "title": 1
+              },
+              "cmf_uid": 35,
+              "country": null,
+              "created": "2022-05-25T18:27:32+00:00",
+              "description": "",
+              "duration": null,
+              "effective": "2022-05-26T01:05:00+00:00",
+              "end": null,
+              "exclude_from_nav": false,
+              "expires": "2499-12-31T03:00:00+00:00",
+              "facets": null,
+              "getIcon": null,
+              "getId": "casos-de-sucesso",
+              "getObjSize": "0 KB",
+              "getPath": "/Plone/o-plone/casos-de-sucesso",
+              "getRemoteUrl": null,
+              "getURL": "http://localhost:3000/o-plone/casos-de-sucesso",
+              "hasPreviewImage": null,
+              "has_video": false,
+              "head_title": null,
+              "id": "casos-de-sucesso",
+              "image_field": "",
+              "industry": null,
+              "is_folderish": true,
+              "listCreators": [
+                "ericof"
+              ],
+              "location": null,
+              "mime_type": "text/plain",
+              "modified": "2026-09-23T16:01:27+00:00",
+              "nav_title": null,
+              "portal_type": "Document",
+              "review_state": "published",
+              "services": null,
+              "social_links": null,
+              "start": null,
+              "sync_uid": null,
+              "title": "Casos de Sucesso",
+              "type_title": "P\u00e1gina",
+              "usages": null,
+              "versions": null,
+              "videoUrl": null,
+              "workflow_states": [
+                "simple_publication_workflow|published"
+              ]
+            }
+          ],
+          "buttonText": "Ver casos de uso",
+          "theme": "full"
+        }
+      ],
+      "description": "Software de c\u00f3digo aberto, em Python, mantido por uma comunidade global h\u00e1 mais de 20 anos e adotado por governos, universidades e empresas.",
+      "fullWidth": true,
+      "fullWidthImage": false,
+      "headerText": "Comunidade Plone Brasil",
+      "hideImage": false,
+      "href": [
+        {
+          "@id": "../resolveuid/b1fa8ba3e754479382b5bafe561c38ef",
+          "@type": "Document",
+          "CreationDate": "2022-05-24T16:30:57-03:00",
+          "Description": "O Plone est\u00e1 entre os top 2% de todos os projetos de c\u00f3digo-aberto do mundo, com cerca de 400 desenvolvedores distribu\u00eddos em mais de 60 pa\u00edses.",
+          "EffectiveDate": "2022-05-25T22:04:00-03:00",
+          "Title": "O Plone",
+          "effective": "2022-05-26T01:04:00+00:00",
+          "end": null,
+          "hasPreviewImage": null,
+          "head_title": null,
+          "image_field": "",
+          "start": null,
+          "title": "O Plone"
+        }
+      ],
+      "imageFit": "cover",
+      "imageSize": "50%",
+      "overwrite": true,
+      "preview_image": [
+        {
+          "@id": "../resolveuid/79a407a0b10641d9b01a2ded7d3daa31",
+          "image_field": "image",
+          "title": "Plone 6 (1920 x 1080)"
+        }
+      ],
+      "showDate": false,
+      "styles": {},
+      "textSide": "left",
+      "theme": "darkBlue",
+      "title": "O CMS livre e seguro que o setor p\u00fablico brasileiro j\u00e1 conhece",
+      "titleTag": "h1",
+      "variation": "flex"
+    },
+    "94f25f7e-6f08-4528-b1af-60c59b4f3253": {
+      "@type": "heroBlock",
+      "blockWidth": {
+        "--block-width": "var(--default-container-width)"
+      },
+      "buttonLink": [
+        {
+          "@id": "../resolveuid/b1fa8ba3e754479382b5bafe561c38ef",
+          "@type": "Document",
+          "CreationDate": "2022-05-24T16:30:57-03:00",
+          "Description": "O Plone est\u00e1 entre os top 2% de todos os projetos de c\u00f3digo-aberto do mundo, com cerca de 400 desenvolvedores distribu\u00eddos em mais de 60 pa\u00edses.",
+          "EffectiveDate": "2022-05-25T22:04:00-03:00",
+          "Title": "O Plone",
+          "effective": "2022-05-26T01:04:00+00:00",
+          "end": null,
+          "hasPreviewImage": null,
+          "head_title": null,
+          "image_field": "",
+          "start": null,
+          "title": "O Plone"
+        }
+      ],
+      "description": " ",
+      "fullWidth": false,
+      "headerText": "O que \u00e9 Plone",
+      "hideImage": false,
+      "href": [
+        {
+          "@id": "../resolveuid/b1fa8ba3e754479382b5bafe561c38ef",
+          "@type": "Document",
+          "CreationDate": "2022-05-24T16:30:57-03:00",
+          "Description": "O Plone est\u00e1 entre os top 2% de todos os projetos de c\u00f3digo-aberto do mundo, com cerca de 400 desenvolvedores distribu\u00eddos em mais de 60 pa\u00edses.",
+          "EffectiveDate": "2022-05-25T22:04:00-03:00",
+          "Title": "O Plone",
+          "effective": "2022-05-26T01:04:00+00:00",
+          "end": null,
+          "hasPreviewImage": null,
+          "head_title": null,
+          "image_field": "",
+          "start": null,
+          "title": "O Plone"
+        }
+      ],
+      "imageFit": "cover",
+      "imageSize": "0%",
+      "overwrite": true,
+      "showDate": false,
+      "styles": {},
+      "textSide": "right",
+      "theme": "default",
+      "title": "O Plone \u00e9 um sistema de gest\u00e3o de conte\u00fado de c\u00f3digo aberto. Re\u00fane um hist\u00f3rico de seguran\u00e7a reconhecido, acessibilidade nativa, fluxos de trabalho editoriais e uma interface moderna de edi\u00e7\u00e3o (Volto) \u2014 com uma comunidade brasileira ativa que documenta, traduz e d\u00e1 suporte em portugu\u00eas.",
+      "titleTag": "p",
+      "variation": "flex"
+    },
+    "c69c46db-80ab-4df8-99a0-31ca0fd56a07": {
+      "@type": "gridBlock",
+      "blockWidth": {
+        "--block-width": "var(--default-container-width)"
+      },
+      "blocks": {
+        "30fbaa1e-54fa-41b2-9351-fd315288970f": {
+          "@type": "teaser",
+          "description": "Interface e documenta\u00e7\u00e3o traduzidas. Atende aos requisitos do eMAG e da WCAG 2.1 na sa\u00edda padr\u00e3o.",
+          "href": [],
+          "overwrite": true,
+          "styles": {
+            "--cardBorderColor": "#009739",
+            "--cardBorderWidth": "3px 0px 0px 0px",
+            "align": "left"
+          },
+          "title": "Acess\u00edvel e em portugu\u00eas"
+        },
+        "c9367c8e-a09c-4a74-bb08-e513139ccccf": {
+          "@type": "teaser",
+          "description": "Modelo de permiss\u00f5es granular e um dos melhores hist\u00f3ricos de vulnerabilidades entre CMS de c\u00f3digo aberto.",
+          "head_title": null,
+          "href": [],
+          "overwrite": true,
+          "styles": {
+            "--cardBorderColor": "#0083BE",
+            "--cardBorderWidth": "3px 0px 0px 0px",
+            "align": "left"
+          },
+          "title": "Seguro por padr\u00e3o"
+        },
+        "f9bae406-07b6-4e8b-a065-7afaa10c2281": {
+          "@type": "teaser",
+          "description": "Usado em portais p\u00fablicos federais, estaduais e municipais. A PloneGov-BR re\u00fane quem implanta e mant\u00e9m.",
+          "href": [],
+          "overwrite": true,
+          "styles": {
+            "--cardBorderColor": "#FFD550",
+            "--cardBorderWidth": "3px 0px 0px 0px",
+            "align": "left"
+          },
+          "title": "Pronto para o governo"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "c9367c8e-a09c-4a74-bb08-e513139ccccf",
+          "30fbaa1e-54fa-41b2-9351-fd315288970f",
+          "f9bae406-07b6-4e8b-a065-7afaa10c2281"
+        ]
+      },
+      "styles": {},
+      "theme": "default"
+    },
+    "d6665d59-c1a2-4dda-b9b4-2f346544d137": {
+      "@type": "gridBlock",
+      "blockWidth": {
+        "--block-width": "var(--default-container-width)"
+      },
+      "blocks": {
+        "5b79adae-13a7-407c-9489-a76f2716e235": {
+          "@type": "teaser",
+          "description": "Conversa do dia a dia da comunidade brasileira.",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../resolveuid/d64a5ff083f9450d8c25b05e18d490f9",
+              "@type": "Link",
+              "Description": "",
+              "Subject": [],
+              "Title": "F\u00f3rum",
+              "description": "",
+              "effective": "2022-05-24T18:08:00+00:00",
+              "end": null,
+              "facets": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": "https://comunidade.plone.org.br",
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "social_links": null,
+              "start": null,
+              "title": "F\u00f3rum",
+              "type_title": "Link",
+              "workflow_states": [
+                "simple_publication_workflow|published"
+              ]
+            }
+          ],
+          "overwrite": true,
+          "styles": {
+            "--cardBorderColor": "",
+            "--cardBorderWidth": "1px",
+            "align": "left"
+          },
+          "title": "Telegram"
+        },
+        "c7662076-7111-49ff-bf6e-9407caee5944": {
+          "@type": "teaser",
+          "description": "C\u00f3digo, tradu\u00e7\u00f5es e add-ons mantidos pela comunidade.",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../resolveuid/d64a5ff083f9450d8c25b05e18d490f9",
+              "@type": "Link",
+              "Description": "",
+              "Subject": [],
+              "Title": "F\u00f3rum",
+              "description": "",
+              "effective": "2022-05-24T18:08:00+00:00",
+              "end": null,
+              "facets": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": "https://comunidade.plone.org.br",
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "social_links": null,
+              "start": null,
+              "title": "F\u00f3rum",
+              "type_title": "Link",
+              "workflow_states": [
+                "simple_publication_workflow|published"
+              ]
+            }
+          ],
+          "overwrite": true,
+          "styles": {
+            "--cardBorderColor": "",
+            "--cardBorderWidth": "1px",
+            "align": "left"
+          },
+          "title": "GitHub"
+        },
+        "c9ece43a-14ff-4f8a-86f0-b72b534e3689": {
+          "@type": "teaser",
+          "description": "Lives M\u00e3o na Massa e grava\u00e7\u00f5es de eventos.",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../resolveuid/d64a5ff083f9450d8c25b05e18d490f9",
+              "@type": "Link",
+              "Description": "",
+              "Subject": [],
+              "Title": "F\u00f3rum",
+              "description": "",
+              "effective": "2022-05-24T18:08:00+00:00",
+              "end": null,
+              "facets": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": "https://comunidade.plone.org.br",
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "social_links": null,
+              "start": null,
+              "title": "F\u00f3rum",
+              "type_title": "Link",
+              "workflow_states": [
+                "simple_publication_workflow|published"
+              ]
+            }
+          ],
+          "overwrite": true,
+          "styles": {
+            "--cardBorderColor": "",
+            "--cardBorderWidth": "1px",
+            "align": "left"
+          },
+          "title": "Youtube"
+        },
+        "f59463b6-ea6b-47f8-9b20-efe431f7ca04": {
+          "@type": "teaser",
+          "description": "Perguntas e respostas em community.plone.org, em portugu\u00eas.",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../resolveuid/d64a5ff083f9450d8c25b05e18d490f9",
+              "@type": "Link",
+              "Description": "",
+              "Subject": [],
+              "Title": "F\u00f3rum",
+              "description": "",
+              "effective": "2022-05-24T18:08:00+00:00",
+              "end": null,
+              "facets": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": "https://comunidade.plone.org.br",
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "social_links": null,
+              "start": null,
+              "title": "F\u00f3rum",
+              "type_title": "Link",
+              "workflow_states": [
+                "simple_publication_workflow|published"
+              ]
+            }
+          ],
+          "overwrite": true,
+          "styles": {
+            "--cardBorderColor": "",
+            "--cardBorderWidth": "1px",
+            "align": "left"
+          },
+          "title": "F\u00f3rum"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "f59463b6-ea6b-47f8-9b20-efe431f7ca04",
+          "5b79adae-13a7-407c-9489-a76f2716e235",
+          "c7662076-7111-49ff-bf6e-9407caee5944",
+          "c9ece43a-14ff-4f8a-86f0-b72b534e3689"
+        ]
+      },
+      "styles": {},
+      "theme": "default"
+    },
+    "undefined": {
+      "@type": "eventCalendar",
+      "showSearchInput": true,
+      "showTotalResults": true
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "4540dddf-bcbd-4b3b-bc53-0d92e7a82acc",
+      "94f25f7e-6f08-4528-b1af-60c59b4f3253",
+      "c69c46db-80ab-4df8-99a0-31ca0fd56a07",
+      "10ebf764-dc1b-4c1c-8073-72acea0076e0",
+      "102d9cde-02a3-4b1e-97e0-99ce3a4aafd0",
+      "d6665d59-c1a2-4dda-b9b4-2f346544d137",
+      "44af2284-faba-4379-9032-a0de59fef5d5"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-05-24T19:30:57+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "O Plone est\u00e1 entre os top 2% de todos os projetos de c\u00f3digo-aberto do mundo, com cerca de 400 desenvolvedores distribu\u00eddos em mais de 60 pa\u00edses.",
+  "effective": "2022-05-26T01:04:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "o-plone",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-10-02T17:39:17+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "O Plone",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-05-24T19:30:57+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-05-26T01:04:47+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

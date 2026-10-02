@@ -1,0 +1,92 @@
+{
+  "@id": "/documentacao/mao-na-massa",
+  "@type": "VideoSeries",
+  "UID": "eb4d65ad013f42f3995fd51514c2508a",
+  "allow_discussion": null,
+  "blocks": {
+    "33327c67-260f-47dc-9bac-ef1d717acd5a": {
+      "@type": "title"
+    },
+    "3399e05c-f1f9-4e96-b16e-7355a29230aa": {
+      "@type": "description"
+    },
+    "91ffda96-5075-4a2c-931f-f90a3fa76067": {
+      "@type": "listing",
+      "gridColumns": 2,
+      "headline": "Epis\u00f3dios",
+      "headlineTag": "h2",
+      "querystring": {
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "Episode"
+            ]
+          }
+        ],
+        "sort_on": "getObjPositionInParent",
+        "sort_order": "descending",
+        "sort_order_boolean": true
+      },
+      "styles": {},
+      "theme": "default",
+      "variation": "grid"
+    },
+    "9b2f7dfb-ab9b-4d04-9278-971427eb24b0": {
+      "@type": "slate"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "33327c67-260f-47dc-9bac-ef1d717acd5a",
+      "3399e05c-f1f9-4e96-b16e-7355a29230aa",
+      "91ffda96-5075-4a2c-931f-f90a3fa76067",
+      "9b2f7dfb-ab9b-4d04-9278-971427eb24b0"
+    ]
+  },
+  "created": "2026-09-23T16:44:12+00:00",
+  "description": "A s\u00e9rie de v\u00eddeos explicando como tirar o m\u00e1ximo do Plone",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "mao-na-massa",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2026-09-23T16:46:34+00:00",
+  "preview_caption": null,
+  "preview_image": null,
+  "review_state": "published",
+  "subjects": [
+    "M\u00e3o na Massa",
+    "V\u00eddeos"
+  ],
+  "title": "M\u00e3o na Massa",
+  "type_title": "Series",
+  "version": "current",
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-09-23T16:44:12+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-09-23T16:45:33+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

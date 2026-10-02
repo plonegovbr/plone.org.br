@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<registry xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+          i18n:domain="sc.voltolighttheme"
+>
+
+  <!--
+    Theme definitions. One <records> block per theme; the theme id is the last
+    segment of the prefix, so it must not contain a dot.
+    The "default" theme is shipped with the add-on and cannot be deleted.
+  -->
+
+  <records interface="sc.voltolighttheme.interfaces.ISCVLTThemeDefinition"
+           prefix="sc.voltolighttheme.theme.default"
+  >
+    <value key="name"
+           i18n:translate=""
+    >Plone Brasil</value>
+    <value key="description"
+           i18n:translate=""
+    >Tema do Plone Brasil.</value>
+    <value key="font_family_primary">Inter, sans-serif</value>
+    <value key="font_family_secondary">Inter, sans-serif</value>
+    <value key="primary_color_light">#ffffff</value>
+    <value key="primary_color_dark">#000000</value>
+    <value key="primary_foreground_color_light">#000000</value>
+    <value key="primary_foreground_color_dark">#ffffff</value>
+    <value key="primary_low_foreground_color_light">#333333</value>
+    <value key="primary_low_foreground_color_dark">#f8f8f8</value>
+    <value key="primary_accent_color_light">#0074a8</value>
+    <value key="primary_accent_color_dark">#f4822c</value>
+    <value key="secondary_color_light">#002776</value>
+    <value key="secondary_color_dark">#ffffff</value>
+    <value key="secondary_foreground_color_light">#ffffff</value>
+    <value key="secondary_foreground_color_dark">#000000</value>
+    <value key="secondary_low_foreground_color_light">#cfe0f5</value>
+    <value key="secondary_low_foreground_color_dark">#333333</value>
+    <value key="secondary_accent_color_light">#FFCC29</value>
+    <value key="secondary_accent_color_dark">#f4822c</value>
+    <value key="accent_color_light">#002776</value>
+    <value key="accent_color_dark">#b55e1c</value>
+    <value key="accent_foreground_color_light">#ffffff</value>
+    <value key="accent_foreground_color_dark">#ffffff</value>
+    <value key="accent_low_foreground_color_light">#cfe0f5</value>
+    <value key="accent_low_foreground_color_dark">#f8f8f8</value>
+    <value key="accent_accent_color_light">#FFCC29</value>
+    <value key="accent_accent_color_dark">#ffffff</value>
+    <value key="neutral_color_light">#edeff0</value>
+    <value key="neutral_color_dark">#333333</value>
+    <value key="neutral_foreground_color_light">#000000</value>
+    <value key="neutral_foreground_color_dark">#ffffff</value>
+    <value key="neutral_low_foreground_color_light">#333333</value>
+    <value key="neutral_low_foreground_color_dark">#e6e6e6</value>
+    <value key="neutral_accent_color_light">#f4822c</value>
+    <value key="neutral_accent_color_dark">#f4822c</value>
+    <value key="event_color_light">#007a2e</value>
+    <value key="event_color_dark">#d32f2f</value>
+    <value key="file_color_light">#1976d2</value>
+    <value key="file_color_dark">#1976d2</value>
+    <value key="image_color_light">#388e3c</value>
+    <value key="image_color_dark">#388e3c</value>
+  </records>
+
+</registry>

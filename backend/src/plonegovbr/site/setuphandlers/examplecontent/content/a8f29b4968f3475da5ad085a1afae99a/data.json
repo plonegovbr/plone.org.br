@@ -1,0 +1,658 @@
+{
+  "@id": "/novidades/eventos/2025/wpd-2025-brasilia",
+  "@type": "Event",
+  "UID": "a8f29b4968f3475da5ad085a1afae99a",
+  "allow_discussion": false,
+  "attendees": [
+    "Rafahela Bazzanella",
+    "Jo\u00e3o Henrique Gouveia",
+    "\u00c9rico Andrei"
+  ],
+  "blocks": {
+    "2f644149-feff-4c98-beec-4ddcc3e800f4": {
+      "@type": "description"
+    },
+    "30391d33-4bc2-49c0-aca7-9d08ca8b3219": {
+      "@type": "slate",
+      "plaintext": "O evento ocorrer\u00e1 nas depend\u00eancias do Senado Federal   em Bras\u00edlia, e contaremos com transmiss\u00e3o simult\u00e2nea pelo YouTube da comunidade Plone",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O evento ocorrer\u00e1 nas depend\u00eancias do "
+            },
+            {
+              "children": [
+                {
+                  "text": "Senado Federal"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " em Bras\u00edlia, e contaremos com transmiss\u00e3o simult\u00e2nea pelo YouTube da comunidade Plone"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "62c641db-8e11-495b-bcb1-2260f6f4ff9d": {
+      "@type": "slate",
+      "plaintext": " Senado Federal, Edif\u00edcio Senador Ronaldo Cunha Lima Av. N2, Bloco 2 do Senado Federal\nZona C\u00edvico-Administrativa\nBras\u00edlia - DF\n70165-900",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Senado Federal, Edif\u00edcio Senador Ronaldo Cunha Lima"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": "\nAv. N2, Bloco 2 do Senado Federal\nZona C\u00edvico-Administrativa\nBras\u00edlia - DF\n70165-900"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "732418a1-c0fc-4378-b0ce-fbdef8151c07": {
+      "@type": "slate",
+      "plaintext": "Agenda",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Agenda"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "7bee667b-b273-49ad-81db-657d2fb459ed": {
+      "@type": "slate",
+      "plaintext": "A comunidade PloneGov-Br realizar\u00e1 a edi\u00e7\u00e3o brasileira do World Plone Day no dia 10 de Abril, das 9h \u00e0s 12h.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "A comunidade PloneGov-Br realizar\u00e1 a edi\u00e7\u00e3o brasileira do World Plone Day no dia 10 de Abril, das 9h \u00e0s 12h."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "97568ae7-c19a-45ca-8e01-7ed8543ecdc3": {
+      "@type": "video",
+      "url": "https://www.youtube.com/watch?v=kdxefYmiIvM"
+    },
+    "9a55d14b-965f-4c98-bae1-7e1310a66a2b": {
+      "@type": "slate",
+      "plaintext": "Live Stream",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Live Stream"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "b9c30255-e479-4bc9-89e9-f98332c65c6f": {
+      "@type": "slate",
+      "plaintext": "Local",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Local"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "e368a3a0-f95f-4999-9b67-0faeb4bd2e4b": {
+      "@type": "title"
+    },
+    "f695fee3-cfb0-432d-9b4d-d43ef3271766": {
+      "@type": "maps",
+      "align": "center",
+      "title": "Mapa de Bras\u00edlia com o Senado Federal em destaque",
+      "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d376.56136684737834!2d-47.86436179362484!3d-15.796515209105104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3b3faeabbc83%3A0xa18a63088bc70429!2sEdif%C3%ADcio%20Senador%20Ronaldo%20Cunha%20Lima!5e0!3m2!1spt-BR!2sbr!4v1743448785206!5m2!1spt-BR!2sbr"
+    },
+    "f7a269d3-3d2c-4bc2-894d-63d52a0ace27": {
+      "@type": "slateTable",
+      "table": {
+        "basic": true,
+        "celled": true,
+        "compact": true,
+        "fixed": true,
+        "hideHeaders": true,
+        "inverted": false,
+        "rows": [
+          {
+            "cells": [
+              {
+                "key": "fsdlr",
+                "type": "header",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "akedn",
+                "type": "header",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "vu3g",
+                "type": "header",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            ],
+            "key": "a397i"
+          },
+          {
+            "cells": [
+              {
+                "key": "7juuk",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "09h00"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "c547j",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Abertura do Evento"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "30ncr",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Rafahela Bazzanella"
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "PloneGov-BR"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            ],
+            "key": "8hd9p"
+          },
+          {
+            "cells": [
+              {
+                "key": "34m7h",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "09h30"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "ca52e",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Comunidade PloneGov-BR"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "87sle",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Jo\u00e3o Henrique Gouveia"
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "PloneGov-BR"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            ],
+            "key": "4c8o"
+          },
+          {
+            "cells": [
+              {
+                "key": "275lb",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "10h00"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "6ok3l",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ],
+                        "data": {
+                          "url": "/novidades/eventos/2023/world-plone-day-2023-brasilia/caso-de-uso-gov.br"
+                        },
+                        "type": "link"
+                      },
+                      {
+                        "text": "Novidades do Bucharest Sprint"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "8kefb",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "\u00c9rico Andrei"
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "PloneGov-Br"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            ],
+            "key": "4v1d9"
+          },
+          {
+            "cells": [
+              {
+                "key": "boqnf",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "10h30"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "frqb6",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "BOSS - Big Open Source Sibling"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "cmana",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Emme Menezes"
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": " BOSS"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            ],
+            "key": "emnhs"
+          },
+          {
+            "cells": [
+              {
+                "key": "76ums",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "11h15"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "1v0pv",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Projeto PortalBrasil"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "6svs0",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "PloneGov-Br"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            ],
+            "key": "d9v66"
+          },
+          {
+            "cells": [
+              {
+                "key": "5seg2",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "12h00"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "s5dr",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Encerramento do Evento"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "1vio5",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            ],
+            "key": "13hs4"
+          }
+        ],
+        "striped": false
+      }
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "e368a3a0-f95f-4999-9b67-0faeb4bd2e4b",
+      "2f644149-feff-4c98-beec-4ddcc3e800f4",
+      "7bee667b-b273-49ad-81db-657d2fb459ed",
+      "30391d33-4bc2-49c0-aca7-9d08ca8b3219",
+      "732418a1-c0fc-4378-b0ce-fbdef8151c07",
+      "f7a269d3-3d2c-4bc2-894d-63d52a0ace27",
+      "9a55d14b-965f-4c98-bae1-7e1310a66a2b",
+      "97568ae7-c19a-45ca-8e01-7ed8543ecdc3",
+      "b9c30255-e479-4bc9-89e9-f98332c65c6f",
+      "62c641db-8e11-495b-bcb1-2260f6f4ff9d",
+      "f695fee3-cfb0-432d-9b4d-d43ef3271766"
+    ]
+  },
+  "changeNote": "",
+  "contact_email": null,
+  "contact_name": null,
+  "contact_phone": null,
+  "contributors": [],
+  "created": "2025-03-31T19:26:50+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "Edi\u00e7\u00e3o brasileira do World Plone Day 2025",
+  "effective": "2025-04-02T13:26:00+00:00",
+  "end": "2025-04-10T15:00:00+00:00",
+  "event_url": "https://www.youtube.com/watch?v=kdxefYmiIvM",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "wpd-2025-brasilia",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "event_view",
+  "location": null,
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-04-10T13:40:36+00:00",
+  "nav_title": null,
+  "open_end": false,
+  "preview_caption_link": null,
+  "recurrence": null,
+  "review_state": "published",
+  "rights": "",
+  "start": "2025-04-10T12:00:00+00:00",
+  "subjects": [],
+  "sync_uid": null,
+  "title": "World Plone Day 2025 - Bras\u00edlia",
+  "type_title": "Event",
+  "version": "current",
+  "versioning_enabled": true,
+  "whole_day": false,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-03-31T19:26:50+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-04-02T13:26:51+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

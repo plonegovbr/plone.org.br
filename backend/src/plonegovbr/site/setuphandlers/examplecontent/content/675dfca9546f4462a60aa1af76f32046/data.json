@@ -1,0 +1,77 @@
+{
+  "@id": "/images/engitec",
+  "@type": "Document",
+  "UID": "675dfca9546f4462a60aa1af76f32046",
+  "allow_discussion": false,
+  "blocks": {
+    "c327bbc4-0380-4842-835a-697844a7807a": {
+      "@type": "listing",
+      "headline": "",
+      "headlineTag": "h2",
+      "styles": {},
+      "variation": "listing"
+    },
+    "eaab2f9e-5d84-4156-8f18-db556d0b872d": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "eaab2f9e-5d84-4156-8f18-db556d0b872d",
+      "c327bbc4-0380-4842-835a-697844a7807a"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-06-06T19:25:08+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": "2022-06-06T19:25:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "engitec",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2022-06-06T19:27:39+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Engitec",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-06-06T19:25:08+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-06-06T19:25:13+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

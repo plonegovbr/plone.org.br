@@ -1,0 +1,94 @@
+{
+  "@id": "/images",
+  "@type": "Document",
+  "UID": "b8e4d1590c3d4c35a197f853db537aca",
+  "allow_discussion": false,
+  "blocks": {
+    "7061dd12-53ed-44f4-906d-e76e67473dce": {
+      "@type": "listing",
+      "headline": "",
+      "headlineTag": "h2",
+      "styles": {},
+      "variation": "imageGallery"
+    },
+    "8bb68d92-f202-439b-a090-afa572c5e089": {
+      "@type": "title"
+    },
+    "f974398e-dda8-44fb-b38f-04faf59048fa": {
+      "@type": "description"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "8bb68d92-f202-439b-a090-afa572c5e089",
+      "f974398e-dda8-44fb-b38f-04faf59048fa",
+      "7061dd12-53ed-44f4-906d-e76e67473dce"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-05-24T16:20:07+00:00",
+  "creators": [
+    "ploneorgbr"
+  ],
+  "description": "Banco de imagens.",
+  "effective": null,
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {
+    "immediately_addable_types": [
+      "Image"
+    ],
+    "locally_allowed_types": [
+      "Document",
+      "Link",
+      "File",
+      "Image",
+      "News Item",
+      "Event",
+      "CaseStudy"
+    ]
+  },
+  "exportimport.conversation": [],
+  "id": "images",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2022-12-19T22:16:08+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Imagens",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-05-24T16:20:07+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-05-24T16:20:07+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

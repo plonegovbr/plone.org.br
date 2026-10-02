@@ -1,0 +1,12 @@
+<configure xmlns="http://namespaces.zope.org/zope">
+
+  <!-- List all packages you depend here -->
+  <include package="plone.restapi" />
+  <include package="plone.volto" />
+  <include package="plonegovbr.socialmedia" />
+  <include package="sc.videos" />
+  <include package="sc.voltolighttheme" />
+  <include package="collective.casestudy" />
+  <include package="pas.plugins.identity" />
+
+</configure>

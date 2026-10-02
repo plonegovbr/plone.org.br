@@ -1,0 +1,291 @@
+{
+  "@id": "/documentacao/mao-na-massa/mao-na-massa-comecando-um-projeto-com-plone-6.1",
+  "@type": "Episode",
+  "UID": "61f795da17c2429e8ec0df75d2e823ec",
+  "_metadata": {
+    "channel": "Plone",
+    "duration": 3683,
+    "service": "youtube",
+    "subjects": [
+      "Plone",
+      "PloneGov-BR",
+      "M\u00e3o na Massa"
+    ],
+    "text": "O Plone 6.1 j\u00e1 \u00e9 uma realidade e voc\u00ea pode se beneficiar das novidades.\nA comunidade PloneGov-Br vai te contar como, rapidamente, iniciar um novo projeto com a mais recente vers\u00e3o do Plone!\n\nRELATED LINKS: \nhttps://plone.org/  \n\nCONNECT: \nWebsite: https://plone.org/  \nX:  https://twitter.com/plone \nLinkedIn: https://www.linkedin.com/company/plone-foundation/ \nMastodon: https://plone.social/@plone \nInstagram: https://www.instagram.com/plonecms/ \nFacebook: https://www.facebook.com/plonecms \nBluesky: https://bsky.app/profile/plone.org \n\nhttps://plone.org/community \n\nSign up to the Plone Newsletter \u2013 comes out every two months (and easy to unsubscribe if it\u2019s not useful to you). \nhttps://plone.org/news-and-events/join-the-plone-newsletter \n\nABOUT \nPlone is an open-source content management system that is used to create, edit, and manage digital content, like websites, intranets and custom solutions. It comes with over 20 years of growth, optimisations, and refinements. The result is a system trusted by governments, universities, businesses, and other organisations all over the world.\n\nThe Plone Foundation protects and promotes Plone by furthering the development, marketing, and legal affairs of Plone and the Plone community.\n\nWANT TO WORK WITH PLONE \nTry Plone today https://demo.plone.org/",
+    "thumbnail_url": "https://i.ytimg.com/vi/x7QX9tQxEBc/maxresdefault.jpg",
+    "title": "M\u00e3o na Massa: Come\u00e7ando um projeto com Plone 6.1",
+    "video_id": "x7QX9tQxEBc"
+  },
+  "allow_discussion": null,
+  "blocks": {
+    "0b39e5eb-e800-459d-921a-7030c8f40492": {
+      "@type": "slate",
+      "plaintext": "Nesse epis\u00f3dio, \u00c9rico Andrei abordar\u00e1 a cria\u00e7\u00e3o de um novo projeto para Plone 6.1 utilizando o cookieplone. ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Nesse epis\u00f3dio, \u00c9rico Andrei abordar\u00e1 a cria\u00e7\u00e3o de um novo projeto para Plone 6.1 utilizando o "
+            },
+            {
+              "children": [
+                {
+                  "text": "cookieplone."
+                }
+              ],
+              "data": {
+                "url": "https://github.com/plone/cookieplone"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "255c03a4-e83a-4325-b839-6d43ec94849d": {
+      "@type": "description"
+    },
+    "59ea0c40-30f9-4589-876d-1aa2148b9096": {
+      "@type": "slate",
+      "plaintext": "Falem conosco",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Falem conosco"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "874aa13d-a79b-428d-83df-d79ae81db6a5": {
+      "@type": "slate",
+      "plaintext": "Enviem suas perguntas e sugest\u00f5es pelos seguintes canais:",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Enviem suas perguntas e sugest\u00f5es pelos seguintes canais:"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "b3ba3986-cbb5-4183-9b2d-58ce7bdb9685": {
+      "@type": "title"
+    },
+    "e996c0a4-24f5-4c24-9c73-08ccd88d55bb": {
+      "@type": "playerBlock",
+      "align": "center",
+      "autoPlay": false,
+      "size": "l",
+      "styles": {},
+      "theme": "grey"
+    },
+    "feec9b8f-78d9-4191-b58c-18a845648d94": {
+      "@type": "slate",
+      "plaintext": "Mastodon: https://plone.social/@ploneorgbr  BlueSky: @plone.org.br  X (Twitter): @ploneorgbr  YouTube: Chat da Live   Lista plonegovbr@plone.org.br ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "Mastodon: "
+                },
+                {
+                  "children": [
+                    {
+                      "text": "https://plone.social/@ploneorgbr"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://plone.social/@ploneorgbr"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "BlueSky: "
+                },
+                {
+                  "children": [
+                    {
+                      "text": "@plone.org.br"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://bsky.app/profile/plone.org.br"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "X (Twitter): "
+                },
+                {
+                  "children": [
+                    {
+                      "text": "@ploneorgbr"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://twitter.com/ploneorgbr"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "YouTube: "
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Chat da Live"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://www.youtube.com/watch?v=x7QX9tQxEBc"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Lista plonegovbr@plone.org.br"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://groups.google.com/a/plone.org.br/g/plonegovbr"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "b3ba3986-cbb5-4183-9b2d-58ce7bdb9685",
+      "255c03a4-e83a-4325-b839-6d43ec94849d",
+      "e996c0a4-24f5-4c24-9c73-08ccd88d55bb",
+      "0b39e5eb-e800-459d-921a-7030c8f40492",
+      "59ea0c40-30f9-4589-876d-1aa2148b9096",
+      "874aa13d-a79b-428d-83df-d79ae81db6a5",
+      "feec9b8f-78d9-4191-b58c-18a845648d94"
+    ]
+  },
+  "changeNote": "",
+  "channel": "Plone",
+  "created": "2026-09-23T16:45:23+00:00",
+  "description": "O Plone 6.1 j\u00e1 \u00e9 uma realidade e voc\u00ea pode se beneficiar das novidades. ",
+  "duration": 3683,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "mao-na-massa-comecando-um-projeto-com-plone-6.1",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2026-09-23T16:48:10+00:00",
+  "preview_caption": null,
+  "preview_image": {
+    "blob_path": "61f795da17c2429e8ec0df75d2e823ec/preview_image/maxresdefault.jpg",
+    "content-type": "image/jpeg",
+    "filename": "maxresdefault.jpg",
+    "height": 720,
+    "size": 136521,
+    "width": 1280
+  },
+  "review_state": "published",
+  "service": "youtube",
+  "start": "2025-04-02T18:00:00+00:00",
+  "subjects": [
+    "Plone",
+    "PloneGov-BR",
+    "M\u00e3o na Massa"
+  ],
+  "title": "M\u00e3o na Massa: Come\u00e7ando um projeto com Plone 6.1",
+  "type_title": "Episode",
+  "version": "current",
+  "versioning_enabled": true,
+  "videoUrl": "https://www.youtube.com/watch?v=x7QX9tQxEBc",
+  "video_id": "x7QX9tQxEBc",
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-09-23T16:45:23+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-09-23T16:45:42+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

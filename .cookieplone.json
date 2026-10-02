@@ -1,0 +1,23 @@
+{
+    "title": "Plone Brasil",
+    "description": "Site da comunidade brasileira de Plone",
+    "project_slug": "plone.org.br",
+    "hostname": "plone.org.br",
+    "author": "PloneGov-BR",
+    "email": "gov@plone.org",
+    "python_package_name": "plonegovbr.site",
+    "use_prerelease_versions": false,
+    "plone_version": "6.2.2",
+    "feature_headless": true,
+    "volto_version": "19.4.1",
+    "frontend_addon_name": "@plonegovbr/site",
+    "language_code": "pt-br",
+    "github_organization": "plonegovbr",
+    "container_registry": "github",
+    "devops_storage": "relstorage",
+    "devops_cache": false,
+    "devops_ansible": false,
+    "devops_gha_deploy": false,
+    "initialize_documentation": false,
+    "__template__": "project"
+}

@@ -1,0 +1,40 @@
+{
+  "@id": "/documentacao/primeiros-passos/plone-6-volto.png",
+  "@type": "Image",
+  "UID": "8fde0d94ee0f41159fcaf2f8d6ff3673",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2022-06-20T14:51:48+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": "2022-06-20T17:02:00+00:00",
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "plone-6-volto.png",
+  "image": {
+    "blob_path": "8fde0d94ee0f41159fcaf2f8d6ff3673/image/plone-6-volto.png",
+    "content-type": "image/png",
+    "filename": "plone-6-volto.png",
+    "height": 1080,
+    "size": 177071,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2022-06-20T17:02:14+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "plone-6-volto.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

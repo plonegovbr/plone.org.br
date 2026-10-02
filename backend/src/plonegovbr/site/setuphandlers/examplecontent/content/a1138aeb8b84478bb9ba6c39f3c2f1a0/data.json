@@ -1,0 +1,234 @@
+{
+  "@id": "/o-plone/casos-de-sucesso",
+  "@type": "Document",
+  "UID": "a1138aeb8b84478bb9ba6c39f3c2f1a0",
+  "allow_discussion": false,
+  "blocks": {
+    "1bbefde2-123c-4799-9def-50f71aa13687": {
+      "@type": "listing",
+      "blockWidth": {
+        "--block-width": "var(--default-container-width)"
+      },
+      "gridColumns": 2,
+      "headlineTag": "h2",
+      "querystring": {
+        "b_size": "4",
+        "query": [
+          {
+            "i": "industry",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "gov"
+            ]
+          }
+        ],
+        "sort_order": "ascending"
+      },
+      "styles": {
+        "--cardBorderColor": "#FFFFFF"
+      },
+      "theme": "default",
+      "variation": "grid"
+    },
+    "4127e805-5ac6-421e-8902-440c9c2ed3c7": {
+      "@type": "introduction",
+      "plaintext": "Seu \u00f3rg\u00e3o usa Plone? Conte o caso para a comunidade.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Seu \u00f3rg\u00e3o usa Plone? Conte o caso para a comunidade."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "71319a4b-1a46-4dc7-8490-815391f0ebba": {
+      "@type": "slate",
+      "plaintext": "Educa\u00e7\u00e3o",
+      "styles": {},
+      "theme": "darkBlue",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Educa\u00e7\u00e3o"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "77a6d2c7-9490-44c7-99e2-f6a02130c936": {
+      "@type": "listing",
+      "blockWidth": {
+        "--block-width": "var(--default-container-width)"
+      },
+      "gridColumns": 2,
+      "headlineTag": "h2",
+      "querystring": {
+        "b_size": "4",
+        "query": [
+          {
+            "i": "industry",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "edu"
+            ]
+          }
+        ],
+        "sort_order": "ascending"
+      },
+      "styles": {
+        "--cardBorderColor": ""
+      },
+      "theme": "darkBlue",
+      "variation": "grid"
+    },
+    "9d71bc1f-ac64-4e3c-8938-7a820e293895": {
+      "@type": "slate",
+      "plaintext": "Governo",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Governo"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "b1db3868-688c-4075-b295-ac6b80602ba9": {
+      "@type": "slate",
+      "plaintext": "Terceiro Setor",
+      "styles": {},
+      "theme": "lightBlue",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Terceiro Setor"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "b74066f7-5cc4-4dd0-bff0-b0584911e7f5": {
+      "@type": "title"
+    },
+    "de459f35-daea-4cfa-9855-32435f921075": {
+      "@type": "listing",
+      "blockWidth": {
+        "--block-width": "var(--default-container-width)"
+      },
+      "gridColumns": 2,
+      "headlineTag": "h2",
+      "querystring": {
+        "b_size": "4",
+        "query": [
+          {
+            "i": "industry",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "finance",
+              "transport",
+              "technology",
+              "telecom",
+              "retail",
+              "professional-services",
+              "ngo"
+            ]
+          }
+        ],
+        "sort_order": "ascending"
+      },
+      "styles": {
+        "--cardBorderColor": ""
+      },
+      "theme": "lightBlue",
+      "variation": "grid"
+    },
+    "ee1ba0fc-988c-460b-a2fe-058a5a26f631": {
+      "@type": "__button",
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": " Enviar um caso "
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "b74066f7-5cc4-4dd0-bff0-b0584911e7f5",
+      "9d71bc1f-ac64-4e3c-8938-7a820e293895",
+      "1bbefde2-123c-4799-9def-50f71aa13687",
+      "71319a4b-1a46-4dc7-8490-815391f0ebba",
+      "77a6d2c7-9490-44c7-99e2-f6a02130c936",
+      "b1db3868-688c-4075-b295-ac6b80602ba9",
+      "de459f35-daea-4cfa-9855-32435f921075",
+      "4127e805-5ac6-421e-8902-440c9c2ed3c7",
+      "ee1ba0fc-988c-460b-a2fe-058a5a26f631"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-05-25T18:27:32+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": "2022-05-26T01:05:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "casos-de-sucesso",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-10-02T17:54:58+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Casos de Sucesso",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-05-25T18:27:32+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-05-26T01:05:37+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

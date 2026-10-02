@@ -1,0 +1,125 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/university-of-jyvaskyla",
+  "@type": "CaseStudy",
+  "UID": "3e36cd34188546229fdaba78d23c7609",
+  "allow_discussion": null,
+  "blocks": {
+    "15512ed6-b1b6-4dd7-a174-73451314cd6d": {
+      "@type": "title"
+    },
+    "15f865cf-9a36-4197-8d4a-51313b5fdab8": {
+      "@type": "slate",
+      "plaintext": " A universidade de Jyv\u00e4skyl\u00e4 utiliza o Plone para seus diversos sites e portais. ",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "A universidade de Jyv\u00e4skyl\u00e4 utiliza o Plone para seus diversos sites e portais."
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "8f6ef4e2-ef09-47c5-8d5e-d1eab515e7a3": {
+      "@type": "image",
+      "alt": "",
+      "url": "/o-plone/casos-de-sucesso/university-of-jyvaskyla/jyu.png"
+    },
+    "eefe0be6-3382-49ba-85cf-69fe2e483e78": {
+      "@type": "buttonBlock",
+      "href": [
+        {
+          "@id": "https://www.jyu.fi/en/",
+          "title": "www.jyu.fi/en/"
+        }
+      ],
+      "title": "Visite o Site"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "15512ed6-b1b6-4dd7-a174-73451314cd6d",
+      "15f865cf-9a36-4197-8d4a-51313b5fdab8",
+      "8f6ef4e2-ef09-47c5-8d5e-d1eab515e7a3",
+      "eefe0be6-3382-49ba-85cf-69fe2e483e78"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-05-26T01:14:38+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "A universidade de Jyv\u00e4skyl\u00e4 utiliza o Plone para seus diversos sites e portais.",
+  "effective": "2022-05-26T01:15:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "university-of-jyvaskyla",
+  "industry": "edu",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2022-05-26T01:20:02+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "remoteUrl": "https://www.jyu.fi/en/",
+  "review_state": "listed",
+  "rights": "",
+  "subjects": [
+    "Casos de Sucesso"
+  ],
+  "title": "University of Jyv\u00e4skyl\u00e4",
+  "type_title": "Case Study",
+  "usages": [],
+  "version": "current",
+  "versioning_enabled": true,
+  "versions": [],
+  "workflow_history": {
+    "casestudy_workflow": [
+      {
+        "action": "list",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "listed",
+        "time": "2026-09-23T16:39:59+00:00"
+      }
+    ],
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-05-26T01:14:38+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-05-26T01:15:16+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "casestudy_workflow|listed"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

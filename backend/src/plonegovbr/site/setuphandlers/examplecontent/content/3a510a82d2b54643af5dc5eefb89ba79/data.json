@@ -1,0 +1,40 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/universita-di-bologna/unibo.png",
+  "@type": "Image",
+  "UID": "3a510a82d2b54643af5dc5eefb89ba79",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2022-05-26T01:45:22+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "unibo.png",
+  "image": {
+    "blob_path": "3a510a82d2b54643af5dc5eefb89ba79/image/unibo.png",
+    "content-type": "image/png",
+    "filename": "unibo.png",
+    "height": 1080,
+    "size": 2992114,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2022-05-26T01:45:22+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "unibo.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

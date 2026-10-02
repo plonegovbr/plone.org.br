@@ -1,0 +1,1 @@
+Substitui o pacote `ploneorgbr.core` pelo pacote de políticas `plonegovbr.site`, migra a instalação para `uv` + `mxdev`, atualiza para Plone 6.2.2 em Python 3.13 e adiciona a suíte de testes com `pytest-plone`. @ericof

@@ -1,0 +1,115 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/diracom",
+  "@type": "CaseStudy",
+  "UID": "e608895e00ad471995aeb6a958c3aab5",
+  "allow_discussion": null,
+  "blocks": {
+    "aefd66e4-7725-47e3-b01e-4b41cbe635a5": {
+      "@type": "description"
+    },
+    "c7ea8d7d-07a6-41ee-af96-13c389223a6f": {
+      "@type": "title"
+    },
+    "d2d20c05-9a99-4e1e-974b-58b33c31b30e": {
+      "@type": "slate",
+      "plaintext": "Site desenvolvido pela Simples Consultoria utilizando Plone 6.1 e Volto",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Site desenvolvido pela "
+            },
+            {
+              "children": [
+                {
+                  "text": "Simples Consultoria "
+                }
+              ],
+              "data": {
+                "url": "https://www.simplesconsultoria.com.br/"
+              },
+              "type": "link"
+            },
+            {
+              "text": "utilizando Plone 6.1 e Volto"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "c7ea8d7d-07a6-41ee-af96-13c389223a6f",
+      "aefd66e4-7725-47e3-b01e-4b41cbe635a5",
+      "d2d20c05-9a99-4e1e-974b-58b33c31b30e"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2026-01-18T12:50:59+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "O DiraCom \u2013 Direito \u00e0 Comunica\u00e7\u00e3o e Democracia \u00e9 uma organiza\u00e7\u00e3o que, desde 2022, re\u00fane ativistas, militantes, pesquisadores e profissionais experientes. Atuamos com vista \u00e0 defesa e promo\u00e7\u00e3o de direitos, assim como no combate a desigualdades, injusti\u00e7as e opress\u00f5es hist\u00f3ricas que marcam a sociedade, os meios de comunica\u00e7\u00e3o e os servi\u00e7os baseados em tecnologias digitais.",
+  "effective": "2026-01-18T12:51:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "diracom",
+  "industry": "ngo",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2026-01-18T13:22:11+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "remoteUrl": "https://diracom.org/",
+  "review_state": "listed",
+  "rights": "",
+  "subjects": [
+    "Casos de Sucesso"
+  ],
+  "title": "DiraCom",
+  "type_title": "Case Study",
+  "usages": [],
+  "version": "current",
+  "versioning_enabled": true,
+  "versions": [],
+  "workflow_history": {
+    "casestudy_workflow": [
+      {
+        "action": "list",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "listed",
+        "time": "2026-09-23T16:39:59+00:00"
+      }
+    ],
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-01-18T12:51:00+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-01-18T12:51:07+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "casestudy_workflow|listed"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

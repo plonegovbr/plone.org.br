@@ -1,0 +1,665 @@
+{
+  "@id": "/comunidades/gov",
+  "@type": "Document",
+  "UID": "919051e200294c6da42ce40b490671e4",
+  "allow_discussion": false,
+  "blocks": {
+    "2123ce76-bf11-4392-9f70-533acc2bd9b6": {
+      "@type": "slate",
+      "plaintext": "Ao longo dos anos, a comunidade liderou diversas iniciativas visando o compartilhamento de conhecimento e experi\u00eancia entre os \u00f3rg\u00e3os do governo brasileiro.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Ao longo dos anos, a comunidade liderou diversas iniciativas visando o compartilhamento de conhecimento e experi\u00eancia entre os \u00f3rg\u00e3os do governo brasileiro."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "2cf37eb9-7cc7-4d35-9a4f-d31a5318a66f": {
+      "@type": "slate",
+      "plaintext": " Portal Padr\u00e3o / Identidade Digital de Governo   Tradu\u00e7\u00e3o do Plone para Portugu\u00eas do Brasil   Produto de tema para portais do governo brasileiro ",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Portal Padr\u00e3o / Identidade Digital de Governo"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://github.com/plonegovbr/brasil.gov.portal"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Tradu\u00e7\u00e3o do Plone para Portugu\u00eas do Brasil"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://github.com/collective/plone.app.locales"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Produto de tema para portais do governo brasileiro"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://github.com/plonegovbr/brasil.gov.temas"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    },
+    "526348b9-4e8f-4de6-b792-f4ed640059b6": {
+      "@type": "slate",
+      "plaintext": "Historico",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Historico"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "5814be9f-050a-4137-9ffc-e7a66dfe340b": {
+      "@type": "slate",
+      "plaintext": "Perguntas Frequentes",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Perguntas Frequentes"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "6f2d3d1b-b3ac-4883-b228-c2069e69150b": {
+      "@type": "slate",
+      "plaintext": "Projetos",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Projetos"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "75eb97f2-8949-4861-bfb0-bf7538bcef1f": {
+      "@type": "image",
+      "align": "right",
+      "alt": "Organiza\u00e7\u00e3o da Plone Conference 2013",
+      "size": "l",
+      "url": "/images/50427222763_aed6ae38d2_k.jpg"
+    },
+    "79c62c30-ec88-411d-8efc-21c482f86f04": {
+      "@type": "slate",
+      "plaintext": "Eventos",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Eventos"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "91af19a8-4f58-4184-88eb-cd39ce32eafc": {
+      "@type": "slate",
+      "plaintext": " 1. Qual o objetivo da Comunidade?   2. Quais s\u00e3o as institui\u00e7\u00f5es parceiras?   3. De quem \u00e9 a iniciativa?   4. Porque utilizar o Plone nos s\u00edtios do governo?   5. Qual a import\u00e2ncia de uma comunidade de coopera\u00e7\u00e3o para a Administra\u00e7\u00e3o P\u00fablica?   6. Qual a abrang\u00eancia desta comunidade? ",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "1. Qual o objetivo da Comunidade? "
+                    }
+                  ],
+                  "data": {
+                    "url": "/comunidades/gov/perguntas-frequentes"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "2. Quais s\u00e3o as institui\u00e7\u00f5es parceiras? "
+                    }
+                  ],
+                  "data": {
+                    "url": "/comunidades/gov/perguntas-frequentes"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "3. De quem \u00e9 a iniciativa? "
+                    }
+                  ],
+                  "data": {
+                    "url": "/comunidades/gov/perguntas-frequentes"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "4. Porque utilizar o Plone nos s\u00edtios do governo? "
+                    }
+                  ],
+                  "data": {
+                    "url": "/comunidades/gov/perguntas-frequentes"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "5. Qual a import\u00e2ncia de uma comunidade de coopera\u00e7\u00e3o para a Administra\u00e7\u00e3o P\u00fablica? "
+                    }
+                  ],
+                  "data": {
+                    "url": "/comunidades/gov/perguntas-frequentes"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "6. Qual a abrang\u00eancia desta comunidade? "
+                    }
+                  ],
+                  "data": {
+                    "url": "/comunidades/gov/perguntas-frequentes"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    },
+    "929d3bf2-f43f-41df-9817-1ff5de6fb91d": {
+      "@type": "title"
+    },
+    "993e0977-4658-42a1-b373-2ec2abead3a2": {
+      "@type": "slate",
+      "plaintext": "A comunidade PloneGov-Br foi criada em maio de 2009 com o objetivo de conectar as institui\u00e7\u00f5es ligadas ao governo brasileiro que utilizam Python, Zope, Plone e tecnologias correlatas.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "A comunidade PloneGov-Br foi criada em maio de 2009 com o objetivo de conectar as institui\u00e7\u00f5es ligadas ao governo brasileiro que utilizam Python, Zope, Plone e tecnologias correlatas. "
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "a2b6c8d2-e211-4dd9-a96e-43b989e33e1b": {
+      "@type": "slate",
+      "plaintext": "C\u00f3digos para Plone",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "C\u00f3digos para Plone"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "b5b5bdd0-bed7-4d89-84dc-ae6354ff0f38": {
+      "@type": "slate",
+      "plaintext": " World Plone Day 2023   Plone Symposium South America 2022   Cerrado Sprint   World Plone Day 2022  World Plone Day 2014  Plone Conference 2013 / PythonBrasil[9]  World Plone Day 2013 Plone Symposium South America 2012 World Plone Day 2012",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "World Plone Day 2023"
+                    }
+                  ],
+                  "data": {
+                    "url": "/novidades/eventos/2023/world-plone-day-2023-brasilia"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Plone Symposium South America 2022"
+                    }
+                  ],
+                  "data": {
+                    "url": "/novidades/eventos/2022/plone-symposium-south-america-2022"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Cerrado Sprint"
+                    }
+                  ],
+                  "data": {
+                    "url": "/novidades/eventos/2022/cerrado-sprint-2022"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "World Plone Day 2022"
+                    }
+                  ],
+                  "data": {
+                    "url": "/novidades/eventos/2022/world-plone-day-2022-brasilia"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "World Plone Day 2014"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Plone Conference 2013 / PythonBrasil[9]"
+                    }
+                  ],
+                  "data": {
+                    "url": "http://2013.pythonbrasil.org.br/"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "World Plone Day 2013"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "Plone Symposium South America 2012"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "World Plone Day 2012"
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    },
+    "c3d2983a-6bf8-44c5-aaa0-304d8323fde4": {
+      "@type": "slate",
+      "plaintext": "   Produto de tema para portais do governo brasileiro   @plonegovbr/volto-code-block : Bloco com syntax highliting para Plone 6 / Volto  @plonegovbr/volto-twitter-block : Bloco com integra\u00e7\u00e3o ao Twitter para Plone 6 / Volto",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "data": {
+                    "url": "https://github.com/collective/plone.app.locales"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Produto de tema para portais do governo brasileiro"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://github.com/plonegovbr/brasil.gov.temas"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "@plonegovbr/volto-code-block"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://www.npmjs.com/package/@plonegovbr/volto-code-block"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ": Bloco com syntax highliting para Plone 6 / Volto"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "@plonegovbr/volto-twitter-block"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://www.npmjs.com/package/@plonegovbr/volto-twitter-block"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ": Bloco com integra\u00e7\u00e3o ao Twitter para Plone 6 / Volto"
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    },
+    "d2d59a9d-3701-449c-9809-57c825b99d65": {
+      "@type": "slate",
+      "plaintext": "Realiza\u00e7\u00f5es",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Realiza\u00e7\u00f5es"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "929d3bf2-f43f-41df-9817-1ff5de6fb91d",
+      "526348b9-4e8f-4de6-b792-f4ed640059b6",
+      "993e0977-4658-42a1-b373-2ec2abead3a2",
+      "75eb97f2-8949-4861-bfb0-bf7538bcef1f",
+      "d2d59a9d-3701-449c-9809-57c825b99d65",
+      "2123ce76-bf11-4392-9f70-533acc2bd9b6",
+      "79c62c30-ec88-411d-8efc-21c482f86f04",
+      "b5b5bdd0-bed7-4d89-84dc-ae6354ff0f38",
+      "6f2d3d1b-b3ac-4883-b228-c2069e69150b",
+      "2cf37eb9-7cc7-4d35-9a4f-d31a5318a66f",
+      "a2b6c8d2-e211-4dd9-a96e-43b989e33e1b",
+      "c3d2983a-6bf8-44c5-aaa0-304d8323fde4",
+      "5814be9f-050a-4137-9ffc-e7a66dfe340b",
+      "91af19a8-4f58-4184-88eb-cd39ce32eafc"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-05-24T16:20:07+00:00",
+  "creators": [
+    "ploneorgbr"
+  ],
+  "description": "Comunidade de institui\u00e7\u00f5es ligadas ao governo brasileiro que utilizam Python, Zope, Plone e tecnologias correlatas.",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "gov",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2023-05-16T19:52:31+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "PloneGov-Br",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-05-24T16:20:07+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-05-24T16:20:07+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

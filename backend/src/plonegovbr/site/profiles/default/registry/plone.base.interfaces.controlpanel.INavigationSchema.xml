@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<registry>
+  <records interface="plone.base.interfaces.controlpanel.INavigationSchema"
+           prefix="plone"
+  >
+    <value key="displayed_types">
+      <element>Link</element>
+      <element>Document</element>
+      <element>VideoSeries</element>
+    </value>
+    <value key="sitemap_depth">3</value>
+    <value key="sort_tabs_on">getObjPositionInParent</value>
+  </records>
+</registry>

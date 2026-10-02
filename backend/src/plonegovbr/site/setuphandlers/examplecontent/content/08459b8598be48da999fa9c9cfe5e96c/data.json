@@ -1,0 +1,698 @@
+{
+  "@id": "/novidades/eventos/2026/world-plone-day-2026-brasilia",
+  "@type": "Event",
+  "UID": "08459b8598be48da999fa9c9cfe5e96c",
+  "allow_discussion": false,
+  "attendees": [],
+  "blocks": {
+    "1e6c54e3-304a-48e9-aebc-a1fe7d143a28": {
+      "@type": "slate",
+      "plaintext": " Instituto Legislativo Brasileiro  - ILB SEN - SAFN\nPlano Piloto\nBras\u00edlia - DF\n70297-400",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Instituto Legislativo Brasileiro"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " "
+            },
+            {
+              "children": [
+                {
+                  "text": "- ILB"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": "\nSEN - SAFN\nPlano Piloto\nBras\u00edlia - DF\n70297-400"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "371a44da-315c-4c96-b270-74c0adf484ad": {
+      "@type": "slate",
+      "plaintext": "Local",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Local"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "3d8657ca-5df4-494f-ab8b-bc0c2a1950c9": {
+      "@type": "slate",
+      "plaintext": "O evento ocorrer\u00e1 nas depend\u00eancias do Senado Federal   em Bras\u00edlia, e contaremos com transmiss\u00e3o simult\u00e2nea pelo YouTube da comunidade Plone.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O evento ocorrer\u00e1 nas depend\u00eancias do "
+            },
+            {
+              "children": [
+                {
+                  "text": "Senado Federal"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " em Bras\u00edlia, e contaremos com transmiss\u00e3o simult\u00e2nea pelo YouTube da comunidade Plone."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "4c97c0b3-6828-456e-a91a-dee2b0887b5e": {
+      "@type": "slate",
+      "plaintext": "Live Stream",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Live Stream"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "680dbb76-45c2-45a8-87db-8b2703dbe438": {
+      "@type": "title"
+    },
+    "6a5ac969-77af-4a51-9729-c8e02dfa548e": {
+      "@type": "slate",
+      "plaintext": "A comunidade PloneGov-Br realizar\u00e1 a edi\u00e7\u00e3o brasileira do World Plone Day no dia 16 de Abril, das 14h \u00e0s 17h.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "A comunidade PloneGov-Br realizar\u00e1 a edi\u00e7\u00e3o brasileira do World Plone Day no dia 16 de Abril, das 14h \u00e0s 17h."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "858bdb73-6376-4ea5-9d23-a0c38be5b2b6": {
+      "@type": "slate",
+      "plaintext": "Agenda",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Agenda"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "996c3bf1-1da0-49f3-afd4-2998689934f8": {
+      "@type": "video",
+      "url": "https://www.youtube.com/watch?v=ATy8ALW63rQ"
+    },
+    "ce4a6ab7-76e1-43da-8928-f5f993cf5adc": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "d493cbe0-0545-40a9-a8da-b52ca27b3a26": {
+      "@type": "slate",
+      "plaintext": "14h00 Abertura do Evento  Rafahela Bazzanella  PloneGov-BR 14h15 O Outro Lado do Balc\u00e3o: Plone na vis\u00e3o de um usu\u00e1rio    Adriano Hiroyuki Kakazu (Coordenador de Comunica\u00e7\u00e3o Interna)\nSenado Federal   14h40 Do rascunho \u00e0 publica\u00e7\u00e3o: o caso do novo Painel (dashboard) no processo produtivo da Secom  Glebson Moura da Silva (Diretor da Secretaria de Engenharia de Comunica\u00e7\u00e3o ) Senado Federal 15h Plone 6 no IFPB: Estrat\u00e9gias e resultados da experi\u00eancia de uso descentralizada      J\u00falio Zinga (Analista de TI)  Daniel Fernandes Vilar Cardoso (Analista de TI)  Pedro Henrique Bezerra Ayres de Albuquerque (Coordenador de Redes) IFPB 16h00 Ferramentas, complementos e projetos: O que a Simples Consultoria tem trabalhado  \u00c9rico Andrei Simples Consultoria   17h00 Encerramento do Evento ",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "14h00"
+                            }
+                          ],
+                          "type": "p"
+                        }
+                      ],
+                      "type": "td"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Abertura do Evento"
+                            }
+                          ],
+                          "type": "p"
+                        }
+                      ],
+                      "type": "td"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            },
+                            {
+                              "children": [
+                                {
+                                  "text": "Rafahela Bazzanella"
+                                }
+                              ],
+                              "type": "strong"
+                            },
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "type": "p"
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": "PloneGov-BR"
+                            }
+                          ],
+                          "type": "p"
+                        }
+                      ],
+                      "type": "td"
+                    }
+                  ],
+                  "type": "tr"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "14h15"
+                            }
+                          ],
+                          "type": "p"
+                        }
+                      ],
+                      "type": "td"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "O Outro Lado do Balc\u00e3o: Plone na vis\u00e3o de um usu\u00e1rio\n"
+                            }
+                          ],
+                          "type": "p"
+                        }
+                      ],
+                      "type": "td"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            },
+                            {
+                              "children": [
+                                {
+                                  "text": ""
+                                }
+                              ],
+                              "type": "strong"
+                            },
+                            {
+                              "text": ""
+                            },
+                            {
+                              "children": [
+                                {
+                                  "text": "Adriano Hiroyuki Kakazu "
+                                }
+                              ],
+                              "type": "strong"
+                            },
+                            {
+                              "text": "(Coordenador de Comunica\u00e7\u00e3o Interna)\nSenado Federal\n"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "text": ""
+                                }
+                              ],
+                              "type": "strong"
+                            },
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "type": "p"
+                        }
+                      ],
+                      "type": "td"
+                    }
+                  ],
+                  "type": "tr"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "14h40"
+                            }
+                          ],
+                          "type": "p"
+                        }
+                      ],
+                      "type": "td"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Do rascunho \u00e0 publica\u00e7\u00e3o: o caso do novo Painel (dashboard) no processo produtivo da Secom"
+                            }
+                          ],
+                          "type": "p"
+                        }
+                      ],
+                      "type": "td"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            },
+                            {
+                              "children": [
+                                {
+                                  "text": "Glebson Moura da Silva"
+                                }
+                              ],
+                              "type": "strong"
+                            },
+                            {
+                              "text": " (Diretor da Secretaria de Engenharia de Comunica\u00e7\u00e3o )"
+                            }
+                          ],
+                          "type": "p"
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": "Senado Federal"
+                            }
+                          ],
+                          "type": "p"
+                        }
+                      ],
+                      "type": "td"
+                    }
+                  ],
+                  "type": "tr"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "15h"
+                            }
+                          ],
+                          "type": "p"
+                        }
+                      ],
+                      "type": "td"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Plone 6 no IFPB: Estrat\u00e9gias e resultados da experi\u00eancia de uso descentralizada"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "text": ""
+                                }
+                              ],
+                              "data": {
+                                "url": "/novidades/eventos/2023/world-plone-day-2023-brasilia/caso-de-uso-gov.br"
+                              },
+                              "type": "link"
+                            },
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "type": "p"
+                        }
+                      ],
+                      "type": "td"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            },
+                            {
+                              "children": [
+                                {
+                                  "text": ""
+                                }
+                              ],
+                              "type": "strong"
+                            },
+                            {
+                              "text": ""
+                            },
+                            {
+                              "children": [
+                                {
+                                  "text": "J\u00falio Zinga"
+                                }
+                              ],
+                              "type": "strong"
+                            },
+                            {
+                              "text": " (Analista de TI)"
+                            }
+                          ],
+                          "type": "p"
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            },
+                            {
+                              "children": [
+                                {
+                                  "text": "Daniel Fernandes Vilar Cardoso"
+                                }
+                              ],
+                              "type": "strong"
+                            },
+                            {
+                              "text": " (Analista de TI)"
+                            }
+                          ],
+                          "type": "p"
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            },
+                            {
+                              "children": [
+                                {
+                                  "text": "Pedro Henrique Bezerra Ayres de Albuquerque"
+                                }
+                              ],
+                              "type": "strong"
+                            },
+                            {
+                              "text": " (Coordenador de Redes)"
+                            }
+                          ],
+                          "type": "p"
+                        },
+                        {
+                          "children": [
+                            {
+                              "text": "IFPB"
+                            }
+                          ],
+                          "type": "p"
+                        }
+                      ],
+                      "type": "td"
+                    }
+                  ],
+                  "type": "tr"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "16h00"
+                            }
+                          ],
+                          "type": "p"
+                        }
+                      ],
+                      "type": "td"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Ferramentas, complementos e projetos: O que a Simples Consultoria tem trabalhado"
+                            }
+                          ],
+                          "type": "p"
+                        }
+                      ],
+                      "type": "td"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            },
+                            {
+                              "children": [
+                                {
+                                  "text": "\u00c9rico Andrei"
+                                }
+                              ],
+                              "type": "strong"
+                            },
+                            {
+                              "text": "\nSimples Consultoria"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "text": ""
+                                }
+                              ],
+                              "type": "strong"
+                            },
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "type": "p"
+                        }
+                      ],
+                      "type": "td"
+                    }
+                  ],
+                  "type": "tr"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "17h00"
+                            }
+                          ],
+                          "type": "p"
+                        }
+                      ],
+                      "type": "td"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": "Encerramento do Evento"
+                            }
+                          ],
+                          "type": "p"
+                        }
+                      ],
+                      "type": "td"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ],
+                          "type": "p"
+                        }
+                      ],
+                      "type": "td"
+                    }
+                  ],
+                  "type": "tr"
+                }
+              ],
+              "type": "tbody"
+            }
+          ],
+          "type": "table"
+        }
+      ]
+    },
+    "db5719b9-e8b8-4a9e-9ad8-0bf7f4dd73c7": {
+      "@type": "maps",
+      "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.142864800886!2d-47.864556324079594!3d-15.796419184844165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3b4085dae493%3A0xbc08718222069289!2sInstituto%20Legislativo%20Brasileiro!5e0!3m2!1spt-BR!2sbr!4v1776093268995!5m2!1spt-BR!2sbr"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "680dbb76-45c2-45a8-87db-8b2703dbe438",
+      "6a5ac969-77af-4a51-9729-c8e02dfa548e",
+      "3d8657ca-5df4-494f-ab8b-bc0c2a1950c9",
+      "858bdb73-6376-4ea5-9d23-a0c38be5b2b6",
+      "d493cbe0-0545-40a9-a8da-b52ca27b3a26",
+      "4c97c0b3-6828-456e-a91a-dee2b0887b5e",
+      "996c3bf1-1da0-49f3-afd4-2998689934f8",
+      "371a44da-315c-4c96-b270-74c0adf484ad",
+      "1e6c54e3-304a-48e9-aebc-a1fe7d143a28",
+      "db5719b9-e8b8-4a9e-9ad8-0bf7f4dd73c7",
+      "ce4a6ab7-76e1-43da-8928-f5f993cf5adc"
+    ]
+  },
+  "changeNote": "",
+  "contact_email": null,
+  "contact_name": null,
+  "contact_phone": null,
+  "contributors": [],
+  "created": "2026-04-13T15:11:39+00:00",
+  "creators": [
+    "rafahela"
+  ],
+  "description": "Edi\u00e7\u00e3o brasileira do World Plone Day 2026",
+  "effective": "2026-04-13T15:22:00+00:00",
+  "end": "2026-04-16T20:00:00+00:00",
+  "event_url": "https://www.youtube.com/watch?v=ATy8ALW63rQ",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "world-plone-day-2026-brasilia",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "event_view",
+  "location": "Sala 1 ILB - Senado Federal",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-04-16T17:23:52+00:00",
+  "nav_title": null,
+  "open_end": false,
+  "preview_caption_link": null,
+  "recurrence": null,
+  "review_state": "published",
+  "rights": "",
+  "start": "2026-04-16T17:00:00+00:00",
+  "subjects": [
+    "WPD"
+  ],
+  "sync_uid": null,
+  "title": "World Plone Day 2026 - Bras\u00edlia",
+  "type_title": "Event",
+  "version": "current",
+  "versioning_enabled": true,
+  "whole_day": false,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "rafahela",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-04-13T15:11:39+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "rafahela",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-04-13T15:22:00+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

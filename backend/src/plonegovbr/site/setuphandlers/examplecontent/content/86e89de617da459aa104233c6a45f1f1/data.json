@@ -1,0 +1,40 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/free-software-foundation/fsf.png",
+  "@type": "Image",
+  "UID": "86e89de617da459aa104233c6a45f1f1",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2022-05-26T01:28:44+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "fsf.png",
+  "image": {
+    "blob_path": "86e89de617da459aa104233c6a45f1f1/image/fsf.png",
+    "content-type": "image/png",
+    "filename": "fsf.png",
+    "height": 1080,
+    "size": 397844,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2022-05-26T01:28:44+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "fsf.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

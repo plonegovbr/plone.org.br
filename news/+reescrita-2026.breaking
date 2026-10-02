@@ -1,0 +1,1 @@
+Regenera o repositório a partir do template `project` do cookieplone: nova estrutura de monorepo, workflows do GitHub Actions, gestão de changelog com towncrier e stack Docker Compose local. @ericof

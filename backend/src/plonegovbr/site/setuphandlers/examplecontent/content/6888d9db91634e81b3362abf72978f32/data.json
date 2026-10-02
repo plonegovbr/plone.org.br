@@ -1,0 +1,617 @@
+{
+  "@id": "/projetos/portal-padrao",
+  "@type": "Document",
+  "UID": "6888d9db91634e81b3362abf72978f32",
+  "allow_discussion": false,
+  "blocks": {
+    "14cdf832-5bae-4d7a-b147-a318cbf1996c": {
+      "@type": "slate",
+      "plaintext": "4 temas visuais adequados ao projeto de Identidade de Governo Agenda de Autoridade Gest\u00e3o de capas Vocabul\u00e1rio controlado Conte\u00fado de exemplo Integra\u00e7\u00e3o com barra de acesso do governo federal",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "4 temas visuais adequados ao projeto de Identidade de Governo"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "Agenda de Autoridade"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "Gest\u00e3o de capas"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "Vocabul\u00e1rio controlado"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "Conte\u00fado de exemplo"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "Integra\u00e7\u00e3o com barra de acesso do governo federal"
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    },
+    "26da16a5-9d5c-49f5-8256-a03437e7e2b8": {
+      "@type": "slate",
+      "plaintext": "Sobre o Projeto",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Sobre o Projeto"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "30f712d9-f7b8-4f23-8634-2fe443be963c": {
+      "@type": "slate",
+      "plaintext": "O Portal Padr\u00e3o teve o seu desenvolvimento iniciado no primeiro semestre de 2013 objetivando oferecer uma identidade visual e tecn\u00f3logica padronizada para os sites do Governo Federal.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O Portal Padr\u00e3o teve o seu desenvolvimento iniciado no primeiro semestre de 2013 objetivando oferecer uma identidade visual e tecn\u00f3logica padronizada para os sites do Governo Federal."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "335a88d0-879c-4a3c-9906-6476adccf959": {
+      "@type": "slate",
+      "plaintext": "Quem usa",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Quem usa"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "3855a49c-4807-4c36-b721-1f46186c8edf": {
+      "@type": "slate",
+      "plaintext": "Caracter\u00edsticas",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Caracter\u00edsticas"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "3927e79a-f230-4c96-9737-905dba4b68da": {
+      "@type": "title"
+    },
+    "697133a0-8b62-4052-a068-2f05197ced43": {
+      "@type": "slate",
+      "plaintext": " brasil.gov.portal : Integra\u00e7\u00e3o de pacotes, conte\u00fado de exemplo  brasil.gov.agenda : Agenda de autoridades  brasil.gov.barra : Barra de governo federal  brasil.gov.facetada : Funcionalidade de busca facetada  brasil.gov.paginadestaque : Cria\u00e7\u00e3o de microsites  brasil.gov.portlets : Portlets usados no portal  brasil.gov.temas : Temas visuais para o portal  brasil.gov.tiles : Blocos utilizados em capas  brasil.gov.vcge : Vocabul\u00e1rio Controlado do Governo Eletr\u00f4nico",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "brasil.gov.portal"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://github.com/plonegovbr/brasil.gov.portal"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ": Integra\u00e7\u00e3o de pacotes, conte\u00fado de exemplo"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "brasil.gov.agenda"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://github.com/plonegovbr/brasil.gov.agenda"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ": Agenda de autoridades"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "brasil.gov.barra"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://github.com/plonegovbr/brasil.gov.barra"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ": Barra de governo federal"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "brasil.gov.facetada"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://github.com/plonegovbr/brasil.gov.facetada"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ": Funcionalidade de busca facetada"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "brasil.gov.paginadestaque"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://github.com/plonegovbr/brasil.gov.paginadestaque"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ": Cria\u00e7\u00e3o de microsites"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "brasil.gov.portlets"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://github.com/plonegovbr/brasil.gov.portlets"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ": Portlets usados no portal"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "brasil.gov.temas"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://github.com/plonegovbr/brasil.gov.temas"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ": Temas visuais para o portal"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "brasil.gov.tiles"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://github.com/plonegovbr/brasil.gov.tiles"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ": Blocos utilizados em capas"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "brasil.gov.vcge"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://github.com/plonegovbr/brasil.gov.vcge"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ": Vocabul\u00e1rio Controlado do Governo Eletr\u00f4nico"
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    },
+    "6bcf046c-2751-48f0-a087-f022ce8be46e": {
+      "@type": "image",
+      "align": "right",
+      "alt": "",
+      "size": "l",
+      "url": "/projetos/portal-padrao/utfpr.png"
+    },
+    "7bbf0194-5406-49cf-bba5-a6bc26c0c470": {
+      "@type": "image",
+      "align": "right",
+      "alt": "",
+      "size": "m",
+      "url": "/projetos/portal-padrao/gov-br.png"
+    },
+    "c15272b8-474c-4bbd-a365-342c1c65b8df": {
+      "@type": "slate",
+      "plaintext": "S\u00e3o mais de 300 implanta\u00e7\u00f5es ativas do Portal Padr\u00e3o em todo o Brasil, incluindo:",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "S\u00e3o mais de 300 implanta\u00e7\u00f5es ativas do Portal Padr\u00e3o em todo o Brasil, incluindo:"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "d1ac58b8-d5fd-4d0d-86ee-00d65ee1061d": {
+      "@type": "slate",
+      "plaintext": "Todo o projeto foi desenvolvido e mantido como c\u00f3digo aberto e \u00e9 composto pelos seguintes pacotes:",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Todo o projeto foi desenvolvido e mantido como c\u00f3digo aberto e \u00e9 composto pelos seguintes pacotes:"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "e26f3c68-ad31-4885-880d-d24a2de30ac9": {
+      "@type": "slate",
+      "plaintext": " Gov.Br     Instituto Federal da Para\u00edba   Instituto Federal de Pernambuco   Universidade T\u00e9cnica Federal do Paran\u00e1 ",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Gov.Br"
+                    }
+                  ],
+                  "data": {
+                    "url": "http://https;//www.gov.br/"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "data": {
+                    "url": "https://www.al.al.leg.br/"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Instituto Federal da Para\u00edba"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://www.ifpb.edu.br/"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Instituto Federal de Pernambuco"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://www.ifpe.edu.br/"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Universidade T\u00e9cnica Federal do Paran\u00e1"
+                    }
+                  ],
+                  "data": {
+                    "url": "http://www.utfpr.edu.br/"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    },
+    "e8f56cab-fff8-4c3e-a388-1e6a1455d0f7": {
+      "@type": "slate",
+      "plaintext": "Solu\u00e7\u00e3o desenvolvida e oferecida pela comunidade PloneGov-BR e pelo SERPRO o Portal Padr\u00e3o \u00e9 uma solu\u00e7\u00e3o completa de Portal para sites de Governo.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Solu\u00e7\u00e3o desenvolvida e oferecida pela comunidade "
+            },
+            {
+              "children": [
+                {
+                  "text": "PloneGov-BR"
+                }
+              ],
+              "data": {
+                "url": "/comunidades/gov"
+              },
+              "type": "link"
+            },
+            {
+              "text": " e pelo "
+            },
+            {
+              "children": [
+                {
+                  "text": "SERPRO"
+                }
+              ],
+              "data": {
+                "url": "https://www.serpro.gov.br/"
+              },
+              "type": "link"
+            },
+            {
+              "text": " o Portal Padr\u00e3o \u00e9 uma solu\u00e7\u00e3o completa de Portal para sites de Governo."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "ef1c37fb-5dc7-4089-8564-2404fc34ebbd": {
+      "@type": "slate",
+      "plaintext": "O produto conta com as seguintes funcionalidades:",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O produto conta com as seguintes funcionalidades:"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "3927e79a-f230-4c96-9737-905dba4b68da",
+      "e8f56cab-fff8-4c3e-a388-1e6a1455d0f7",
+      "26da16a5-9d5c-49f5-8256-a03437e7e2b8",
+      "30f712d9-f7b8-4f23-8634-2fe443be963c",
+      "ef1c37fb-5dc7-4089-8564-2404fc34ebbd",
+      "7bbf0194-5406-49cf-bba5-a6bc26c0c470",
+      "14cdf832-5bae-4d7a-b147-a318cbf1996c",
+      "3855a49c-4807-4c36-b721-1f46186c8edf",
+      "d1ac58b8-d5fd-4d0d-86ee-00d65ee1061d",
+      "697133a0-8b62-4052-a068-2f05197ced43",
+      "6bcf046c-2751-48f0-a087-f022ce8be46e",
+      "335a88d0-879c-4a3c-9906-6476adccf959",
+      "c15272b8-474c-4bbd-a365-342c1c65b8df",
+      "e26f3c68-ad31-4885-880d-d24a2de30ac9"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2023-06-12T21:16:24+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "Solu\u00e7\u00e3o desenvolvida e oferecida pela comunidade PloneGov-BR e pelo SERPRO o Portal Padr\u00e3o \u00e9 uma solu\u00e7\u00e3o completa de Portal para sites de Governo.",
+  "effective": "2023-06-12T21:33:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "portal-padrao",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2023-06-12T21:33:22+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Portal Padr\u00e3o",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2023-06-12T21:16:24+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2023-06-12T21:33:22+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

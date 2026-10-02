@@ -1,0 +1,1 @@
+Marca os pull requests do dependabot com os rótulos `dependencies` e `skip changelog`, para que a verificação de changelog não os reprove. @ericof

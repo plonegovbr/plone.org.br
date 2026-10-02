@@ -1,0 +1,40 @@
+{
+  "@id": "/organizacoes/simples-consultoria/logo-simples.png",
+  "@type": "Image",
+  "UID": "c34a62e70fb7482d91f21cb87142e8ab",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2026-10-02T17:46:14+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "logo-simples.png",
+  "image": {
+    "blob_path": "c34a62e70fb7482d91f21cb87142e8ab/image/logo-simples.png",
+    "content-type": "image/png",
+    "filename": "logo-simples.png",
+    "height": 1080,
+    "size": 59719,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2026-10-02T17:46:14+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "Logo Simples Consultoria",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}
