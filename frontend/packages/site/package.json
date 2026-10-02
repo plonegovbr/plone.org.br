@@ -37,9 +37,9 @@
   "theme": "@kitconcept/volto-light-theme",
   "dependencies": {
     "@plone-collective/volto-identity": "1.0.0-alpha.8",
-    "@plone-collective/volto-casestudy": "2.0.0-alpha.1",
+    "@plone-collective/volto-casestudy": "2.0.0-alpha.3",
     "@simplesconsultoria/volto-videos": "1.0.0-alpha.3",
-    "@simplesconsultoria/volto-light-theme": "1.0.0-alpha.10",
+    "@simplesconsultoria/volto-light-theme": "1.0.0-alpha.11",
     "@plonegovbr/volto-code-block": "3.0.0",
     "@plonegovbr/volto-social-media": "3.0.0"
   },
