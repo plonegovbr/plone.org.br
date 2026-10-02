@@ -133,52 +133,206 @@
   "facebook_app_id": "",
   "facebook_username": "Plone-Brasil-101606785972720",
   "footer_address": null,
-  "footer_brand_message": null,
+  "footer_brand_message": "A comunidade brasileira do Plone: quem usa, desenvolve e mant\u00e9m o CMS livre em portugu\u00eas.",
   "footer_brand_slogan": "Comunidade Brasileira de Plone",
-  "footer_colophon_text": [
+  "footer_colophon_right_text": [
     {
       "children": [
         {
-          "text": "Powered by Plone and Volto Light Theme\nThe Plone\u00ae Open Source CMS/WCM is \u00a9 2000-2026 by the "
-        },
-        {
-          "children": [
-            {
-              "text": "Plone Foundation"
-            }
-          ],
-          "data": {
-            "url": "http://plone.org"
-          },
-          "type": "link"
-        },
-        {
-          "text": " and friends.\nDistributed under the "
-        },
-        {
-          "children": [
-            {
-              "text": "GNU GPL v2 license"
-            }
-          ],
-          "data": {
-            "url": "https://www.gnu.org/licenses/old-licenses/lgpl-2.0.html"
-          },
-          "type": "link"
-        },
-        {
-          "text": "."
+          "text": "Acessibilidade \u00b7 Privacidade \u00b7 Mapa do site"
         }
       ],
       "type": "p"
     }
   ],
-  "footer_column_left": [],
-  "footer_column_left_header": null,
-  "footer_column_middle": [],
-  "footer_column_middle_header": null,
-  "footer_column_right": [],
-  "footer_column_right_header": null,
+  "footer_colophon_text": [
+    {
+      "children": [
+        {
+          "text": "\u00a9 Comunidade Plone Brasil \u00b7 Plone\u00ae \u00e9 marca registrada da Plone Foundation"
+        }
+      ],
+      "type": "p"
+    }
+  ],
+  "footer_column_left": [
+    {
+      "@id": "0e56f6ca-327a-4fce-b292-2f4d076094b0",
+      "href": [
+        {
+          "@id": "resolveuid/b1fa8ba3e754479382b5bafe561c38ef",
+          "@type": "Document",
+          "Description": "O Plone est\u00e1 entre os top 2% de todos os projetos de c\u00f3digo-aberto do mundo, com cerca de 400 desenvolvedores distribu\u00eddos em mais de 60 pa\u00edses.",
+          "Title": "O Plone",
+          "title": "O Plone"
+        }
+      ],
+      "title": "O que \u00e9 Plone"
+    },
+    {
+      "@id": "8814a2e4-5951-4973-aaa3-a0e2cb9995c4",
+      "href": [
+        {
+          "@id": "resolveuid/b1fa8ba3e754479382b5bafe561c38ef",
+          "@type": "Document",
+          "Description": "O Plone est\u00e1 entre os top 2% de todos os projetos de c\u00f3digo-aberto do mundo, com cerca de 400 desenvolvedores distribu\u00eddos em mais de 60 pa\u00edses.",
+          "Title": "O Plone",
+          "title": "O Plone"
+        }
+      ],
+      "title": "Comece a usar"
+    },
+    {
+      "@id": "bea4e831-73b9-4460-a4be-a4d8482dad1a",
+      "href": [
+        {
+          "@id": "resolveuid/b1fa8ba3e754479382b5bafe561c38ef",
+          "@type": "Document",
+          "Description": "O Plone est\u00e1 entre os top 2% de todos os projetos de c\u00f3digo-aberto do mundo, com cerca de 400 desenvolvedores distribu\u00eddos em mais de 60 pa\u00edses.",
+          "Title": "O Plone",
+          "title": "O Plone"
+        }
+      ],
+      "title": "Documenta\u00e7\u00e3o"
+    },
+    {
+      "@id": "9464e34b-0753-4a1c-b3fc-77e4b982c459",
+      "href": [
+        {
+          "@id": "resolveuid/b1fa8ba3e754479382b5bafe561c38ef",
+          "@type": "Document",
+          "Description": "O Plone est\u00e1 entre os top 2% de todos os projetos de c\u00f3digo-aberto do mundo, com cerca de 400 desenvolvedores distribu\u00eddos em mais de 60 pa\u00edses.",
+          "Title": "O Plone",
+          "title": "O Plone"
+        }
+      ],
+      "title": "Seguran\u00e7a"
+    }
+  ],
+  "footer_column_left_header": "Plone",
+  "footer_column_middle": [
+    {
+      "@id": "7b20e478-b6ee-494e-8b40-2fdb4c53a85e",
+      "href": [
+        {
+          "@id": "resolveuid/d64a5ff083f9450d8c25b05e18d490f9",
+          "@type": "Link",
+          "Description": "",
+          "Title": "F\u00f3rum",
+          "title": "F\u00f3rum"
+        }
+      ],
+      "title": "F\u00f3rum"
+    },
+    {
+      "@id": "5856bfed-30ca-47a8-9537-098b8a489feb",
+      "href": [
+        {
+          "@id": "resolveuid/d64a5ff083f9450d8c25b05e18d490f9",
+          "@type": "Link",
+          "Description": "",
+          "Title": "F\u00f3rum",
+          "title": "F\u00f3rum"
+        }
+      ],
+      "title": "Telegram"
+    },
+    {
+      "@id": "2d7f0c4f-1b53-4fe0-88ba-aa361b2887ec",
+      "href": [
+        {
+          "@id": "resolveuid/1e1239a08c54453196a83b71cb67971e",
+          "@type": "Document",
+          "Description": "",
+          "Title": "Documenta\u00e7\u00e3o",
+          "title": "Documenta\u00e7\u00e3o"
+        }
+      ],
+      "title": "GitHub"
+    },
+    {
+      "@id": "011fda08-be1c-457d-9dcd-03bc4501ffff",
+      "href": [
+        {
+          "@id": "resolveuid/5007d0bef62648ce8832d2669c890b78",
+          "@type": "Document",
+          "Description": "Eventos com participa\u00e7\u00e3o da comunidade Brasileira.",
+          "Title": "Eventos",
+          "title": "Eventos"
+        }
+      ],
+      "title": "Eventos"
+    },
+    {
+      "@id": "77d27d6e-69e8-4fd6-8496-a874231d8fb7",
+      "href": [
+        {
+          "@id": "resolveuid/76b9d94d3d604413a2bd353798ba21d6",
+          "@type": "Document",
+          "Description": "",
+          "Title": "Primeiros Passos",
+          "title": "Primeiros Passos"
+        }
+      ],
+      "title": "Como contribuir"
+    }
+  ],
+  "footer_column_middle_header": "Comunidade",
+  "footer_column_right": [
+    {
+      "@id": "0e990da4-b2b2-4c98-9312-74633b3e2542",
+      "href": [
+        {
+          "@id": "resolveuid/fa21311033e9408fbc91e117919c9e11",
+          "@type": "Document",
+          "Description": "As comunidades de Plone no Brasil desenvolveram, ao longo dos anos, diversas solu\u00e7\u00f5es de c\u00f3digo aberto, conhe\u00e7a essas iniciativas.",
+          "Title": "Projetos",
+          "title": "Projetos"
+        }
+      ],
+      "title": "PloneGov-BR"
+    },
+    {
+      "@id": "37f63eb6-099b-4d55-a3b9-31c3ff56aa55",
+      "href": [
+        {
+          "@id": "resolveuid/a1138aeb8b84478bb9ba6c39f3c2f1a0",
+          "@type": "Document",
+          "Description": "",
+          "Title": "Casos de Sucesso",
+          "title": "Casos de Sucesso"
+        }
+      ],
+      "title": "Casos de uso"
+    },
+    {
+      "@id": "bd4259d0-7b68-4d5a-bf7a-fedf1f7a9d03",
+      "href": [
+        {
+          "@id": "resolveuid/838efb15734b4367868a8a12113a8c04",
+          "@type": "Document",
+          "Description": "\u00daltimas not\u00edcias sobre Plone no Brasil",
+          "Title": "Not\u00edcias",
+          "title": "Not\u00edcias"
+        }
+      ],
+      "title": "Not\u00edcias"
+    },
+    {
+      "@id": "b3951328-f0f4-4467-a106-279ec8cc4e85",
+      "href": [
+        {
+          "@id": "resolveuid/d64a5ff083f9450d8c25b05e18d490f9",
+          "@type": "Link",
+          "Description": "",
+          "Title": "F\u00f3rum",
+          "title": "F\u00f3rum"
+        }
+      ],
+      "title": "Contato"
+    }
+  ],
+  "footer_column_right_header": "Brasil",
   "footer_links": [],
   "footer_logo": {
     "blob_path": "plone_site_root/footer_logo/plonebr-reverso.png",
@@ -301,14 +455,14 @@
       "font_family_secondary": "Inter, sans-serif",
       "image_color_dark": "#388e3c",
       "image_color_light": "#388e3c",
-      "neutral_accent_color_dark": "#f4822c",
-      "neutral_accent_color_light": "#f4822c",
+      "neutral_accent_color_dark": "#ffcc29",
+      "neutral_accent_color_light": "#009739",
       "neutral_color_dark": "#333333",
-      "neutral_color_light": "#edeff0",
+      "neutral_color_light": "#eaf4fa",
       "neutral_foreground_color_dark": "#ffffff",
       "neutral_foreground_color_light": "#000000",
       "neutral_low_foreground_color_dark": "#e6e6e6",
-      "neutral_low_foreground_color_light": "#333333",
+      "neutral_low_foreground_color_light": "#3e3f3f",
       "primary_accent_color_dark": "#f4822c",
       "primary_accent_color_light": "#0074a8",
       "primary_color_dark": "#000000",
@@ -317,13 +471,13 @@
       "primary_foreground_color_light": "#000000",
       "primary_low_foreground_color_dark": "#f8f8f8",
       "primary_low_foreground_color_light": "#333333",
-      "secondary_accent_color_dark": "#f4822c",
+      "secondary_accent_color_dark": "#FFCC29",
       "secondary_accent_color_light": "#FFCC29",
-      "secondary_color_dark": "#ffffff",
+      "secondary_color_dark": "#002776",
       "secondary_color_light": "#002776",
-      "secondary_foreground_color_dark": "#000000",
+      "secondary_foreground_color_dark": "#ffffff",
       "secondary_foreground_color_light": "#ffffff",
-      "secondary_low_foreground_color_dark": "#333333",
+      "secondary_low_foreground_color_dark": "#cfe0f5",
       "secondary_low_foreground_color_light": "#cfe0f5"
     }
   },

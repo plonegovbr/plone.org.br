@@ -4,6 +4,24 @@
   "UID": "b1fa8ba3e754479382b5bafe561c38ef",
   "allow_discussion": false,
   "blocks": {
+    "102d9cde-02a3-4b1e-97e0-99ce3a4aafd0": {
+      "@type": "introduction",
+      "plaintext": "Participe da comunidade Plone Brasil",
+      "styles": {
+        "align": "center"
+      },
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Participe da comunidade Plone Brasil"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
     "10ebf764-dc1b-4c1c-8073-72acea0076e0": {
       "@type": "listing",
       "blockWidth": {
@@ -308,13 +326,6 @@
       "title": "O Plone \u00e9 um sistema de gest\u00e3o de conte\u00fado de c\u00f3digo aberto. Re\u00fane um hist\u00f3rico de seguran\u00e7a reconhecido, acessibilidade nativa, fluxos de trabalho editoriais e uma interface moderna de edi\u00e7\u00e3o (Volto) \u2014 com uma comunidade brasileira ativa que documenta, traduz e d\u00e1 suporte em portugu\u00eas.",
       "titleTag": "p",
       "variation": "flex"
-    },
-    "9c6863b4-26c7-4b76-a749-717e163fe97f": {
-      "@type": "heading",
-      "alignment": "left",
-      "heading": "Participe da comunidade Plone Brasil",
-      "styles": {},
-      "theme": "default"
     },
     "c16aee56-1fb3-4064-9abe-13f0ef84c14c": {
       "@type": "listing",
@@ -685,7 +696,7 @@
       "10ebf764-dc1b-4c1c-8073-72acea0076e0",
       "d736c04f-b8ef-4871-ba2e-b942950124f2",
       "c16aee56-1fb3-4064-9abe-13f0ef84c14c",
-      "9c6863b4-26c7-4b76-a749-717e163fe97f",
+      "102d9cde-02a3-4b1e-97e0-99ce3a4aafd0",
       "d6665d59-c1a2-4dda-b9b4-2f346544d137",
       "44af2284-faba-4379-9032-a0de59fef5d5"
     ]
@@ -710,7 +721,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2026-09-30T21:36:24+00:00",
+  "modified": "2026-10-02T12:30:27+00:00",
   "nav_title": null,
   "preview_caption_link": null,
   "review_state": "published",

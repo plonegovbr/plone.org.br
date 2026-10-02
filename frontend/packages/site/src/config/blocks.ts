@@ -8,6 +8,7 @@ export default function installBlocks(config: ConfigType) {
     createThemeDefinition('default', 'Default'),
     createThemeDefinition('darkBlue', 'DarkBlue'),
     createThemeDefinition('lightBlue', 'LightBlue'),
+    createThemeDefinition('lightBlueB', 'LightBlueB'),
     createThemeDefinition('whiteB', 'WhiteB'),
   ];
 

@@ -4,27 +4,233 @@
   "UID": "863deb49763e4581901bfbbb434f4324",
   "allow_discussion": false,
   "blocks": {
+    "0ccaff3a-5def-4f43-aaff-5b082406f6ae": {
+      "@type": "listing",
+      "blockWidth": {
+        "--block-width": "var(--default-container-width)"
+      },
+      "gridColumns": 2,
+      "headlineTag": "h2",
+      "querystring": {
+        "limit": "2",
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "Event"
+            ]
+          },
+          {
+            "i": "Subject",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "PloneGov-BR",
+              "Eventos"
+            ]
+          }
+        ],
+        "sort_order": "ascending"
+      },
+      "styles": {
+        "--cardBorderColor": ""
+      },
+      "theme": "lightBlue",
+      "variation": "events"
+    },
     "645b107a-0fea-4c74-be16-6d9042fa8896": {
       "@type": "title"
     },
+    "74fc803d-77a0-42de-9414-ab4787e57459": {
+      "@type": "accordion",
+      "collapsed": false,
+      "data": {
+        "blocks": {
+          "006801cd-f46c-453b-abb0-ad8fad7ab1ce": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "31cb4c80-c967-48ca-a261-f296644dda74": {
+                "@type": "slate"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "31cb4c80-c967-48ca-a261-f296644dda74"
+              ]
+            },
+            "title": "Contribuindo com c\u00f3digo"
+          },
+          "3a2ad00a-c9ef-40b3-8892-2eab016c1f11": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "d5895a39-4f42-402b-a55e-e2a7de49f6db": {
+                "@type": "slate",
+                "plaintext": "A interface do Plone e do Volto \u00e9 traduzida no Weblate/GitHub. Voc\u00ea revisa termos, completa strings novas a cada vers\u00e3o e ajuda a manter o gloss\u00e1rio pt-BR. N\u00e3o precisa saber programar.",
+                "styles": {},
+                "theme": "default",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "A interface do Plone e do Volto \u00e9 traduzida no Weblate/GitHub. Voc\u00ea revisa termos, completa strings novas a cada vers\u00e3o e ajuda a manter o gloss\u00e1rio pt-BR. N\u00e3o precisa saber programar."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "d5895a39-4f42-402b-a55e-e2a7de49f6db"
+              ]
+            },
+            "title": "Traduzindo para o portugu\u00eas"
+          },
+          "bf161209-8cb2-4e68-b4b9-207835e7c6ba": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "221435d8-a702-41fd-8638-55f464473ade": {
+                "@type": "slate"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "221435d8-a702-41fd-8638-55f464473ade"
+              ]
+            },
+            "title": "Organizando encontros"
+          },
+          "fc841f1e-38ec-4c12-8cb1-cabdcf97f315": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "bd68ab58-bcc9-4a81-bc86-07c0b31128f6": {
+                "@type": "slate"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "bd68ab58-bcc9-4a81-bc86-07c0b31128f6"
+              ]
+            },
+            "title": "Escrevendo documenta\u00e7\u00e3o"
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "3a2ad00a-c9ef-40b3-8892-2eab016c1f11",
+            "fc841f1e-38ec-4c12-8cb1-cabdcf97f315",
+            "006801cd-f46c-453b-abb0-ad8fad7ab1ce",
+            "bf161209-8cb2-4e68-b4b9-207835e7c6ba"
+          ]
+        }
+      },
+      "filtering": false,
+      "non_exclusive": false,
+      "right_arrows": true,
+      "styles": {},
+      "theme": "default"
+    },
+    "910ba76e-16ba-4970-96b4-896346f80e8d": {
+      "@type": "heading",
+      "heading": "Como contribuir",
+      "theme": "default"
+    },
+    "b41a840a-015e-41b5-9fbc-b55fc0355c5b": {
+      "@type": "introduction",
+      "plaintext": "Sua organiza\u00e7\u00e3o usa Plone no setor p\u00fablico? Conhe\u00e7a a PloneGov-BR.",
+      "styles": {
+        "align": "center"
+      },
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Sua organiza\u00e7\u00e3o usa Plone no setor p\u00fablico? Conhe\u00e7a a PloneGov-BR."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
     "b7452cfc-c6b0-4f1f-82b7-0de88412da50": {
       "@type": "gridBlock",
+      "blockWidth": {
+        "--block-width": "var(--default-container-width)"
+      },
+      "blocks": {
+        "3c18ed11-79e0-47d2-a3d5-558d4e29f0d2": {
+          "@type": "teaser",
+          "description": "C\u00f3digo, tradu\u00e7\u00f5es e add-ons mantidos pela comunidade.",
+          "href": [
+            {
+              "@id": "https://github.com/plonegovbr",
+              "title": "github.com/plonegovbr"
+            }
+          ],
+          "overwrite": true,
+          "styles": {
+            "--cardBorderColor": ""
+          },
+          "title": "GitHub \u2197"
+        },
+        "a71517c6-82dd-4879-abcd-35c2d4df556d": {
+          "@type": "teaser",
+          "description": "Lives M\u00e3o na Massa e grava\u00e7\u00f5es de eventos.",
+          "href": [
+            {
+              "@id": "https://www.youtube.com/playlist?list=PLGN9BI-OAQkTbVIJRPYpAs1K4hBdkLl10",
+              "title": "www.youtube.com/playlist?list=PLGN9BI-OAQkTbVIJRPYpAs1K4hBdkLl10"
+            }
+          ],
+          "overwrite": true,
+          "styles": {
+            "--cardBorderColor": ""
+          },
+          "title": "YouTube \u2197"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "3c18ed11-79e0-47d2-a3d5-558d4e29f0d2",
+          "a71517c6-82dd-4879-abcd-35c2d4df556d"
+        ]
+      },
       "columns": [
         {
           "@type": "teaser",
           "description": "A comunidade PloneGov-Br foi criada com o intuito de estabelecer um canal de colabora\u00e7\u00e3o entre as institui\u00e7\u00f5es do governo que fazem uso, desenvolvem e incentivam as tecnologias em Software Livre Python e Plone",
           "href": [
             {
-              "@id": "/comunidades/gov",
+              "@id": "../resolveuid/919051e200294c6da42ce40b490671e4",
+              "@type": "Document",
               "Description": "comunidade de institui\u00e7\u00f5es ligadas ao governo brasileiro que utilizam Python, Zope, Plone e tecnologias correlatas.",
+              "Subject": [],
               "Title": "PloneGov-Br",
+              "description": "Comunidade de institui\u00e7\u00f5es ligadas ao governo brasileiro que utilizam Python, Zope, Plone e tecnologias correlatas.",
+              "effective": "1969-12-31T03:00:00+00:00",
+              "end": null,
+              "facets": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
               "hasPreviewImage": false,
               "head_title": null,
               "image_field": "",
-              "title": "PloneGov-Br"
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "social_links": null,
+              "start": null,
+              "title": "PloneGov-Br",
+              "type_title": "P\u00e1gina",
+              "workflow_states": [
+                "simple_publication_workflow|published"
+              ]
             }
           ],
           "id": "ed0fa532-7403-46ae-adbf-371e6d92f6e4",
+          "overwrite": true,
           "preview_image": [
             {
               "@id": "/images/plonegovbr.png"
@@ -37,16 +243,34 @@
           "description": "O GITEC \u00e9 uma comunidade de pr\u00e1tica com o objetivo de promover o interc\u00e2mbio de informa\u00e7\u00f5es e conhecimento sobre os sistemas desenvolvidos pelo Interlegis e pela comunidade, a gest\u00e3o do seu desenvolvimento e discuss\u00f5es sobre qualquer assunto relacionado a tecnologia da informa\u00e7\u00e3o com objetivo de resolver problemas pr\u00e1ticos das Casas Legislativas. ",
           "href": [
             {
-              "@id": "/comunidades/gitec",
+              "@id": "../resolveuid/d3c5a97669f844aba827d1aa5df1d1b4",
+              "@type": "Document",
               "Description": "Grupo Interlegis de Tecnologia",
+              "Subject": [],
               "Title": "GITEC",
+              "description": "Grupo Interlegis de Tecnologia.",
+              "effective": "1969-12-31T03:00:00+00:00",
+              "end": null,
+              "facets": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
               "hasPreviewImage": false,
               "head_title": null,
               "image_field": "",
-              "title": "GITEC"
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "social_links": null,
+              "start": null,
+              "title": "GITEC",
+              "type_title": "P\u00e1gina",
+              "workflow_states": [
+                "simple_publication_workflow|published"
+              ]
             }
           ],
           "id": "dba7e078-8463-4683-8424-ea0fa04a8a34",
+          "overwrite": true,
           "preview_image": [
             {
               "@id": "/images/gitec.png",
@@ -81,40 +305,6 @@
               "head_title": null,
               "id": "gitec.png",
               "image_field": "image",
-              "image_scales": {
-                "image": [
-                  {
-                    "content-type": "image/png",
-                    "download": "@@images/image",
-                    "filename": null,
-                    "height": 250,
-                    "scales": {
-                      "icon": {
-                        "download": "@@images/image/icon",
-                        "height": 32,
-                        "width": 32
-                      },
-                      "mini": {
-                        "download": "@@images/image/mini",
-                        "height": 200,
-                        "width": 200
-                      },
-                      "thumb": {
-                        "download": "@@images/image/thumb",
-                        "height": 128,
-                        "width": 128
-                      },
-                      "tile": {
-                        "download": "@@images/image/tile",
-                        "height": 64,
-                        "width": 64
-                      }
-                    },
-                    "size": 26817,
-                    "width": 250
-                  }
-                ]
-              },
               "in_response_to": null,
               "industry": null,
               "is_folderish": false,
@@ -136,16 +326,110 @@
           ],
           "title": "GITEC"
         }
-      ]
+      ],
+      "styles": {},
+      "theme": "lightBlueB"
     },
-    "ef647394-a069-438f-88c5-73bd3a992b2f": {
-      "@type": "slate",
-      "plaintext": "",
+    "c310839f-a018-4f23-ac56-89abf3b0e8cc": {
+      "@type": "gridBlock",
+      "blockWidth": {
+        "--block-width": "var(--default-container-width)"
+      },
+      "blocks": {
+        "58419373-fce4-4d42-98ed-08f880156ed4": {
+          "@type": "teaser",
+          "description": "Conversa do dia a dia da comunidade brasileira.",
+          "href": [
+            {
+              "@id": "https://web.telegram.org/a/",
+              "title": "web.telegram.org/a/"
+            }
+          ],
+          "overwrite": true,
+          "styles": {
+            "--cardBorderColor": ""
+          },
+          "title": "Telegram \u2197"
+        },
+        "e3f46c74-7013-4def-b016-585feec41c7d": {
+          "@type": "teaser",
+          "description": "Perguntas e respostas em community.plone.org, em portugu\u00eas.",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../resolveuid/d64a5ff083f9450d8c25b05e18d490f9",
+              "@type": "Link",
+              "Description": "",
+              "Subject": [],
+              "Title": "F\u00f3rum",
+              "description": "",
+              "effective": "2022-05-24T18:08:00+00:00",
+              "end": null,
+              "facets": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": "https://comunidade.plone.org.br",
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "social_links": null,
+              "start": null,
+              "title": "F\u00f3rum",
+              "type_title": "Link",
+              "workflow_states": [
+                "simple_publication_workflow|published"
+              ]
+            }
+          ],
+          "overwrite": true,
+          "styles": {
+            "--cardBorderColor": ""
+          },
+          "title": "F\u00f3rum \u2197"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "e3f46c74-7013-4def-b016-585feec41c7d",
+          "58419373-fce4-4d42-98ed-08f880156ed4"
+        ]
+      },
+      "headline": "Canais",
+      "styles": {},
+      "theme": "lightBlueB"
+    },
+    "c6b4de7f-6149-4f74-bc95-b579bcccb1b9": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "../resolveuid/919051e200294c6da42ce40b490671e4",
+          "Description": "Comunidade de institui\u00e7\u00f5es ligadas ao governo brasileiro que utilizam Python, Zope, Plone e tecnologias correlatas.",
+          "Title": "PloneGov-Br",
+          "hasPreviewImage": null,
+          "title": "PloneGov-Br"
+        }
+      ],
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": " Sobre a PloneGov-BR "
+    },
+    "e1169ca5-1001-49b0-b19f-c31e37b9cb1d": {
+      "@type": "introduction",
+      "plaintext": "O Plone \u00e9 mantido por pessoas volunt\u00e1rias. No Brasil, a comunidade se encontra nos canais abaixo \u2014 entre, pergunte e, quando puder, contribua.",
+      "styles": {
+        "align": "left"
+      },
+      "theme": "default",
       "value": [
         {
           "children": [
             {
-              "text": ""
+              "text": "O Plone \u00e9 mantido por pessoas volunt\u00e1rias. No Brasil, a comunidade se encontra nos canais abaixo \u2014 entre, pergunte e, quando puder, contribua."
             }
           ],
           "type": "p"
@@ -156,8 +440,14 @@
   "blocks_layout": {
     "items": [
       "645b107a-0fea-4c74-be16-6d9042fa8896",
+      "e1169ca5-1001-49b0-b19f-c31e37b9cb1d",
+      "c310839f-a018-4f23-ac56-89abf3b0e8cc",
       "b7452cfc-c6b0-4f1f-82b7-0de88412da50",
-      "ef647394-a069-438f-88c5-73bd3a992b2f"
+      "910ba76e-16ba-4970-96b4-896346f80e8d",
+      "74fc803d-77a0-42de-9414-ab4787e57459",
+      "0ccaff3a-5def-4f43-aaff-5b082406f6ae",
+      "b41a840a-015e-41b5-9fbc-b55fc0355c5b",
+      "c6b4de7f-6149-4f74-bc95-b579bcccb1b9"
     ]
   },
   "changeNote": "",
@@ -166,7 +456,7 @@
   "creators": [
     "ploneorgbr"
   ],
-  "description": "Comunidades Brasileira ligadas ao Plone.",
+  "description": "O Plone \u00e9 mantido por pessoas volunt\u00e1rias. No Brasil, a comunidade se encontra nos canais abaixo \u2014 entre, pergunte e, quando puder, contribua.",
   "effective": null,
   "exclude_from_nav": false,
   "expires": null,
@@ -180,7 +470,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2022-08-22T21:51:54+00:00",
+  "modified": "2026-10-02T12:48:26+00:00",
   "nav_title": null,
   "preview_caption_link": null,
   "review_state": "published",

@@ -28,7 +28,9 @@
             "blocks": {
               "cf6ecf82-3a5d-41bf-8373-4fc8204cce92": {
                 "@type": "listing",
-                "blockWidth": "layout",
+                "blockWidth": {
+                  "--block-width": "var(--default-container-width)"
+                },
                 "gridColumns": 2,
                 "headlineTag": "h2",
                 "querystring": {
@@ -52,7 +54,7 @@
                   "--cardBorderColor": ""
                 },
                 "theme": "default",
-                "variation": "summary"
+                "variation": "events"
               }
             },
             "blocks_layout": {
@@ -175,7 +177,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2026-09-29T15:16:29+00:00",
+  "modified": "2026-10-02T12:49:48+00:00",
   "nav_title": "Eventos",
   "preview_caption_link": null,
   "review_state": "published",

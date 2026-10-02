@@ -67,6 +67,26 @@ body,
   --block-theme-lightBlue-pattern-image: none;
   --block-theme-lightBlue-pattern-opacity: 0;
 
+  // 5. Theme: LightBlueB
+  // Ground (usa Neutral)
+  --block-theme-lightBlueB-bg: var(--neutral-color);
+  --block-theme-lightBlueB-text: var(--neutral-foreground-color);
+  --block-theme-lightBlueB-high-contrast: var(--neutral-foreground-color);
+  --block-theme-lightBlueB-low-contrast: var(--neutral-low-foreground-color);
+  --block-theme-lightBlueB-accent-color: var(--neutral-accent-color);
+  // High Ground (usa Primary)
+  --block-theme-lightBlueB-high-bg: var(--primary-color);
+  --block-theme-lightBlueB-top-text: var(--primary-foreground-color);
+  --block-theme-lightBlueB-top-high-contrast: var(--primary-foreground-color);
+  --block-theme-lightBlueB-top-low-contrast: var(--primary-low-foreground-color);
+  --block-theme-lightBlueB-top-accent-color: var(--primary-accent-color);
+  // Border
+  --block-theme-lightBlueB-border: unset;
+  --block-theme-lightBlueB-border-width: 0;
+  // Pattern
+  --block-theme-lightBlueB-pattern-image: none;
+  --block-theme-lightBlueB-pattern-opacity: 0;
+
   // 4. Theme: WhiteB
   // Ground (usa Primary)
   --block-theme-whiteB-bg: var(--primary-color);

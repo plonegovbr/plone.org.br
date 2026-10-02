@@ -92,7 +92,7 @@
       "backgroundStyle": "transparent",
       "plaintext": "\u201cComunidade se faz aparecendo, ajudando e voltando.\u201d",
       "styles": {
-        "--cardBorderColor": "#FF0000"
+        "--cardBorderColor": "#0886C0"
       },
       "theme": "default",
       "value": [
@@ -211,7 +211,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2026-09-30T21:37:15+00:00",
+  "modified": "2026-10-02T12:49:33+00:00",
   "nav_title": null,
   "preview_caption_link": "Rafahela no palco da Python Brasil 2025. Foto: comunidade.",
   "review_state": "published",
