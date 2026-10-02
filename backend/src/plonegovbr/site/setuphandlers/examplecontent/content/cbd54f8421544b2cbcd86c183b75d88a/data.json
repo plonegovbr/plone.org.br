@@ -14,7 +14,14 @@
   "exportimport.constrains": {},
   "exportimport.conversation": [],
   "id": "logotipo-portal-brasil_logotipo-portal-brasil-versao-3-1-1.png",
-  "image": null,
+  "image": {
+    "blob_path": "cbd54f8421544b2cbcd86c183b75d88a/image/logotipo-portal-brasil-v3.png",
+    "content-type": "image/png",
+    "filename": "logotipo-portal-brasil-v3.png",
+    "height": 4500,
+    "size": 260568,
+    "width": 4500
+  },
   "is_folderish": false,
   "language": "##DEFAULT##",
   "layout": "image_view",
