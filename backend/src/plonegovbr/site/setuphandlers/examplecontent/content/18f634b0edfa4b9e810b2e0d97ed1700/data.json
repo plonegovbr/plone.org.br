@@ -1,0 +1,40 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/camara-municipal-do-recife/recife.png",
+  "@type": "Image",
+  "UID": "18f634b0edfa4b9e810b2e0d97ed1700",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2026-10-02T17:53:22+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "recife.png",
+  "image": {
+    "blob_path": "18f634b0edfa4b9e810b2e0d97ed1700/image/recife.png",
+    "content-type": "image/png",
+    "filename": "recife.png",
+    "height": 1080,
+    "size": 207967,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2026-10-02T17:53:22+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "recife.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

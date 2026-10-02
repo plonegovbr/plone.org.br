@@ -5,8 +5,14 @@
   "allow_discussion": null,
   "blocks": {
     "17680f0f-c393-4940-a27e-a3cec9d3ab78": {
+      "@type": "case_study_metadata",
+      "layout": "full"
+    },
+    "9560e49b-daa2-4d89-a661-57c380841404": {
       "@type": "slate",
       "plaintext": "O site gov.b r \u00e9 implementado, pelo SERPRO , utilizando o Plone.",
+      "styles": {},
+      "theme": "default",
       "value": [
         {
           "children": [
@@ -50,7 +56,8 @@
   "blocks_layout": {
     "items": [
       "da192f19-e30e-4afd-ba10-a9e8f0e01d78",
-      "17680f0f-c393-4940-a27e-a3cec9d3ab78"
+      "17680f0f-c393-4940-a27e-a3cec9d3ab78",
+      "9560e49b-daa2-4d89-a661-57c380841404"
     ]
   },
   "changeNote": "",
@@ -72,7 +79,7 @@
   "language": "##DEFAULT##",
   "layout": "view",
   "lock": {},
-  "modified": "2026-09-28T15:26:25+00:00",
+  "modified": "2026-10-02T17:55:24+00:00",
   "nav_title": null,
   "preview_caption_link": null,
   "remoteUrl": "https://gov.br",

@@ -1,0 +1,71 @@
+{
+  "@id": "/membros",
+  "@type": "PrincipalsContainer",
+  "UID": "dc8193a475904b449bdb9c5b271700fa",
+  "allow_discussion": null,
+  "blocks": {
+    "3cd1ddd0-76cd-4b38-ae67-73dc7178df17": {
+      "@type": "slate",
+      "plaintext": "",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "6030744d-244c-4ced-b50b-ea3f0a30656f": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "6030744d-244c-4ced-b50b-ea3f0a30656f",
+      "3cd1ddd0-76cd-4b38-ae67-73dc7178df17"
+    ]
+  },
+  "created": "2026-10-02T17:56:51+00:00",
+  "description": "Usu\u00e1rios do Plone.org.br",
+  "exclude_from_nav": true,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "membros",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2026-10-02T17:56:55+00:00",
+  "review_state": "published",
+  "title": "Membros",
+  "type_title": "Principals folder",
+  "version": "current",
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-10-02T17:56:51+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-10-02T17:56:55+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

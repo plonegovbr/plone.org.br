@@ -1,0 +1,96 @@
+{
+  "@id": "/organizacoes",
+  "@type": "Document",
+  "UID": "dc4c38b5189e4254af0cf6db21b1f679",
+  "allow_discussion": null,
+  "blocks": {
+    "9ca40d09-4221-4fc6-a64d-49c5faa15d99": {
+      "@type": "listing",
+      "blockWidth": {
+        "--block-width": "var(--default-container-width)"
+      },
+      "gridColumns": 2,
+      "headline": "Provedores de Solu\u00e7\u00f5es",
+      "headlineTag": "h2",
+      "styles": {
+        "--cardBorderColor": ""
+      },
+      "theme": "lightBlue",
+      "variation": "grid"
+    },
+    "b47a8b1a-44c0-4b14-971d-9f258937c7ea": {
+      "@type": "slate"
+    },
+    "c4d22f18-3d3f-4276-a277-f8e858404894": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "c4d22f18-3d3f-4276-a277-f8e858404894",
+      "9ca40d09-4221-4fc6-a64d-49c5faa15d99",
+      "b47a8b1a-44c0-4b14-971d-9f258937c7ea"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2026-10-02T17:32:01+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Organiza\u00e7\u00f5es e provedores que apoiam o desenvolvimento do Plone ",
+  "effective": "2026-10-02T17:32:06+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {
+    "immediately_addable_types": [
+      "Organization"
+    ],
+    "locally_allowed_types": [
+      "Document",
+      "Organization"
+    ]
+  },
+  "exportimport.conversation": [],
+  "id": "organizacoes",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-10-02T17:59:41+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Organiza\u00e7\u00f5es",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-10-02T17:32:01+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-10-02T17:32:06+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

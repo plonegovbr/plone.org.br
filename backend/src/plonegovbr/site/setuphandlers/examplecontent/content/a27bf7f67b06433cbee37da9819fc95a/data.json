@@ -7,9 +7,38 @@
     "1d424ba6-b2f4-4ddb-a8e9-84e963228fbf": {
       "@type": "title"
     },
+    "61f5209e-d6c3-4536-a48a-884e7ee389d4": {
+      "@type": "slate",
+      "plaintext": "  ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
     "e0c8e827-3f9e-40a6-aab6-8adfe7e1f83a": {
       "@type": "slate",
       "plaintext": " O site da C\u00e2mara \u00e9 implementado utilizando o Portal Modelo, desenvolvido pelo Interlegis ",
+      "styles": {},
+      "theme": "default",
       "value": [
         {
           "children": [
@@ -31,12 +60,18 @@
           "type": "p"
         }
       ]
+    },
+    "fe86fd5e-a6ed-41b8-a463-d2dce2c47128": {
+      "@type": "case_study_metadata",
+      "layout": "full"
     }
   },
   "blocks_layout": {
     "items": [
       "1d424ba6-b2f4-4ddb-a8e9-84e963228fbf",
-      "e0c8e827-3f9e-40a6-aab6-8adfe7e1f83a"
+      "e0c8e827-3f9e-40a6-aab6-8adfe7e1f83a",
+      "fe86fd5e-a6ed-41b8-a463-d2dce2c47128",
+      "61f5209e-d6c3-4536-a48a-884e7ee389d4"
     ]
   },
   "changeNote": "",
@@ -58,7 +93,7 @@
   "language": "##DEFAULT##",
   "layout": "view",
   "lock": {},
-  "modified": "2022-06-07T23:34:28+00:00",
+  "modified": "2026-10-02T17:54:12+00:00",
   "nav_title": null,
   "preview_caption_link": null,
   "remoteUrl": "https://www.curitiba.pr.leg.br/",

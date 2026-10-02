@@ -7,6 +7,10 @@
     "607ba741-ecbd-4cc1-8199-5642c8e69ccd": {
       "@type": "listing",
       "block": "607ba741-ecbd-4cc1-8199-5642c8e69ccd",
+      "blockWidth": {
+        "--block-width": "var(--default-container-width)"
+      },
+      "gridColumns": 2,
       "headlineTag": "h2",
       "query": [],
       "querystring": {
@@ -28,7 +32,11 @@
         "sort_order": "descending",
         "sort_order_boolean": true
       },
-      "variation": "summary"
+      "styles": {
+        "--cardBorderColor": ""
+      },
+      "theme": "default",
+      "variation": "events"
     },
     "889895f4-69be-4e8e-abc2-ea212ed6f0a8": {
       "@type": "description"
@@ -68,7 +76,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2026-09-23T16:41:08+00:00",
+  "modified": "2026-10-02T17:29:47+00:00",
   "nav_title": null,
   "preview_caption_link": null,
   "review_state": "published",

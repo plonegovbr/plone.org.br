@@ -87,6 +87,105 @@
       "theme": "default",
       "title": "Cerrado Sprint 2026"
     },
+    "b5d732d6-20c9-4166-839d-2a32049a8ef7": {
+      "@type": "listing",
+      "blockWidth": {
+        "--block-width": "var(--default-container-width)"
+      },
+      "gridColumns": 2,
+      "headline": "Pr\u00f3ximos eventos",
+      "headlineButtonLink": [
+        {
+          "@id": "resolveuid/5007d0bef62648ce8832d2669c890b78",
+          "@type": "Document",
+          "CreationDate": "2022-05-24T13:20:07-03:00",
+          "Creator": "ploneorgbr",
+          "Date": "2026-09-23T13:41:16-03:00",
+          "Description": "Eventos com participa\u00e7\u00e3o da comunidade Brasileira.",
+          "EffectiveDate": "None",
+          "ExpirationDate": "None",
+          "ModificationDate": "2026-09-23T13:41:16-03:00",
+          "Subject": [],
+          "Title": "Eventos",
+          "Type": "P\u00e1gina",
+          "UID": "5007d0bef62648ce8832d2669c890b78",
+          "block_types": {
+            "listing": 2,
+            "slate": 3,
+            "title": 1
+          },
+          "cmf_uid": 22,
+          "country": null,
+          "created": "2022-05-24T16:20:07+00:00",
+          "description": "Eventos com participa\u00e7\u00e3o da comunidade Brasileira.",
+          "duration": null,
+          "effective": "1969-12-31T03:00:00+00:00",
+          "end": null,
+          "exclude_from_nav": false,
+          "expires": "2499-12-31T03:00:00+00:00",
+          "facets": null,
+          "getIcon": null,
+          "getId": "eventos",
+          "getObjSize": "0 KB",
+          "getPath": "/Plone/novidades/eventos",
+          "getRemoteUrl": null,
+          "getURL": "http://localhost:3000/novidades/eventos",
+          "hasPreviewImage": null,
+          "has_video": false,
+          "head_title": null,
+          "id": "eventos",
+          "image_field": "",
+          "industry": null,
+          "is_folderish": true,
+          "listCreators": [
+            "ploneorgbr"
+          ],
+          "location": null,
+          "mime_type": "text/plain",
+          "modified": "2026-09-23T16:41:16+00:00",
+          "nav_title": "Eventos",
+          "portal_type": "Document",
+          "review_state": "published",
+          "services": null,
+          "social_links": null,
+          "start": null,
+          "sync_uid": null,
+          "title": "Eventos",
+          "type_title": "P\u00e1gina",
+          "usages": null,
+          "versions": null,
+          "videoUrl": null,
+          "workflow_states": [
+            "simple_publication_workflow|published"
+          ]
+        }
+      ],
+      "headlineButtonText": "Agenda completa",
+      "headlineTag": "h2",
+      "querystring": {
+        "limit": "3",
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "Event"
+            ]
+          },
+          {
+            "i": "end",
+            "o": "plone.app.querystring.operation.date.afterToday",
+            "v": ""
+          }
+        ],
+        "sort_order": "ascending"
+      },
+      "styles": {
+        "--cardBorderColor": ""
+      },
+      "theme": "lightBlue",
+      "variation": "events"
+    },
     "f6b6fe92-ffa6-4678-83ac-6a650fa99c70": {
       "@type": "listing",
       "align": "left",
@@ -123,7 +222,8 @@
       "6fdc43b4-023b-47ef-8d6a-62cfd06de96d",
       "112fcb2b-ebe1-4a06-97b4-57333ce541a0",
       "2e2be7b2-10d2-4103-9cae-825005125f17",
-      "f6b6fe92-ffa6-4678-83ac-6a650fa99c70"
+      "f6b6fe92-ffa6-4678-83ac-6a650fa99c70",
+      "b5d732d6-20c9-4166-839d-2a32049a8ef7"
     ]
   },
   "description": "Comunidade Brasileira de usu\u00e1rios do CMS Plone",
@@ -349,7 +449,7 @@
   "header_actions": [],
   "id": "Plone",
   "is_folderish": true,
-  "items_total": 8,
+  "items_total": 10,
   "language": "##DEFAULT##",
   "layout": "document_view",
   "lock": {
@@ -455,14 +555,14 @@
       "font_family_secondary": "Inter, sans-serif",
       "image_color_dark": "#388e3c",
       "image_color_light": "#388e3c",
-      "neutral_accent_color_dark": "#ffcc29",
-      "neutral_accent_color_light": "#009739",
+      "neutral_accent_color_dark": "#f4822c",
+      "neutral_accent_color_light": "#f4822c",
       "neutral_color_dark": "#333333",
-      "neutral_color_light": "#eaf4fa",
+      "neutral_color_light": "#edeff0",
       "neutral_foreground_color_dark": "#ffffff",
       "neutral_foreground_color_light": "#000000",
       "neutral_low_foreground_color_dark": "#e6e6e6",
-      "neutral_low_foreground_color_light": "#3e3f3f",
+      "neutral_low_foreground_color_light": "#333333",
       "primary_accent_color_dark": "#f4822c",
       "primary_accent_color_light": "#0074a8",
       "primary_color_dark": "#000000",
@@ -471,13 +571,13 @@
       "primary_foreground_color_light": "#000000",
       "primary_low_foreground_color_dark": "#f8f8f8",
       "primary_low_foreground_color_light": "#333333",
-      "secondary_accent_color_dark": "#FFCC29",
+      "secondary_accent_color_dark": "#f4822c",
       "secondary_accent_color_light": "#FFCC29",
-      "secondary_color_dark": "#002776",
+      "secondary_color_dark": "#ffffff",
       "secondary_color_light": "#002776",
-      "secondary_foreground_color_dark": "#ffffff",
+      "secondary_foreground_color_dark": "#000000",
       "secondary_foreground_color_light": "#ffffff",
-      "secondary_low_foreground_color_dark": "#cfe0f5",
+      "secondary_low_foreground_color_dark": "#333333",
       "secondary_low_foreground_color_light": "#cfe0f5"
     }
   },

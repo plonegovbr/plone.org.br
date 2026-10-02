@@ -7,23 +7,11 @@
     "5017230b-0a73-4659-8bfb-0ccf1de18270": {
       "@type": "title"
     },
-    "8432b33b-aedc-40b7-8a0a-1838c961d87e": {
-      "@type": "slate",
-      "plaintext": "",
-      "value": [
-        {
-          "children": [
-            {
-              "text": ""
-            }
-          ],
-          "type": "p"
-        }
-      ]
-    },
     "9c6bb9d2-bdbc-4818-9df3-0009dffd6474": {
       "@type": "slate",
       "plaintext": "Premiado com o Selo de Qualidade em Transpar\u00eancia Ouro do Sistema Tribunais de Conta, o Portal da Transpar\u00eancia da C\u00e2mara Municipal do Recife \u00e9 desenvolvido com Plone 6.1 e Volto.",
+      "styles": {},
+      "theme": "default",
       "value": [
         {
           "children": [
@@ -35,6 +23,13 @@
         }
       ]
     },
+    "af2fe3cc-ff04-4064-8cb7-14f9e4d6dd19": {
+      "@type": "slate"
+    },
+    "e2ebbc59-785d-4edd-ae5b-3fb3d50c3d22": {
+      "@type": "case_study_metadata",
+      "layout": "full"
+    },
     "e9f8389b-5667-4964-9dbe-bd6dc8344bfa": {
       "@type": "description"
     }
@@ -43,8 +38,9 @@
     "items": [
       "5017230b-0a73-4659-8bfb-0ccf1de18270",
       "e9f8389b-5667-4964-9dbe-bd6dc8344bfa",
-      "9c6bb9d2-bdbc-4818-9df3-0009dffd6474",
-      "8432b33b-aedc-40b7-8a0a-1838c961d87e"
+      "e2ebbc59-785d-4edd-ae5b-3fb3d50c3d22",
+      "af2fe3cc-ff04-4064-8cb7-14f9e4d6dd19",
+      "9c6bb9d2-bdbc-4818-9df3-0009dffd6474"
     ]
   },
   "changeNote": "",
@@ -66,7 +62,7 @@
   "language": "##DEFAULT##",
   "layout": "view",
   "lock": {},
-  "modified": "2026-01-18T13:26:04+00:00",
+  "modified": "2026-10-02T17:54:26+00:00",
   "nav_title": null,
   "preview_caption_link": null,
   "remoteUrl": "https://transparencia.recife.pe.leg.br/",
