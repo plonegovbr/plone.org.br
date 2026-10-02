@@ -1,6 +1,10 @@
 {
   "__version__": "1.0.0",
   "_blob_files_": [
+    "bd782ca15bd248cfa88e9c5aac4061c5/preview_image/PM.png",
+    "6888d9db91634e81b3362abf72978f32/preview_image/portalpadrao.png",
+    "b8047c6807c944a986f511653a7603cb/preview_image/portalbrasil.png",
+    "c430ce7b89e74d9daaa16bf53ff13078/preview_image/block-dark.png",
     "629451c8bc544cfa85130a5e7baa3691/image/tmp_6300cacb-c4f9-40b0-9981-e5800043620f.jpg",
     "plone_site_root/logo/plonebr.png",
     "plone_site_root/footer_logo/plonebr-reverso.png",

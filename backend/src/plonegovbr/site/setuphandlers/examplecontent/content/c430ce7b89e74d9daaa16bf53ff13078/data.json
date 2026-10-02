@@ -114,6 +114,14 @@
   "modified": "2023-06-12T21:33:21+00:00",
   "nav_title": null,
   "preview_caption_link": null,
+  "preview_image": {
+    "blob_path": "c430ce7b89e74d9daaa16bf53ff13078/preview_image/block-dark.png",
+    "content-type": "image/png",
+    "filename": "block-dark.png",
+    "height": 1080,
+    "size": 157276,
+    "width": 1920
+  },
   "review_state": "published",
   "rights": "",
   "subjects": [],

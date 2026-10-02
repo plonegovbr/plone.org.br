@@ -561,6 +561,14 @@
   "modified": "2023-06-28T10:58:26+00:00",
   "nav_title": null,
   "preview_caption_link": null,
+  "preview_image": {
+    "blob_path": "b8047c6807c944a986f511653a7603cb/preview_image/portalbrasil.png",
+    "content-type": "image/png",
+    "filename": "portalbrasil.png",
+    "height": 900,
+    "size": 47271,
+    "width": 1600
+  },
   "review_state": "published",
   "rights": "",
   "subjects": [
