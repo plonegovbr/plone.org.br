@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.13"
 
 [manifest]
@@ -3724,6 +3724,7 @@ wheels = [
 [[package]]
 name = "plonegovbr-site"
 source = { editable = "." }
+default-groups = ["test"]
 dependencies = [
     { name = "collective-casestudy" },
     { name = "pas-plugins-identity" },
@@ -3764,7 +3765,7 @@ requires-dist = [
     { name = "plonegovbr-socialmedia", specifier = "==3.0.0" },
     { name = "products-cmfplone", specifier = "==6.2.2" },
     { name = "sc-videos", specifier = "==1.0.0a3" },
-    { name = "sc-voltolighttheme", specifier = "==1.0.0a11" },
+    { name = "sc-voltolighttheme", specifier = "==1.0.0a12" },
 ]
 
 [package.metadata.requires-dev]
@@ -4980,7 +4981,7 @@ wheels = [
 
 [[package]]
 name = "sc-voltolighttheme"
-version = "1.0.0a11"
+version = "1.0.0a12"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "kitconcept-voltolighttheme" },
@@ -4990,9 +4991,9 @@ dependencies = [
     { name = "plonegovbr-socialmedia" },
     { name = "products-cmfplone" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/4b/1f/e5cce62d4f9e0a859198ca32293607e3381488f57b037eddabcf3c4463d2/sc_voltolighttheme-1.0.0a11.tar.gz", hash = "sha256:dc3035dff51773766ffeda0cbd0cb4c5b7012c7e8dba43691992809ed3280659", size = 1254032, upload-time = "2026-10-02T16:39:55.835Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/fa/90/b4cf40c9e0d7ea723bb7d6bdcca707fd0a57d22a611160ed224c99d24162/sc_voltolighttheme-1.0.0a12.tar.gz", hash = "sha256:0c75666ad4be4f49b7f2cac7356b44672849ce2c57d6c0c8dbfc32f76cb3a182", size = 1258454, upload-time = "2026-10-21T13:52:26.605Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/1c/b8/d2869ab9e189c75940a47fe2c8959f2ecb517006322e3eb9fa46dc5332ac/sc_voltolighttheme-1.0.0a11-py3-none-any.whl", hash = "sha256:8e1ca657b0bcb691fb240c275f3383c1082b27d129d4279aff7d379d6f71f296", size = 1276691, upload-time = "2026-10-02T16:39:54.127Z" },
+    { url = "https://files.pythonhosted.org/packages/de/ff/e06e0f419d0dd3cef3d8e18fe5b8df6eba6c91d8cc8e5e604f78b484c156/sc_voltolighttheme-1.0.0a12-py3-none-any.whl", hash = "sha256:1cf778e28891b901e59330b4c4126ae3c204fa2a2b43ee3f418cdcef888d4f85", size = 1290211, upload-time = "2026-10-21T13:52:24.663Z" },
 ]
 
 [[package]]
