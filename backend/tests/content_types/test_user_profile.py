@@ -6,7 +6,9 @@ from pas.plugins.identity.api import profile as profile_api
 from plone import api
 from plone.dexterity.content import DexterityContent
 from plone.dexterity.fti import DexterityFTI
+from plone.restapi.interfaces import ISerializeToJson
 from plonegovbr.site.behaviors.affiliations import IAffiliations
+from zope.component import getMultiAdapter
 
 import pytest
 
@@ -20,6 +22,12 @@ USER_PROFILE_BEHAVIORS = (
     "plonegovbr.socialmedia.links",
     "plonegovbr.site.affiliations",
 )
+
+#: Fields an anonymous visitor reads on an active profile.
+PUBLIC_FIELDS = ("fullname", "description", "home_page", "location")
+
+#: Fields an anonymous visitor never reads.
+PRIVATE_FIELDS = ("login", "group_ids", "email", "emails")
 
 
 class TestUserProfileFTI:
@@ -39,6 +47,98 @@ class TestUserProfileFTI:
     def test_no_extra_behaviors(self):
         """Test nothing is appended past the expected behaviors."""
         assert len(self.fti.behaviors) == len(USER_PROFILE_BEHAVIORS)
+
+
+class TestUserProfileWorkflow:
+    """Anonymous visitors see active profiles, never the protected fields."""
+
+    @pytest.fixture(autouse=True)
+    def _setup(self, portal) -> Generator[None]:
+        """Create a profile for the tests; remove it after."""
+        self.portal = portal
+        self.profile: DexterityContent = profile_api.get_or_create("wfuser", "wfuser")
+        yield
+        with api.env.adopt_roles(["Manager"]):
+            api.content.delete(obj=self.profile)
+
+    def _anonymous_has(self, permission: str) -> bool:
+        """Report whether Anonymous holds a permission on the profile."""
+        with api.env.adopt_roles(["Anonymous"]):
+            return bool(api.user.has_permission(permission, obj=self.profile))
+
+    def _go_to(self, state: str) -> None:
+        """Move the profile to a review state."""
+        transitions = {"complete": "complete", "deactivated": "deactivate"}
+        with api.env.adopt_roles(["Manager"]):
+            api.content.transition(obj=self.profile, transition=transitions[state])
+        assert api.content.get_state(obj=self.profile) == state
+
+    def test_chain(self):
+        """Test UserProfile uses this site's workflow."""
+        chain = api.portal.get_tool("portal_workflow").getChainForPortalType(
+            "UserProfile"
+        )
+        assert chain == ("plonegovbr_user_profile_workflow",)
+
+    @pytest.mark.parametrize("state", ["incomplete", "complete"])
+    @pytest.mark.parametrize(
+        "permission",
+        [
+            "View",
+            "Access contents information",
+            "pas.plugins.identity: View Profile",
+        ],
+    )
+    def test_anonymous_sees_active_profiles(self, state: str, permission: str):
+        """Test Anonymous may open and read an incomplete or a complete profile."""
+        if state != "incomplete":
+            self._go_to(state)
+        assert self._anonymous_has(permission) is True
+
+    @pytest.mark.parametrize("state", ["incomplete", "complete"])
+    @pytest.mark.parametrize(
+        "permission",
+        [
+            "pas.plugins.identity: View Account Details",
+            "pas.plugins.identity: View Personal Identifiable Information",
+        ],
+    )
+    def test_anonymous_never_reads_protected_fields(self, state: str, permission: str):
+        """Test Anonymous gets neither the login and groups nor email addresses.
+
+        ``View Account Details`` guards ``login`` and ``group_ids``: granting
+        it would show who is a Site Administrator.
+        """
+        if state != "incomplete":
+            self._go_to(state)
+        assert self._anonymous_has(permission) is False
+
+    @pytest.mark.parametrize(
+        "permission", ["View", "pas.plugins.identity: View Profile"]
+    )
+    def test_deactivated_profile_is_hidden(self, permission: str):
+        """Test a deactivated profile stays out of anonymous reach."""
+        self._go_to("deactivated")
+        assert self._anonymous_has(permission) is False
+
+    def test_anonymous_serialization(self):
+        """Test the REST API shows Anonymous the public fields and nothing else."""
+        with api.env.adopt_roles(["Manager"]):
+            self.profile.fullname = "Workflow User"
+            self.profile.description = "A description"
+            self.profile.home_page = "https://example.org"
+            self.profile.location = "Brasília"
+        request = self.portal.REQUEST
+        with api.env.adopt_roles(["Anonymous"]):
+            data = getMultiAdapter((self.profile, request), ISerializeToJson)()
+        public = {k: data.get(k) for k in PUBLIC_FIELDS}
+        assert public == {
+            "fullname": "Workflow User",
+            "description": "A description",
+            "home_page": "https://example.org",
+            "location": "Brasília",
+        }
+        assert sorted(set(PRIVATE_FIELDS) & set(data)) == []
 
 
 class TestAffiliations:

@@ -1,0 +1,1 @@
+Associa o tipo UserProfile ao workflow `plonegovbr_user_profile_workflow`: visitantes anônimos veem nome, descrição, site e localização de perfis incompletos e completos. Login, grupos e e-mails continuam restritos. @ericof

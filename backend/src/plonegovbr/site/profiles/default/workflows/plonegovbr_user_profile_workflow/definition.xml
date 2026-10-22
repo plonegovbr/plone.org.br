@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dc-workflow xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+             description="pas.plugins.identity's user_profile_workflow, with incomplete and complete profiles visible to anonymous visitors. Three states for a content-backed user profile: incomplete until the user has filled it in, complete once they have, deactivated when the account should no longer be enumerated."
+             initial_state="incomplete"
+             manager_bypass="False"
+             state_variable="review_state"
+             title="Plone Brasil User Profile Workflow"
+             workflow_id="plonegovbr_user_profile_workflow"
+             i18n:domain="pas.plugins.identity"
+>
+  <permission>Access contents information</permission>
+  <permission>Delete objects</permission>
+  <permission>Modify portal content</permission>
+  <permission>View</permission>
+  <!-- The field permissions declared on the schema. Without them in this
+       list the workflow decides who may open a Profile and nothing decides
+       who may read or write a field on it, which is not a lock with a
+       sensible default: it is whatever the Profile acquires from wherever it
+       is filed. ``Owner`` is the local role a user holds on their own
+       Profile, computed by ``content.localroles``. -->
+  <permission>pas.plugins.identity: Edit Profile</permission>
+  <permission>pas.plugins.identity: Edit Profile Group Membership</permission>
+  <permission>pas.plugins.identity: Edit Profile Login</permission>
+  <permission>pas.plugins.identity: View Profile</permission>
+  <permission>pas.plugins.identity: View Personal Identifiable Information</permission>
+  <permission>pas.plugins.identity: View Account Details</permission>
+
+  <!-- Everything stock Plone grants ``Owner`` site-wide with acquisition on.
+       Managing a permission here is the only way to stop it reaching the user
+       whose Profile this is: unmanaged, each one is acquired, and the
+       self-role would quietly carry the right to add content inside somebody's
+       profile, rewrite its view template, edit its ZODB properties and open it
+       in the management screens. ``Delete objects`` is above for the same
+       reason and was the only one of the sixteen this workflow used to
+       state. -->
+  <permission>Add portal content</permission>
+  <permission>Add portal folders</permission>
+  <permission>Manage properties</permission>
+  <permission>Modify constrain types</permission>
+  <permission>Modify view template</permission>
+  <permission>Undo changes</permission>
+  <permission>View management screens</permission>
+
+  <state state_id="incomplete"
+         title="Incomplete"
+         i18n:attributes="title"
+  >
+    <description i18n:translate="">The profile exists but the user has not completed it. Still enumerable: the account works, it is just sparse.</description>
+    <exit-transition transition_id="complete" />
+    <exit-transition transition_id="deactivate" />
+    <permission-map acquired="False"
+                    name="Access contents information"
+    >
+      <permission-role>Anonymous</permission-role>
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+      <permission-role>Owner</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Modify portal content"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+      <permission-role>Owner</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="View"
+    >
+      <permission-role>Anonymous</permission-role>
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+      <permission-role>Owner</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Delete objects"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Add portal content"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Add portal folders"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Manage properties"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Modify constrain types"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Modify view template"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Undo changes"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="View management screens"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="pas.plugins.identity: Edit Profile Group Membership"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="pas.plugins.identity: Edit Profile Login"
+    >
+      <permission-role>Manager</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="pas.plugins.identity: Edit Profile"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+      <permission-role>Owner</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="pas.plugins.identity: View Profile"
+    >
+      <permission-role>Anonymous</permission-role>
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+      <permission-role>Owner</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="pas.plugins.identity: View Account Details"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+      <permission-role>Owner</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="pas.plugins.identity: View Personal Identifiable Information"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+      <permission-role>Owner</permission-role>
+    </permission-map>
+  </state>
+
+  <state state_id="complete"
+         title="Complete"
+         i18n:attributes="title"
+  >
+    <description i18n:translate="">The user has filled the profile in. Visible to authenticated members, which is what makes a Sharing-tab search useful.</description>
+    <exit-transition transition_id="reopen" />
+    <exit-transition transition_id="deactivate" />
+    <permission-map acquired="False"
+                    name="Access contents information"
+    >
+      <permission-role>Anonymous</permission-role>
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+      <permission-role>Owner</permission-role>
+      <permission-role>Member</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Modify portal content"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+      <permission-role>Owner</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="View"
+    >
+      <permission-role>Anonymous</permission-role>
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+      <permission-role>Owner</permission-role>
+      <permission-role>Member</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Delete objects"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Add portal content"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Add portal folders"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Manage properties"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Modify constrain types"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Modify view template"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Undo changes"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="View management screens"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="pas.plugins.identity: Edit Profile Group Membership"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="pas.plugins.identity: Edit Profile Login"
+    >
+      <permission-role>Manager</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="pas.plugins.identity: Edit Profile"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+      <permission-role>Owner</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="pas.plugins.identity: View Profile"
+    >
+      <permission-role>Anonymous</permission-role>
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+      <permission-role>Owner</permission-role>
+      <permission-role>Member</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="pas.plugins.identity: View Account Details"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+      <permission-role>Owner</permission-role>
+      <permission-role>Member</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="pas.plugins.identity: View Personal Identifiable Information"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+      <permission-role>Owner</permission-role>
+    </permission-map>
+  </state>
+
+  <state state_id="deactivated"
+         title="Deactivated"
+         i18n:attributes="title"
+  >
+    <description i18n:translate="">The account should no longer appear anywhere. Excluded from enumeration by the default registry setting; the Profile and its data are kept.</description>
+    <exit-transition transition_id="reactivate" />
+    <permission-map acquired="False"
+                    name="Access contents information"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Modify portal content"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="View"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Delete objects"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Add portal content"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Add portal folders"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Manage properties"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Modify constrain types"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Modify view template"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Undo changes"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="View management screens"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="pas.plugins.identity: Edit Profile Group Membership"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="pas.plugins.identity: Edit Profile Login"
+    >
+      <permission-role>Manager</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="pas.plugins.identity: Edit Profile"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="pas.plugins.identity: View Profile"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="pas.plugins.identity: View Account Details"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="pas.plugins.identity: View Personal Identifiable Information"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+  </state>
+
+  <transition after_script=""
+              before_script=""
+              new_state="complete"
+              title="Mark complete"
+              transition_id="complete"
+              trigger="USER"
+              i18n:attributes="title"
+  >
+    <description i18n:translate="">The user has filled in their profile.</description>
+    <action category="workflow"
+            icon=""
+            url="%(content_url)s/content_status_modify?workflow_action=complete"
+            i18n:translate=""
+    >Mark complete</action>
+    <guard>
+      <guard-permission>Modify portal content</guard-permission>
+    </guard>
+  </transition>
+
+  <transition after_script=""
+              before_script=""
+              new_state="incomplete"
+              title="Reopen"
+              transition_id="reopen"
+              trigger="USER"
+              i18n:attributes="title"
+  >
+    <description i18n:translate="">Send the profile back for completion.</description>
+    <action category="workflow"
+            icon=""
+            url="%(content_url)s/content_status_modify?workflow_action=reopen"
+            i18n:translate=""
+    >Reopen</action>
+    <guard>
+      <guard-permission>Modify portal content</guard-permission>
+    </guard>
+  </transition>
+
+  <transition after_script=""
+              before_script=""
+              new_state="deactivated"
+              title="Deactivate"
+              transition_id="deactivate"
+              trigger="USER"
+              i18n:attributes="title"
+  >
+    <description i18n:translate="">Stop enumerating this account.</description>
+    <action category="workflow"
+            icon=""
+            url="%(content_url)s/content_status_modify?workflow_action=deactivate"
+            i18n:translate=""
+    >Deactivate</action>
+    <guard>
+      <guard-permission>Manage users</guard-permission>
+    </guard>
+  </transition>
+
+  <transition after_script=""
+              before_script=""
+              new_state="incomplete"
+              title="Reactivate"
+              transition_id="reactivate"
+              trigger="USER"
+              i18n:attributes="title"
+  >
+    <description i18n:translate="">Bring a deactivated account back. It returns as incomplete rather than complete: whatever made it worth deactivating is worth reviewing.</description>
+    <action category="workflow"
+            icon=""
+            url="%(content_url)s/content_status_modify?workflow_action=reactivate"
+            i18n:translate=""
+    >Reactivate</action>
+    <guard>
+      <guard-permission>Manage users</guard-permission>
+    </guard>
+  </transition>
+
+  <variable for_catalog="False"
+            for_status="True"
+            update_always="True"
+            variable_id="action"
+  >
+    <description i18n:translate="">The last transition</description>
+    <default>
+      <expression>transition/getId|nothing</expression>
+    </default>
+    <guard />
+  </variable>
+
+  <variable for_catalog="False"
+            for_status="True"
+            update_always="True"
+            variable_id="actor"
+  >
+    <description i18n:translate="">The ID of the user who performed the last transition</description>
+    <default>
+      <expression>user/getId</expression>
+    </default>
+    <guard />
+  </variable>
+
+  <variable for_catalog="False"
+            for_status="True"
+            update_always="True"
+            variable_id="comments"
+  >
+    <description i18n:translate="">Comments about the last transition</description>
+    <default>
+      <expression>python:state_change.kwargs.get('comment', '')</expression>
+    </default>
+    <guard />
+  </variable>
+
+  <variable for_catalog="False"
+            for_status="False"
+            update_always="False"
+            variable_id="review_history"
+  >
+    <description i18n:translate="">Provides access to workflow history</description>
+    <default>
+      <expression>state_change/getHistory</expression>
+    </default>
+    <guard>
+      <guard-permission>Request review</guard-permission>
+      <guard-permission>Review portal content</guard-permission>
+    </guard>
+  </variable>
+
+  <variable for_catalog="False"
+            for_status="True"
+            update_always="True"
+            variable_id="time"
+  >
+    <description i18n:translate="">When the previous transition was performed</description>
+    <default>
+      <expression>state_change/getDateTime</expression>
+    </default>
+    <guard />
+  </variable>
+</dc-workflow>

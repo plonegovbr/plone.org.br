@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object meta_type="Plone Workflow Tool"
+        name="portal_workflow"
+>
+  <!-- pas.plugins.identity's user_profile_workflow, with incomplete and
+       complete profiles visible to anonymous visitors. -->
+  <object meta_type="Workflow"
+          name="plonegovbr_user_profile_workflow"
+  />
+  <bindings>
+    <type type_id="UserProfile">
+      <bound-workflow workflow_id="plonegovbr_user_profile_workflow" />
+    </type>
+  </bindings>
+</object>
