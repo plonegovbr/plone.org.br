@@ -27,7 +27,7 @@
     <value key="primary_low_foreground_color_light">#333333</value>
     <value key="primary_low_foreground_color_dark">#f8f8f8</value>
     <value key="primary_accent_color_light">#0074a8</value>
-    <value key="primary_accent_color_dark">#f4822c</value>
+    <value key="primary_accent_color_dark">#FFCC29</value>
     <value key="secondary_color_light">#002776</value>
     <value key="secondary_color_dark">#ffffff</value>
     <value key="secondary_foreground_color_light">#ffffff</value>
@@ -35,9 +35,9 @@
     <value key="secondary_low_foreground_color_light">#cfe0f5</value>
     <value key="secondary_low_foreground_color_dark">#333333</value>
     <value key="secondary_accent_color_light">#FFCC29</value>
-    <value key="secondary_accent_color_dark">#f4822c</value>
+    <value key="secondary_accent_color_dark">#002776</value>
     <value key="accent_color_light">#002776</value>
-    <value key="accent_color_dark">#b55e1c</value>
+    <value key="accent_color_dark">#002776</value>
     <value key="accent_foreground_color_light">#ffffff</value>
     <value key="accent_foreground_color_dark">#ffffff</value>
     <value key="accent_low_foreground_color_light">#cfe0f5</value>
@@ -50,8 +50,8 @@
     <value key="neutral_foreground_color_dark">#ffffff</value>
     <value key="neutral_low_foreground_color_light">#333333</value>
     <value key="neutral_low_foreground_color_dark">#e6e6e6</value>
-    <value key="neutral_accent_color_light">#f4822c</value>
-    <value key="neutral_accent_color_dark">#f4822c</value>
+    <value key="neutral_accent_color_light">#0074a8</value>
+    <value key="neutral_accent_color_dark">#FFCC29</value>
     <value key="event_color_light">#007a2e</value>
     <value key="event_color_dark">#d32f2f</value>
     <value key="file_color_light">#1976d2</value>
