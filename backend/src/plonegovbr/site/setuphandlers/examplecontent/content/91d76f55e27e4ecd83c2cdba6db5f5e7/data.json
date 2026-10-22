@@ -1,5 +1,5 @@
 {
-  "@id": "/novidades/noticias/2025/rafahela-bazzanella-recebe-premio-dorneles-tremea-jean-ferri-muito-legal",
+  "@id": "/novidades/noticias/2025/rafahela-bazzanella-recebe-premio-dorneles-tremea-jean-ferri",
   "@type": "News Item",
   "UID": "91d76f55e27e4ecd83c2cdba6db5f5e7",
   "allow_discussion": null,
@@ -160,7 +160,7 @@
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "id": "rafahela-bazzanella-recebe-premio-dorneles-tremea-jean-ferri-muito-legal",
+  "id": "rafahela-bazzanella-recebe-premio-dorneles-tremea-jean-ferri",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "newsitem_view",
