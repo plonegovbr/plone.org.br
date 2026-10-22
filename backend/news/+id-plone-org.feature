@@ -1,1 +1,1 @@
-Configura o login pelo id.plone.org: o provedor vem no perfil default, desabilitado, e é habilitado na instalação quando a variável de ambiente `ID_PLONE_ORG_CLIENT_SECRET` traz o secret. @ericof
+Configura o login pelo id.plone.org: o provedor vem no perfil default, desabilitado, e é habilitado na instalação quando a variável de ambiente `ID_PLONE_ORG_CLIENT_SECRET` traz o secret. No login, o perfil recebe também as redes sociais cadastradas no id.plone.org. @ericof

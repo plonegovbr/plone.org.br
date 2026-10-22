@@ -19,6 +19,7 @@
       <element key="website">home_page</element>
       <element key="description">description</element>
       <element key="address.formatted">location</element>
+      <element key="social_links">social_links</element>
     </value>
     <value key="show_in_login">True</value>
     <value key="title">id.plone.org</value>

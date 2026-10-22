@@ -39,12 +39,22 @@ class TestProviderRecords:
         value = api.portal.get_registry_record(f"{ID_PLONE_ORG_PREFIX}.{key}")
         assert value == expected
 
-    def test_propertymap_is_the_driver_default(self):
+    def test_propertymap_extends_the_driver_default(self):
         """An empty map would fall back to the generic claims, not the driver's."""
         from pas.plugins.identity.core.drivers.identity import PloneIdentityDriver
 
         value = api.portal.get_registry_record(f"{ID_PLONE_ORG_PREFIX}.propertymap")
-        assert value == PloneIdentityDriver.default_propertymap
+        expected = {**PloneIdentityDriver.default_propertymap}
+        expected["social_links"] = "social_links"
+        assert value == expected
+
+    def test_propertymap_targets_are_mappable(self):
+        """Every mapped field is one the package writes on a UserProfile."""
+        from pas.plugins.identity.core.utils.propertymap import mappable_fields
+
+        value = api.portal.get_registry_record(f"{ID_PLONE_ORG_PREFIX}.propertymap")
+        fields = mappable_fields("UserProfile")
+        assert sorted(set(value.values()) - set(fields)) == []
 
     def test_groupmap(self):
         """Test the id.plone.org editors group grants Site Administrators here."""
