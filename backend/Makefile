@@ -46,6 +46,14 @@ BIN_FOLDER=$(VENV_FOLDER)/bin
 export PYTHONWARNINGS := ignore
 export DOCKER_BUILDKIT := 1
 
+# Local settings and secrets (backend/.env, gitignored), when present.
+# Only the keys the file defines are exported, so each target's commands
+# (create-site, start, ...) see them in their environment.
+ifneq (,$(wildcard $(BACKEND_FOLDER)/.env))
+include $(BACKEND_FOLDER)/.env
+export $(shell sed -n -E 's/^([A-Za-z_][A-Za-z0-9_]*)=.*/\1/p' $(BACKEND_FOLDER)/.env)
+endif
+
 all: build
 
 # Add the following 'help' target to your Makefile
