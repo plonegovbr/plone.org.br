@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<registry>
+  <!--
+    Login through id.plone.org. The client secret is not kept here: the
+    default profile's post handler reads it from ID_PLONE_ORG_CLIENT_SECRET
+    and only then enables the provider.
+  -->
+  <records interface="pas.plugins.identity.core.controlpanel.interfaces.IProviderRecords"
+           prefix="pas.plugins.identity.providers.id-plone-org"
+  >
+    <value key="driver">plone-identity</value>
+    <value key="enabled">False</value>
+    <value key="order">0</value>
+    <value key="groupmap">
+      <element key="acl-plone-org-br-editors">Site Administrators</element>
+    </value>
+    <value key="propertymap">
+      <element key="fullname">fullname</element>
+      <element key="website">home_page</element>
+      <element key="description">description</element>
+      <element key="address.formatted">location</element>
+    </value>
+    <value key="show_in_login">True</value>
+    <value key="title">id.plone.org</value>
+  </records>
+  <record name="pas.plugins.identity.providers.id-plone-org.config.issuer">
+    <field type="plone.registry.field.TextLine">
+      <required>False</required>
+    </field>
+    <value>https://id.plone.org</value>
+  </record>
+  <record name="pas.plugins.identity.providers.id-plone-org.config.client_id">
+    <field type="plone.registry.field.TextLine">
+      <required>False</required>
+    </field>
+    <value>plone-org-br</value>
+  </record>
+  <record name="pas.plugins.identity.providers.id-plone-org.config.client_secret">
+    <field type="plone.registry.field.Password">
+      <required>False</required>
+    </field>
+    <value />
+  </record>
+  <record name="pas.plugins.identity.providers.id-plone-org.config.userid_source">
+    <field type="plone.registry.field.TextLine">
+      <required>False</required>
+    </field>
+    <value>username</value>
+  </record>
+  <record name="pas.plugins.identity.providers.id-plone-org.config.create_user">
+    <field type="plone.registry.field.Bool">
+      <required>False</required>
+    </field>
+    <value>True</value>
+  </record>
+  <record name="pas.plugins.identity.providers.id-plone-org.config.trust_email_verification">
+    <field type="plone.registry.field.Bool">
+      <required>False</required>
+    </field>
+    <value>True</value>
+  </record>
+  <record name="pas.plugins.identity.providers.id-plone-org.config.auto_link_by_email">
+    <field type="plone.registry.field.Bool">
+      <required>False</required>
+    </field>
+    <value>True</value>
+  </record>
+</registry>

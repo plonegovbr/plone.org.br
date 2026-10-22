@@ -101,6 +101,7 @@ services:
     image: ghcr.io/plonegovbr/plone.org.br-backend:${STACK_PARAM:-latest}
     environment:
       RELSTORAGE_DSN: "dbname='${DB_NAME:-plone}' user='${DB_USER:-plone}' host='${DB_HOST:-db}' password='${DB_PASSWORD:-pCDkPDleEIBs}' port='${DB_PORT:-5432}'"
+      ID_PLONE_ORG_CLIENT_SECRET: ${ID_PLONE_ORG_CLIENT_SECRET:-}
     depends_on:
       - db
     networks:

@@ -59,6 +59,7 @@ services:
         - PLONE_VERSION=${PLONE_VERSION}
     environment:
       RELSTORAGE_DSN: "dbname='${DB_NAME:-plone}' user='${DB_NAME:-plone}' host='${DB_HOST:-db}' password='${DB_PASSWORD:-pCDkPDleEIBs}' port='${DB_PORT:-5432}'"
+      ID_PLONE_ORG_CLIENT_SECRET: ${ID_PLONE_ORG_CLIENT_SECRET:-}
     depends_on:
       - db
     labels:
