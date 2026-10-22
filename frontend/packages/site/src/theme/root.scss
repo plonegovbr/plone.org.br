@@ -111,6 +111,23 @@ body,
 }
 
 // ===========================================================================
+// Cores de marca e links
+// O sc-vlt fixa --brand-color no laranja da Simples e liga os links a ele;
+// aqui a marca usa a paleta do site e os links seguem primary_accent_color.
+// O alto contraste fica de fora para manter o amarelo próprio dele.
+// ===========================================================================
+:root:not([data-theme='high-contrast']) {
+  --brand-color: #0074a8;
+  --brand-color-dark: #002776;
+  --brand-color-darker: #002776;
+  --link-foreground-color: var(--primary-accent-color);
+  --link-color: var(--primary-accent-color);
+  --link-color-hover: var(--primary-accent-color);
+  --color-link: var(--primary-accent-color);
+  --color-link-hover: var(--primary-accent-color);
+}
+
+// ===========================================================================
 // Estilização da Paginação (Design Plone.org.br)
 // ===========================================================================
 body .block.listing .pagination-wrapper {
