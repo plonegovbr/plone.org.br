@@ -8,6 +8,9 @@
       "@type": "case_study_metadata",
       "layout": "full"
     },
+    "546142c9-c0a6-46dc-b484-2e6e1dfb035b": {
+      "@type": "description"
+    },
     "9560e49b-daa2-4d89-a661-57c380841404": {
       "@type": "slate",
       "plaintext": "O site gov.b r \u00e9 implementado, pelo SERPRO , utilizando o Plone.",
@@ -56,6 +59,7 @@
   "blocks_layout": {
     "items": [
       "da192f19-e30e-4afd-ba10-a9e8f0e01d78",
+      "546142c9-c0a6-46dc-b484-2e6e1dfb035b",
       "17680f0f-c393-4940-a27e-a3cec9d3ab78",
       "9560e49b-daa2-4d89-a661-57c380841404"
     ]

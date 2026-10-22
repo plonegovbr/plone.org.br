@@ -4,20 +4,27 @@
   "UID": "761a2845e3ed43e1aefa1cc7b3857994",
   "allow_discussion": null,
   "blocks": {
-    "3d5e1d02-1cbd-41af-a7bc-b3ee1f96b2bf": {
-      "@type": "image",
-      "alt": "",
-      "url": "/o-plone/casos-de-sucesso/universita-di-bologna/unibo.png"
-    },
     "8696a921-1905-482c-b8d9-0f65fab9b683": {
-      "@type": "buttonBlock",
+      "@type": "__button",
       "href": [
         {
           "@id": "https://www.unibo.it/en",
           "title": "www.unibo.it/en"
         }
       ],
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
       "title": "Visite o Site"
+    },
+    "e62f3bc4-352e-436f-9deb-debb4b4cd832": {
+      "@type": "description"
+    },
+    "f25be3e2-bead-4a95-8d5c-8192471b23cc": {
+      "@type": "case_study_metadata",
+      "layout": "full"
     },
     "f34292e7-0e68-4b0f-8cfe-edfc7d68c264": {
       "@type": "title"
@@ -51,8 +58,9 @@
   "blocks_layout": {
     "items": [
       "f34292e7-0e68-4b0f-8cfe-edfc7d68c264",
+      "e62f3bc4-352e-436f-9deb-debb4b4cd832",
+      "f25be3e2-bead-4a95-8d5c-8192471b23cc",
       "f3dd8456-d816-4e8f-97d4-0940f0d6a81d",
-      "3d5e1d02-1cbd-41af-a7bc-b3ee1f96b2bf",
       "8696a921-1905-482c-b8d9-0f65fab9b683"
     ]
   },

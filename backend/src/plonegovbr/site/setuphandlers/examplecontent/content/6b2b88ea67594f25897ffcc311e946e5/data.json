@@ -4,17 +4,9 @@
   "UID": "6b2b88ea67594f25897ffcc311e946e5",
   "allow_discussion": null,
   "blocks": {
-    "c67c4696-8135-4b44-88fc-13d26efcd6f6": {
-      "@type": "image",
-      "align": "center",
-      "alt": "",
-      "styles": {
-        "align:noprefix": "center",
-        "blockWidth:noprefix": "narrow",
-        "size:noprefix": "l"
-      },
-      "theme": "default",
-      "url": "../../../resolveuid/86e89de617da459aa104233c6a45f1f1"
+    "435df3b5-0a5d-4dbb-9974-7de763228393": {
+      "@type": "case_study_metadata",
+      "layout": "full"
     },
     "d9a8fb41-b359-4c5a-b168-8ab95e829557": {
       "@type": "slate",
@@ -43,13 +35,17 @@
     },
     "e87ce1e3-1ff8-424e-9aaa-9689763cabc7": {
       "@type": "title"
+    },
+    "f5e25a11-4dfe-4366-b4aa-384ab9246c13": {
+      "@type": "description"
     }
   },
   "blocks_layout": {
     "items": [
       "e87ce1e3-1ff8-424e-9aaa-9689763cabc7",
-      "d9a8fb41-b359-4c5a-b168-8ab95e829557",
-      "c67c4696-8135-4b44-88fc-13d26efcd6f6"
+      "f5e25a11-4dfe-4366-b4aa-384ab9246c13",
+      "435df3b5-0a5d-4dbb-9974-7de763228393",
+      "d9a8fb41-b359-4c5a-b168-8ab95e829557"
     ]
   },
   "changeNote": "",

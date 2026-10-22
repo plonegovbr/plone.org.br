@@ -10,6 +10,10 @@
     "4d29868a-8ad6-4421-bf48-c0098200b1fc": {
       "@type": "description"
     },
+    "8add45ec-e2a8-4201-8b22-4a668e72e2ad": {
+      "@type": "case_study_metadata",
+      "layout": "full"
+    },
     "e457f5f2-a01a-4eea-a3da-4f78da04bd12": {
       "@type": "slate",
       "plaintext": "",
@@ -29,6 +33,7 @@
     "items": [
       "4955bcd7-e8c0-4c7f-ba96-58759538c35c",
       "4d29868a-8ad6-4421-bf48-c0098200b1fc",
+      "8add45ec-e2a8-4201-8b22-4a668e72e2ad",
       "e457f5f2-a01a-4eea-a3da-4f78da04bd12"
     ]
   },

@@ -7,20 +7,27 @@
     "1d60fdf4-8dec-41c2-b637-c2eb8cd5f239": {
       "@type": "title"
     },
+    "37753c53-fed0-4790-b9b5-034f5ac9c920": {
+      "@type": "description"
+    },
+    "99c294e2-fa32-48a9-8be4-25bf6a90f987": {
+      "@type": "case_study_metadata",
+      "layout": "full"
+    },
     "bb709800-e12c-4458-867b-e228d763f003": {
-      "@type": "buttonBlock",
+      "@type": "__button",
       "href": [
         {
           "@id": "https://www.osaka-u.ac.jp/en",
           "title": "www.osaka-u.ac.jp/en"
         }
       ],
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
       "title": "Visite o Site"
-    },
-    "c27ed8e3-7d31-46ea-8ecd-80fa762fd3bd": {
-      "@type": "image",
-      "alt": "",
-      "url": "/o-plone/casos-de-sucesso/osaka-university/osaka.png"
     },
     "d64f0183-4e10-4d45-bd47-c3065c3bfe6d": {
       "@type": "slate",
@@ -51,8 +58,9 @@
   "blocks_layout": {
     "items": [
       "1d60fdf4-8dec-41c2-b637-c2eb8cd5f239",
+      "37753c53-fed0-4790-b9b5-034f5ac9c920",
+      "99c294e2-fa32-48a9-8be4-25bf6a90f987",
       "d64f0183-4e10-4d45-bd47-c3065c3bfe6d",
-      "c27ed8e3-7d31-46ea-8ecd-80fa762fd3bd",
       "bb709800-e12c-4458-867b-e228d763f003"
     ]
   },

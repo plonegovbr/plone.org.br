@@ -31,16 +31,6 @@
   },
   {
     "from_attribute": "preview_image_link",
-    "from_uuid": "5dec306a3f7c4f93b659f34d9a3ff365",
-    "to_uuid": "1dca2da4aa694b50b55ef174d6d8be1a"
-  },
-  {
-    "from_attribute": "isReferencing",
-    "from_uuid": "6b2b88ea67594f25897ffcc311e946e5",
-    "to_uuid": "86e89de617da459aa104233c6a45f1f1"
-  },
-  {
-    "from_attribute": "preview_image_link",
     "from_uuid": "6b2b88ea67594f25897ffcc311e946e5",
     "to_uuid": "86e89de617da459aa104233c6a45f1f1"
   },
@@ -118,5 +108,70 @@
     "from_attribute": "preview_image_link",
     "from_uuid": "f3c50886ff404968beb7c0f01397568c",
     "to_uuid": "1e9a52018331405a90671db733dcfb71"
+  },
+  {
+    "from_attribute": "preview_image_link",
+    "from_uuid": "88e023727ed04fa7af434fe86f1c4968",
+    "to_uuid": "93a5fc0f53204ca9b0e945ba189f459c"
+  },
+  {
+    "from_attribute": "preview_image_link",
+    "from_uuid": "7ebf58b00ec84391bf61d3bb3da88165",
+    "to_uuid": "04e0814506b746d7970ac524cd2e3aad"
+  },
+  {
+    "from_attribute": "preview_image_link",
+    "from_uuid": "761a2845e3ed43e1aefa1cc7b3857994",
+    "to_uuid": "3a510a82d2b54643af5dc5eefb89ba79"
+  },
+  {
+    "from_attribute": "preview_image_link",
+    "from_uuid": "3e36cd34188546229fdaba78d23c7609",
+    "to_uuid": "4ef4397c226c48999425e2a529d9633a"
+  },
+  {
+    "from_attribute": "preview_image_link",
+    "from_uuid": "c6507a9e4bbc4b0c98c3b89005d3aab0",
+    "to_uuid": "e2e24105191646148d74d82ed8ba62e7"
+  },
+  {
+    "from_attribute": "providers",
+    "from_uuid": "15114041a9a745159f56c543fad3c6e0",
+    "to_uuid": "c6507a9e4bbc4b0c98c3b89005d3aab0"
+  },
+  {
+    "from_attribute": "providers",
+    "from_uuid": "a27bf7f67b06433cbee37da9819fc95a",
+    "to_uuid": "035877ffc3c14926a1ab68fb30ee694a"
+  },
+  {
+    "from_attribute": "preview_image_link",
+    "from_uuid": "225ab20e020941aaaf7221d3a3a464aa",
+    "to_uuid": "1a87578e70aa4d7fa5a701eab2963b2d"
+  },
+  {
+    "from_attribute": "providers",
+    "from_uuid": "88e023727ed04fa7af434fe86f1c4968",
+    "to_uuid": "4c7c50567c3a4ea6bc3b592c821c1f1a"
+  },
+  {
+    "from_attribute": "providers",
+    "from_uuid": "e608895e00ad471995aeb6a958c3aab5",
+    "to_uuid": "4c7c50567c3a4ea6bc3b592c821c1f1a"
+  },
+  {
+    "from_attribute": "preview_image_link",
+    "from_uuid": "e608895e00ad471995aeb6a958c3aab5",
+    "to_uuid": "f147c860553045bc853e776702d3b776"
+  },
+  {
+    "from_attribute": "preview_image_link",
+    "from_uuid": "5dec306a3f7c4f93b659f34d9a3ff365",
+    "to_uuid": "a03ae316cdcb4da7888070c9ba338ac3"
+  },
+  {
+    "from_attribute": "preview_image_link",
+    "from_uuid": "035877ffc3c14926a1ab68fb30ee694a",
+    "to_uuid": "72e957b9ab024a8aa15b8da6f60ac919"
   }
 ]

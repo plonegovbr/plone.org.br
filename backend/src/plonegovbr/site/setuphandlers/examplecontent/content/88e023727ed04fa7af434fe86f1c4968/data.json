@@ -4,20 +4,27 @@
   "UID": "88e023727ed04fa7af434fe86f1c4968",
   "allow_discussion": null,
   "blocks": {
-    "48d9c517-075a-4292-8aa1-779cc4057ed5": {
-      "@type": "image",
-      "alt": "",
-      "url": "/o-plone/casos-de-sucesso/mncr/mncr.png"
+    "22f023f6-3a72-46c0-836d-a21a417a0f36": {
+      "@type": "case_study_metadata",
+      "layout": "full"
     },
     "ccf1d451-82b2-4f89-903f-1fb7777e9e12": {
-      "@type": "buttonBlock",
+      "@type": "__button",
       "href": [
         {
           "@id": "https://www.mncr.org.br/s",
           "title": "www.mncr.org.br/s"
         }
       ],
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
       "title": "Visite o Site"
+    },
+    "ebaeab78-6c22-4859-a1c4-aa67d031515b": {
+      "@type": "description"
     },
     "fd7aca2b-44b8-4407-b86a-7046ffecc6a5": {
       "@type": "slate",
@@ -65,8 +72,9 @@
   "blocks_layout": {
     "items": [
       "fd944b7e-ac9c-4f58-bb88-4cf2dd4a4ccc",
+      "ebaeab78-6c22-4859-a1c4-aa67d031515b",
+      "22f023f6-3a72-46c0-836d-a21a417a0f36",
       "fd7aca2b-44b8-4407-b86a-7046ffecc6a5",
-      "48d9c517-075a-4292-8aa1-779cc4057ed5",
       "ccf1d451-82b2-4f89-903f-1fb7777e9e12"
     ]
   },

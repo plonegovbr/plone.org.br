@@ -32,27 +32,35 @@
         }
       ]
     },
-    "8f6ef4e2-ef09-47c5-8d5e-d1eab515e7a3": {
-      "@type": "image",
-      "alt": "",
-      "url": "/o-plone/casos-de-sucesso/university-of-jyvaskyla/jyu.png"
+    "633a317f-da45-4794-b48d-e2375ee19730": {
+      "@type": "description"
+    },
+    "bc843764-ae36-43eb-899e-f51bd7b80a16": {
+      "@type": "case_study_metadata",
+      "layout": "full"
     },
     "eefe0be6-3382-49ba-85cf-69fe2e483e78": {
-      "@type": "buttonBlock",
+      "@type": "__button",
       "href": [
         {
           "@id": "https://www.jyu.fi/en/",
           "title": "www.jyu.fi/en/"
         }
       ],
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
       "title": "Visite o Site"
     }
   },
   "blocks_layout": {
     "items": [
       "15512ed6-b1b6-4dd7-a174-73451314cd6d",
+      "633a317f-da45-4794-b48d-e2375ee19730",
+      "bc843764-ae36-43eb-899e-f51bd7b80a16",
       "15f865cf-9a36-4197-8d4a-51313b5fdab8",
-      "8f6ef4e2-ef09-47c5-8d5e-d1eab515e7a3",
       "eefe0be6-3382-49ba-85cf-69fe2e483e78"
     ]
   },

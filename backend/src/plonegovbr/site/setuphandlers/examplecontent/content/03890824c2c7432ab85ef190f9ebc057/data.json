@@ -40,11 +40,15 @@
     },
     "5b41a975-fd51-4529-b3e5-494d807e5e93": {
       "@type": "title"
+    },
+    "eafe2ae5-e73e-4ebe-8246-8bd7fa2d2658": {
+      "@type": "description"
     }
   },
   "blocks_layout": {
     "items": [
       "5b41a975-fd51-4529-b3e5-494d807e5e93",
+      "eafe2ae5-e73e-4ebe-8246-8bd7fa2d2658",
       "597c36ff-45cf-4fe8-a492-163754ef5374",
       "32f7899b-b87d-4cac-aac8-28a7c92a6fa7",
       "4ab19cd2-4b27-4950-b94b-f031f077f614"

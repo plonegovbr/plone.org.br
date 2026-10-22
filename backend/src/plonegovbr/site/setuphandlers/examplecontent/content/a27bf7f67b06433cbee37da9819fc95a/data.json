@@ -34,6 +34,9 @@
         }
       ]
     },
+    "69c8f7ca-4061-42ec-b802-be308c359e63": {
+      "@type": "description"
+    },
     "e0c8e827-3f9e-40a6-aab6-8adfe7e1f83a": {
       "@type": "slate",
       "plaintext": " O site da C\u00e2mara \u00e9 implementado utilizando o Portal Modelo, desenvolvido pelo Interlegis ",
@@ -69,8 +72,9 @@
   "blocks_layout": {
     "items": [
       "1d424ba6-b2f4-4ddb-a8e9-84e963228fbf",
-      "e0c8e827-3f9e-40a6-aab6-8adfe7e1f83a",
+      "69c8f7ca-4061-42ec-b802-be308c359e63",
       "fe86fd5e-a6ed-41b8-a463-d2dce2c47128",
+      "e0c8e827-3f9e-40a6-aab6-8adfe7e1f83a",
       "61f5209e-d6c3-4536-a48a-884e7ee389d4"
     ]
   },

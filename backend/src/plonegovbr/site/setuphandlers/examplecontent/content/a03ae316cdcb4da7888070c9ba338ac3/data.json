@@ -1,0 +1,40 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/instituto-federal-da-paraiba/ifpb.jpg",
+  "@type": "Image",
+  "UID": "a03ae316cdcb4da7888070c9ba338ac3",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2026-10-22T19:20:05+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "ifpb.jpg",
+  "image": {
+    "blob_path": "a03ae316cdcb4da7888070c9ba338ac3/image/ifpb.jpg",
+    "content-type": "image/jpeg",
+    "filename": "ifpb.jpg",
+    "height": 1080,
+    "size": 239979,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2026-10-22T19:20:05+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "IFPB",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}
