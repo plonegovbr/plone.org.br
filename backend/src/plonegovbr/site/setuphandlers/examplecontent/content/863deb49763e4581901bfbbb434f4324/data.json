@@ -200,14 +200,14 @@
       "columns": [
         {
           "@type": "teaser",
-          "description": "A comunidade PloneGov-Br foi criada com o intuito de estabelecer um canal de colabora\u00e7\u00e3o entre as institui\u00e7\u00f5es do governo que fazem uso, desenvolvem e incentivam as tecnologias em Software Livre Python e Plone",
+          "description": "A comunidade PloneGov-BR foi criada com o intuito de estabelecer um canal de colabora\u00e7\u00e3o entre as institui\u00e7\u00f5es do governo que fazem uso, desenvolvem e incentivam as tecnologias em Software Livre Python e Plone",
           "href": [
             {
               "@id": "../resolveuid/919051e200294c6da42ce40b490671e4",
               "@type": "Document",
               "Description": "comunidade de institui\u00e7\u00f5es ligadas ao governo brasileiro que utilizam Python, Zope, Plone e tecnologias correlatas.",
               "Subject": [],
-              "Title": "PloneGov-Br",
+              "Title": "PloneGov-BR",
               "description": "Comunidade de institui\u00e7\u00f5es ligadas ao governo brasileiro que utilizam Python, Zope, Plone e tecnologias correlatas.",
               "effective": "1969-12-31T03:00:00+00:00",
               "end": null,
@@ -222,7 +222,7 @@
               "review_state": "published",
               "social_links": null,
               "start": null,
-              "title": "PloneGov-Br",
+              "title": "PloneGov-BR",
               "type_title": "P\u00e1gina",
               "workflow_states": [
                 "simple_publication_workflow|published"
@@ -236,7 +236,7 @@
               "@id": "/images/plonegovbr.png"
             }
           ],
-          "title": "PloneGov-Br"
+          "title": "PloneGov-BR"
         },
         {
           "@type": "teaser",
@@ -406,9 +406,9 @@
         {
           "@id": "../resolveuid/919051e200294c6da42ce40b490671e4",
           "Description": "Comunidade de institui\u00e7\u00f5es ligadas ao governo brasileiro que utilizam Python, Zope, Plone e tecnologias correlatas.",
-          "Title": "PloneGov-Br",
+          "Title": "PloneGov-BR",
           "hasPreviewImage": null,
-          "title": "PloneGov-Br"
+          "title": "PloneGov-BR"
         }
       ],
       "styles": {

@@ -49,12 +49,12 @@
     },
     "4d6e02f0-2259-4dc4-b35d-2cc60ff718e2": {
       "@type": "slate",
-      "plaintext": "A comunidade PloneGov-Br realizar\u00e1 a edi\u00e7\u00e3o 2025 do Plone Day Brasil no dia 26 de novembro, das 14h \u00e0s 17h, no audit\u00f3rio do Instituto Legislativo Brasileiro - ILB, a escola de governo do Senado Federal. O evento ter\u00e1 transmiss\u00e3o simult\u00e2nea pelo YouTube da comunidade Plone.",
+      "plaintext": "A comunidade PloneGov-BR realizar\u00e1 a edi\u00e7\u00e3o 2025 do Plone Day Brasil no dia 26 de novembro, das 14h \u00e0s 17h, no audit\u00f3rio do Instituto Legislativo Brasileiro - ILB, a escola de governo do Senado Federal. O evento ter\u00e1 transmiss\u00e3o simult\u00e2nea pelo YouTube da comunidade Plone.",
       "value": [
         {
           "children": [
             {
-              "text": "A comunidade PloneGov-Br realizar\u00e1 a edi\u00e7\u00e3o 2025 do Plone Day Brasil no dia 26 de novembro, das 14h \u00e0s 17h, no audit\u00f3rio do Instituto Legislativo Brasileiro - ILB, a escola de governo do Senado Federal. O evento ter\u00e1 transmiss\u00e3o simult\u00e2nea pelo YouTube da comunidade Plone."
+              "text": "A comunidade PloneGov-BR realizar\u00e1 a edi\u00e7\u00e3o 2025 do Plone Day Brasil no dia 26 de novembro, das 14h \u00e0s 17h, no audit\u00f3rio do Instituto Legislativo Brasileiro - ILB, a escola de governo do Senado Federal. O evento ter\u00e1 transmiss\u00e3o simult\u00e2nea pelo YouTube da comunidade Plone."
             }
           ],
           "type": "p"
@@ -502,7 +502,7 @@
   "creators": [
     "rafahela"
   ],
-  "description": "A PloneGov-Br te convida para uma tarde sobre Plone e as novidades da comunidade",
+  "description": "A PloneGov-BR te convida para uma tarde sobre Plone e as novidades da comunidade",
   "effective": "2025-11-19T19:09:00+00:00",
   "end": "2025-11-26T20:00:00+00:00",
   "event_url": null,

@@ -387,14 +387,14 @@
     },
     "f3c5c8d4-d797-4581-9059-df001cb5dec8": {
       "@type": "slate",
-      "plaintext": "Projeto de c\u00f3digo-aberto e gratuito, desenvolvido pela comunidade PloneGov-Br Manter-se atualizado com as novas vers\u00f5es do Plone Implementar design utilizando a interface Volto, escrita em React e NodeJS Re-uso de tipos de conte\u00fado existentes entre os diferentes perfis Uso do plone.distribution para a cria\u00e7\u00e3o de cada um dos perfis Uso do pytest e do pytest-plone , para os testes automatizados do Backend/API Utilizar tecnologia de conteiners para a instala\u00e7\u00e3o e produ\u00e7\u00e3o dos portais",
+      "plaintext": "Projeto de c\u00f3digo-aberto e gratuito, desenvolvido pela comunidade PloneGov-BR Manter-se atualizado com as novas vers\u00f5es do Plone Implementar design utilizando a interface Volto, escrita em React e NodeJS Re-uso de tipos de conte\u00fado existentes entre os diferentes perfis Uso do plone.distribution para a cria\u00e7\u00e3o de cada um dos perfis Uso do pytest e do pytest-plone , para os testes automatizados do Backend/API Utilizar tecnologia de conteiners para a instala\u00e7\u00e3o e produ\u00e7\u00e3o dos portais",
       "value": [
         {
           "children": [
             {
               "children": [
                 {
-                  "text": "Projeto de c\u00f3digo-aberto e gratuito, desenvolvido pela comunidade PloneGov-Br"
+                  "text": "Projeto de c\u00f3digo-aberto e gratuito, desenvolvido pela comunidade PloneGov-BR"
                 }
               ],
               "type": "li"
@@ -564,7 +564,7 @@
   "review_state": "published",
   "rights": "",
   "subjects": [
-    "PloneGov-Br",
+    "PloneGov-BR",
     "Open Source",
     "Projetos"
   ],

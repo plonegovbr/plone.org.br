@@ -306,12 +306,12 @@
     },
     "993e0977-4658-42a1-b373-2ec2abead3a2": {
       "@type": "slate",
-      "plaintext": "A comunidade PloneGov-Br foi criada em maio de 2009 com o objetivo de conectar as institui\u00e7\u00f5es ligadas ao governo brasileiro que utilizam Python, Zope, Plone e tecnologias correlatas.",
+      "plaintext": "A comunidade PloneGov-BR foi criada em maio de 2009 com o objetivo de conectar as institui\u00e7\u00f5es ligadas ao governo brasileiro que utilizam Python, Zope, Plone e tecnologias correlatas.",
       "value": [
         {
           "children": [
             {
-              "text": "A comunidade PloneGov-Br foi criada em maio de 2009 com o objetivo de conectar as institui\u00e7\u00f5es ligadas ao governo brasileiro que utilizam Python, Zope, Plone e tecnologias correlatas. "
+              "text": "A comunidade PloneGov-BR foi criada em maio de 2009 com o objetivo de conectar as institui\u00e7\u00f5es ligadas ao governo brasileiro que utilizam Python, Zope, Plone e tecnologias correlatas. "
             }
           ],
           "type": "p"
@@ -635,7 +635,7 @@
   "review_state": "published",
   "rights": "",
   "subjects": [],
-  "title": "PloneGov-Br",
+  "title": "PloneGov-BR",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
