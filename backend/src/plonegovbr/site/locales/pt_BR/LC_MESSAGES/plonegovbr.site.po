@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-05-25 17:12+0000\n"
+"POT-Creation-Date: 2026-10-22 17:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,3 +13,42 @@ msgstr ""
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
+
+#: plonegovbr/site/behaviors/configure.zcml:17
+msgid "Affiliations"
+msgstr "Vínculos"
+
+#: plonegovbr/site/profiles.zcml:23
+msgid "Create example content to showcase the new website"
+msgstr ""
+
+#: plonegovbr/site/profiles.zcml:14
+msgid "Package to configure a new Plone Brasil site"
+msgstr ""
+
+#: plonegovbr/site/profiles.zcml:23
+msgid "Plone Brasil: Example content"
+msgstr ""
+
+#: plonegovbr/site/profiles.zcml:14
+msgid "Plone Brasil: Install"
+msgstr ""
+
+#: plonegovbr/site/behaviors/configure.zcml:17
+msgid "Relate a profile to one or more Organizations"
+msgstr "Relaciona um perfil a uma ou mais Organizações"
+
+#. Default: "Organizations this person works for or takes part in"
+#: plonegovbr/site/behaviors/affiliations.py:24
+msgid "description_affiliations"
+msgstr "Organizações para as quais esta pessoa trabalha ou das quais participa"
+
+#. Default: "Organization"
+#: plonegovbr/site/behaviors/affiliations.py:31
+msgid "label_affiliation"
+msgstr "Organização"
+
+#. Default: "Organizations"
+#: plonegovbr/site/behaviors/affiliations.py:23
+msgid "label_affiliations"
+msgstr "Organizações"
