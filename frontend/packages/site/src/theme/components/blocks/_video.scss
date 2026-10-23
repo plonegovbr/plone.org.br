@@ -1,0 +1,130 @@
+// Video Block styling
+#page-document {
+  .blocks-group-wrapper {
+    // Reduz paddings verticais excessivos do wrapper que contém o bloco de vídeo
+    &:has(> .block.video) {
+      padding-top: $spacing-medium;
+      padding-bottom: $spacing-medium;
+      margin-top: 0 !important;
+
+      @container (max-width: #{$largest-mobile-screen}) {
+        padding-top: $spacing-small;
+        padding-bottom: $spacing-small;
+      }
+
+      @media only screen and (max-width: $largest-mobile-screen) {
+        padding-top: $spacing-small;
+        padding-bottom: $spacing-small;
+      }
+    }
+
+    & > .block.video {
+      width: auto !important;
+      margin-top: 0 !important;
+
+      // Zera margens excessivas do figure do volto-videos
+      figure {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+
+        &.center {
+          margin-top: 0 !important;
+          margin-bottom: 0 !important;
+        }
+      }
+
+      // Alinhamento base no desktop (sem !important para permitir que as margens de tela pequena vençam)
+      &.has--block-alignment--center,
+      &.align.center {
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      &.has--block-alignment--left,
+      &.align.left {
+        margin-right: auto;
+        margin-left: 0;
+      }
+
+      &.has--block-alignment--right,
+      &.align.right {
+        margin-right: 0;
+        margin-left: auto;
+      }
+
+      // Largura default (padrão)
+      &.has--block-width--default,
+      &:not([class*='has--block-width--']) {
+        @include default-container-width();
+        @include adjustMarginsToContainer($default-container-width);
+        max-width: var(--default-container-width) !important;
+
+        @container (max-width: #{$default-container-width + 2 * $horizontal-space-small-screens}) {
+          margin-right: $horizontal-space-small-screens !important;
+          margin-left: $horizontal-space-small-screens !important;
+        }
+
+        @media only screen and (max-width: #{$default-container-width + 2 * $horizontal-space-small-screens}) {
+          margin-right: $horizontal-space-small-screens !important;
+          margin-left: $horizontal-space-small-screens !important;
+        }
+      }
+
+      // Largura narrow
+      &.has--block-width--narrow {
+        @include narrow-container-width();
+        @include adjustMarginsToContainer($narrow-container-width);
+        max-width: var(--narrow-container-width) !important;
+
+        @container (max-width: #{$narrow-container-width + 2 * $horizontal-space-small-screens}) {
+          margin-right: $horizontal-space-small-screens !important;
+          margin-left: $horizontal-space-small-screens !important;
+        }
+
+        @media only screen and (max-width: #{$narrow-container-width + 2 * $horizontal-space-small-screens}) {
+          margin-right: $horizontal-space-small-screens !important;
+          margin-left: $horizontal-space-small-screens !important;
+        }
+      }
+
+      // Largura layout
+      &.has--block-width--layout {
+        @include layout-container-width();
+        @include adjustMarginsToContainer($layout-container-width);
+        max-width: var(--layout-container-width) !important;
+
+        @container (max-width: #{$layout-container-width + 2 * $horizontal-space-small-screens}) {
+          margin-right: $horizontal-space-small-screens !important;
+          margin-left: $horizontal-space-small-screens !important;
+        }
+
+        @media only screen and (max-width: #{$layout-container-width + 2 * $horizontal-space-small-screens}) {
+          margin-right: $horizontal-space-small-screens !important;
+          margin-left: $horizontal-space-small-screens !important;
+        }
+      }
+
+      // Largura full
+      &.has--block-width--full {
+        max-width: 100% !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+      }
+
+      // Margens em telas pequenas (garante que vençam qualquer alinhamento)
+      @container (max-width: #{$default-container-width + 2 * $horizontal-space-small-screens}) {
+        margin-right: $horizontal-space-small-screens !important;
+        margin-left: $horizontal-space-small-screens !important;
+      }
+
+      @media only screen and (max-width: #{$default-container-width + 2 * $horizontal-space-small-screens}) {
+        margin-right: $horizontal-space-small-screens !important;
+        margin-left: $horizontal-space-small-screens !important;
+      }
+    }
+  }
+
+  .block.video {
+    margin-top: 0 !important;
+  }
+}
