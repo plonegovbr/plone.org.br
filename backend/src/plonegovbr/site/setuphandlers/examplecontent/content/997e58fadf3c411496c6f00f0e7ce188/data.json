@@ -1,0 +1,57 @@
+{
+  "@id": "/documentacao/plone-6",
+  "@type": "Link",
+  "UID": "997e58fadf3c411496c6f00f0e7ce188",
+  "allow_discussion": null,
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-06-20T15:50:12+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "Documenta\u00e7\u00e3o em Ingl\u00eas sobre desenvolvimento para Plone 6",
+  "effective": "2022-06-20T15:50:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "plone-6",
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "link_redirect_view",
+  "lock": {},
+  "modified": "2024-04-10T19:32:10+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "remoteUrl": "https://6.docs.plone.org/",
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Plone 6",
+  "type_title": "Link",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-06-20T15:50:12+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-06-20T15:50:17+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

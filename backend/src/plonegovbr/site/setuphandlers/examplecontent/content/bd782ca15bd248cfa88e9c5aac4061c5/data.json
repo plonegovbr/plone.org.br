@@ -1,0 +1,491 @@
+{
+  "@id": "/projetos/portal-modelo",
+  "@type": "Document",
+  "UID": "bd782ca15bd248cfa88e9c5aac4061c5",
+  "allow_discussion": false,
+  "blocks": {
+    "0649dd97-4d16-4f59-88c1-3974e1dcaa38": {
+      "@type": "slate",
+      "plaintext": " Assembl\u00e9ia Legislativa de Alagoas   Assembl\u00e9ia Legislativa de Rond\u00f4nia   Assembl\u00e9ia Legislativa do Piaui   C\u00e2mara Municipal de Curitiba ",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Assembl\u00e9ia Legislativa de Alagoas"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://www.al.al.leg.br/"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Assembl\u00e9ia Legislativa de Rond\u00f4nia"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://www.al.ro.leg.br/"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Assembl\u00e9ia Legislativa do Piaui"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://www.al.pi.leg.br/"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "C\u00e2mara Municipal de Curitiba"
+                    }
+                  ],
+                  "data": {
+                    "url": "https://www.curitiba.pr.leg.br/"
+                  },
+                  "type": "link"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    },
+    "218339d7-74d2-4c25-b0c3-f2a896392ac8": {
+      "@type": "slate",
+      "plaintext": " M\u00eddias Sociais ",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "M\u00eddias Sociais"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "23720ce3-6c31-45d2-b754-7e3fd8ab771f": {
+      "@type": "slate",
+      "plaintext": "Integra\u00e7\u00e3o com as principais de m\u00eddias sociais e recursos de intera\u00e7\u00e3o com os cidad\u00e3os tamb\u00e9m s\u00e3o destaque no Portal Modelo, tornando-o uma excelente ferramenta de comunica\u00e7\u00e3o e di\u00e1logo com a comunidade local e os cidad\u00e3os interessados em participar dos debates e decis\u00f5es que lhe afetam.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Integra\u00e7\u00e3o com as principais de m\u00eddias sociais e recursos de intera\u00e7\u00e3o com os cidad\u00e3os tamb\u00e9m s\u00e3o destaque no Portal Modelo, tornando-o uma excelente ferramenta de comunica\u00e7\u00e3o e di\u00e1logo com a comunidade local e os cidad\u00e3os interessados em participar dos debates e decis\u00f5es que lhe afetam."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "6bb66e09-f718-4a16-b18d-3eec619e7a27": {
+      "@type": "slate",
+      "plaintext": " Ouvidoria ",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Ouvidoria"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "7a381b16-89a3-46d7-9f35-ad328c9fbf9f": {
+      "@type": "slate",
+      "plaintext": "Quem usa",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Quem usa"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "7c709c67-9a7d-43ec-98b2-40508fd31f17": {
+      "@type": "slate",
+      "plaintext": "S\u00e3o mais de 1200 implanta\u00e7\u00f5es ativas do Portal Modelo em todo o Brasil, incluindo:",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "S\u00e3o mais de 1200 implanta\u00e7\u00f5es ativas do Portal Modelo em todo o Brasil, incluindo:"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "8c8d0128-0318-4d18-b962-a2b2827bf584": {
+      "@type": "slate",
+      "plaintext": " Transpar\u00eancia ",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Transpar\u00eancia"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "8d06d88a-22e2-4d14-b98d-77fdb6c54372": {
+      "@type": "image",
+      "align": "right",
+      "alt": "",
+      "size": "l",
+      "url": "/projetos/portal-modelo/portalmodelo-curitiba.png"
+    },
+    "a1a2ffd6-d7c6-404e-8dbb-6de961a7e251": {
+      "@type": "slate",
+      "plaintext": "O Portal Modelo \u00e9 uma distribui\u00e7\u00e3o do CMS Plone que fornece um portal completo para uma Casa Legislativa, com arquitetura de informa\u00e7\u00e3o padronizada e pronto para receber conte\u00fados. Ele inclui ainda v\u00e1rias ferramentas e funcionalidades que facilitam o trabalho de uma institui\u00e7\u00e3o p\u00fablica e a tornam aderente a padr\u00f5es nacionais e internacionais e \u00e0s leis brasileiras.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O Portal Modelo \u00e9 uma distribui\u00e7\u00e3o do CMS Plone que fornece um portal completo para uma Casa Legislativa, com arquitetura de informa\u00e7\u00e3o padronizada e pronto para receber conte\u00fados. Ele inclui ainda v\u00e1rias ferramentas e funcionalidades que facilitam o trabalho de uma institui\u00e7\u00e3o p\u00fablica e a tornam aderente a padr\u00f5es nacionais e internacionais e \u00e0s leis brasileiras."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "b4c59544-a7c4-45ae-9c81-51694a33c6e4": {
+      "@type": "slate",
+      "plaintext": "Conhe\u00e7a todas elas em visitando o mapa de solu\u00e7\u00f5es do Programa Interlegis .",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Conhe\u00e7a todas elas em visitando o "
+            },
+            {
+              "children": [
+                {
+                  "text": "mapa de solu\u00e7\u00f5es do Programa Interlegis"
+                }
+              ],
+              "data": {
+                "url": "https://sigi.interlegis.leg.br/?tipo_servico=PM"
+              },
+              "type": "link"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "b531a0bb-c27d-4bd3-a3a5-e91f8a71df49": {
+      "@type": "title"
+    },
+    "b8e49331-1557-4617-b5b1-712501e400d4": {
+      "@type": "slate",
+      "plaintext": "Outra ferramenta que o Portal Modelo fornece \u00e9 o ambiente de ouvidoria, que permite ao cidad\u00e3o estabelecer contato com o parlamento e acompanhar a sua solicita\u00e7\u00e3o. Esse recurso tamb\u00e9m atende a Lei de Acesso \u00e0 informa\u00e7\u00e3o (Lei n\u00ba 12.527, de 18 de novembro de 2011, que regulamenta o direito constitucional de acesso dos cidad\u00e3os \u00e0s informa\u00e7\u00f5es p\u00fablicas), gerando n\u00famero de protocolo para acompanhar o tr\u00e2mite e receber os arquivos e informa\u00e7\u00f5es solicitadas.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Outra ferramenta que o Portal Modelo fornece \u00e9 o ambiente de ouvidoria, que permite ao cidad\u00e3o estabelecer contato com o parlamento e acompanhar a sua solicita\u00e7\u00e3o. Esse recurso tamb\u00e9m atende a Lei de Acesso \u00e0 informa\u00e7\u00e3o (Lei n\u00ba 12.527, de 18 de novembro de 2011, que regulamenta o direito constitucional de acesso dos cidad\u00e3os \u00e0s informa\u00e7\u00f5es p\u00fablicas), gerando n\u00famero de protocolo para acompanhar o tr\u00e2mite e receber os arquivos e informa\u00e7\u00f5es solicitadas."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "ccdfdba6-5870-4dca-9de9-5701ac0d53cd": {
+      "@type": "slate",
+      "plaintext": "Solu\u00e7\u00e3o desenvolvida e oferecida pelo Programa Interlegis , o Portal Modelo oferece a implanta\u00e7\u00e3o de um modelo de portal na internet para as Casas Legislativas.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Solu\u00e7\u00e3o desenvolvida e oferecida pelo "
+            },
+            {
+              "children": [
+                {
+                  "text": "Programa Interlegis"
+                }
+              ],
+              "data": {
+                "url": "https://www12.senado.leg.br/interlegis"
+              },
+              "type": "link"
+            },
+            {
+              "text": ", o "
+            },
+            {
+              "children": [
+                {
+                  "text": "Portal Modelo"
+                }
+              ],
+              "data": {
+                "url": "https://www12.senado.leg.br/interlegis/produtos/portal-modelo"
+              },
+              "type": "link"
+            },
+            {
+              "text": " oferece a implanta\u00e7\u00e3o de um modelo de portal na internet para as Casas Legislativas."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "d4c9a483-2d00-4991-b746-e9964c4a3c33": {
+      "@type": "slate",
+      "plaintext": "V\u00eddeos e \u00e1udios das sess\u00f5es legislativas podem ser publicados, bem como, os principais servi\u00e7os de multim\u00eddia (fotos, v\u00eddeos, \u00e1udios, streaming) existentes na internet podem ser embutidos e publicados no site.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "V\u00eddeos e \u00e1udios das sess\u00f5es legislativas podem ser publicados, bem como, os principais servi\u00e7os de multim\u00eddia (fotos, v\u00eddeos, \u00e1udios, streaming) existentes na internet podem ser embutidos e publicados no site."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "d5906487-f91d-4a8a-bf9c-0792ac837f27": {
+      "@type": "slate",
+      "plaintext": " Multim\u00eddia ",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Multim\u00eddia"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "f2880b7b-d9d8-4c25-80e9-e41d7e19286a": {
+      "@type": "slate",
+      "plaintext": "Entre as ferramentas que o Portal Modelo disponibiliza \u00e0s institui\u00e7\u00f5es p\u00fablicas est\u00e3o o sistema de transpar\u00eancia, que permite a publica\u00e7\u00e3o de dados de presta\u00e7\u00e3o de contas exigidos pela Lei da Transpar\u00eancia ou Lei Complementar 131, de 27 de maio de 2009 que alterou a reda\u00e7\u00e3o da Lei de Responsabilidade Fiscal, exigindo a publica\u00e7\u00e3o de informa\u00e7\u00f5es cont\u00e1beis e fiscais em tempo real na internet. O que \u00e9 publicado tamb\u00e9m fica dispon\u00edvel ao cidad\u00e3o como dados abertos atrav\u00e9s de uma API em formato JSON.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Entre as ferramentas que o Portal Modelo disponibiliza \u00e0s institui\u00e7\u00f5es p\u00fablicas est\u00e3o o sistema de transpar\u00eancia, que permite a publica\u00e7\u00e3o de dados de presta\u00e7\u00e3o de contas exigidos pela Lei da Transpar\u00eancia ou Lei Complementar 131, de 27 de maio de 2009 que alterou a reda\u00e7\u00e3o da Lei de Responsabilidade Fiscal, exigindo a publica\u00e7\u00e3o de informa\u00e7\u00f5es cont\u00e1beis e fiscais em tempo real na internet. O que \u00e9 publicado tamb\u00e9m fica dispon\u00edvel ao cidad\u00e3o como dados abertos atrav\u00e9s de uma API em formato JSON.          "
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "fae98969-c2de-43b6-a9ac-4e77423e4e0d": {
+      "@type": "slate",
+      "plaintext": "Caracter\u00edsticas",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Caracter\u00edsticas"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "fee86eda-669f-41d0-8c86-b177220ac57a": {
+      "@type": "slate",
+      "plaintext": "Sobre o Projeto",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Sobre o Projeto"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "b531a0bb-c27d-4bd3-a3a5-e91f8a71df49",
+      "ccdfdba6-5870-4dca-9de9-5701ac0d53cd",
+      "fee86eda-669f-41d0-8c86-b177220ac57a",
+      "a1a2ffd6-d7c6-404e-8dbb-6de961a7e251",
+      "fae98969-c2de-43b6-a9ac-4e77423e4e0d",
+      "8c8d0128-0318-4d18-b962-a2b2827bf584",
+      "f2880b7b-d9d8-4c25-80e9-e41d7e19286a",
+      "6bb66e09-f718-4a16-b18d-3eec619e7a27",
+      "b8e49331-1557-4617-b5b1-712501e400d4",
+      "d5906487-f91d-4a8a-bf9c-0792ac837f27",
+      "d4c9a483-2d00-4991-b746-e9964c4a3c33",
+      "218339d7-74d2-4c25-b0c3-f2a896392ac8",
+      "23720ce3-6c31-45d2-b754-7e3fd8ab771f",
+      "8d06d88a-22e2-4d14-b98d-77fdb6c54372",
+      "7a381b16-89a3-46d7-9f35-ad328c9fbf9f",
+      "7c709c67-9a7d-43ec-98b2-40508fd31f17",
+      "0649dd97-4d16-4f59-88c1-3974e1dcaa38",
+      "b4c59544-a7c4-45ae-9c81-51694a33c6e4"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2023-06-12T20:52:19+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "Solu\u00e7\u00e3o desenvolvida e oferecida pelo Projeto Interlegis, o Portal Modelo oferece a implanta\u00e7\u00e3o de um modelo de portal na internet para as Casas Legislativas.",
+  "effective": "2023-06-12T21:33:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "portal-modelo",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2023-06-12T21:33:21+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [
+    "Projetos",
+    "Open Source"
+  ],
+  "title": "Portal Modelo",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2023-06-12T20:52:19+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2023-06-12T21:33:21+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

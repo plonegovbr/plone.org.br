@@ -1,0 +1,586 @@
+{
+  "@id": "/novidades/eventos/2026/cerrado-sprint-2026",
+  "@type": "Event",
+  "UID": "e1736363b19f448ea8fb2236ab00a942",
+  "allow_discussion": false,
+  "attendees": [
+    "Victor Fernandez de Alba",
+    "Rafahela Bazzanella",
+    "Matheus Santana",
+    "\u00c9rico Andrei",
+    "Jo\u00e3o Henrique Gouveia"
+  ],
+  "blocks": {
+    "2d92b2e1-4949-45ee-a014-9c7f870c6d17": {
+      "@type": "slate",
+      "plaintext": "Objetivo do Sprint",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Objetivo do Sprint"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "33e75138-5993-40a7-9cdf-cead2039dec5": {
+      "@type": "slate",
+      "plaintext": "O foco principal deste ano \u00e9 o Aurora, o pr\u00f3ximo frontend do Plone, junto com o trabalho de acessibilidade tanto no Volto quanto no Aurora. Como sempre, voc\u00ea \u00e9 bem-vindo para participar e trazer seus pr\u00f3prios temas de interesse.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O foco principal deste ano \u00e9 o Aurora, o pr\u00f3ximo frontend do Plone, junto com o trabalho de acessibilidade tanto no Volto quanto no Aurora. Como sempre, voc\u00ea \u00e9 bem-vindo para participar e trazer seus pr\u00f3prios temas de interesse."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "3c1df734-1334-4e03-9e65-886f4f52f8f7": {
+      "@type": "slate",
+      "plaintext": "Organiza\u00e7\u00e3o",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Organiza\u00e7\u00e3o"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "47cc47e4-0d0a-425b-b4a9-fdf9bae85f94": {
+      "@type": "slate",
+      "plaintext": "A ser anunciado em breve",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "A ser anunciado em breve"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "4fbb8b49-9fa5-4c78-a8f3-671d6931788b": {
+      "@type": "slate",
+      "plaintext": "Quem pode participar",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Quem pode participar"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "5d9f17be-95f7-4688-b3b0-2428e2c4c0b7": {
+      "@type": "slate",
+      "plaintext": " ",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "type": "em"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "64cce17a-8983-4aee-b7a9-22b6cf3f21d0": {
+      "@type": "slate",
+      "plaintext": " N\u00e3o \u00e9 preciso ser especialista : sprints s\u00e3o uma das melhores formas de come\u00e7ar a contribuir, e haver\u00e1 gente por perto para ajudar na configura\u00e7\u00e3o do ambiente.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "N\u00e3o \u00e9 preciso ser especialista"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ": sprints s\u00e3o uma das melhores formas de come\u00e7ar a contribuir, e haver\u00e1 gente por perto para ajudar na configura\u00e7\u00e3o do ambiente."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "9f40df3f-9798-40bf-b5a6-0468c1173002": {
+      "@type": "slate",
+      "plaintext": "Desenvolvedores frontend que querem colocar a m\u00e3o no Aurora desde cedo, com ou sem experi\u00eancia pr\u00e9via em Volto ; Desenvolvedores e integradores Volto interessados no caminho de migra\u00e7\u00e3o; Especialistas em acessibilidade, designers e testers que possam nos ajudar a avaliar e melhorar os dois frontends; E qualquer pessoa da comunidade Plone -- de quem vai contribuir pela primeira vez a desenvolvedores do core -- que queira passar quatro dias trabalhando lado a lado com outras pessoas da comunidade.",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "Desenvolvedores frontend que querem colocar a m\u00e3o no "
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Aurora"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": " desde cedo, com ou sem experi\u00eancia pr\u00e9via em "
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Volto"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": "; "
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "Desenvolvedores e integradores Volto interessados no caminho de migra\u00e7\u00e3o;"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "Especialistas em acessibilidade, designers e testers que possam nos ajudar a avaliar e melhorar os dois frontends; "
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "E qualquer pessoa da comunidade Plone -- de quem vai contribuir pela primeira vez a desenvolvedores do core -- que queira passar quatro dias trabalhando lado a lado com outras pessoas da comunidade. "
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    },
+    "a9927961-90cf-484f-ba7a-4404410d44bc": {
+      "@type": "image",
+      "align": "center",
+      "alt": "Cerrado Sprint 2026",
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "narrow",
+        "size:noprefix": "l"
+      },
+      "theme": "default",
+      "url": "../../../../resolveuid/4a9f7fbeef044109b00af6c60ff4584d"
+    },
+    "b1c54641-56e0-46e5-8e89-2c511fa48509": {
+      "@type": "slate",
+      "plaintext": " O sprint ser\u00e1 h\u00edbrido: as vagas presenciais em Bras\u00edlia s\u00e3o limitadas, mas qualquer pessoa pode participar remotamente pelo Discord do Plone. ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "O sprint ser\u00e1 h\u00edbrido: as vagas presenciais em Bras\u00edlia s\u00e3o limitadas, mas qualquer pessoa pode participar remotamente pelo Discord do Plone."
+                }
+              ],
+              "type": "em"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "c6bf9566-ac51-4509-896a-2200a9417b4e": {
+      "@type": "gridBlock",
+      "blocks": {
+        "0780e859-6ed3-4e65-8e41-13ce24d10116": {
+          "@type": "image",
+          "align": "center",
+          "credit": {},
+          "description": "",
+          "image_field": "image",
+          "size": "l",
+          "styles": {
+            "size:noprefix": "l"
+          },
+          "url": "../../../../resolveuid/7ab223b0184f4ab38c547b9fb8ed620d"
+        },
+        "9d7d87ea-09a8-4f58-8aeb-748d23b8303a": {
+          "@type": "image",
+          "align": "center",
+          "credit": {},
+          "description": "",
+          "image_field": "image",
+          "size": "l",
+          "styles": {
+            "size:noprefix": "l"
+          },
+          "url": "../../../../resolveuid/317af75a6ed64df087f2b77006d300f0"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "0780e859-6ed3-4e65-8e41-13ce24d10116",
+          "9d7d87ea-09a8-4f58-8aeb-748d23b8303a"
+        ]
+      },
+      "styles": {},
+      "theme": "default"
+    },
+    "d4dce7a1-e738-4d69-9f47-37b27893f932": {
+      "@type": "slate",
+      "plaintext": "Como participar",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Como participar"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "dcec07ff-eed1-4cd8-a7d8-3b4e75393115": {
+      "@type": "slate",
+      "plaintext": "A comunidade PloneGov-BR j\u00e1 organizou cinco edi\u00e7\u00f5es de grandes sprints no Brasil:",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "A comunidade PloneGov-BR j\u00e1 organizou cinco edi\u00e7\u00f5es de grandes sprints no Brasil:"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "e431bbb4-901d-424a-a616-4ae26c3d305b": {
+      "@type": "slate",
+      "plaintext": "O que \u00e9 o Cerrado Sprint",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O que \u00e9 o Cerrado Sprint"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "e43696ab-0814-4925-a601-4be8f38cb8b0": {
+      "@type": "slate",
+      "plaintext": "Local",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Local"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "eb471d9b-9ced-421f-a04f-a9511dd4eaa8": {
+      "@type": "slate",
+      "plaintext": " 2012 : Com foco na tradu\u00e7\u00e3o do Plone, o sprint contou com mais de 10 participantes durante o Plone Symposium South America  2013 : Realizado em Jo\u00e3o Pessoa, PB, ap\u00f3s a Plone Conference, o sprint teve mais de 20 participantes de diversas partes do mundo.  2022 : Foco no desenvolvimento do site plone.org.br  2023 : Desenvolvimento do Portal Brasil, com mais de 30 participantes  2024 : Sprint realizado durante a Plone Conference",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "2012"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": Com foco na tradu\u00e7\u00e3o do Plone, o sprint contou com mais de 10 participantes durante o Plone Symposium South America"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "2013"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": Realizado em Jo\u00e3o Pessoa, PB, ap\u00f3s a Plone Conference, o sprint teve mais de 20 participantes de diversas partes do mundo."
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "2022"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": Foco no desenvolvimento do site plone.org.br"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "2023"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": Desenvolvimento do Portal Brasil, com mais de 30 participantes"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                },
+                {
+                  "children": [
+                    {
+                      "text": "2024"
+                    }
+                  ],
+                  "type": "strong"
+                },
+                {
+                  "text": ": Sprint realizado durante a Plone Conference"
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    },
+    "f1e77ece-ff63-4ce6-8299-a59eca0ea978": {
+      "@type": "slate",
+      "plaintext": "Adicione o seu nome ao documento do Sprint, ou entre em contato conosco pelo e-mail gov@plone.org ",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Adicione o seu nome ao "
+            },
+            {
+              "children": [
+                {
+                  "text": "documento do Sprint,"
+                }
+              ],
+              "data": {
+                "url": "https://docs.google.com/document/d/1eXmomiGZ92HZ04DCRL37RO6JlDHS4e05j2xsMxLJ6Gc"
+              },
+              "type": "link"
+            },
+            {
+              "text": " ou entre em contato conosco pelo e-mail "
+            },
+            {
+              "children": [
+                {
+                  "text": "gov@plone.org"
+                }
+              ],
+              "data": {
+                "url": "mailto:gov@plone.org"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "f4dd05e2-0738-45cf-b679-b39393f4f432": {
+      "@type": "slate",
+      "plaintext": "A comunidade Plone tem longo hist\u00f3rico de realiza\u00e7\u00e3o de sprints para o desenvolvimento de novas funcionalidades, resolu\u00e7\u00e3o de problemas, escrita de documenta\u00e7\u00e3o e tamb\u00e9m planejamento do futuro da comunidade e do pr\u00f3prio software. Esses sprints podem ser presenciais, onlines ou h\u00edbridos, mas em cada um deles, independentemente do formato, existe a cultura do compartilhamento de conhecimento entre os participantes.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "A comunidade Plone tem longo hist\u00f3rico de realiza\u00e7\u00e3o de sprints para o desenvolvimento de novas funcionalidades, resolu\u00e7\u00e3o de problemas, escrita de documenta\u00e7\u00e3o e tamb\u00e9m planejamento do futuro da comunidade e do pr\u00f3prio software. Esses sprints podem ser presenciais, onlines ou h\u00edbridos, mas em cada um deles, independentemente do formato, existe a cultura do compartilhamento de conhecimento entre os participantes."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "f736c64b-b48a-4376-9035-1aed16bb65c9": {
+      "@type": "slate"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "a9927961-90cf-484f-ba7a-4404410d44bc",
+      "e431bbb4-901d-424a-a616-4ae26c3d305b",
+      "f4dd05e2-0738-45cf-b679-b39393f4f432",
+      "dcec07ff-eed1-4cd8-a7d8-3b4e75393115",
+      "eb471d9b-9ced-421f-a04f-a9511dd4eaa8",
+      "2d92b2e1-4949-45ee-a014-9c7f870c6d17",
+      "33e75138-5993-40a7-9cdf-cead2039dec5",
+      "4fbb8b49-9fa5-4c78-a8f3-671d6931788b",
+      "9f40df3f-9798-40bf-b5a6-0468c1173002",
+      "64cce17a-8983-4aee-b7a9-22b6cf3f21d0",
+      "b1c54641-56e0-46e5-8e89-2c511fa48509",
+      "5d9f17be-95f7-4688-b3b0-2428e2c4c0b7",
+      "d4dce7a1-e738-4d69-9f47-37b27893f932",
+      "f1e77ece-ff63-4ce6-8299-a59eca0ea978",
+      "e43696ab-0814-4925-a601-4be8f38cb8b0",
+      "47cc47e4-0d0a-425b-b4a9-fdf9bae85f94",
+      "3c1df734-1334-4e03-9e65-886f4f52f8f7",
+      "c6bf9566-ac51-4509-896a-2200a9417b4e",
+      "f736c64b-b48a-4376-9035-1aed16bb65c9"
+    ]
+  },
+  "changeNote": "",
+  "contact_email": null,
+  "contact_name": null,
+  "contact_phone": null,
+  "contributors": [],
+  "created": "2026-09-17T18:05:14+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "A comunidade PloneGov-BR realizar\u00e1 a edi\u00e7\u00e3o 2026 do Cerrado Sprint entre os dias 03 e 06 de Novembro, em Bras\u00edlia, DF.",
+  "effective": "2026-09-17T18:35:00+00:00",
+  "end": "2026-11-06T21:00:00+00:00",
+  "event_url": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "cerrado-sprint-2026",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "event_view",
+  "location": "Bras\u00edlia, DF",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-23T16:14:45+00:00",
+  "nav_title": null,
+  "open_end": false,
+  "preview_caption_link": null,
+  "recurrence": null,
+  "review_state": "published",
+  "rights": "",
+  "start": "2026-11-03T12:00:00+00:00",
+  "subjects": [
+    "CerradoSprint",
+    "Eventos"
+  ],
+  "sync_uid": null,
+  "title": "Cerrado Sprint 2026",
+  "type_title": "Event",
+  "version": "current",
+  "versioning_enabled": true,
+  "whole_day": false,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-09-17T18:05:14+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-09-17T18:35:05+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

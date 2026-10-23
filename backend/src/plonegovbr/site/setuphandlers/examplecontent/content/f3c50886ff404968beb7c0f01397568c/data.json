@@ -1,0 +1,158 @@
+{
+  "@id": "/novidades/noticias/2025/novo-conselho-da-plone-foundation-para-2025-2026",
+  "@type": "News Item",
+  "UID": "f3c50886ff404968beb7c0f01397568c",
+  "allow_discussion": null,
+  "blocks": {
+    "13769c07-3fdf-4459-8eb3-4afa299fdc04": {
+      "@type": "description"
+    },
+    "2b3916cc-e058-4d87-a2f6-b33e09240fc0": {
+      "@type": "mainImageBlock",
+      "align": "center",
+      "size": "l",
+      "styles": {
+        "blockWidth:noprefix": {
+          "--block-width": "var(--default-container-width)"
+        }
+      },
+      "theme": "default"
+    },
+    "7cc6e50f-3e12-4da8-aa6b-d007fc602a75": {
+      "@type": "slate",
+      "plaintext": "Gouveia j\u00e1 fazia parte do conselho desde novembro de 2024 e ocupar\u00e1 a vice-presid\u00eancia at\u00e9 setembro de 2026.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Gouveia j\u00e1 fazia parte do conselho desde novembro de 2024 e ocupar\u00e1 a vice-presid\u00eancia at\u00e9 setembro de 2026."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "df32d58b-17d7-4626-b380-7ea2d5bdae6e": {
+      "@type": "slate",
+      "plaintext": "Gouveia \u00e9 membro da comunidade PloneGov-BR e co-organizador da Plone Conference Bras\u00edlia 2013 e 2024. Servidor do Senado Federal desde 2002, Coordenador de Tecnologia do Programa Interlegis .  Ele \u00e9 membro e moderador de comunidade de Software Livre h\u00e1 mais de 20 anos.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Gouveia \u00e9 membro da comunidade PloneGov-BR e co-organizador da Plone Conference Bras\u00edlia 2013 e 2024. Servidor do Senado Federal desde 2002, Coordenador de Tecnologia do "
+            },
+            {
+              "children": [
+                {
+                  "text": "Programa Interlegis"
+                }
+              ],
+              "data": {
+                "url": "https://www12.senado.leg.br/interlegis"
+              },
+              "type": "link"
+            },
+            {
+              "text": ".  Ele \u00e9 membro e moderador de comunidade de Software Livre h\u00e1 mais de 20 anos. "
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "e1726851-9de9-4107-b3b9-5005076aba63": {
+      "@type": "title"
+    },
+    "e847f653-9d86-42c3-8725-7c789cc41660": {
+      "@type": "slate",
+      "plaintext": "A elei\u00e7\u00e3o do novo conselho da Plone Foundation ocorreu no dia 30 de outubro de 2025. Uma das mudan\u00e7as foi a indica\u00e7\u00e3o de Jo\u00e3o Henrique Gouveia para a vice-presid\u00eancia da entidade.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "A elei\u00e7\u00e3o do novo "
+            },
+            {
+              "children": [
+                {
+                  "text": "conselho da Plone Foundation"
+                }
+              ],
+              "data": {
+                "url": "https://plone.org/foundation/board"
+              },
+              "type": "link"
+            },
+            {
+              "text": " ocorreu no dia 30 de outubro de 2025. Uma das mudan\u00e7as foi a indica\u00e7\u00e3o de Jo\u00e3o Henrique Gouveia para a vice-presid\u00eancia da entidade."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "e1726851-9de9-4107-b3b9-5005076aba63",
+      "13769c07-3fdf-4459-8eb3-4afa299fdc04",
+      "2b3916cc-e058-4d87-a2f6-b33e09240fc0",
+      "e847f653-9d86-42c3-8725-7c789cc41660",
+      "df32d58b-17d7-4626-b380-7ea2d5bdae6e",
+      "7cc6e50f-3e12-4da8-aa6b-d007fc602a75"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-11-04T19:44:28+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "O conselho da Plone Foundation foi definido para o ano de 2026, e um brasileiro ser\u00e1 o vice-presidente!",
+  "effective": "2025-11-14T18:31:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "novo-conselho-da-plone-foundation-para-2025-2026",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "newsitem_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-23T16:38:11+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Mudan\u00e7as no conselho da Plone Foundation",
+  "type_title": "News Item",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-11-04T19:44:28+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "rafahela",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-11-14T18:31:48+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

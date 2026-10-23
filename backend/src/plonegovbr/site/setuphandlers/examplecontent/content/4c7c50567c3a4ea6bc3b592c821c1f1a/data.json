@@ -1,0 +1,216 @@
+{
+  "@id": "/organizacoes/simples-consultoria",
+  "@type": "Organization",
+  "UID": "4c7c50567c3a4ea6bc3b592c821c1f1a",
+  "address": "Avenida Paulista 1636",
+  "address_2": "Sala 1504",
+  "allow_discussion": null,
+  "case_studies": {
+    "provided": [
+      {
+        "@id": "/o-plone/casos-de-sucesso/camara-municipal-do-recife",
+        "@type": "CaseStudy",
+        "Subject": [
+          "Casos de Sucesso"
+        ],
+        "description": "Portal da Transpar\u00eancia da C\u00e2mara Municipal do Recife",
+        "effective": "2026-01-18T13:26:00+00:00",
+        "end": null,
+        "facets": null,
+        "getObjSize": null,
+        "getRemoteUrl": null,
+        "head_title": null,
+        "image_field": null,
+        "image_scales": {
+          "preview_image_link": [
+            {
+              "base_path": "/o-plone/casos-de-sucesso/camara-municipal-do-recife/recife.png",
+              "content-type": "image/png",
+              "download": "@@images/image-1920-5076c347902502282119a644148bea98.png",
+              "filename": "recife.png",
+              "height": 1080,
+              "scales": {
+                "great": {
+                  "download": "@@images/image-1200-481181ee27f08bababb5d0c7adb9d019.png",
+                  "height": 675,
+                  "width": 1200
+                },
+                "huge": {
+                  "download": "@@images/image-1600-a8104782ceafabd4e2ca0adf9c102261.png",
+                  "height": 900,
+                  "width": 1600
+                },
+                "icon": {
+                  "download": "@@images/image-32-2e47d41171a3d6055591ffefeb581e98.png",
+                  "height": 18,
+                  "width": 32
+                },
+                "large": {
+                  "download": "@@images/image-800-e995c64133cb783a79614ab1148042d8.png",
+                  "height": 450,
+                  "width": 800
+                },
+                "larger": {
+                  "download": "@@images/image-1000-3fe907886a5d016443ee54b6354a0741.png",
+                  "height": 562,
+                  "width": 1000
+                },
+                "mini": {
+                  "download": "@@images/image-200-a04614107af7a646ce68e28366b0c337.png",
+                  "height": 112,
+                  "width": 200
+                },
+                "preview": {
+                  "download": "@@images/image-400-d55ceed8a3b1a78926f9eb07318528dc.png",
+                  "height": 225,
+                  "width": 400
+                },
+                "teaser": {
+                  "download": "@@images/image-600-237cffcc297cd5852ec5acce8ac02ee0.png",
+                  "height": 337,
+                  "width": 600
+                },
+                "thumb": {
+                  "download": "@@images/image-128-4a12f639447c096cc1b2a83da15c717f.png",
+                  "height": 72,
+                  "width": 128
+                },
+                "tile": {
+                  "download": "@@images/image-64-6daf41c4d17727e101bd50786483f702.png",
+                  "height": 36,
+                  "width": 64
+                }
+              },
+              "size": 207967,
+              "width": 1920
+            }
+          ]
+        },
+        "mime_type": null,
+        "nav_title": null,
+        "review_state": "listed",
+        "social_links": null,
+        "start": null,
+        "title": "C\u00e2mara Municipal do Recife",
+        "type_title": "Case Study",
+        "workflow_states": null
+      }
+    ],
+    "received": []
+  },
+  "changeNote": "",
+  "city": "S\u00e3o Paulo",
+  "contact_email": "comercial@simplesconsultoria.com.br",
+  "contact_name": "\u00c9rico Andrei",
+  "contact_phone": null,
+  "country": "BR",
+  "created": "2026-10-02T17:45:39+00:00",
+  "description": "Com mais de 20 anos de exist\u00eancia, a Simples Consultoria \u00e9 uma empresa focada no desenvolvimento de solu\u00e7\u00f5es de tecnologia da informa\u00e7\u00e3o, tendo como diferencial a facilidade de uso de seus produtos.",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "simples-consultoria",
+  "industry": "technology",
+  "is_folderish": true,
+  "is_provider": true,
+  "language": "##DEFAULT##",
+  "layout": "providerView",
+  "lock": {},
+  "modified": "2026-10-02T17:46:36+00:00",
+  "organization_size": "small",
+  "postal_code": "01310-200",
+  "preview_caption_link": null,
+  "review_state": "published",
+  "services": [
+    "design",
+    "dev",
+    "hosting",
+    "training"
+  ],
+  "social_links": [
+    {
+      "@id": "f526f316-d7c3-495a-8964-aa5d51a36a95",
+      "href": [
+        {
+          "@id": "https://simplesconsultoria.com.br",
+          "title": "simplesconsultoria.com.br"
+        }
+      ],
+      "id": "website",
+      "title": "Website"
+    },
+    {
+      "@id": "8e8a5c5e-4d21-4ed8-a904-50d70f22b5a3",
+      "href": [
+        {
+          "@id": "https://github.com/simplesconsultoria",
+          "title": "github.com/simplesconsultoria"
+        }
+      ],
+      "id": "github",
+      "title": "GitHub"
+    },
+    {
+      "@id": "972c7f6b-0282-41b4-93ad-6ed6ea7bfa08",
+      "href": [
+        {
+          "@id": "https://www.linkedin.com/company/simples-consultoria",
+          "title": "www.linkedin.com/company/simples-consultoria"
+        }
+      ],
+      "id": "linkedin",
+      "title": "LinkedIn"
+    }
+  ],
+  "state": "SP",
+  "subjects": [],
+  "text": {
+    "content-type": "text/html",
+    "data": "<p>Formada por especialistas de larga viv\u00eancia nas \u00e1reas de gest\u00e3o do conhecimento, arquitetura da informa\u00e7\u00e3o, usabilidade e solu\u00e7\u00f5es web, nossa equipe conta com profissionais especializados em Python e Plone, reconhecidos pelas comunidades de desenvolvedores de todo o mundo.</p><p></p><p>Desde a especifica\u00e7\u00e3o de um projeto at\u00e9 os ajustes finais de desempenho de um servidor, a Simples Consultoria possui expertise t\u00e9cnica e pr\u00e1tica em todas as etapas necess\u00e1rias para o desenvolvimento de projetos web para a sua empresa, de intranets a portais.</p><p></p><p>Em seu portf\u00f3lio, ap\u00f3s anos de experi\u00eancia no uso de Plone, contabiliza-se mais de 100 casos de sucesso na utiliza\u00e7\u00e3o da ferramenta, o que nos credencia como as maiores autoridades em Plone no Brasil e nos permite atuar em todas as fases de elabora\u00e7\u00e3o de um site ou intranet a partir desta tecnologia.</p><p></p><p>Al\u00e9m de todo o conhecimento espec\u00edfico, nossos servi\u00e7os de consultoria e solu\u00e7\u00f5es de gest\u00e3o de conte\u00fado alinham os objetivos da sua organiza\u00e7\u00e3o com a facilidade de uso em ambiente web. Isso resulta em uma combina\u00e7\u00e3o sob medida para sua corpora\u00e7\u00e3o, com os profissionais da sua empresa receber\u00e3o a capacita\u00e7\u00e3o t\u00e9cnica necess\u00e1ria para gerenciar de maneira aut\u00f4noma o projeto.</p>",
+    "encoding": "utf8"
+  },
+  "title": "Simples Consultoria",
+  "type_title": "Organization",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "provider_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "time": "2026-10-02T17:45:39+00:00",
+        "workflow_states": "created"
+      },
+      {
+        "action": "verify",
+        "actor": "admin",
+        "comments": "",
+        "time": "2026-10-02T17:46:24+00:00",
+        "workflow_states": "verified"
+      }
+    ],
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-10-02T17:45:39+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-10-02T17:46:21+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published",
+    "provider_workflow|verified"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

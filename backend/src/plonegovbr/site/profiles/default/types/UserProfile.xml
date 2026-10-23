@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object meta_type="Dexterity FTI"
+        name="UserProfile"
+        purge="False"
+>
+  <!-- Adds to the behaviors pas.plugins.identity gives the type. -->
+  <property name="behaviors"
+            purge="False"
+  >
+    <element value="plonegovbr.socialmedia.links" />
+    <element value="plonegovbr.site.affiliations" />
+  </property>
+</object>

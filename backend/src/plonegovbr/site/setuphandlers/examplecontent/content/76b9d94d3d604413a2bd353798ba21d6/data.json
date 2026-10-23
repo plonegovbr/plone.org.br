@@ -1,0 +1,243 @@
+{
+  "@id": "/documentacao/primeiros-passos",
+  "@type": "Document",
+  "UID": "76b9d94d3d604413a2bd353798ba21d6",
+  "allow_discussion": false,
+  "blocks": {
+    "1c30fd78-bb74-4f67-b1fd-eff1820536c9": {
+      "@type": "slate",
+      "plaintext": "Use o Plone, conhe\u00e7a suas funcionalidades. com a instala\u00e7\u00e3o padr\u00e3o.  ",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Use o Plone, conhe\u00e7a suas funcionalidades. com a instala\u00e7\u00e3o padr\u00e3o."
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "type": "em"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "3f4b97b1-99a9-490a-ad47-0288d4e4a933": {
+      "@type": "gridBlock",
+      "columns": [
+        {
+          "@type": "teaser",
+          "description": "Conhe\u00e7a as funcionalidades do Plone, visitando os sites disponibilizados pela comunidade",
+          "head_title": "Demo",
+          "href": [
+            {
+              "@id": "/documentacao/primeiros-passos/demo-sites",
+              "Description": "",
+              "Title": "Demo Sites",
+              "hasPreviewImage": false,
+              "head_title": null,
+              "image_field": "",
+              "title": "Demo Sites"
+            }
+          ],
+          "id": "62ecfb02-5317-45a5-9ffe-558c656c8c41",
+          "preview_image": [
+            {
+              "@id": "/documentacao/primeiros-passos/demo-sites/6-demo-plone-org.png",
+              "@type": "Image",
+              "CreationDate": "2022-06-20T15:19:32+00:00",
+              "Creator": "813a2bd7-3bac-4e77-8da5-bb381a59284a",
+              "Date": "2022-06-20T15:19:32+00:00",
+              "Description": "",
+              "EffectiveDate": "None",
+              "ExpirationDate": "None",
+              "ModificationDate": "2022-06-20T15:19:32+00:00",
+              "Subject": [],
+              "Title": "6-demo-plone-org.png",
+              "Type": "Imagem",
+              "UID": "ead0660e1d064741bf016c6113b31a1d",
+              "author_name": null,
+              "cmf_uid": null,
+              "commentators": [],
+              "created": "2022-06-20T15:19:32+00:00",
+              "description": "",
+              "effective": "1969-12-31T00:00:00+00:00",
+              "end": null,
+              "exclude_from_nav": false,
+              "expires": "2499-12-31T00:00:00+00:00",
+              "getIcon": true,
+              "getId": "6-demo-plone-org.png",
+              "getObjSize": "148.3 KB",
+              "getPath": "/Plone/documentacao/primeiros-passos/demo-sites/6-demo-plone-org.png",
+              "getRemoteUrl": null,
+              "getURL": "https://plone.org.br/documentacao/primeiros-passos/demo-sites/6-demo-plone-org.png",
+              "hasPreviewImage": null,
+              "head_title": null,
+              "id": "6-demo-plone-org.png",
+              "image_field": "image",
+              "in_response_to": null,
+              "industry": null,
+              "is_folderish": false,
+              "last_comment_date": null,
+              "listCreators": [
+                "813a2bd7-3bac-4e77-8da5-bb381a59284a"
+              ],
+              "location": null,
+              "mime_type": "image/png",
+              "modified": "2022-06-20T15:19:32+00:00",
+              "nav_title": null,
+              "portal_type": "Image",
+              "review_state": null,
+              "start": null,
+              "sync_uid": null,
+              "title": "6-demo-plone-org.png",
+              "total_comments": 0
+            }
+          ],
+          "title": "Demo Sites"
+        },
+        {
+          "@type": "teaser",
+          "description": "Rode Plone 6 em seu computador usando as imagens disponibilizadas pela comunidade.",
+          "head_title": "Instala\u00e7\u00e3o",
+          "href": [
+            {
+              "@id": "/documentacao/primeiros-passos/containers",
+              "Description": "",
+              "Title": "Container (Docker)",
+              "hasPreviewImage": false,
+              "head_title": null,
+              "image_field": "",
+              "title": "Container (Docker)"
+            }
+          ],
+          "id": "d02020b4-6e25-49bd-8ca5-9b9ca22ab087",
+          "preview_image": [
+            {
+              "@id": "/images/logos/docker-1920.png",
+              "@type": "Image",
+              "CreationDate": "2022-06-20T15:38:41+00:00",
+              "Creator": "813a2bd7-3bac-4e77-8da5-bb381a59284a",
+              "Date": "2022-06-20T15:38:41+00:00",
+              "Description": "",
+              "EffectiveDate": "None",
+              "ExpirationDate": "None",
+              "ModificationDate": "2022-06-20T15:38:41+00:00",
+              "Subject": [],
+              "Title": "Docker-1920.png",
+              "Type": "Imagem",
+              "UID": "1d98fe1adc6a4e0eb4f2b06461fc26f5",
+              "author_name": null,
+              "cmf_uid": null,
+              "commentators": [],
+              "created": "2022-06-20T15:38:41+00:00",
+              "description": "",
+              "effective": "1969-12-31T00:00:00+00:00",
+              "end": null,
+              "exclude_from_nav": false,
+              "expires": "2499-12-31T00:00:00+00:00",
+              "getIcon": true,
+              "getId": "docker-1920.png",
+              "getObjSize": "14.7 KB",
+              "getPath": "/Plone/images/logos/docker-1920.png",
+              "getRemoteUrl": null,
+              "getURL": "https://plone.org.br/images/logos/docker-1920.png",
+              "hasPreviewImage": null,
+              "head_title": null,
+              "id": "docker-1920.png",
+              "image_field": "image",
+              "in_response_to": null,
+              "industry": null,
+              "is_folderish": false,
+              "last_comment_date": null,
+              "listCreators": [
+                "813a2bd7-3bac-4e77-8da5-bb381a59284a"
+              ],
+              "location": null,
+              "mime_type": "image/png",
+              "modified": "2022-06-20T15:38:41+00:00",
+              "nav_title": null,
+              "portal_type": "Image",
+              "review_state": null,
+              "start": null,
+              "sync_uid": null,
+              "title": "Docker-1920.png",
+              "total_comments": 0
+            }
+          ],
+          "title": "Containers"
+        }
+      ]
+    },
+    "a25c450d-79d9-4bf2-a841-89303b1225d5": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "a25c450d-79d9-4bf2-a841-89303b1225d5",
+      "1c30fd78-bb74-4f67-b1fd-eff1820536c9",
+      "3f4b97b1-99a9-490a-ad47-0288d4e4a933"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2022-06-20T13:51:24+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": "2022-06-20T17:02:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "primeiros-passos",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2022-06-20T17:02:14+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Primeiros Passos",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "private",
+        "time": "2022-06-20T13:51:24+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "ericof",
+        "comments": "",
+        "review_state": "published",
+        "time": "2022-06-20T17:02:14+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

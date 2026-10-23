@@ -1,0 +1,1 @@
+Corrige o tamanho da foto do usuário na barra de ferramentas, que passa a seguir a variável `--toolbar-avatar-size` (50px). @ericof

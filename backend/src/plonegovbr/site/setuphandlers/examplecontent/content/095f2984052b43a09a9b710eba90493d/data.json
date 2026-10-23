@@ -1,0 +1,40 @@
+{
+  "@id": "/novidades/eventos/2026/cerrado-sprint-2026/jk.jpeg",
+  "@type": "Image",
+  "UID": "095f2984052b43a09a9b710eba90493d",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2026-09-17T18:07:19+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "jk.jpeg",
+  "image": {
+    "blob_path": "095f2984052b43a09a9b710eba90493d/image/jk.jpeg",
+    "content-type": "image/jpeg",
+    "filename": "jk.jpeg",
+    "height": 1080,
+    "size": 1971431,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2026-09-17T18:07:19+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "jk.jpeg",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

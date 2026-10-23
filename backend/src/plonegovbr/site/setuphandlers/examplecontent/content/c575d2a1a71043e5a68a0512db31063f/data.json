@@ -1,0 +1,40 @@
+{
+  "@id": "/comunidades/gitec/foto_oficial.jpg",
+  "@type": "Image",
+  "UID": "c575d2a1a71043e5a68a0512db31063f",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2022-05-24T18:54:57+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "foto_oficial.jpg",
+  "image": {
+    "blob_path": "c575d2a1a71043e5a68a0512db31063f/image/foto_oficial.jpg",
+    "content-type": "image/jpeg",
+    "filename": "foto_oficial.jpg",
+    "height": 347,
+    "size": 126414,
+    "width": 1080
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2022-05-24T18:54:57+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "foto_oficial.jpg",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

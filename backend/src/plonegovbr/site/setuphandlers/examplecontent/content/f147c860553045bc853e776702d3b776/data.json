@@ -1,0 +1,40 @@
+{
+  "@id": "/o-plone/casos-de-sucesso/diracom/diracom.jpg",
+  "@type": "Image",
+  "UID": "f147c860553045bc853e776702d3b776",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2026-10-22T19:20:05+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "diracom.jpg",
+  "image": {
+    "blob_path": "f147c860553045bc853e776702d3b776/image/diracom.jpg",
+    "content-type": "image/jpeg",
+    "filename": "diracom.jpg",
+    "height": 1080,
+    "size": 182332,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2026-10-22T19:20:05+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "DiraCom",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

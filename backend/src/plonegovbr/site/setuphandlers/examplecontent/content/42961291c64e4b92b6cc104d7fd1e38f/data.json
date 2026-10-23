@@ -1,0 +1,40 @@
+{
+  "@id": "/images/plone-logo-vertical_450x350_transparent-bg.png",
+  "@type": "Image",
+  "UID": "42961291c64e4b92b6cc104d7fd1e38f",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2022-05-24T19:11:37+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "plone-logo-vertical_450x350_transparent-bg.png",
+  "image": {
+    "blob_path": "42961291c64e4b92b6cc104d7fd1e38f/image/plone-logo-vertical_450x350_transparent-bg.png",
+    "content-type": "image/png",
+    "filename": "plone-logo-vertical_450x350_transparent-bg.png",
+    "height": 433,
+    "size": 13205,
+    "width": 337
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2022-05-24T19:11:38+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "plone-logo-vertical_450x350_transparent-bg.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

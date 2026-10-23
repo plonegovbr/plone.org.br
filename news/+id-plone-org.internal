@@ -1,0 +1,1 @@
+Repassa a variável `ID_PLONE_ORG_CLIENT_SECRET` ao backend no `docker-compose.yml` e na stack de produção. @ericof

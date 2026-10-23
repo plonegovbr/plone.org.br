@@ -1,0 +1,40 @@
+{
+  "@id": "/documentacao/primeiros-passos/plone-6-classic.png",
+  "@type": "Image",
+  "UID": "1cb8877a13fe406f97b2f8a49a896d52",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2022-06-20T14:23:16+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": "2022-06-20T17:02:00+00:00",
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "plone-6-classic.png",
+  "image": {
+    "blob_path": "1cb8877a13fe406f97b2f8a49a896d52/image/plone-6-classic.png",
+    "content-type": "image/png",
+    "filename": "plone-6-classic.png",
+    "height": 1080,
+    "size": 229409,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2022-06-20T17:02:14+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "plone-6-classic.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

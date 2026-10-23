@@ -1,0 +1,40 @@
+{
+  "@id": "/novidades/eventos/2026/cerrado-sprint-2026/cerrado2026-logo.png",
+  "@type": "Image",
+  "UID": "4a9f7fbeef044109b00af6c60ff4584d",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2026-09-18T12:21:54+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "cerrado2026-logo.png",
+  "image": {
+    "blob_path": "4a9f7fbeef044109b00af6c60ff4584d/image/cerrado2026-logo.png",
+    "content-type": "image/png",
+    "filename": "cerrado2026-logo.png",
+    "height": 1080,
+    "size": 123734,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2026-09-18T12:21:54+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "cerrado2026-logo.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

@@ -1,0 +1,40 @@
+{
+  "@id": "/organizacoes/interlegis/logo-interlegis.png",
+  "@type": "Image",
+  "UID": "72e957b9ab024a8aa15b8da6f60ac919",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2026-10-22T19:20:05+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "logo-interlegis.png",
+  "image": {
+    "blob_path": "72e957b9ab024a8aa15b8da6f60ac919/image/logo-interlegis.png",
+    "content-type": "image/png",
+    "filename": "logo-interlegis.png",
+    "height": 1080,
+    "size": 30123,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2026-10-22T19:20:05+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "Logo Interlegis",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

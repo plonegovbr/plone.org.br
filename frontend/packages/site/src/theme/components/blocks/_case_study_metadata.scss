@@ -1,0 +1,28 @@
+.casestudy-metadata-block {
+  .metadata-boxes {
+    margin-bottom: $spacing-medium;
+    .info-box {
+      h2.blockTitle {
+        margin-bottom: 0px;
+      }
+      &.industry {
+        --info-block-border-color: var(--file-color-dark);
+      }
+      &.website {
+        --info-block-border-color: var(--file-color-dark);
+      }
+      &.subjects {
+        --info-block-border-color: var(--file-color-dark);
+      }
+      &.organizations {
+        --info-block-border-color: var(--file-color-dark);
+      }
+      &.providers {
+        --info-block-border-color: var(--file-color-dark);
+      }
+      &.versions {
+        --info-block-border-color: var(--file-color-dark);
+      }
+    }
+  }
+}

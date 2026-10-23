@@ -1,0 +1,1 @@
+Deixa de esconder o perfil `plonegovbr.site:uninstall`, que não existe: o pacote registra apenas os perfis `default` e `initial`. @ericof

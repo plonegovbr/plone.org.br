@@ -1,6 +1,0 @@
-<configure xmlns="http://namespaces.zope.org/zope">
-  <utility
-      factory=".summary.JSONSummarySerializerMetadata"
-      name="ploneorgbr.summary_serializer_metadata"
-      />
-</configure>

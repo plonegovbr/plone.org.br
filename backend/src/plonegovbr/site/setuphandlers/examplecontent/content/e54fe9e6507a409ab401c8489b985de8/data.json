@@ -1,0 +1,40 @@
+{
+  "@id": "/images/engitec/engitec-12-01.jpg",
+  "@type": "Image",
+  "UID": "e54fe9e6507a409ab401c8489b985de8",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2022-06-06T19:26:03+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "engitec-12-01.jpg",
+  "image": {
+    "blob_path": "e54fe9e6507a409ab401c8489b985de8/image/photo_2022-06-06_16-24-01.jpg",
+    "content-type": "image/jpeg",
+    "filename": "photo_2022-06-06_16-24-01.jpg",
+    "height": 960,
+    "size": 124086,
+    "width": 1280
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2022-06-06T19:28:46+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "12o. Engitec - Foto 01",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

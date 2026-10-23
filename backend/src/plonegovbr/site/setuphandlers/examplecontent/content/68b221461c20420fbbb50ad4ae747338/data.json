@@ -1,0 +1,40 @@
+{
+  "@id": "/projetos/portal-brasil/portalbrasil-leg.png",
+  "@type": "Image",
+  "UID": "68b221461c20420fbbb50ad4ae747338",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2023-06-28T10:55:18+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "portalbrasil-leg.png",
+  "image": {
+    "blob_path": "68b221461c20420fbbb50ad4ae747338/image/portalbrasil-leg.png",
+    "content-type": "image/png",
+    "filename": "portalbrasil-leg.png",
+    "height": 6400,
+    "size": 272987,
+    "width": 8533
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2023-06-28T10:55:18+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "portalbrasil-leg.png",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

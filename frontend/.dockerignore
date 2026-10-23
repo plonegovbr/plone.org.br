@@ -1,8 +1,6 @@
-build
-cypress
-.yarn/cache
-node_modules
-omelette
-Dockerfile
 *.log
+build
 cache
+cypress
+Dockerfile
+node_modules

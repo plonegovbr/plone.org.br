@@ -1,0 +1,40 @@
+{
+  "@id": "/projetos/volto-vlibras/vlibras-opening.gif",
+  "@type": "Image",
+  "UID": "6db312d923e7492ab4016a827b3ea7a2",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2023-06-13T09:34:46+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "vlibras-opening.gif",
+  "image": {
+    "blob_path": "6db312d923e7492ab4016a827b3ea7a2/image/vlibras-opening.gif",
+    "content-type": "image/gif",
+    "filename": "vlibras-opening.gif",
+    "height": 720,
+    "size": 539087,
+    "width": 1280
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2023-06-13T09:34:46+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "vlibras-opening.gif",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

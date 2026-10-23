@@ -1,0 +1,126 @@
+---
+version: '3.8'
+
+# plone.org.br on the Docker Swarm cluster. Traefik runs once per cluster and
+# routes every stack through the external `public` network, so this stack
+# brings neither a proxy nor a database: RelStorage connects to the managed
+# PostgreSQL at DB_HOST. Every ${...} value comes from the deploy workflow's
+# env_file (see devops/.env_vars_gha and devops/.env_secrets_gha).
+
+services:
+
+  frontend:
+    image: ${FRONTEND_IMAGE}:${IMAGE_TAG:-latest}
+    environment:
+      RAZZLE_INTERNAL_API_PATH: http://${STACK_NAME}_backend:8080/Plone
+      RAZZLE_API_PATH: ${PUBLIC_URL_SCHEME}://${PUBLIC_URL_HOSTNAME}
+    networks:
+      - public
+      - nw-internal
+    deploy:
+      replicas: ${FRONTEND_REPLICAS}
+      update_config:
+        parallelism: 1
+        delay: 5s
+        order: start-first
+      placement:
+        constraints:
+          - node.labels.type == ${FRONTEND_NODE_TYPE}
+      labels:
+        - traefik.enable=true
+        - traefik.docker.network=public
+        - traefik.constraint-label=public
+        # Service
+        - traefik.http.services.svc-${STACK_PREFIX}-frontend.loadbalancer.server.port=3000
+        # Routers
+        ## /
+        - traefik.http.routers.rt-${STACK_PREFIX}-frontend.rule=Host(`${PUBLIC_URL_HOSTNAME}`)
+        - traefik.http.routers.rt-${STACK_PREFIX}-frontend.entrypoints=${PUBLIC_URL_SCHEME}
+        - traefik.http.routers.rt-${STACK_PREFIX}-frontend.tls=true
+        - traefik.http.routers.rt-${STACK_PREFIX}-frontend.tls.certresolver=${CERTRESOLVER}
+        - traefik.http.routers.rt-${STACK_PREFIX}-frontend.service=svc-${STACK_PREFIX}-frontend
+        - traefik.http.routers.rt-${STACK_PREFIX}-frontend.middlewares=gzip
+
+  backend:
+    image: ${BACKEND_IMAGE}:${IMAGE_TAG:-latest}
+    environment:
+      RELSTORAGE_DSN: "dbname='${DB_NAME}' user='${DB_USER}' host='${DB_HOST}' password='${DB_PASSWORD}' port='${DB_PORT}' sslmode='${DB_SSLMODE:-require}'"
+      # The default profile enables the id.plone.org login only when this
+      # holds the client secret.
+      ID_PLONE_ORG_CLIENT_SECRET: ${ID_PLONE_ORG_CLIENT_SECRET:-}
+    networks:
+      - public
+      - nw-internal
+    deploy:
+      replicas: ${BACKEND_REPLICAS}
+      update_config:
+        parallelism: 1
+        delay: 5s
+        order: start-first
+      placement:
+        constraints:
+          - node.labels.type == ${BACKEND_NODE_TYPE}
+      labels:
+        - traefik.enable=true
+        - traefik.docker.network=public
+        - traefik.constraint-label=public
+        # Services
+        - traefik.http.services.svc-${STACK_PREFIX}-backend.loadbalancer.server.port=8080
+        # Middlewares
+        ## VHM rewrite /++api++/
+        - "traefik.http.middlewares.mw-${STACK_PREFIX}-backend-vhm-api.replacepathregex.regex=^/\\+\\+api\\+\\+($$|/.*)"
+        - "traefik.http.middlewares.mw-${STACK_PREFIX}-backend-vhm-api.replacepathregex.replacement=/VirtualHostBase/${PUBLIC_URL_SCHEME}/${PUBLIC_URL_HOSTNAME}/Plone/++api++/VirtualHostRoot$$1"
+        ## VHM rewrite /ClassicUI/
+        - "traefik.http.middlewares.mw-${STACK_PREFIX}-backend-vhm-classic.replacepathregex.regex=^/ClassicUI($$|/.*)"
+        - "traefik.http.middlewares.mw-${STACK_PREFIX}-backend-vhm-classic.replacepathregex.replacement=/VirtualHostBase/${PUBLIC_URL_SCHEME}/${PUBLIC_URL_HOSTNAME}/Plone/VirtualHostRoot/_vh_ClassicUI$$1"
+        ## Basic Authentication
+        - traefik.http.middlewares.mw-${STACK_PREFIX}-backend-auth.basicauth.headerField=X-Auth-ClassicUI
+        - traefik.http.middlewares.mw-${STACK_PREFIX}-backend-auth.basicauth.users=${BASIC_AUTH_USER}:${BASIC_AUTH_PASSWORD_CLASSICUI}
+
+        # Routes
+        ## /++api++
+        - traefik.http.routers.rt-${STACK_PREFIX}-backend-api.rule=Host(`${PUBLIC_URL_HOSTNAME}`) && PathPrefix(`/++api++`)
+        - traefik.http.routers.rt-${STACK_PREFIX}-backend-api.entrypoints=${PUBLIC_URL_SCHEME}
+        - traefik.http.routers.rt-${STACK_PREFIX}-backend-api.tls=true
+        - traefik.http.routers.rt-${STACK_PREFIX}-backend-api.service=svc-${STACK_PREFIX}-backend
+        - traefik.http.routers.rt-${STACK_PREFIX}-backend-api.middlewares=gzip,mw-${STACK_PREFIX}-backend-vhm-api
+        ## /ClassicUI
+        - traefik.http.routers.rt-${STACK_PREFIX}-backend-classic.rule=Host(`${PUBLIC_URL_HOSTNAME}`) && PathPrefix(`/ClassicUI`)
+        - traefik.http.routers.rt-${STACK_PREFIX}-backend-classic.entrypoints=${PUBLIC_URL_SCHEME}
+        - traefik.http.routers.rt-${STACK_PREFIX}-backend-classic.tls=true
+        - traefik.http.routers.rt-${STACK_PREFIX}-backend-classic.service=svc-${STACK_PREFIX}-backend
+        - traefik.http.routers.rt-${STACK_PREFIX}-backend-classic.middlewares=gzip,mw-${STACK_PREFIX}-backend-auth,mw-${STACK_PREFIX}-backend-vhm-classic
+
+  dbpack:
+    image: ${BACKEND_IMAGE}:${IMAGE_TAG:-latest}
+    environment:
+      RELSTORAGE_DSN: "dbname='${DB_NAME}' user='${DB_USER}' host='${DB_HOST}' password='${DB_PASSWORD}' port='${DB_PORT}' sslmode='${DB_SSLMODE:-require}'"
+    command: bin/zodbpack -d 3 /zodbpack_conf
+    healthcheck:
+      disable: true
+    deploy:
+      replicas: 0
+      labels:
+        - "swarm.cronjob.enable=true"
+        - "swarm.cronjob.schedule=40 4 * * *"
+      restart_policy:
+        condition: none
+      placement:
+        constraints:
+          - node.labels.type == ${BACKEND_NODE_TYPE}
+    configs:
+      - source: zodbpack_conf_1
+        target: /zodbpack_conf
+    networks:
+      - public
+
+networks:
+  public:
+    external: true
+  nw-internal:
+    internal: true
+    driver: overlay
+
+configs:
+  zodbpack_conf_1:
+    file: ./config/zodbpack.conf

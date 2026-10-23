@@ -1,0 +1,143 @@
+{
+  "@id": "/organizacoes/serpro",
+  "@type": "Organization",
+  "UID": "c6507a9e4bbc4b0c98c3b89005d3aab0",
+  "address": "SGAN Quadra 601, M\u00f3dulo V",
+  "address_2": null,
+  "allow_discussion": null,
+  "changeNote": "",
+  "city": "Bras\u00edlia",
+  "contact_email": null,
+  "contact_name": null,
+  "contact_phone": null,
+  "country": "BR",
+  "created": "2026-10-22T19:10:34+00:00",
+  "description": "Empresa p\u00fablica federal de tecnologia da informa\u00e7\u00e3o, criada em 1964, que desenvolve solu\u00e7\u00f5es tecnol\u00f3gicas para as a\u00e7\u00f5es estrat\u00e9gicas do Estado brasileiro.",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "serpro",
+  "industry": "technology",
+  "is_folderish": true,
+  "is_provider": true,
+  "language": "##DEFAULT##",
+  "layout": "providerView",
+  "lock": {},
+  "modified": "2026-10-22T19:10:34+00:00",
+  "organization_size": "large",
+  "postal_code": "70836-900",
+  "preview_caption_link": null,
+  "review_state": "published",
+  "services": [
+    "dev",
+    "hosting"
+  ],
+  "social_links": [
+    {
+      "@id": "be258876-20c7-42a3-8b45-b6c413346832",
+      "href": [
+        {
+          "@id": "https://www.serpro.gov.br/",
+          "title": "www.serpro.gov.br/"
+        }
+      ],
+      "id": "website",
+      "title": "Website"
+    },
+    {
+      "@id": "df6f73a5-021e-4bda-9980-7f90c1caf02d",
+      "href": [
+        {
+          "@id": "https://www.linkedin.com/company/serpro",
+          "title": "www.linkedin.com/company/serpro"
+        }
+      ],
+      "id": "linkedin",
+      "title": "LinkedIn"
+    },
+    {
+      "@id": "f61efbd2-b4b0-49cc-ab49-0bd6fdd192cd",
+      "href": [
+        {
+          "@id": "https://www.instagram.com/serprobrasil/",
+          "title": "www.instagram.com/serprobrasil/"
+        }
+      ],
+      "id": "instagram",
+      "title": "Instagram"
+    },
+    {
+      "@id": "f94c8137-1afc-470f-a117-7f4450bdce08",
+      "href": [
+        {
+          "@id": "https://x.com/serpro",
+          "title": "x.com/serpro"
+        }
+      ],
+      "id": "x",
+      "title": "X (Twitter)"
+    },
+    {
+      "@id": "748bff09-077b-436d-bdf7-7446249ae406",
+      "href": [
+        {
+          "@id": "https://facebook.com/SerproBrasil",
+          "title": "facebook.com/SerproBrasil"
+        }
+      ],
+      "id": "facebook",
+      "title": "Facebook"
+    }
+  ],
+  "state": "DF",
+  "subjects": [],
+  "text": {
+    "content-type": "text/html",
+    "data": "<p>O Serpro (Servi\u00e7o Federal de Processamento de Dados) foi criado pela Lei n\u00ba 4.516, de 1\u00ba de dezembro de 1964, e \u00e9 uma empresa p\u00fablica vinculada ao Minist\u00e9rio da Fazenda. L\u00edder em TI para o setor p\u00fablico, desenvolve solu\u00e7\u00f5es com foco em seguran\u00e7a, qualidade e confiabilidade e oferece servi\u00e7os especializados aos setores p\u00fablico e privado. \u00c9 o respons\u00e1vel pela implementa\u00e7\u00e3o do portal gov.br em Plone.</p>",
+    "encoding": "utf-8"
+  },
+  "title": "Serpro",
+  "type_title": "Organization",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "provider_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "time": "2026-10-22T19:10:34+00:00",
+        "workflow_states": "created"
+      },
+      {
+        "action": "verify",
+        "actor": "admin",
+        "comments": "",
+        "time": "2026-10-22T19:10:34+00:00",
+        "workflow_states": "verified"
+      }
+    ],
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-10-22T19:10:34+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-10-22T19:10:34+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published",
+    "provider_workflow|verified"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

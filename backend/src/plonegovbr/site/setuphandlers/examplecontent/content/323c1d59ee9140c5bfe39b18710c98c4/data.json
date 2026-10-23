@@ -1,0 +1,40 @@
+{
+  "@id": "/images/21-anos.jpg",
+  "@type": "Image",
+  "UID": "323c1d59ee9140c5bfe39b18710c98c4",
+  "allow_discussion": null,
+  "contributors": [],
+  "created": "2022-10-04T17:00:24+00:00",
+  "creators": [
+    "ericof"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "21-anos.jpg",
+  "image": {
+    "blob_path": "323c1d59ee9140c5bfe39b18710c98c4/image/WhatsApp Image 2022-10-04 at 12.05.27.jpeg",
+    "content-type": "image/jpeg",
+    "filename": "WhatsApp Image 2022-10-04 at 12.05.27.jpeg",
+    "height": 1080,
+    "size": 151111,
+    "width": 1080
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2022-10-04T17:02:13+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "Plone 21 anos",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {},
+  "workflow_states": [],
+  "working_copy": null,
+  "working_copy_of": null
+}

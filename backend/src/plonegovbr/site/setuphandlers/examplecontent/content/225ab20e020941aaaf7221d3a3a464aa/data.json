@@ -1,0 +1,132 @@
+{
+  "@id": "/organizacoes/interagi",
+  "@type": "Organization",
+  "UID": "225ab20e020941aaaf7221d3a3a464aa",
+  "address": null,
+  "address_2": null,
+  "allow_discussion": null,
+  "changeNote": "",
+  "city": "Goi\u00e2nia",
+  "contact_email": "interagi@interagi.com.br",
+  "contact_name": null,
+  "contact_phone": "+55 (62) 3091-7694",
+  "country": "BR",
+  "created": "2026-10-22T19:10:34+00:00",
+  "description": "Empresa de Goi\u00e2nia que desenvolve solu\u00e7\u00f5es digitais personalizadas, como sites, portais e sistemas de gest\u00e3o, com foco em engajar pessoas e agilizar processos.",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "interagi",
+  "industry": "technology",
+  "is_folderish": true,
+  "is_provider": true,
+  "language": "##DEFAULT##",
+  "layout": "providerView",
+  "lock": {},
+  "modified": "2026-10-22T19:10:34+00:00",
+  "organization_size": "medium",
+  "postal_code": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "services": [
+    "design",
+    "dev"
+  ],
+  "social_links": [
+    {
+      "@id": "9189f6aa-ae1f-466f-8dc8-6381bd68b55d",
+      "href": [
+        {
+          "@id": "https://interagi.com.br/pt/",
+          "title": "interagi.com.br/pt/"
+        }
+      ],
+      "id": "website",
+      "title": "Website"
+    },
+    {
+      "@id": "48816c8d-1d51-41fb-ba40-cf2184a0056c",
+      "href": [
+        {
+          "@id": "https://www.linkedin.com/company/interagi-tecnologia",
+          "title": "www.linkedin.com/company/interagi-tecnologia"
+        }
+      ],
+      "id": "linkedin",
+      "title": "LinkedIn"
+    },
+    {
+      "@id": "c0c30bd2-2b30-4e4c-8f52-fb4c0e7aae60",
+      "href": [
+        {
+          "@id": "https://www.instagram.com/interagitecnologia",
+          "title": "www.instagram.com/interagitecnologia"
+        }
+      ],
+      "id": "instagram",
+      "title": "Instagram"
+    },
+    {
+      "@id": "46ffc590-946e-40df-acc1-3865dd8993f2",
+      "href": [
+        {
+          "@id": "https://www.facebook.com/interagi",
+          "title": "www.facebook.com/interagi"
+        }
+      ],
+      "id": "facebook",
+      "title": "Facebook"
+    }
+  ],
+  "state": "GO",
+  "subjects": [],
+  "text": {
+    "content-type": "text/html",
+    "data": "<p>Com escrit\u00f3rios em Goi\u00e2nia, Bras\u00edlia e S\u00e3o Paulo, a Interagi Tecnologia desenvolve sites institucionais e governamentais com acessibilidade, usabilidade e responsividade, redes colaborativas, lojas virtuais e sistemas de gest\u00e3o. Entre seus clientes est\u00e3o o Conselho Nacional do Minist\u00e9rio P\u00fablico (CNMP), o Minist\u00e9rio da Defesa, a Embrapa e a Companhia das Docas da Bahia (Codeba).</p>",
+    "encoding": "utf-8"
+  },
+  "title": "Interagi Tecnologia",
+  "type_title": "Organization",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "provider_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "time": "2026-10-22T19:10:34+00:00",
+        "workflow_states": "created"
+      },
+      {
+        "action": "verify",
+        "actor": "admin",
+        "comments": "",
+        "time": "2026-10-22T19:10:34+00:00",
+        "workflow_states": "verified"
+      }
+    ],
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-10-22T19:10:34+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-10-22T19:10:34+00:00"
+      }
+    ]
+  },
+  "workflow_states": [
+    "simple_publication_workflow|published",
+    "provider_workflow|verified"
+  ],
+  "working_copy": null,
+  "working_copy_of": null
+}

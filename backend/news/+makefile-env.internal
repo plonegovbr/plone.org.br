@@ -1,0 +1,1 @@
+O `Makefile` do backend carrega `backend/.env`, quando existir, e exporta as chaves definidas nele para os comandos, como o `make create-site`. @ericof
