@@ -72,3 +72,8 @@ como CRLF, e cada valor, menos o último, chega à stack terminado em `\r`.
   `BASIC_AUTH_USER`, no middleware `basicauth` do Traefik.
 - `ID_PLONE_ORG_CLIENT_SECRET` habilita o login pelo id.plone.org quando o
   site é criado ou o profile é reaplicado. Vazio, o provedor fica desabilitado.
+- `RAZZLE_MATOMO_SITE_ID` e `RAZZLE_MATOMO_URL` configuram a contagem de
+  visitas pelo [@eeacms/volto-matomo](https://github.com/eea/volto-matomo). O
+  Volto lê as variáveis `RAZZLE_*` quando o contêiner sobe, então mudar a
+  configuração não exige uma nova imagem. Com `RAZZLE_MATOMO_SITE_ID` vazio,
+  nada é contado; `RAZZLE_MATOMO_URL` vazio vale `https://stats.plone.org/`.

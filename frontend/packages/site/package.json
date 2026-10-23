@@ -32,10 +32,12 @@
     "@simplesconsultoria/volto-videos",
     "@plonegovbr/volto-code-block",
     "@plonegovbr/volto-social-media",
+    "@eeacms/volto-matomo",
     "@simplesconsultoria/volto-light-theme"
   ],
   "theme": "@kitconcept/volto-light-theme",
   "dependencies": {
+    "@eeacms/volto-matomo": "7.0.1",
     "@plone-collective/volto-identity": "1.0.0-alpha.14",
     "@plone-collective/volto-casestudy": "2.0.0-alpha.3",
     "@simplesconsultoria/volto-videos": "1.0.0-alpha.3",

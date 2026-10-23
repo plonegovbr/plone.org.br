@@ -14,6 +14,9 @@ services:
     environment:
       RAZZLE_INTERNAL_API_PATH: http://${STACK_NAME}_backend:8080/Plone
       RAZZLE_API_PATH: ${PUBLIC_URL_SCHEME}://${PUBLIC_URL_HOSTNAME}
+      # Matomo tracking: an empty RAZZLE_MATOMO_SITE_ID tracks nothing
+      RAZZLE_MATOMO_SITE_ID: ${RAZZLE_MATOMO_SITE_ID:-}
+      RAZZLE_MATOMO_URL: ${RAZZLE_MATOMO_URL:-https://stats.plone.org/}
     networks:
       - public
       - nw-internal

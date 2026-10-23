@@ -1,0 +1,1 @@
+Repassa ao frontend o id do site e a URL do Matomo pelas variáveis de deploy `RAZZLE_MATOMO_SITE_ID` e `RAZZLE_MATOMO_URL`, sem precisar de uma nova imagem. Com `RAZZLE_MATOMO_SITE_ID` vazio, nada é contado. @ericof
