@@ -1,0 +1,1 @@
+Substitui a stack de produção por `devops/stacks/stack.yml`, que usa o Traefik do cluster e o PostgreSQL gerenciado, e adiciona os workflows de deploy por tag e manual para o environment `plone.org.br`. @ericof

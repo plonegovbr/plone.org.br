@@ -11,6 +11,14 @@ on:
         required: false
         type: string
         default: "3.14"
+      stack-name:
+        required: false
+        type: string
+        default: "plone-org-br"
+      environment:
+        required: false
+        type: string
+        default: "plone.org.br"
     outputs:
       acceptance:
         description: "Flag reporting if we should run the acceptance jobs"
@@ -69,6 +77,12 @@ on:
       storybook-deploy:
         description: "Whether to deploy storybook or not"
         value: ${{ jobs.config.outputs.storybook-deploy }}
+      stack-name:
+        description: "Stack name to be used"
+        value: ${{ inputs.stack-name }}
+      environment:
+        description: "Environment to be used"
+        value: ${{ inputs.environment }}
 
 jobs:
   config:

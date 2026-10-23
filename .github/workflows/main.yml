@@ -2,6 +2,10 @@ name: CI
 
 on:
   push:
+    # Tags are built and deployed by tag-release-deploy.yml; GitHub does not
+    # evaluate `paths` for tag pushes, so without this every tag built twice.
+    branches:
+      - "**"
     paths:
       - "backend/**"
       - "devops/**"

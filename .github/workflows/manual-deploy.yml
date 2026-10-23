@@ -1,0 +1,43 @@
+name: Manual deploy to plone.org.br
+
+on:
+  workflow_dispatch:
+
+jobs:
+  config:
+    uses: ./.github/workflows/config.yml
+    with:
+      environment: "plone.org.br"
+  deploy:
+    name: "Deploy to Production"
+    needs:
+      - config
+    runs-on: ubuntu-latest
+    concurrency:
+      group: deploy-${{ needs.config.outputs.environment }}
+      cancel-in-progress: false
+    environment:
+      name: ${{ needs.config.outputs.environment }}
+      url: https://${{ needs.config.outputs.environment }}
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Deploy
+        uses: kitconcept/docker-stack-deploy@v1.6.0
+        # The images on ghcr.io/plonegovbr are public, so the swarm pulls them
+        # without a registry login.
+        with:
+            remote_host: ${{ secrets.DEPLOY_HOST }}
+            remote_port: ${{ secrets.DEPLOY_PORT }}
+            remote_user: ${{ secrets.DEPLOY_USER }}
+            remote_private_key: ${{ secrets.DEPLOY_SSH }}
+            stack_file: 'devops/stacks/stack.yml'
+            stack_name: ${{ needs.config.outputs.stack-name }}
+            stack_param: ${{ github.ref_name }}
+            env_file: |
+              ${{ vars.ENV_VARS }}
+              ${{ secrets.ENV_SECRETS }}
+              IMAGE_TAG=${{ github.ref_name }}
+            deploy_timeout: 480
