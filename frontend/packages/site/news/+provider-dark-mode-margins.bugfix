@@ -1,0 +1,1 @@
+Ajusta as cores da visão de provedor e organização no modo escuro, aplica `default-container-width` e `adjustMarginsToContainer` na seção de projetos, e organiza o cabeçalho em coluna em telas pequenas para que o texto fique abaixo do logo.

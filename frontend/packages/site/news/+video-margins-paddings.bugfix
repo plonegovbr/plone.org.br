@@ -1,0 +1,1 @@
+Ajusta a estilização do bloco de vídeo para respeitar a largura do container e margens em telas pequenas, remove o margin-top do bloco de vídeo e reduz paddings verticais. Corrige as margens de títulos (h3), parágrafos (p) e demais elementos de texto no `#page-document .blocks-group-wrapper` em telas pequenas (até 980px), garantindo o espaçamento de 20px das bordas.

@@ -111,6 +111,14 @@ body,
 
   // Toolbar
   --toolbar-avatar-size: 50px;
+
+  // Case Studies & Provider / Organization Tokens (sc-vlt integration)
+  --case-studies-max-width: var(--default-container-width);
+  --case-studies-provided-background-color: var(--neutral-color);
+  --case-studies-received-background-color: var(--neutral-color);
+  --organization-header-border-color: var(--neutral-color);
+  --info-block-border-color: var(--file-color-dark);
+  --verified-badge-stroke: light-dark(#07461c, var(--primary-accent-color));
 }
 
 // ===========================================================================

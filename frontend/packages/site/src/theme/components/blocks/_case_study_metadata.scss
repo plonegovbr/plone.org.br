@@ -4,6 +4,16 @@
     .info-box {
       h2.blockTitle {
         margin-bottom: 0px;
+        color: var(--primary-foreground-color);
+      }
+      p,
+      ul,
+      li,
+      span {
+        color: var(--primary-foreground-color);
+      }
+      a {
+        color: var(--link-foreground-color, var(--primary-accent-color));
       }
       &.industry {
         --info-block-border-color: var(--file-color-dark);

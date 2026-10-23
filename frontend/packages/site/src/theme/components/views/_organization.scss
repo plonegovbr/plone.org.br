@@ -2,15 +2,157 @@
   &.organization-view,
   &.provider-view {
     margin-bottom: $spacing-medium;
-  }
 
-  &.provider-view {
-    .providerInfoBlocks {
+    .mainWrapper {
+      width: auto !important;
+      max-width: var(--default-container-width) !important;
+      padding-top: $spacing-medium;
+      @include default-container-width();
+      @include adjustMarginsToContainer($default-container-width);
+
+      @container (max-width: #{$default-container-width + 2 * $horizontal-space-small-screens}) {
+        margin-right: $horizontal-space-small-screens !important;
+        margin-left: $horizontal-space-small-screens !important;
+      }
+
+      @media only screen and (max-width: #{$default-container-width + 2 * $horizontal-space-small-screens}) {
+        margin-right: $horizontal-space-small-screens !important;
+        margin-left: $horizontal-space-small-screens !important;
+      }
+    }
+
+    // Organization Header
+    .organizationHeader {
+      border-bottom: 1px solid
+        var(--organization-header-border-color, var(--neutral-color));
+
+      .organizationLogo {
+        padding-left: 0;
+      }
+      @container (max-width: #{$largest-mobile-screen}) {
+        flex-direction: column;
+        align-items: stretch;
+
+        .organizationLogo {
+          width: 100%;
+          padding: 0 0 0 0;
+
+          figure {
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+
+            img {
+              max-width: 100%;
+              height: auto;
+              margin: 0 auto !important;
+            }
+          }
+        }
+
+        .organizationSummary {
+          width: 100%;
+        }
+      }
+
+      .organizationSummary {
+        .organizationLabel {
+          color: var(
+            --primary-low-foreground-color,
+            var(--primary-foreground-color)
+          );
+        }
+
+        .organizationTitle {
+          color: var(--primary-foreground-color);
+
+          .verifiedBadge,
+          .verified-badge {
+            color: var(--primary-foreground-color);
+            stroke: var(
+              --verified-badge-stroke,
+              light-dark(#07461c, var(--primary-accent-color))
+            );
+          }
+        }
+
+        .organizationDescription {
+          color: var(--primary-foreground-color);
+        }
+
+        .socialNetworks {
+          --social-network-icon-color-main: var(
+            --primary-accent-color,
+            var(--primary-foreground-color)
+          );
+          --social-network-icon-color-hover: var(
+            --primary-accent-color,
+            var(--primary-foreground-color)
+          );
+
+          ul.social-networks {
+            a.social-network {
+              color: var(
+                --primary-accent-color,
+                var(--primary-foreground-color)
+              );
+
+              &:after {
+                display: none !important;
+              }
+
+              svg {
+                fill: currentColor;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    // Info blocks (ProviderInfo & OrganizationInfo)
+    .providerInfoBlocks,
+    .organizationInfoBlocks {
       margin-bottom: $spacing-medium;
+
       .info-box {
+        --info-block-border-color: var(--file-color-dark);
+
         h2.blockTitle {
           margin-bottom: 0px;
+          color: var(--primary-foreground-color);
         }
+
+        p,
+        ul,
+        li,
+        span {
+          color: var(--primary-foreground-color);
+        }
+
+        .servicesWrapper {
+          li.service-item {
+            color: var(--primary-foreground-color);
+          }
+        }
+
+        .contactWrapper {
+          .contactLine {
+            color: var(--primary-foreground-color);
+
+            a {
+              color: var(--link-foreground-color, var(--primary-accent-color));
+            }
+          }
+        }
+
+        .addressWrapper {
+          .addressLine,
+          .addressInline {
+            color: var(--primary-foreground-color);
+          }
+        }
+
         &.address-info {
           --info-block-border-color: var(--file-color-dark);
         }
@@ -19,6 +161,180 @@
         }
         &.services-info {
           --info-block-border-color: var(--file-color-dark);
+        }
+        &.industry-info {
+          --info-block-border-color: var(--file-color-dark);
+        }
+      }
+    }
+
+    // Provider About Section
+    .providerAboutSection {
+      width: 100%;
+      max-width: 100%;
+
+      h2.providerAbout {
+        color: var(--primary-foreground-color);
+      }
+
+      .text {
+        color: var(--primary-foreground-color);
+
+        p {
+          color: var(--primary-foreground-color);
+        }
+      }
+    }
+
+    // Case Studies section (Projetos / Casos de Sucesso) inside page-document
+    .case-studies {
+      &.full {
+        background-color: var(
+          --case-studies-provided-background-color,
+          var(--neutral-color)
+        );
+
+        &.provided {
+          background-color: var(
+            --case-studies-provided-background-color,
+            var(--neutral-color)
+          );
+        }
+
+        &.received {
+          background-color: var(
+            --case-studies-received-background-color,
+            var(--neutral-color)
+          );
+        }
+      }
+
+      &.full .case-studies-group,
+      .case-studies-group {
+        width: auto !important;
+        @include default-container-width();
+        @include adjustMarginsToContainer($default-container-width);
+        max-width: var(--default-container-width) !important;
+
+        @container (max-width: #{$default-container-width + 2 * $horizontal-space-small-screens}) {
+          margin-right: $horizontal-space-small-screens !important;
+          margin-left: $horizontal-space-small-screens !important;
+        }
+
+        @media only screen and (max-width: #{$default-container-width + 2 * $horizontal-space-small-screens}) {
+          margin-right: $horizontal-space-small-screens !important;
+          margin-left: $horizontal-space-small-screens !important;
+        }
+
+        .case-studies-title {
+          color: var(
+            --neutral-foreground-color,
+            var(--primary-foreground-color)
+          );
+        }
+
+        .case-studies-list {
+          .case-study {
+            .case-study-link {
+              text-decoration: none;
+
+              .case-study-title {
+                color: var(
+                  --neutral-foreground-color,
+                  var(--primary-foreground-color)
+                );
+              }
+
+              .case-study-description {
+                color: var(
+                  --neutral-low-foreground-color,
+                  var(--primary-low-foreground-color)
+                );
+              }
+
+              &:hover {
+                .case-study-title {
+                  color: var(--primary-accent-color);
+                  text-decoration: underline;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Case Studies section (Projetos / Casos de Sucesso) fallback
+.case-studies {
+  &.full {
+    background-color: var(
+      --case-studies-provided-background-color,
+      var(--neutral-color)
+    );
+
+    &.provided {
+      background-color: var(
+        --case-studies-provided-background-color,
+        var(--neutral-color)
+      );
+    }
+
+    &.received {
+      background-color: var(
+        --case-studies-received-background-color,
+        var(--neutral-color)
+      );
+    }
+  }
+
+  &.full .case-studies-group,
+  .case-studies-group {
+    width: auto !important;
+    @include default-container-width();
+    @include adjustMarginsToContainer($default-container-width);
+    max-width: var(--default-container-width) !important;
+
+    @container (max-width: #{$default-container-width + 2 * $horizontal-space-small-screens}) {
+      margin-right: $horizontal-space-small-screens !important;
+      margin-left: $horizontal-space-small-screens !important;
+    }
+
+    @media only screen and (max-width: #{$default-container-width + 2 * $horizontal-space-small-screens}) {
+      margin-right: $horizontal-space-small-screens !important;
+      margin-left: $horizontal-space-small-screens !important;
+    }
+
+    .case-studies-title {
+      color: var(--neutral-foreground-color, var(--primary-foreground-color));
+    }
+
+    .case-studies-list {
+      .case-study {
+        .case-study-link {
+          text-decoration: none;
+
+          .case-study-title {
+            color: var(
+              --neutral-foreground-color,
+              var(--primary-foreground-color)
+            );
+          }
+
+          .case-study-description {
+            color: var(
+              --neutral-low-foreground-color,
+              var(--primary-low-foreground-color)
+            );
+          }
+
+          &:hover {
+            .case-study-title {
+              color: var(--primary-accent-color);
+              text-decoration: underline;
+            }
+          }
         }
       }
     }

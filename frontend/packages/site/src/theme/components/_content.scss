@@ -1,0 +1,62 @@
+// Content layout & typography adjustments
+#page-document .blocks-group-wrapper {
+  & > h1.documentFirstHeading,
+  & > p.documentDescription {
+    @include default-container-width();
+    @include adjustMarginsToContainer($default-container-width);
+
+    @container (max-width: #{$default-container-width + 2 * $horizontal-space-small-screens}) {
+      margin-right: $horizontal-space-small-screens !important;
+      margin-left: $horizontal-space-small-screens !important;
+    }
+
+    @media only screen and (max-width: #{$default-container-width + 2 * $horizontal-space-small-screens}) {
+      margin-right: $horizontal-space-small-screens !important;
+      margin-left: $horizontal-space-small-screens !important;
+    }
+  }
+
+  & > h2,
+  & > h3,
+  & > h4,
+  & > h5,
+  & > h6,
+  & > ul,
+  & > ol,
+  & > li,
+  & > p,
+  & > span,
+  & > blockquote,
+  .download-event,
+  .block.separator.has--align--left .line,
+  .block.separator.has--align--center .line,
+  & > pre,
+  & > .block.code {
+    @include narrow-container-width();
+    @include adjustMarginsToContainer($default-container-width);
+
+    @container (max-width: #{$default-container-width + 2 * $horizontal-space-small-screens}) {
+      margin-right: $horizontal-space-small-screens !important;
+      margin-left: $horizontal-space-small-screens !important;
+    }
+
+    @media only screen and (max-width: #{$default-container-width + 2 * $horizontal-space-small-screens}) {
+      margin-right: $horizontal-space-small-screens !important;
+      margin-left: $horizontal-space-small-screens !important;
+    }
+  }
+
+  // Garante que especificamente h3 e p (e variantes diretas) tenham as margens de 20px em telas pequenas
+  & > h3,
+  & > p {
+    @container (max-width: #{$default-container-width + 2 * $horizontal-space-small-screens}) {
+      margin-right: $horizontal-space-small-screens !important;
+      margin-left: $horizontal-space-small-screens !important;
+    }
+
+    @media only screen and (max-width: #{$default-container-width + 2 * $horizontal-space-small-screens}) {
+      margin-right: $horizontal-space-small-screens !important;
+      margin-left: $horizontal-space-small-screens !important;
+    }
+  }
+}
