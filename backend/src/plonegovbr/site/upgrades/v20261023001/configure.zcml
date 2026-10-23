@@ -1,0 +1,18 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    >
+
+  <genericsetup:upgradeSteps
+      profile="plonegovbr.site:default"
+      source="20260921001"
+      destination="20261023001"
+      >
+    <genericsetup:upgradeStep
+        title="Atualiza o collective.casestudy para a versão 2600 do perfil"
+        description="Corrige os rótulos dos filtros Faceta e Serviços do prestador"
+        handler=".upgrade_casestudy"
+        />
+  </genericsetup:upgradeSteps>
+
+</configure>

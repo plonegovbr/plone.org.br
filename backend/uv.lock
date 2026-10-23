@@ -780,7 +780,7 @@ wheels = [
 
 [[package]]
 name = "collective-casestudy"
-version = "2.0.0a3"
+version = "2.0.0a4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "collective-multiworkflow" },
@@ -791,9 +791,9 @@ dependencies = [
     { name = "products-cmfplone" },
     { name = "pycountry" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/5a/51/a77f3e180da01ccabbb862da1e653912ef2d05f503127d4c20d567a61642/collective_casestudy-2.0.0a3.tar.gz", hash = "sha256:58632454ff78987e9b837b1d5abf2f80f4ae970be2ffa13a05f33fc148df4756", size = 1622518, upload-time = "2026-10-02T18:00:35.39Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/97/4f/f14bf60a137700561a2c88a10d8438ab1cff301570a63fa57b4358462eae/collective_casestudy-2.0.0a4.tar.gz", hash = "sha256:c875104bf9fbe097a8010c0a36e2c40013bd33013e5741c31baea3a70c7a54cf", size = 1642188, upload-time = "2026-10-23T15:43:42.584Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d5/45/66df310a3e16ba5a88b08fe3491904d8d03a3607646f7d6991baffad5ebf/collective_casestudy-2.0.0a3-py3-none-any.whl", hash = "sha256:d6910ba5fa7a5b4714f870d77153eb406dbfdefccfd7acb87b5cdbf688180cd6", size = 1612866, upload-time = "2026-10-02T18:00:33.527Z" },
+    { url = "https://files.pythonhosted.org/packages/8f/ad/28936e05162dc42d262ba744ff8b83027e809f1294836eaf497452eef0cd/collective_casestudy-2.0.0a4-py3-none-any.whl", hash = "sha256:e2a2b7968189c165e24eb609d28ad047b6f3ad95fa69529d075d52299cd6000a", size = 1633674, upload-time = "2026-10-23T15:43:40.491Z" },
 ]
 
 [[package]]
@@ -3756,7 +3756,7 @@ test = [
 
 [package.metadata]
 requires-dist = [
-    { name = "collective-casestudy", specifier = "==2.0.0a3" },
+    { name = "collective-casestudy", specifier = "==2.0.0a4" },
     { name = "pas-plugins-identity", specifier = "==1.0.0a14" },
     { name = "plone-api" },
     { name = "plone-exportimport", specifier = ">=2.2.0" },
