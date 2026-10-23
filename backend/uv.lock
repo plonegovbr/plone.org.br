@@ -3764,7 +3764,7 @@ requires-dist = [
     { name = "plone-volto" },
     { name = "plonegovbr-socialmedia", specifier = "==3.0.0" },
     { name = "products-cmfplone", specifier = "==6.2.2" },
-    { name = "sc-videos", specifier = "==1.0.0a3" },
+    { name = "sc-videos", specifier = "==1.0.0a4" },
     { name = "sc-voltolighttheme", specifier = "==1.0.0a12" },
 ]
 
@@ -4965,7 +4965,7 @@ wheels = [
 
 [[package]]
 name = "sc-videos"
-version = "1.0.0a3"
+version = "1.0.0a4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "httpx" },
@@ -4974,9 +4974,9 @@ dependencies = [
     { name = "plone-volto" },
     { name = "products-cmfplone" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/40/12/cebeb01794d72d2c1d6330e5bce091cc17a7cf190d130d1a5c6abcaf0b3c/sc_videos-1.0.0a3.tar.gz", hash = "sha256:f598d7ef92293a6b4e3f0c7216b64d8f40412feb96d21121f13e2bf4ff7f6f5d", size = 1495062, upload-time = "2026-08-31T19:55:14.973Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/be/aa/95ffecea9461dc2a8abed3e142206ad07426d4251c4ef757404bba0c04d4/sc_videos-1.0.0a4.tar.gz", hash = "sha256:7ea18ef1659da604503261983bb9d7697dc493b9791008871f7f5b16a45c8025", size = 1495567, upload-time = "2026-10-23T16:41:35.661Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/a4/93/836bd48053da8ba0d2b0022fc39706a0ff88d697e8294b3096ddf3f135ac/sc_videos-1.0.0a3-py3-none-any.whl", hash = "sha256:f2ce968b2be0f1706611b86282d17547b9d63d8c36d5b95a2de2c6ab9779e21d", size = 1518340, upload-time = "2026-08-31T19:55:12.928Z" },
+    { url = "https://files.pythonhosted.org/packages/32/30/2f9c547d25608b6a0b2bdc3a92d1266e1e9cb20cba435aa22220451fc078/sc_videos-1.0.0a4-py3-none-any.whl", hash = "sha256:7c3b000ce11e0129a80a6d2baf749bf74a492bdad2a71ea9baef7eb67806fbe8", size = 1518346, upload-time = "2026-10-23T16:41:33.833Z" },
 ]
 
 [[package]]

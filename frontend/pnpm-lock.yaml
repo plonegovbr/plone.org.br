@@ -1364,8 +1364,8 @@ importers:
         specifier: 1.0.0-alpha.12
         version: 1.0.0-alpha.12(@plone/registry@core+packages+registry)(@plone/types@core+packages+types)(advanced-cropper@0.17.1)(classnames@2.5.1)(embla-carousel@8.6.0)(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react-toastify@5.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)(uuid@14.0.2)
       '@simplesconsultoria/volto-videos':
-        specifier: 1.0.0-alpha.3
-        version: 1.0.0-alpha.3(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)(semantic-ui-react@2.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
+        specifier: 1.0.0-alpha.4
+        version: 1.0.0-alpha.4(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)(semantic-ui-react@2.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
       react:
         specifier: ^18.2.0
         version: 18.2.0
@@ -3867,8 +3867,8 @@ packages:
       react-redux: '*'
       react-router-dom: '*'
 
-  '@simplesconsultoria/volto-videos@1.0.0-alpha.3':
-    resolution: {integrity: sha512-MBPNH+XyGqZG+vKeBwiJLhP+EAuIgZEa8Pr/unuK40TMu9VIiiUVPSlONxo/Zn8FwkRYYR+2lOCc9b2gT1re8g==}
+  '@simplesconsultoria/volto-videos@1.0.0-alpha.4':
+    resolution: {integrity: sha512-sY94jJ6C5nFfA3eKD0nD5LqpSGL+UKy+qWmK7OywWWGoiFbg2vksoS6/U7Mp1ed3LF/ZzLI0ztdt7azTd5MpcA==}
     peerDependencies:
       classnames: 2.5.1
       lodash: 4.18.1
@@ -14425,7 +14425,7 @@ snapshots:
       - supports-color
       - uuid
 
-  '@simplesconsultoria/volto-videos@1.0.0-alpha.3(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)(semantic-ui-react@2.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0))':
+  '@simplesconsultoria/volto-videos@1.0.0-alpha.4(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)(semantic-ui-react@2.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0))':
     dependencies:
       classnames: 2.5.1
       react: 18.2.0

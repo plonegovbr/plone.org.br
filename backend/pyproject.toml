@@ -30,7 +30,7 @@ dependencies = [
     "plone.volto",
     "pas.plugins.identity==1.0.0a14",
     "collective.casestudy==2.0.0a4",
-    "sc.videos==1.0.0a3",
+    "sc.videos==1.0.0a4",
     "sc.voltolighttheme==1.0.0a12",
     "plonegovbr.socialmedia==3.0.0",
     "plone.exportimport>=2.2.0",

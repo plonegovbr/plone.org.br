@@ -1,0 +1,1 @@
+Atualiza o `@simplesconsultoria/volto-videos` para 1.0.0-alpha.4, que corrige o erro 401 ao buscar os metadados de um vídeo para quem não tem o papel de Administrador. @ericof
