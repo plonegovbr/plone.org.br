@@ -1,0 +1,1 @@
+Atualiza o Volto para 19.6.0 e mantém o `webpack` fixado na versão do catálogo do Volto, para que o Storybook não misture duas versões. @ericof
