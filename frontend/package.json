@@ -43,6 +43,7 @@
   "pnpm": {
     "overrides": {
       "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
+      "embla-carousel": "8.6.0",
       "react-refresh": "^0.14.2",
       "webpack": "catalog:"
     },

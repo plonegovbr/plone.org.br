@@ -3764,7 +3764,7 @@ requires-dist = [
     { name = "plone-exportimport", specifier = ">=2.2.0" },
     { name = "plone-restapi" },
     { name = "plone-volto" },
-    { name = "plonegovbr-socialmedia", specifier = "==3.0.0" },
+    { name = "plonegovbr-socialmedia", specifier = "==3.1.0" },
     { name = "products-cmfplone", specifier = "==6.2.2" },
     { name = "sc-videos", specifier = "==1.0.0a4" },
     { name = "sc-voltolighttheme", specifier = "==1.0.0a12" },
@@ -3788,7 +3788,7 @@ test = [
 
 [[package]]
 name = "plonegovbr-socialmedia"
-version = "3.0.0"
+version = "3.1.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "plone-api" },
@@ -3796,9 +3796,9 @@ dependencies = [
     { name = "plone-volto" },
     { name = "products-cmfplone" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/6a/00/a23cb3cef80c815c69579b6ac5eba4fc28e82c9ca3a5315aa21d4fe4f9d1/plonegovbr_socialmedia-3.0.0.tar.gz", hash = "sha256:eeb5f334787ec7a0684a825326fdf68035e363ea2360494a30523f1337c696b0", size = 41298, upload-time = "2026-09-15T20:52:06.772Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/82/3a/39023c0e8de6488363022e9e0cf2356d2eba26fcb7cbddc011b1e5e645d6/plonegovbr_socialmedia-3.1.0.tar.gz", hash = "sha256:4ad78c9945facdf913e27f9d87296619399bc98a3805b793dc6c23f100b66cbe", size = 41307, upload-time = "2026-10-30T20:03:03.395Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ee/d6/8d59b47206b7e698ee6ecd8c2ecbf72ea4cd2c870012fb767f352baca637/plonegovbr_socialmedia-3.0.0-py3-none-any.whl", hash = "sha256:a9fd665c431bb6f6068cd0ab1255d31c324ce0d3c555a3d5becf6c6012c07b5d", size = 55924, upload-time = "2026-09-15T20:52:05.533Z" },
+    { url = "https://files.pythonhosted.org/packages/96/d7/eae0f50f3dd46fcc87956e5cb7b713a9a43f0a608cfeaf65f43d94051024/plonegovbr_socialmedia-3.1.0-py3-none-any.whl", hash = "sha256:c8c02dd1891e540ab58e89bcd11591d26d11d9216cdb903f33c70f311541bece", size = 55923, upload-time = "2026-10-30T20:03:01.745Z" },
 ]
 
 [[package]]
