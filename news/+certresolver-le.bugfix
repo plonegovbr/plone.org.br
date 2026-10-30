@@ -1,0 +1,1 @@
+Usa o resolver ACME `le` no deploy, já que `le-cloudflare` não existe no Traefik e impedia a renovação do certificado de plone.org.br. @ericof
