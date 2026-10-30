@@ -1350,8 +1350,8 @@ importers:
         specifier: 7.0.1
         version: 7.0.1(react@18.2.0)
       '@plone-collective/volto-casestudy':
-        specifier: 2.0.0-alpha.4
-        version: 2.0.0-alpha.4(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react-toastify@5.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)(redux@4.2.1)(semantic-ui-react@2.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
+        specifier: 2.0.0-alpha.5
+        version: 2.0.0-alpha.5(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react-toastify@5.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)(redux@4.2.1)(semantic-ui-react@2.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
       '@plone-collective/volto-identity':
         specifier: 1.0.0-alpha.14
         version: 1.0.0-alpha.14(@plone/components@4.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)
@@ -1362,11 +1362,11 @@ importers:
         specifier: 3.1.0
         version: 3.1.0(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react@18.2.0)
       '@simplesconsultoria/volto-light-theme':
-        specifier: 1.0.0-alpha.12
-        version: 1.0.0-alpha.12(@plone/registry@core+packages+registry)(@plone/types@core+packages+types)(advanced-cropper@0.17.1)(classnames@2.5.1)(embla-carousel@8.6.0)(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react-toastify@5.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)(uuid@14.0.2)
+        specifier: 1.0.0-alpha.14
+        version: 1.0.0-alpha.14(@plone/registry@core+packages+registry)(@plone/types@core+packages+types)(advanced-cropper@0.17.1)(classnames@2.5.1)(embla-carousel@8.6.0)(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react-toastify@5.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)(uuid@14.0.2)
       '@simplesconsultoria/volto-videos':
-        specifier: 1.0.0-alpha.4
-        version: 1.0.0-alpha.4(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)(semantic-ui-react@2.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
+        specifier: 1.0.0-alpha.5
+        version: 1.0.0-alpha.5(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)(semantic-ui-react@2.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
       react:
         specifier: ^18.2.0
         version: 18.2.0
@@ -2296,8 +2296,8 @@ packages:
   '@dual-bundle/import-meta-resolve@4.2.1':
     resolution: {integrity: sha512-id+7YRUgoUX6CgV0DtuhirQWodeeA7Lf4i2x71JS/vtA5pRb/hIGWlw+G6MeXvsM+MXrz0VAydTGElX1rAfgPg==}
 
-  '@eeacms/volto-accordion-block@12.0.0':
-    resolution: {integrity: sha512-YaYyIt7ejz/1fOK7kLUUXXSWaU4viNRn58xE3qjpZOPBV8F3cxo2vbo+SdgC5hRuVr1bzq2V/u3km+HaHb80jA==}
+  '@eeacms/volto-accordion-block@13.1.1':
+    resolution: {integrity: sha512-N69cXsSxgIn8Wpx+Yp/y24ErYB4VOhdTE1j13kEK7xPLlvrVojwvozvqIXQP3L5vLxjRylHjMidHUTlxVZhZ6Q==}
 
   '@eeacms/volto-matomo@7.0.1':
     resolution: {integrity: sha512-obohh1BMydleAbOqx/M2+JKW1+73sMKPSNrC3a9PAzaQy3hN7ifjYcROG39wPphnHgR8IbE3Clp8zEYoqxOlPA==}
@@ -3244,8 +3244,8 @@ packages:
       react: 18.2.0
       react-dom: 18.2.0
 
-  '@kitconcept/volto-button-block@5.0.0-alpha.2':
-    resolution: {integrity: sha512-l1N/6/lNb/n2HLzwmXlLEGtdwkJkNu/rDNKt5QOjhsp6wVUwpQgJ0d8bci0A7Owx7HaDLWBvpACCxGM/blhkUw==}
+  '@kitconcept/volto-button-block@5.0.0':
+    resolution: {integrity: sha512-ubkBoueD8TOXy5HFDfDeluLktInZd59HHYHXB4PMeA37dEyOmfcX5FRqdoaGmiDie6HCq+7U1gakLPNhwhQaxA==}
     peerDependencies:
       classnames: ^2.5.1
       react: 18.2.0
@@ -3278,22 +3278,11 @@ packages:
       react-dom: ^18.2.0
       react-intl: ^3.12.1
 
-  '@kitconcept/volto-introduction-block@1.4.1':
-    resolution: {integrity: sha512-wybUNSNfdVufKkd883sSOXQnDu5SxoDFzIyf7yHRipoUwRyOyynAjLZ1v4Ci1+eaW9o2XZU9wuIFp91dIdDmqg==}
+  '@kitconcept/volto-introduction-block@1.4.2':
+    resolution: {integrity: sha512-SyBENAECVuv4cB4KHxJAHk8jtSJt/zMOUm1XENORkcrI4AQ/X9eWf3BIFzl04pVWYnNMFeEjNymlowl+ABoTmw==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
-
-  '@kitconcept/volto-light-theme@8.0.0':
-    resolution: {integrity: sha512-R2m+EUN5lKmaVhnI+JqOE7XRe5pV3FPSHV+pLFLJN81Py/LROKAKlNu0Ze+05zY9vQ2BKGYCRR+pQRM2xNxxzQ==}
-    peerDependencies:
-      classnames: ^2.5.1
-      lodash: 4.17.21
-      react: 18.2.0
-      react-dom: 18.2.0
-      react-intl: ^3.12.1
-      react-redux: ^8.1.2
-      react-router-dom: ^5.2.0
 
   '@kitconcept/volto-light-theme@8.0.0-alpha.32':
     resolution: {integrity: sha512-2XGNpzSrSr9JSK82iirC2WMHapDvBX/IaeVS/pjAMwGDdwpfqE+gSpsBUXr/b+uAPKn46+yql7a8R8EpxDLCWA==}
@@ -3306,13 +3295,24 @@ packages:
       react-redux: ^8.1.2
       react-router-dom: ^5.2.0
 
-  '@kitconcept/volto-logos-block@4.0.0':
-    resolution: {integrity: sha512-Qrq9u1ehuUIMC4yXwoGgQPUjfsBvJRa+en/o5CukNxPR/pB06YZ5YDEUh3/prxoXaaIs6lRZCFl2xUMMxHXv/Q==}
+  '@kitconcept/volto-light-theme@8.1.2':
+    resolution: {integrity: sha512-KI8CxUMla6ccAf7J3HfpVkmfm6XXtM//ZgFoh5SdiKn3FEMyTVB02J/aHugsXbBHXVM9B5h73fjeLZ2qlAREIA==}
     peerDependencies:
-      '@kitconcept/volto-light-theme': ^8.0.0-alpha.32
-      classnames: 2.5.1
+      classnames: ^2.5.1
+      lodash: 4.17.21
       react: 18.2.0
       react-dom: 18.2.0
+      react-intl: ^3.12.1
+      react-redux: ^8.1.2
+      react-router-dom: ^5.2.0
+
+  '@kitconcept/volto-logos-block@4.0.1':
+    resolution: {integrity: sha512-wG5szeV8yCBOqZr0h9DPBwDUvf3SpFS8Yovi2VUYeVoM7GWTzFnhmiHWfm0HbQsI/tY650FhAYG0tH+qHvuOSg==}
+    peerDependencies:
+      '@kitconcept/volto-light-theme': ^8.0.0
+      classnames: 2.5.1
+      react: ^18.2.0
+      react-dom: ^18.2.0
       react-intl: ^3.12.1
 
   '@kitconcept/volto-separator-block@5.0.0':
@@ -3334,8 +3334,8 @@ packages:
       react-toastify: 5.5.0
       uuid: ^13.0.0
 
-  '@kitconcept/volto-social-blocks@1.0.0':
-    resolution: {integrity: sha512-l+U7gR9dekZCEEOMECR9593UJK+eZBRvjHtJY2/a792gralKItUuOLCMz6fJoan9WlMHPsHD1mECKRf/AJMw3A==}
+  '@kitconcept/volto-social-blocks@1.1.0':
+    resolution: {integrity: sha512-+SjHnGJaF3UIr2d7FeNYc9+Rsnk1UpcjynraoY+9DTR8TpYjgmKP6aByq1dtnXsKHxbz5p58YAAS4sEvUaTt4A==}
     peerDependencies:
       classnames: 2.2.6
       react: 18.2.0
@@ -3540,8 +3540,8 @@ packages:
     resolution: {integrity: sha512-SEeaJLb3qBNF/OaXnaR1NmmBbFYk1zC0ZH/52fATcRPLFg/p791YrcyFFy44Bo9sLaGuSuLp5Q6axbb/O+v/RA==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
-  '@plone-collective/volto-casestudy@2.0.0-alpha.4':
-    resolution: {integrity: sha512-tbnl2pxdRhIAM9AWTeEeRnZDcWyQKYVuL+lIs+ZQ36rZnh6cr+J+Aw0i2IlYebtt5WhiNMDC5udMiOZZIMQHag==}
+  '@plone-collective/volto-casestudy@2.0.0-alpha.5':
+    resolution: {integrity: sha512-XBrS4gWCLN2UiZVpCMSt/gjNhklAzUfF2UjR4YaBV8s7O0H+1wq6wjPafWe4utA7SJmDgRW7izk1+f/tkJaTpg==}
     peerDependencies:
       classnames: 2.5.1
       react: ^18.2.0
@@ -3557,16 +3557,14 @@ packages:
       react-redux: ^8.1.2
       react-router-dom: ^5.2.0
 
-  '@plone-collective/volto-image-editor@1.0.1':
-    resolution: {integrity: sha512-uTTKKz3sywT8mMAEb/VLVFn+vkVg///n7fe160LMTHlamhnZ8GUWsY0gAYn6dC+StPQGXYR6osyXqRV4VNaBGw==}
+  '@plone-collective/volto-image-editor@1.2.0':
+    resolution: {integrity: sha512-eyZHEUMgTuGgSI+1mNO1a04HNq7uFnz+Km5fBWmsjcc+Wrw1TET250JGOW+JuCW9Q1o55SCEkq6RRgmWLIWiAg==}
     peerDependencies:
-      '@plone/registry': 3.0.0-alpha.9
-      '@plone/types': 2.0.0-alpha.14
       advanced-cropper: ~0.17.1
       classnames: '*'
-      react: 18.2.0
+      react: ^18.2.0
       react-aria-components: '*'
-      react-dom: 18.2.0
+      react-dom: ^18.2.0
 
   '@plone-collective/volto-multiworkflow@1.0.0-alpha.2':
     resolution: {integrity: sha512-iVCSVxCBAYZ4w7IEAzNxMXUDtJvZnl3t5f4bcTpMgTR5goE5kOUbHB1xCAInGr73iIfSmL2NZp1q4D4sK0Famg==}
@@ -3581,26 +3579,17 @@ packages:
       redux: ^4.2.1
       semantic-ui-react: ^2.1.5
 
-  '@plone/components@4.0.0-alpha.1':
-    resolution: {integrity: sha512-VZiE/kj6A7PVXcJwMCralMOC2VnsjIjX+T6LTQXWz9+1M9DrFuse5sNMw7ryZqFWRvY+E06BPhHgeNuKOKM2Hw==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-    peerDependenciesMeta:
-      react-dom:
-        optional: true
-
-  '@plone/components@4.0.0-alpha.6':
-    resolution: {integrity: sha512-x8nIF9iweA3ctx5K473XRfc3Gfc2fcZOQjVhaOLfdsGjrB6EvBEQe8CK2blMyYpNqcub9HvMG/ir4YckgR228Q==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-    peerDependenciesMeta:
-      react-dom:
-        optional: true
-
   '@plone/components@4.2.1':
     resolution: {integrity: sha512-AtV1khC1geGZEhIilP0Rmd0UoaAWHKZtVUQjY/b8QtRF5c6boxlpYfP9Jn6IFO2lFVvjgePVFspXv+HYc2a/4g==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
+
+  '@plone/components@4.2.2':
+    resolution: {integrity: sha512-J99gxYhEnAmbfC0TMedYJeZ3+8HcU7JZeHYNgkneObapqIow8P/7JJImGzdF8tOvJ8aoIj/fV/NaucxgciHXmA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -3856,11 +3845,11 @@ packages:
   '@simple-git/argv-parser@1.1.1':
     resolution: {integrity: sha512-Q9lBcfQ+VQCpQqGJFHe5yooOS5hGdLFFbJ5R+R5aDsnkPCahtn1hSkMcORX65J2Z5lxSkD0lQorMsncuBQxYUw==}
 
-  '@simplesconsultoria/volto-light-theme@1.0.0-alpha.12':
-    resolution: {integrity: sha512-SkCHv1aT4gotO664hOgzYkshTl8S1qz8KiyzXJ7dhXxZm+nJvB/alOGRi9ZjRR5ZcHsTk50asJsaWW7sHOlHlQ==}
+  '@simplesconsultoria/volto-light-theme@1.0.0-alpha.14':
+    resolution: {integrity: sha512-1lazfkKyEmseSCrgRz5B8+OY6JLKLbmVgzQQEkFdr9UkV+xLozVx12CVz1tLOVoQqj6GWfP+adRQQc+lot657A==}
     peerDependencies:
-      '@plone/registry': 3.0.1
-      '@plone/types': 2.0.0
+      '@plone/registry': 3.1.0
+      '@plone/types': 2.2.1
       classnames: 2.5.1
       react: ^18.2.0
       react-dom: ^18.2.0
@@ -3868,8 +3857,8 @@ packages:
       react-redux: '*'
       react-router-dom: '*'
 
-  '@simplesconsultoria/volto-videos@1.0.0-alpha.4':
-    resolution: {integrity: sha512-sY94jJ6C5nFfA3eKD0nD5LqpSGL+UKy+qWmK7OywWWGoiFbg2vksoS6/U7Mp1ed3LF/ZzLI0ztdt7azTd5MpcA==}
+  '@simplesconsultoria/volto-videos@1.0.0-alpha.5':
+    resolution: {integrity: sha512-HLKddw3twL1YfjZsbJ++Ru3m/ria5AzO6ubYf1geDU82lKm6QNy95AGGB1TtQl92mdbPSFIlOvd92wtMAy2rbg==}
     peerDependencies:
       classnames: 2.5.1
       lodash: 4.18.1
@@ -10866,17 +10855,8 @@ packages:
     resolution: {integrity: sha512-9kY+CygyYM6j02t5YFHbNz2FN5QmYGv9zAjVp4lCDjlCw7amdckXlEt/bjMhUIfj4ThGRE4gCUH5+yGnNuPo5A==}
     engines: {node: '>=10.0.0'}
 
-  tailwind-merge@3.0.2:
-    resolution: {integrity: sha512-l7z+OYZ7mu3DTqrL88RiKrKIqO3NcpEO8V/Od04bNpvk0kiIFndGEoqfuzvj4yuhRkHKjRkII2z+KS2HfPcSxw==}
-
   tailwind-merge@3.7.0:
     resolution: {integrity: sha512-XPPUyAc+cvspz3lHTcR/QgPfW2A0lv/xQNIjX3HGhLR+Nq2lHaLq5MtTesHn8GUr3W3DguT2KT5x3NVgRtYwmA==}
-
-  tailwind-variants@1.0.0:
-    resolution: {integrity: sha512-2WSbv4ulEEyuBKomOunut65D8UZwxrHoRfYnxGcQNnHqlSCp2+B7Yz2W+yrNDrxRodOXtGD/1oCcKGNBnUqMqA==}
-    engines: {node: '>=16.x', pnpm: '>=7.x'}
-    peerDependencies:
-      tailwindcss: '*'
 
   tailwind-variants@3.3.1:
     resolution: {integrity: sha512-4pAvwUtM4HKBiRZftncAbpn6V9Hhwoa5Fl7O2u5zbp7Z5Cvu+/o/6+176WY3WCEES209543quG8zFIcXCsc5Jw==}
@@ -12884,7 +12864,7 @@ snapshots:
 
   '@dual-bundle/import-meta-resolve@4.2.1': {}
 
-  '@eeacms/volto-accordion-block@12.0.0':
+  '@eeacms/volto-accordion-block@13.1.1':
     dependencies:
       '@eeacms/volto-widget-theme-picker': 3.0.1
 
@@ -13706,10 +13686,10 @@ snapshots:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
 
-  '@kitconcept/volto-button-block@5.0.0-alpha.2(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react@18.2.0)':
+  '@kitconcept/volto-button-block@5.0.0(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react@18.2.0)':
     dependencies:
       '@kitconcept/volto-bm3-compat': 1.0.0-alpha.1(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      '@plone/components': 4.0.0-alpha.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@plone/components': 4.2.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       classnames: 2.5.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -13718,9 +13698,9 @@ snapshots:
   '@kitconcept/volto-calendar-block@1.0.0(classnames@2.5.1)(embla-carousel@8.6.0)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
       '@kitconcept/volto-light-theme': 8.0.0-alpha.32(classnames@2.5.1)(embla-carousel@8.6.0)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)
-      '@plone/components': 4.2.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@plone/components': 4.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react: 18.2.0
-      react-aria-components: 1.21.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      react-aria-components: 1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react-dom: 18.2.0(react@18.2.0)
     transitivePeerDependencies:
       - classnames
@@ -13754,32 +13734,10 @@ snapshots:
       react-dom: 18.2.0(react@18.2.0)
       react-intl: 3.12.1(@types/react@18.3.31)(react@18.2.0)
 
-  '@kitconcept/volto-introduction-block@1.4.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@kitconcept/volto-introduction-block@1.4.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-
-  '@kitconcept/volto-light-theme@8.0.0(classnames@2.5.1)(embla-carousel@8.6.0)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)':
-    dependencies:
-      '@dnd-kit/core': 6.0.8(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      '@dnd-kit/sortable': 7.0.2(@dnd-kit/core@6.0.8(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)
-      '@dnd-kit/utilities': 3.2.2(react@18.2.0)
-      '@kitconcept/volto-bm3-compat': 1.0.0-alpha.1(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      '@plone/components': 4.2.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      classnames: 2.5.1
-      embla-carousel-autoplay: 8.6.0(embla-carousel@8.6.0)
-      embla-carousel-react: 8.6.0(react@18.2.0)
-      react: 18.2.0
-      react-animate-height: 3.2.4(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      react-aria-components: 1.21.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      react-colorful: 5.8.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      react-dom: 18.2.0(react@18.2.0)
-      react-intl: 3.12.1(@types/react@18.3.31)(react@18.2.0)
-      react-redux: 8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1)
-      react-router-dom: 5.2.0(react@18.2.0)
-      uuid: 11.1.1
-    transitivePeerDependencies:
-      - embla-carousel
 
   '@kitconcept/volto-light-theme@8.0.0-alpha.32(classnames@2.5.1)(embla-carousel@8.6.0)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
@@ -13793,7 +13751,7 @@ snapshots:
       embla-carousel-react: 8.6.0(react@18.2.0)
       react: 18.2.0
       react-animate-height: 3.2.4(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      react-aria-components: 1.21.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      react-aria-components: 1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react-colorful: 5.8.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react-dom: 18.2.0(react@18.2.0)
       react-intl: 3.12.1(@types/react@18.3.31)(react@18.2.0)
@@ -13803,9 +13761,31 @@ snapshots:
     transitivePeerDependencies:
       - embla-carousel
 
-  '@kitconcept/volto-logos-block@4.0.0(@kitconcept/volto-light-theme@8.0.0(classnames@2.5.1)(embla-carousel@8.6.0)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0))(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react@18.2.0)':
+  '@kitconcept/volto-light-theme@8.1.2(classnames@2.5.1)(embla-carousel@8.6.0)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
-      '@kitconcept/volto-light-theme': 8.0.0(classnames@2.5.1)(embla-carousel@8.6.0)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)
+      '@dnd-kit/core': 6.0.8(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@dnd-kit/sortable': 7.0.2(@dnd-kit/core@6.0.8(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)
+      '@dnd-kit/utilities': 3.2.2(react@18.2.0)
+      '@kitconcept/volto-bm3-compat': 1.0.0-alpha.1(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@plone/components': 4.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      classnames: 2.5.1
+      embla-carousel-autoplay: 8.6.0(embla-carousel@8.6.0)
+      embla-carousel-react: 8.6.0(react@18.2.0)
+      react: 18.2.0
+      react-animate-height: 3.2.4(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      react-aria-components: 1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      react-colorful: 5.8.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      react-dom: 18.2.0(react@18.2.0)
+      react-intl: 3.12.1(@types/react@18.3.31)(react@18.2.0)
+      react-redux: 8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1)
+      react-router-dom: 5.2.0(react@18.2.0)
+      uuid: 11.1.1
+    transitivePeerDependencies:
+      - embla-carousel
+
+  '@kitconcept/volto-logos-block@4.0.1(@kitconcept/volto-light-theme@8.1.2(classnames@2.5.1)(embla-carousel@8.6.0)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0))(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react@18.2.0)':
+    dependencies:
+      '@kitconcept/volto-light-theme': 8.1.2(classnames@2.5.1)(embla-carousel@8.6.0)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)
       classnames: 2.5.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -13834,7 +13814,7 @@ snapshots:
     transitivePeerDependencies:
       - embla-carousel
 
-  '@kitconcept/volto-social-blocks@1.0.0(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@kitconcept/volto-social-blocks@1.1.0(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
       classnames: 2.5.1
       react: 18.2.0
@@ -14090,10 +14070,10 @@ snapshots:
 
   '@pkgr/core@0.3.6': {}
 
-  '@plone-collective/volto-casestudy@2.0.0-alpha.4(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react-toastify@5.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)(redux@4.2.1)(semantic-ui-react@2.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0))':
+  '@plone-collective/volto-casestudy@2.0.0-alpha.5(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react-toastify@5.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)(redux@4.2.1)(semantic-ui-react@2.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0))':
     dependencies:
       '@plone-collective/volto-multiworkflow': 1.0.0-alpha.2(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react-toastify@5.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)(redux@4.2.1)(semantic-ui-react@2.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
-      '@plone/components': 4.2.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@plone/components': 4.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@plonegovbr/volto-social-media': 3.1.0(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react@18.2.0)
       classnames: 2.5.1
       react: 18.2.0
@@ -14116,11 +14096,9 @@ snapshots:
       react-redux: 8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1)
       react-router-dom: 5.2.0(react@18.2.0)
 
-  '@plone-collective/volto-image-editor@1.0.1(@plone/registry@core+packages+registry)(@plone/types@core+packages+types)(advanced-cropper@0.17.1)(classnames@2.5.1)(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@plone-collective/volto-image-editor@1.2.0(advanced-cropper@0.17.1)(classnames@2.5.1)(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
-      '@plone/components': 4.0.0-alpha.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      '@plone/registry': link:core/packages/registry
-      '@plone/types': link:core/packages/types
+      '@plone/components': 4.2.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       advanced-cropper: 0.17.1
       classnames: 2.5.1
       context-filter-polyfill: 0.3.23
@@ -14140,41 +14118,24 @@ snapshots:
       redux: 4.2.1
       semantic-ui-react: 2.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
 
-  '@plone/components@4.0.0-alpha.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
-    dependencies:
-      '@internationalized/date': 3.12.4
-      '@react-aria/utils': 3.34.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      '@react-spectrum/utils': 3.13.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      clsx: 2.1.1
-      react: 18.2.0
-      react-aria: 3.52.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      react-aria-components: 1.21.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      react-stately: 3.50.0(react@18.2.0)
-      tailwind-merge: 3.7.0
-      tailwind-variants: 1.0.0(tailwindcss@4.3.3)
-      tailwindcss: 4.3.3
-      tailwindcss-animate: 1.0.7(tailwindcss@4.3.3)
-    optionalDependencies:
-      react-dom: 18.2.0(react@18.2.0)
-
-  '@plone/components@4.0.0-alpha.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
-    dependencies:
-      '@internationalized/date': 3.12.4
-      '@react-aria/utils': 3.34.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      '@react-spectrum/utils': 3.13.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      clsx: 2.1.1
-      react: 18.2.0
-      react-aria: 3.52.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      react-aria-components: 1.21.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      react-stately: 3.50.0(react@18.2.0)
-      tailwind-merge: 3.7.0
-      tailwind-variants: 1.0.0(tailwindcss@4.3.3)
-      tailwindcss: 4.3.3
-      tailwindcss-animate: 1.0.7(tailwindcss@4.3.3)
-    optionalDependencies:
-      react-dom: 18.2.0(react@18.2.0)
-
   '@plone/components@4.2.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+    dependencies:
+      '@internationalized/date': 3.12.4
+      '@react-aria/utils': 3.34.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@react-spectrum/utils': 3.13.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      clsx: 2.1.1
+      react: 18.2.0
+      react-aria: 3.53.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      react-aria-components: 1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      react-stately: 3.51.0(react@18.2.0)
+      tailwind-merge: 3.7.0
+      tailwind-variants: 3.3.1(tailwind-merge@3.7.0)(tailwindcss@4.3.3)
+      tailwindcss: 4.3.3
+      tailwindcss-animate: 1.0.7(tailwindcss@4.3.3)
+    optionalDependencies:
+      react-dom: 18.2.0(react@18.2.0)
+
+  '@plone/components@4.2.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
       '@internationalized/date': 3.12.4
       '@react-aria/utils': 3.34.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -14387,24 +14348,24 @@ snapshots:
     dependencies:
       '@simple-git/args-pathspec': 1.0.3
 
-  '@simplesconsultoria/volto-light-theme@1.0.0-alpha.12(@plone/registry@core+packages+registry)(@plone/types@core+packages+types)(advanced-cropper@0.17.1)(classnames@2.5.1)(embla-carousel@8.6.0)(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react-toastify@5.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)(uuid@14.0.2)':
+  '@simplesconsultoria/volto-light-theme@1.0.0-alpha.14(@plone/registry@core+packages+registry)(@plone/types@core+packages+types)(advanced-cropper@0.17.1)(classnames@2.5.1)(embla-carousel@8.6.0)(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react-toastify@5.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)(uuid@14.0.2)':
     dependencies:
-      '@eeacms/volto-accordion-block': 12.0.0
+      '@eeacms/volto-accordion-block': 13.1.1
       '@kitconcept/volto-banner-block': 1.2.1(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@kitconcept/volto-bm3-compat': 1.0.0-alpha.1(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      '@kitconcept/volto-button-block': 5.0.0-alpha.2(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react@18.2.0)
+      '@kitconcept/volto-button-block': 5.0.0(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react@18.2.0)
       '@kitconcept/volto-calendar-block': 1.0.0(classnames@2.5.1)(embla-carousel@8.6.0)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)
       '@kitconcept/volto-carousel-block': 3.0.0(classnames@2.5.1)(embla-carousel@8.6.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@kitconcept/volto-heading-block': 2.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@kitconcept/volto-highlight-block': 5.0.0(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react@18.2.0)
-      '@kitconcept/volto-introduction-block': 1.4.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      '@kitconcept/volto-light-theme': 8.0.0(classnames@2.5.1)(embla-carousel@8.6.0)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)
-      '@kitconcept/volto-logos-block': 4.0.0(@kitconcept/volto-light-theme@8.0.0(classnames@2.5.1)(embla-carousel@8.6.0)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0))(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react@18.2.0)
+      '@kitconcept/volto-introduction-block': 1.4.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@kitconcept/volto-light-theme': 8.1.2(classnames@2.5.1)(embla-carousel@8.6.0)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)
+      '@kitconcept/volto-logos-block': 4.0.1(@kitconcept/volto-light-theme@8.1.2(classnames@2.5.1)(embla-carousel@8.6.0)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0))(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react@18.2.0)
       '@kitconcept/volto-separator-block': 5.0.0(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react@18.2.0)
       '@kitconcept/volto-slider-block': 7.0.0(classnames@2.5.1)(embla-carousel@8.6.0)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-toastify@5.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)(uuid@14.0.2)
-      '@kitconcept/volto-social-blocks': 1.0.0(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      '@plone-collective/volto-image-editor': 1.0.1(@plone/registry@core+packages+registry)(@plone/types@core+packages+types)(advanced-cropper@0.17.1)(classnames@2.5.1)(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      '@plone/components': 4.2.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@kitconcept/volto-social-blocks': 1.1.0(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@plone-collective/volto-image-editor': 1.2.0(advanced-cropper@0.17.1)(classnames@2.5.1)(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@plone/components': 4.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@plone/registry': link:core/packages/registry
       '@plone/types': link:core/packages/types
       '@plonegovbr/volto-social-media': 3.1.0(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react@18.2.0)
@@ -14423,7 +14384,7 @@ snapshots:
       - supports-color
       - uuid
 
-  '@simplesconsultoria/volto-videos@1.0.0-alpha.4(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)(semantic-ui-react@2.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0))':
+  '@simplesconsultoria/volto-videos@1.0.0-alpha.5(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)(semantic-ui-react@2.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0))':
     dependencies:
       classnames: 2.5.1
       react: 18.2.0
@@ -22692,14 +22653,7 @@ snapshots:
       string-width: 4.2.3
       strip-ansi: 6.0.1
 
-  tailwind-merge@3.0.2: {}
-
   tailwind-merge@3.7.0: {}
-
-  tailwind-variants@1.0.0(tailwindcss@4.3.3):
-    dependencies:
-      tailwind-merge: 3.0.2
-      tailwindcss: 4.3.3
 
   tailwind-variants@3.3.1(tailwind-merge@3.7.0)(tailwindcss@4.3.3):
     optionalDependencies:

@@ -29,9 +29,9 @@ dependencies = [
     "plone.restapi",
     "plone.volto",
     "pas.plugins.identity==1.0.0a14",
-    "collective.casestudy==2.0.0a4",
-    "sc.videos==1.0.0a4",
-    "sc.voltolighttheme==1.0.0a12",
+    "collective.casestudy==2.0.0a5",
+    "sc.videos==1.0.0a5",
+    "sc.voltolighttheme==1.0.0a14",
     "plonegovbr.socialmedia==3.1.0",
     "plone.exportimport>=2.2.0",
 ]
