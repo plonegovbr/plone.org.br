@@ -1,0 +1,1 @@
+Atualiza o `@plonegovbr/volto-social-media` para 3.1.0, que documenta o bloco Follow Us e passa a ler o schema do formulário da barra lateral a partir da configuração do bloco. @ericof

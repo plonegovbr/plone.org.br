@@ -1,0 +1,1 @@
+Atualiza o `plonegovbr.socialmedia` para 3.1.0. O pacote não tem mudanças de código nesta versão; a atualização só troca a versão fixada no `pyproject.toml` e no `uv.lock`. @ericof

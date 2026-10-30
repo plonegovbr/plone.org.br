@@ -32,7 +32,7 @@ dependencies = [
     "collective.casestudy==2.0.0a4",
     "sc.videos==1.0.0a4",
     "sc.voltolighttheme==1.0.0a12",
-    "plonegovbr.socialmedia==3.0.0",
+    "plonegovbr.socialmedia==3.1.0",
     "plone.exportimport>=2.2.0",
 ]
 
