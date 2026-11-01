@@ -1356,8 +1356,8 @@ importers:
         specifier: 1.0.0-alpha.14
         version: 1.0.0-alpha.14(@plone/components@4.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)
       '@plonegovbr/volto-code-block':
-        specifier: 3.0.0
-        version: 3.0.0(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react@18.2.0)
+        specifier: 4.0.0
+        version: 4.0.0(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react@18.2.0)
       '@plonegovbr/volto-social-media':
         specifier: 3.1.0
         version: 3.1.0(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react@18.2.0)
@@ -3606,8 +3606,8 @@ packages:
       react-dom:
         optional: true
 
-  '@plonegovbr/volto-code-block@3.0.0':
-    resolution: {integrity: sha512-tukFRLl9hyMMSpiPbXaEpg0kKtacvdROtZcWMCIjc4qBGjZiwKyXYzVRGteJQuN79l6A0+kuQDwTP4mWY+ivTw==}
+  '@plonegovbr/volto-code-block@4.0.0':
+    resolution: {integrity: sha512-m/8mhx2U4N6+/8hN3kJpRowJ/FRL0fROGq9P23hHjcUJJUbMMVdl70MIveUb7s4jbMNJqhCu184G1MCxqNEwPQ==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
@@ -9528,10 +9528,6 @@ packages:
     resolution: {integrity: sha512-28iF6xPQrP8Oa6uxE6a1biz+lWeTOAPKggvjB8HAs6nVMKZwf5bG++632Dx614hIWgUPkgivRfG+a8uAXGTIbA==}
     engines: {node: '>=4'}
 
-  prismjs@1.29.0:
-    resolution: {integrity: sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==}
-    engines: {node: '>=6'}
-
   prismjs@1.30.0:
     resolution: {integrity: sha512-DEvV2ZF2r2/63V+tK8hQvrR2ZGn10srHbXviTlcv7Kpzw8jWiNTqbVgjO3IY8RxrrOUF8VPMQQFysYYYv0YZxw==}
     engines: {node: '>=6'}
@@ -14169,10 +14165,10 @@ snapshots:
     optionalDependencies:
       react-dom: 18.2.0(react@18.2.0)
 
-  '@plonegovbr/volto-code-block@3.0.0(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react@18.2.0)':
+  '@plonegovbr/volto-code-block@4.0.0(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react@18.2.0)':
     dependencies:
       mermaid: 10.8.0
-      prismjs: 1.29.0
+      prismjs: 1.30.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-gist: 1.2.4(react@18.2.0)
@@ -20824,8 +20820,6 @@ snapshots:
       parse-ms: 4.0.0
 
   pretty-time@1.1.0: {}
-
-  prismjs@1.29.0: {}
 
   prismjs@1.30.0: {}
 
