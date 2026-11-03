@@ -1356,8 +1356,8 @@ importers:
         specifier: 1.0.0-alpha.14
         version: 1.0.0-alpha.14(@plone/components@4.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)
       '@plonegovbr/volto-code-block':
-        specifier: 4.0.0
-        version: 4.0.0(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react@18.2.0)
+        specifier: 4.1.0
+        version: 4.1.0(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react@18.2.0)
       '@plonegovbr/volto-social-media':
         specifier: 3.1.0
         version: 3.1.0(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react@18.2.0)
@@ -3606,8 +3606,8 @@ packages:
       react-dom:
         optional: true
 
-  '@plonegovbr/volto-code-block@4.0.0':
-    resolution: {integrity: sha512-m/8mhx2U4N6+/8hN3kJpRowJ/FRL0fROGq9P23hHjcUJJUbMMVdl70MIveUb7s4jbMNJqhCu184G1MCxqNEwPQ==}
+  '@plonegovbr/volto-code-block@4.1.0':
+    resolution: {integrity: sha512-MxQZXRnsH9p3dhI2w2SMNFY6H4EhpvPkPsWCLV1bpyR8MUTQvvYsLVRALXfUc9EVeyJ8BadmBhzi/ZVIoRHJYQ==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
@@ -14165,7 +14165,7 @@ snapshots:
     optionalDependencies:
       react-dom: 18.2.0(react@18.2.0)
 
-  '@plonegovbr/volto-code-block@4.0.0(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react@18.2.0)':
+  '@plonegovbr/volto-code-block@4.1.0(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react@18.2.0)':
     dependencies:
       mermaid: 10.8.0
       prismjs: 1.30.0

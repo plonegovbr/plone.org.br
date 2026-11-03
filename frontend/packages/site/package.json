@@ -42,7 +42,7 @@
     "@plone-collective/volto-casestudy": "2.0.0-alpha.5",
     "@simplesconsultoria/volto-videos": "1.0.0-alpha.5",
     "@simplesconsultoria/volto-light-theme": "1.0.0-alpha.14",
-    "@plonegovbr/volto-code-block": "4.0.0",
+    "@plonegovbr/volto-code-block": "4.1.0",
     "@plonegovbr/volto-social-media": "3.1.0"
   },
   "peerDependencies": {
