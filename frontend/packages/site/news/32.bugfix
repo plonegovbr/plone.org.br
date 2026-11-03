@@ -1,0 +1,1 @@
+Atualiza o `@plonegovbr/volto-code-block` para 4.1.0, que mostra os números de linha também na edição do bloco de código, corrige os números de linha que sumiam no carregamento completo da página e dentro de acordeões fechados, corrige o erro `Syntax error in text` e a legenda do bloco Mermaid e torna o cursor visível no tema escuro. @ericof
