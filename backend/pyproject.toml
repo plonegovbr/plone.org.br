@@ -28,7 +28,7 @@ dependencies = [
     "plone.api",
     "plone.restapi",
     "plone.volto",
-    "pas.plugins.identity==1.0.0a14",
+    "pas.plugins.identity==1.0.0a15",
     "collective.casestudy==2.0.0a5",
     "sc.videos==1.0.0a5",
     "sc.voltolighttheme==1.0.0a14",

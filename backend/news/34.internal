@@ -1,0 +1,1 @@
+Atualiza o `pas.plugins.identity` para 1.0.0a15 e adiciona o passo de atualização 20261104001, que aplica a versão 1012 do perfil dele e define `client_ip_headers` para os cabeçalhos do Cloudflare, já que o site fica atrás do Cloudflare. @ericof

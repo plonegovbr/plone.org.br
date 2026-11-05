@@ -1,0 +1,18 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    >
+
+  <genericsetup:upgradeSteps
+      profile="plonegovbr.site:default"
+      source="20261023001"
+      destination="20261104001"
+      >
+    <genericsetup:upgradeStep
+        title="Atualiza o pas.plugins.identity para a versão 1012 do perfil"
+        description="Aplica os passos pendentes do perfil pas.plugins.identity:default: a permissão Ver detalhes da conta e o parâmetro client_ip_headers, que passa a indicar os cabeçalhos do Cloudflare"
+        handler=".upgrade_identity"
+        />
+  </genericsetup:upgradeSteps>
+
+</configure>
