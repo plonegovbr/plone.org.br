@@ -1353,8 +1353,8 @@ importers:
         specifier: 2.0.0-alpha.5
         version: 2.0.0-alpha.5(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react-toastify@5.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)(redux@4.2.1)(semantic-ui-react@2.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
       '@plone-collective/volto-identity':
-        specifier: 1.0.0-alpha.14
-        version: 1.0.0-alpha.14(@plone/components@4.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)
+        specifier: 1.0.0-alpha.15
+        version: 1.0.0-alpha.15(@plone/components@4.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)
       '@plonegovbr/volto-code-block':
         specifier: 4.1.0
         version: 4.1.0(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react@18.2.0)
@@ -3547,8 +3547,8 @@ packages:
       react: ^18.2.0
       react-dom: ^18.2.0
 
-  '@plone-collective/volto-identity@1.0.0-alpha.14':
-    resolution: {integrity: sha512-A2NTGjEr/g2KcjRyjhBhdDUfyewPw5P2vJ+Grnnsvq60GUIFClMw4ewwI9UCti1rXQFLKy5r0wCD31ay0zzyvQ==}
+  '@plone-collective/volto-identity@1.0.0-alpha.15':
+    resolution: {integrity: sha512-JQXuQeF0VC3RnCCOy8NAmT+76h4UJtCWUEUpb/8E8/6D7ytgXF46ivtxYvVaF5q2THIIO0vQWnnXpJfE1kI2Iw==}
     peerDependencies:
       '@plone/components': 4.2.1
       react: ^18.2.0
@@ -14083,7 +14083,7 @@ snapshots:
       - redux
       - semantic-ui-react
 
-  '@plone-collective/volto-identity@1.0.0-alpha.14(@plone/components@4.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)':
+  '@plone-collective/volto-identity@1.0.0-alpha.15(@plone/components@4.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
       '@plone/components': 4.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react: 18.2.0

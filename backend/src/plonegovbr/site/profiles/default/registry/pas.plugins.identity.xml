@@ -4,6 +4,10 @@
            prefix="pas.plugins.identity"
   >
     <value key="callback_url">/login-identity</value>
+    <value key="client_ip_headers">
+      <element>CF-Connecting-IPv6</element>
+      <element>CF-Connecting-IP</element>
+    </value>
     <value key="discovery_timeout">10</value>
     <value key="portrait_max_bytes">2097152</value>
     <value key="portrait_timeout">5</value>
