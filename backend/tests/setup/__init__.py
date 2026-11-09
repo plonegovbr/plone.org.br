@@ -7,7 +7,7 @@ DEFAULT_PROFILE = f"{PACKAGE_NAME}:default"
 INITIAL_PROFILE = f"{PACKAGE_NAME}:initial"
 
 #: Keep in sync with ``profiles/default/metadata.xml``.
-DEFAULT_PROFILE_VERSION = "20261104001"
+DEFAULT_PROFILE_VERSION = "20261108001"
 
 #: Profiles the default profile pulls in, directly or transitively.
 #: ``collective.multiworkflow:default`` arrives through ``collective.casestudy``.

@@ -55,10 +55,17 @@ class TestUpgrade:
             step["step"].doStep(self.setup_tool)
 
     def test_available(self):
-        """The site at the source version is offered exactly this step."""
+        """The site at the source version is offered this step, then the next one.
+
+        Steps chain: the step from 20261104001 is offered once the site is at
+        its destination, so the list from the source carries both.
+        """
         steps = self._steps()
 
-        assert [(s["ssource"], s["sdest"]) for s in steps] == [(SOURCE, DESTINATION)]
+        assert [(s["ssource"], s["sdest"]) for s in steps] == [
+            (SOURCE, DESTINATION),
+            (DESTINATION, "20261108001"),
+        ]
 
     def test_upgrades_identity(self):
         """Running it brings pas.plugins.identity to its profile version."""

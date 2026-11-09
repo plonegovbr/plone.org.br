@@ -1,0 +1,1 @@
+Atualiza o `pas.plugins.identity` para 1.0.0a16 e adiciona o passo de atualização 20261108001, que aplica a versão 1013 do perfil dele. Com isso, as ações do `pas.plugins.identity` passam a aparecer no menu de ferramentas pessoais do Volto 19.7. @ericof

@@ -661,8 +661,8 @@ importers:
         specifier: 2.1.5
         version: 2.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       serialize-javascript:
-        specifier: 7.0.5
-        version: 7.0.5
+        specifier: 7.1.3
+        version: 7.1.3
       slate:
         specifier: 0.118.1
         version: 0.118.1
@@ -1353,8 +1353,8 @@ importers:
         specifier: 2.0.0-alpha.5
         version: 2.0.0-alpha.5(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react-toastify@5.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)(redux@4.2.1)(semantic-ui-react@2.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
       '@plone-collective/volto-identity':
-        specifier: 1.0.0-alpha.15
-        version: 1.0.0-alpha.15(@plone/components@4.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)
+        specifier: 1.0.0-alpha.16
+        version: 1.0.0-alpha.16(@plone/components@4.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)
       '@plonegovbr/volto-code-block':
         specifier: 4.1.0
         version: 4.1.0(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react@18.2.0)
@@ -3547,15 +3547,18 @@ packages:
       react: ^18.2.0
       react-dom: ^18.2.0
 
-  '@plone-collective/volto-identity@1.0.0-alpha.15':
-    resolution: {integrity: sha512-JQXuQeF0VC3RnCCOy8NAmT+76h4UJtCWUEUpb/8E8/6D7ytgXF46ivtxYvVaF5q2THIIO0vQWnnXpJfE1kI2Iw==}
+  '@plone-collective/volto-identity@1.0.0-alpha.16':
+    resolution: {integrity: sha512-o1icH9xFsCPlv/830fQRydkrsHZ5IiWb7aEEGsBLCSxaAEu89Qzjcehde3P3UV67as0w2LSx9LKFjKf6ZqHYrw==}
     peerDependencies:
-      '@plone/components': 4.2.1
+      '@plone/components': ^4.2.3
       react: ^18.2.0
-      react-aria-components: ^1.17.0
+      react-aria-components: ^1.22.1
       react-dom: ^18.2.0
       react-redux: ^8.1.2
       react-router-dom: ^5.2.0
+    peerDependenciesMeta:
+      react-aria-components:
+        optional: true
 
   '@plone-collective/volto-image-editor@1.2.0':
     resolution: {integrity: sha512-eyZHEUMgTuGgSI+1mNO1a04HNq7uFnz+Km5fBWmsjcc+Wrw1TET250JGOW+JuCW9Q1o55SCEkq6RRgmWLIWiAg==}
@@ -7532,6 +7535,7 @@ packages:
   image-size@0.5.5:
     resolution: {integrity: sha512-6TDAlDPZxUFCv+fuOkIoXT/V/f3Qbq8e37p+YOiYrUv3v9cc3/6x78VdfPgFVaB9dZYeLUfKgHRebpkm/oP2VQ==}
     engines: {node: '>=0.10.0'}
+    deprecated: Please migrate to image-size@2.x
     hasBin: true
 
   immer@10.2.0:
@@ -10389,8 +10393,8 @@ packages:
     resolution: {integrity: sha512-VMbMxbDeehAxpOtWJXlcUS5E8iXh6QmN+BkRX1GARS3wRaXEEgzCcB10gTQazO42tpNIya8xIyNx8fll1OFPrg==}
     engines: {node: '>= 0.8.0'}
 
-  serialize-javascript@7.0.5:
-    resolution: {integrity: sha512-F4LcB0UqUl1zErq+1nYEEzSHJnIwb3AF2XWB94b+afhrekOUijwooAYqFyRbjYkm2PAKBabx6oYv/xDxNi8IBw==}
+  serialize-javascript@7.1.3:
+    resolution: {integrity: sha512-kYEnegpAxWFjUw3dSYdSM9zVlTrsxDbsSkq/qd3B7VanqyJ+JdDy6qVyuqVGBhSfuD/rLZQEKuXsO5KZFCrVYQ==}
     engines: {node: '>=20.0.0'}
 
   serve-index@1.9.2:
@@ -14083,14 +14087,15 @@ snapshots:
       - redux
       - semantic-ui-react
 
-  '@plone-collective/volto-identity@1.0.0-alpha.15(@plone/components@4.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)':
+  '@plone-collective/volto-identity@1.0.0-alpha.16(@plone/components@4.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
       '@plone/components': 4.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react: 18.2.0
-      react-aria-components: 1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react-dom: 18.2.0(react@18.2.0)
       react-redux: 8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1)
       react-router-dom: 5.2.0(react@18.2.0)
+    optionalDependencies:
+      react-aria-components: 1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
 
   '@plone-collective/volto-image-editor@1.2.0(advanced-cropper@0.17.1)(classnames@2.5.1)(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
@@ -16629,7 +16634,7 @@ snapshots:
       glob-parent: 6.0.2
       normalize-path: 3.0.0
       schema-utils: 4.5.0
-      serialize-javascript: 7.0.5
+      serialize-javascript: 7.1.3
       tinyglobby: 0.2.17
       webpack: 5.105.4(esbuild@0.25.12)
 
@@ -16742,7 +16747,7 @@ snapshots:
       jest-worker: 30.5.1
       postcss: 8.5.28
       schema-utils: 4.5.0
-      serialize-javascript: 7.0.5
+      serialize-javascript: 7.1.3
       webpack: 5.105.4(esbuild@0.25.12)
     optionalDependencies:
       clean-css: 5.3.3
@@ -22034,7 +22039,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  serialize-javascript@7.0.5: {}
+  serialize-javascript@7.1.3: {}
 
   serve-index@1.9.2:
     dependencies:
