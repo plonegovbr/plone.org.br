@@ -1,0 +1,18 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    >
+
+  <genericsetup:upgradeSteps
+      profile="plonegovbr.site:default"
+      source="20261104001"
+      destination="20261108001"
+      >
+    <genericsetup:upgradeStep
+        title="Atualiza o pas.plugins.identity para a versão 1013 do perfil"
+        description="Adiciona as ações personal_tools do perfil pas.plugins.identity:default, que o menu de ferramentas pessoais do Volto 19.7 usa"
+        handler=".upgrade_identity"
+        />
+  </genericsetup:upgradeSteps>
+
+</configure>

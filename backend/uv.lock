@@ -1616,7 +1616,7 @@ wheels = [
 
 [[package]]
 name = "pas-plugins-identity"
-version = "1.0.0a15"
+version = "1.0.0a16"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "authlib" },
@@ -1629,9 +1629,9 @@ dependencies = [
     { name = "products-cmfplone" },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/ca/4f/12d172dd7f0acb89f8ecca49c784ec94184ad23874ddc7ab59d38abe4bd0/pas_plugins_identity-1.0.0a15.tar.gz", hash = "sha256:49c517c9e27f73778afecc08eb7da905bf08c9bd5c8bc1ba806998a9501a24f0", size = 1117489, upload-time = "2026-11-04T19:23:19.354Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/36/fd/2f8379ce8e5618ca918184e733c551ade8fecc2dc93cbbae4dbcd1c12239/pas_plugins_identity-1.0.0a16.tar.gz", hash = "sha256:fad596fcfa6f19d05ef79a4513bde9ce89c84362a87a9149856057af45727b0e", size = 1122440, upload-time = "2026-11-09T00:17:16.16Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/64/7d/694327124fd238e303cc3285d79b6e35c08b3df21219d6e8a92017548927/pas_plugins_identity-1.0.0a15-py3-none-any.whl", hash = "sha256:2b88b01ec6f47f27b379194b73e9122e58397fb211950ede4174cca400e591a0", size = 746820, upload-time = "2026-11-04T19:23:14.941Z" },
+    { url = "https://files.pythonhosted.org/packages/4b/5a/0be7dcd45dd3509e2619e18a2c651c2fd6c661485736ad16fe03feda5c67/pas_plugins_identity-1.0.0a16-py3-none-any.whl", hash = "sha256:246dab5165036a196f92e349558921209c9087fac7afe888907fe9dbdee8ac85", size = 752574, upload-time = "2026-11-09T00:17:12.877Z" },
 ]
 
 [[package]]
@@ -3759,7 +3759,7 @@ test = [
 [package.metadata]
 requires-dist = [
     { name = "collective-casestudy", specifier = "==2.0.0a5" },
-    { name = "pas-plugins-identity", specifier = "==1.0.0a15" },
+    { name = "pas-plugins-identity", specifier = "==1.0.0a16" },
     { name = "plone-api" },
     { name = "plone-exportimport", specifier = ">=2.2.0" },
     { name = "plone-restapi" },
