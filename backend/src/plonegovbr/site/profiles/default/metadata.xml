@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metadata>
-  <version>20261108001</version>
+  <version>20261113001</version>
   <dependencies>
     <dependency>profile-plonegovbr.socialmedia:default</dependency>
     <dependency>profile-sc.videos:default</dependency>
     <dependency>profile-sc.voltolighttheme:default</dependency>
     <dependency>profile-collective.casestudy:default</dependency>
     <dependency>profile-pas.plugins.identity:default</dependency>
+    <dependency>profile-plone.formblock:default</dependency>
   </dependencies>
 </metadata>

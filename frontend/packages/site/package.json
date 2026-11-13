@@ -33,7 +33,8 @@
     "@plonegovbr/volto-code-block",
     "@plonegovbr/volto-social-media",
     "@eeacms/volto-matomo",
-    "@simplesconsultoria/volto-light-theme"
+    "@simplesconsultoria/volto-light-theme",
+    "@plone/volto-form-block"
   ],
   "theme": "@kitconcept/volto-light-theme",
   "dependencies": {
@@ -41,7 +42,8 @@
     "@plone-collective/volto-identity": "1.0.0-alpha.16",
     "@plone-collective/volto-casestudy": "2.0.0-alpha.5",
     "@simplesconsultoria/volto-videos": "1.0.0-alpha.5",
-    "@simplesconsultoria/volto-light-theme": "1.0.0-alpha.14",
+    "@simplesconsultoria/volto-light-theme": "1.0.0-alpha.16",
+    "@plone/volto-form-block": "1.0.0-alpha.4",
     "@plonegovbr/volto-code-block": "4.1.0",
     "@plonegovbr/volto-social-media": "3.1.0"
   },

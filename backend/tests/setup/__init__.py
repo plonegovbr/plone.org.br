@@ -7,7 +7,7 @@ DEFAULT_PROFILE = f"{PACKAGE_NAME}:default"
 INITIAL_PROFILE = f"{PACKAGE_NAME}:initial"
 
 #: Keep in sync with ``profiles/default/metadata.xml``.
-DEFAULT_PROFILE_VERSION = "20261108001"
+DEFAULT_PROFILE_VERSION = "20261113001"
 
 #: Profiles the default profile pulls in, directly or transitively.
 #: ``collective.multiworkflow:default`` arrives through ``collective.casestudy``.
@@ -24,6 +24,7 @@ INSTALLED_PROFILES = (
     "plone.app.registry:default",
     "plone.app.theming:default",
     "plone.app.users:default",
+    "plone.formblock:default",
     "plone.protect:default",
     "plone.restapi:blocks",
     "plone.restapi:default",

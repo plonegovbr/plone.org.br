@@ -1,0 +1,18 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    >
+
+  <genericsetup:upgradeSteps
+      profile="plonegovbr.site:default"
+      source="20261108001"
+      destination="20261113001"
+      >
+    <genericsetup:upgradeStep
+        title="Instala o plone.formblock"
+        description="Instala o perfil plone.formblock:default, com o bloco de formulário e o serviço de envio protegido por honeypot"
+        handler=".install_formblock"
+        />
+  </genericsetup:upgradeSteps>
+
+</configure>

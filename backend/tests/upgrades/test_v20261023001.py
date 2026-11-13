@@ -77,6 +77,7 @@ class TestUpgrade:
             (SOURCE, DESTINATION),
             (DESTINATION, "20261104001"),
             ("20261104001", "20261108001"),
+            ("20261108001", "20261113001"),
         ]
 
     def test_upgrades_casestudy(self):
