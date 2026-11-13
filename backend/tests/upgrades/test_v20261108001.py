@@ -63,11 +63,17 @@ class TestUpgrade:
         return list(actions.personal_tools.objectIds())
 
     def test_available(self):
-        """O site na versão de origem recebe exatamente este passo."""
+        """O site na versão de origem recebe este passo e o seguinte.
+
+        Os passos se encadeiam: o passo de 20261108001 para 20261113001 é
+        oferecido assim que o site chega ao destino, então a lista da origem
+        traz os dois.
+        """
         steps = self._steps()
 
         assert [(s["ssource"], s["sdest"]) for s in steps] == [
             (SOURCE, DESTINATION),
+            (DESTINATION, "20261113001"),
         ]
 
     def test_upgrades_identity(self):

@@ -1,0 +1,1 @@
+Adiciona o `plone.formblock[honeypot]` 1.0.0a4, que traz o bloco de formulário com proteção por honeypot. O perfil padrão passa a depender do perfil do add-on, e o passo de atualização 20261113001 o instala no site que já está no ar. @ericof

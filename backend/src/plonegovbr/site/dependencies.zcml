@@ -8,5 +8,6 @@
   <include package="sc.voltolighttheme" />
   <include package="collective.casestudy" />
   <include package="pas.plugins.identity" />
+  <include package="plone.formblock" />
 
 </configure>

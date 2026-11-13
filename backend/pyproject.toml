@@ -31,9 +31,10 @@ dependencies = [
     "pas.plugins.identity==1.0.0a16",
     "collective.casestudy==2.0.0a5",
     "sc.videos==1.0.0a5",
-    "sc.voltolighttheme==1.0.0a14",
+    "sc.voltolighttheme==1.0.0a16",
     "plonegovbr.socialmedia==3.1.0",
     "plone.exportimport>=2.2.0",
+    "plone.formblock[honeypot]==1.0.0a4",
 ]
 
 [dependency-groups]

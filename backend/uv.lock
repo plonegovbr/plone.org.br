@@ -799,6 +799,26 @@ wheels = [
 ]
 
 [[package]]
+name = "collective-honeypot"
+version = "5.0.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "lxml" },
+    { name = "plone-protect" },
+    { name = "plone-transformchain" },
+    { name = "plone-z3cform" },
+    { name = "products-cmfcore" },
+    { name = "repoze-xmliter" },
+    { name = "z3c-form" },
+    { name = "z3c-jbot" },
+    { name = "zope" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/27/04/1636546e6b7b2ce451247e3d2dbd6959865b8cf089d5551ac15938065b45/collective_honeypot-5.0.0.tar.gz", hash = "sha256:c9b1d11c1611fc7f3688d191cc3369cce36f1054dca8343c2c2f64477f62c4ab", size = 40854, upload-time = "2026-05-13T21:18:02.376Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/97/bf/0aecd5ae83060c8964ab321cd1130d7d436ebf55e1781637ec3ee9566520/collective_honeypot-5.0.0-py3-none-any.whl", hash = "sha256:9ff5c20de79f5167fcc258eac146cc06fdcf2c81dbc20620c572b4fecb6dc8dc", size = 32626, upload-time = "2026-05-13T21:18:00.802Z" },
+]
+
+[[package]]
 name = "collective-mockmailhost"
 version = "4.0.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1388,7 +1408,7 @@ wheels = [
 
 [[package]]
 name = "kitconcept-voltolighttheme"
-version = "8.1.2"
+version = "8.1.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "plone-api" },
@@ -1397,9 +1417,9 @@ dependencies = [
     { name = "plonegovbr-socialmedia" },
     { name = "products-cmfplone" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/24/ea/ee57b5f766f06d574c47eaf628aec14c4e71ecac84df35e08a915c413058/kitconcept_voltolighttheme-8.1.2.tar.gz", hash = "sha256:13073874f8c02d0d1933100517d1336fd087ac94491a7b2daeefd5aadbd81a56", size = 1366411, upload-time = "2026-10-22T10:18:16.006Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/04/f7/7a016d9441a71f5bf688e28399e3fc97dea8ec90b890d01f8ebcc49c011d/kitconcept_voltolighttheme-8.1.4.tar.gz", hash = "sha256:12c84c7d7c9778ec3dea3f5a380b0a3ca0a8f1359290694ee687dca78fdaf0cc", size = 1366267, upload-time = "2026-11-08T14:24:04.825Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c3/5b/97e6f0259160b6b8127a2661785ad5b3fd8e0f9b45a199a40b00a47f48c9/kitconcept_voltolighttheme-8.1.2-py3-none-any.whl", hash = "sha256:76861bf10398eb4bdbfd6de07ed31d6a746fe2d735cbe5005c823e05bed45785", size = 1435007, upload-time = "2026-10-22T10:18:13.415Z" },
+    { url = "https://files.pythonhosted.org/packages/55/1b/112dd534a59a5f169a7f9ee7ab7691d024f8af205f60f7bfb7eb0e290bad/kitconcept_voltolighttheme-8.1.4-py3-none-any.whl", hash = "sha256:f1820c1873acf72e3635fcba0a9f6277306de2894f6fcf90b3c6b4b9a46aff16", size = 1435017, upload-time = "2026-11-08T14:24:02.03Z" },
 ]
 
 [[package]]
@@ -1570,6 +1590,45 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/e2/a9/a0c57aee75f77794adaf35322f8b6404cbd0f89ad45c87197a937764b7d0/natsort-8.4.0.tar.gz", hash = "sha256:45312c4a0e5507593da193dedd04abb1469253b601ecaf63445ad80f0a1ea581", size = 76575, upload-time = "2023-06-20T04:17:19.925Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/ef/82/7a9d0550484a62c6da82858ee9419f3dd1ccc9aa1c26a1e43da3ecd20b0d/natsort-8.4.0-py3-none-any.whl", hash = "sha256:4732914fb471f56b5cce04d7bae6f164a592c7712e1c85f9ef585e197299521c", size = 38268, upload-time = "2023-06-20T04:17:17.522Z" },
+]
+
+[[package]]
+name = "node"
+version = "2.2.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "odict" },
+    { name = "plumber" },
+    { name = "zope-component" },
+    { name = "zope-deferredimport" },
+    { name = "zope-deprecation" },
+    { name = "zope-lifecycleevent" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/34/81/c00538f33caf2f2c96ddad2311db42fd3084a00abbc73616ce739fb21abe/node-2.2.0.tar.gz", hash = "sha256:30a4f8939d2e318f70651f5d90c01fec7dd63bde21ea9a764f223bc6c1bd7f7f", size = 90168, upload-time = "2026-11-09T06:57:10.728Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/7a/d7/fa78d16fb24bf2b6626082be76dd7e4e4395b29d0470f2302a8f9a00607a/node-2.2.0-py3-none-any.whl", hash = "sha256:5613e6e9e48ea4edc2e6e6be88afec0e8834818211a252bfe01ee43aa283ce00", size = 102242, upload-time = "2026-11-09T06:57:09.223Z" },
+]
+
+[[package]]
+name = "node-ext-zodb"
+version = "2.0.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "node" },
+    { name = "zodb" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/6e/65/59c43911873e43725193f7beaf9ed13b3337b1869f6f03270514aaedee4a/node_ext_zodb-2.0.1.tar.gz", hash = "sha256:71e64b934b5fb7cc495fcd0c12296609e8aa863638efa4c1e54cae1f6fa10acc", size = 11695, upload-time = "2026-10-31T09:33:10.143Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/11/37/3f2ada447054f52b4691fa0ed35ab3cb8edac757cb9b25035d95280422f6/node_ext_zodb-2.0.1-py3-none-any.whl", hash = "sha256:070de2cbeeec232983d5d5550bb208c9044cf8d3eef06136c68a63a94941be5a", size = 12119, upload-time = "2026-10-31T09:33:08.443Z" },
+]
+
+[[package]]
+name = "odict"
+version = "2.0.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/14/cd/a24c4ad16e624dc544ce09508cd4f386a6aaf0f0aeef68b8860b107393a3/odict-2.0.1.tar.gz", hash = "sha256:1e75f06850cdd0be3f4bd628400d02b2825df283cf156ebc5a430cd5d651f732", size = 15858, upload-time = "2026-10-31T09:29:23.853Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f2/82/042156fe9b613f384c2c37dacc88cf621debf5415385ee3669ee7299d18f/odict-2.0.1-py3-none-any.whl", hash = "sha256:eeb85ed12018b62bfbcdeb17b66017a3019cb7e8abc3076b428ab929d72c9595", size = 11328, upload-time = "2026-10-31T09:29:22.175Z" },
 ]
 
 [[package]]
@@ -3095,6 +3154,30 @@ wheels = [
 ]
 
 [[package]]
+name = "plone-formblock"
+version = "1.0.0a4"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "beautifulsoup4" },
+    { name = "jsonschema" },
+    { name = "plone-api" },
+    { name = "plone-restapi" },
+    { name = "plone-volto" },
+    { name = "products-cmfplone" },
+    { name = "pyotp" },
+    { name = "souper-plone" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/d7/f6/66b4dce37473ea17cb14160bd57689e8ab2a465734c1a50f6950479761b5/plone_formblock-1.0.0a4.tar.gz", hash = "sha256:17842a80d789584ea0f60625ed9e2d0056df704612198328edc856efe80910c4", size = 138826, upload-time = "2026-11-13T01:19:26.08Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/95/fb/7b109585e0844b9fe2c7e4a6428925e75611a0aead81327ee6da72e36561/plone_formblock-1.0.0a4-py3-none-any.whl", hash = "sha256:0e6c3c38a1c73a4b7656abb30fd3a554bb6a57f499c4c40141fa6e3c807c0e59", size = 92967, upload-time = "2026-11-13T01:19:24.52Z" },
+]
+
+[package.optional-dependencies]
+honeypot = [
+    { name = "collective-honeypot" },
+]
+
+[[package]]
 name = "plone-formwidget-namedfile"
 version = "4.0.0"
 source = { registry = "https://pypi.org/simple" }
@@ -3732,6 +3815,7 @@ dependencies = [
     { name = "pas-plugins-identity" },
     { name = "plone-api" },
     { name = "plone-exportimport" },
+    { name = "plone-formblock", extra = ["honeypot"] },
     { name = "plone-restapi" },
     { name = "plone-volto" },
     { name = "plonegovbr-socialmedia" },
@@ -3762,12 +3846,13 @@ requires-dist = [
     { name = "pas-plugins-identity", specifier = "==1.0.0a16" },
     { name = "plone-api" },
     { name = "plone-exportimport", specifier = ">=2.2.0" },
+    { name = "plone-formblock", extras = ["honeypot"], specifier = "==1.0.0a4" },
     { name = "plone-restapi" },
     { name = "plone-volto" },
     { name = "plonegovbr-socialmedia", specifier = "==3.1.0" },
     { name = "products-cmfplone", specifier = "==6.2.2" },
     { name = "sc-videos", specifier = "==1.0.0a5" },
-    { name = "sc-voltolighttheme", specifier = "==1.0.0a14" },
+    { name = "sc-voltolighttheme", specifier = "==1.0.0a16" },
 ]
 
 [package.metadata.requires-dev]
@@ -3823,6 +3908,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/f9/e2/3e91f31a7d2b083fe6ef3fa267035b518369d9511ffab804f839851d2779/pluggy-1.6.0.tar.gz", hash = "sha256:7dcc130b76258d33b90f61b658791dede3486c3e6bfb003ee5c9bfb396dd22f3", size = 69412, upload-time = "2025-05-15T12:30:07.975Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl", hash = "sha256:e920276dd6813095e9377c0bc5566d94c932c33b27a3e3945d8389c374dd4746", size = 20538, upload-time = "2025-05-15T12:30:06.134Z" },
+]
+
+[[package]]
+name = "plumber"
+version = "3.0.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/2a/76/01f1d114e8c8efb9ea37f689f646fe1ef2357b939f9127f67af0d0b936d1/plumber-3.0.0.tar.gz", hash = "sha256:5e034b4cc46a09805c5096cd4dbcb970c34211705f1a475ef934009550ecbfdb", size = 34553, upload-time = "2026-11-09T06:56:49.754Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/98/2f/754dd59e81471cf583074efadd56436405f8faf9884f72ea4b88b4485962/plumber-3.0.0-py3-none-any.whl", hash = "sha256:4eed8b9d4430e4fe3e4cc768e55a5c7191ff3cfad52b92238b4943b9831a60c7", size = 21275, upload-time = "2026-11-09T06:56:48.24Z" },
 ]
 
 [[package]]
@@ -4502,6 +4596,15 @@ wheels = [
 ]
 
 [[package]]
+name = "pyotp"
+version = "2.10.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/2d/c6/c5d96a86fd0bf6fa1bbb5c5c341ff3208638b692727a683c8289068d9a11/pyotp-2.10.0.tar.gz", hash = "sha256:d01e9703443616b03c57c700b5cbffd56a1f929c1b0f8f03131bc78c1fca9d3f", size = 18625, upload-time = "2026-06-14T03:48:49.221Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/65/33/7b83bde70eddaaaaef487751a9c3a5cc0c0be54620ded0e120ebdc401ff9/pyotp-2.10.0-py3-none-any.whl", hash = "sha256:1df2f6a1bcc3bb0716172a5215ddc2f8c7c7fd26a13df9927d52e1746934836c", size = 13768, upload-time = "2026-06-14T03:48:47.831Z" },
+]
+
+[[package]]
 name = "pysocks"
 version = "1.7.1"
 source = { registry = "https://pypi.org/simple" }
@@ -4715,6 +4818,21 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/df/82/0b1ec353154e4d1b3ece3e6e20a72ba4bf9b85ed6584a9e370f61c0fe875/relstorage-4.2.0-cp314-cp314t-manylinux2014_s390x.manylinux_2_17_s390x.whl", hash = "sha256:7a06cd1e22c0d19a6f4312a9462983809147d62dc83a114b973ffb014dc368dd", size = 1289305, upload-time = "2025-09-29T20:22:02.935Z" },
     { url = "https://files.pythonhosted.org/packages/a1/9e/a219cca6baa0c3babfab7823c2a4ccf7852c97525328a3ba9344c19203d5/relstorage-4.2.0-cp314-cp314t-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:c86b51a9c1c0ddba29fe692fe5f13b548672d94a3d2f145499fdf620cb14a1c2", size = 1294540, upload-time = "2025-09-29T19:46:44.503Z" },
     { url = "https://files.pythonhosted.org/packages/08/02/f4a6f26782b3811db6b429f3208e277644e4c5f157d03f338096179f1b90/relstorage-4.2.0-cp314-cp314t-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:ec14ba61e224525b0780291f5a1c62348924435a76a6afe1f6e51456d50b9aa5", size = 1272535, upload-time = "2025-09-29T19:47:01.479Z" },
+]
+
+[[package]]
+name = "repoze-catalog"
+version = "0.9.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "setuptools" },
+    { name = "zodb3" },
+    { name = "zope-component" },
+    { name = "zope-index" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/91/42/12833c4a1f0f546b9acfc95318d23c0fc5ece9bd318dae5c9fa339c0340b/repoze.catalog-0.9.0.tar.gz", hash = "sha256:7760813dac15128a55016a8367c87a2c6045aafdc8137aa72ea01dc36d442728", size = 101757, upload-time = "2019-03-07T14:54:54.039Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/73/09/6445c23bc7b04951b88e02fcaa8cb665f95812d290f0650bbd05c6525dc6/repoze.catalog-0.9.0-py3-none-any.whl", hash = "sha256:3434026513f67e442be4ba0ff7aedc4264b6e936226051b79b53bf46d2a82792", size = 87880, upload-time = "2019-03-07T14:54:52.357Z" },
 ]
 
 [[package]]
@@ -4983,7 +5101,7 @@ wheels = [
 
 [[package]]
 name = "sc-voltolighttheme"
-version = "1.0.0a14"
+version = "1.0.0a16"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "kitconcept-voltolighttheme" },
@@ -4993,9 +5111,9 @@ dependencies = [
     { name = "plonegovbr-socialmedia" },
     { name = "products-cmfplone" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/5a/1b/f4dc56535c42fd4f7fa955f0a19371cc0c3de0c0062fa24d7a2cc89194e9/sc_voltolighttheme-1.0.0a14.tar.gz", hash = "sha256:c9cf99167898b517ada4f858b51e74a29d975d16dc2e5bab9e7dc3e5c8448376", size = 1260398, upload-time = "2026-10-30T21:48:06.762Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/74/b4/0815edd2cd9e6077827dc9e7620120af3b628a04f080f17aad279b9d81c7/sc_voltolighttheme-1.0.0a16.tar.gz", hash = "sha256:13d4e2aebfa3930a9c2d9fb1f5b153711bda238c5fe07daf1351bffeebafdfd6", size = 1260419, upload-time = "2026-11-13T14:20:13.828Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/a7/4d/c3282ce88f4288356dc39649c92cd8b2adf57bb42bf501064acdf8a0ff30/sc_voltolighttheme-1.0.0a14-py3-none-any.whl", hash = "sha256:3397070f4557779e70a72ebf4a0d3184dfea94d2a098b9197575e9cc1fd2dd12", size = 1293293, upload-time = "2026-10-30T21:48:04.919Z" },
+    { url = "https://files.pythonhosted.org/packages/f7/45/bdc1f36ec37f56409582cba7e4cabfd80a31e88b412d11d4b3df56e024ae/sc_voltolighttheme-1.0.0a16-py3-none-any.whl", hash = "sha256:1e836bbbae9cd2e977a2f32c3101b0f2d7aa3961fffcd75658f1457ce72442e8", size = 1293292, upload-time = "2026-11-13T14:20:11.011Z" },
 ]
 
 [[package]]
@@ -5104,6 +5222,32 @@ sdist = { url = "https://files.pythonhosted.org/packages/e8/c4/ba2f8066cceb6f233
 wheels = [
     { url = "https://files.pythonhosted.org/packages/32/46/9cb0e58b2deb7f82b84065f37f3bffeb12413f947f9388e4cac22c4621ce/sortedcontainers-2.4.0-py2.py3-none-any.whl", hash = "sha256:a163dcaede0f1c021485e957a39245190e74249897e2ae4b2aa38595db237ee0", size = 29575, upload-time = "2021-05-16T22:03:41.177Z" },
 ]
+
+[[package]]
+name = "souper"
+version = "1.1.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "node-ext-zodb" },
+    { name = "repoze-catalog" },
+    { name = "setuptools" },
+    { name = "six" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/fe/14/8d08137567531fd283569079d31f38d0e3d9880f3c3855ef71d7a5f4b152/souper-1.1.2.tar.gz", hash = "sha256:38a0fcf8e1d1e830895483e7d3d91a03a4c465c3855051e805d518f53aa81c9d", size = 25626, upload-time = "2022-12-05T11:56:41.219Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/21/03/22dba11501592d08d43b83d3c81fb09bad776dacb9dca2ec439db41f1b71/souper-1.1.2-py3-none-any.whl", hash = "sha256:07f8bcfc858c5d764f0fde8f62636280916c08309cf872f380417e89d9d7396e", size = 11466, upload-time = "2022-12-05T11:56:37.667Z" },
+]
+
+[[package]]
+name = "souper-plone"
+version = "1.3.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "products-cmfplone" },
+    { name = "setuptools" },
+    { name = "souper" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/dd/ef/3b8cf7f86581e2ba5610e4d618a1ea1e95c6ef271934985399378fa24ed2/souper.plone-1.3.1.tar.gz", hash = "sha256:1490b602d22d2dc7992fa38c064ab49846d8a045a050117c564264a6277d93b1", size = 17071, upload-time = "2021-02-13T15:30:45.223Z" }
 
 [[package]]
 name = "soupsieve"
@@ -5418,6 +5562,23 @@ wheels = [
 ]
 
 [[package]]
+name = "z3c-jbot"
+version = "3.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "setuptools" },
+    { name = "zope-component" },
+    { name = "zope-configuration" },
+    { name = "zope-pagetemplate" },
+    { name = "zope-publisher" },
+    { name = "zope-security" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/61/aa/10b8c7750e6a77cdaff8d7e0eca8554d2802e61d7223df920f46488f6b6a/z3c_jbot-3.1.tar.gz", hash = "sha256:80f4f3ff01946f08ee986cae05b8c1b2b491983dfc1da0a1fad6b852fa7968ab", size = 20758, upload-time = "2025-07-29T08:16:24.77Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a1/0b/fb3fd7287af2a6a3d5c2bc827748cf04d96680208cc5f9088075a394fbd7/z3c_jbot-3.1-py3-none-any.whl", hash = "sha256:ddc90de6e6d65652101f45775ccb05774645d847489c8578bc0da8596bb5c969", size = 20334, upload-time = "2025-07-29T08:16:23.686Z" },
+]
+
+[[package]]
 name = "z3c-objpath"
 version = "3.0"
 source = { registry = "https://pypi.org/simple" }
@@ -5603,6 +5764,19 @@ sdist = { url = "https://files.pythonhosted.org/packages/70/fb/bfb7dcd19af0b9a51
 wheels = [
     { url = "https://files.pythonhosted.org/packages/d4/82/09571aeb3eeb0033ecde410de174250ef56ff47960cc5eed7b2dbb3694a0/zodb-6.3-py3-none-any.whl", hash = "sha256:4f1baad4296fa06d4f0a468c91be05e5bd3f0fbfa0b37794de4f03c97cb8dcf1", size = 419734, upload-time = "2026-04-14T06:15:35.253Z" },
 ]
+
+[[package]]
+name = "zodb3"
+version = "3.11.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "btrees" },
+    { name = "persistent" },
+    { name = "transaction" },
+    { name = "zeo" },
+    { name = "zodb" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/ae/0a/27521b4102a47c205f3a40d1bb117365bc3f5e6df0267413404e159469c4/ZODB3-3.11.0.tar.gz", hash = "sha256:b5767028e732c619f45c27189dd001e14ec155d7984807991fce751b35b4fcb0", size = 55094, upload-time = "2014-05-23T16:10:51.665Z" }
 
 [[package]]
 name = "zodbpickle"
@@ -6114,6 +6288,40 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/8c/99/d8e509f6aa1633e751b50d06f762a7a2138d12fdf497821295791a6ab7d1/zope_i18nmessageid-8.2-cp314-cp314-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl", hash = "sha256:31c8865f0bfb8909f82c2296f3b9d518ed84219759e79a52e7fccb4047cca311", size = 30595, upload-time = "2025-11-18T09:24:45.051Z" },
     { url = "https://files.pythonhosted.org/packages/dd/57/a50a35bb1ea3153a53e25f420e322e89c25607f53bcef95982fd3a559b26/zope_i18nmessageid-8.2-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:4fed52553d4c36f3d0c40c6d175a38041126eac54c57657cdb83e32a36682bcc", size = 30967, upload-time = "2025-11-18T09:24:45.93Z" },
     { url = "https://files.pythonhosted.org/packages/67/cd/2dec24fa21fd035485e7a141619e6fd2f3d7b3f149caa5bc7971c84c1e53/zope_i18nmessageid-8.2-cp314-cp314-win_amd64.whl", hash = "sha256:1238e76e5f984682f90d85d804bc2f9ad3c29372dbd768cd2f57c0525e3e3d8b", size = 18607, upload-time = "2025-11-18T09:24:47.095Z" },
+]
+
+[[package]]
+name = "zope-index"
+version = "8.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "btrees" },
+    { name = "persistent" },
+    { name = "zope-interface" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/c6/cd/91736f4226b53074f6d72a9882345b60b2f45aeab3eacd345934ce9a9ff5/zope_index-8.3.tar.gz", hash = "sha256:1fb479837f811e9c17b296e2d439f9dd40d97e178249f413c80d3f80e3d86905", size = 76500, upload-time = "2026-10-26T07:52:44.806Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/5f/22/380ed8c70cfc2c715f09db12d5a0f19353201262ac31eb153f3e3f4e5ec1/zope_index-8.3-cp313-cp313-macosx_10_9_x86_64.whl", hash = "sha256:bd481af84bf1655f565ea9ad921749718a1bc4065a310a646602348557843aba", size = 91030, upload-time = "2026-10-26T07:52:10.386Z" },
+    { url = "https://files.pythonhosted.org/packages/37/f0/d68e97552c20f84c90ba9db30dd6b5bce826bd1fb6843e9c3b3269469932/zope_index-8.3-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:50a2178a6f9cef6593bef0486a4af30afa545c1c87f522864aa1c9fe27267fdf", size = 91441, upload-time = "2026-10-26T07:52:11.948Z" },
+    { url = "https://files.pythonhosted.org/packages/c1/27/c96cb2bb3f998638a5efff2b563ae2d56a7b095226ceaaa9f928c10ac368/zope_index-8.3-cp313-cp313-manylinux1_i686.manylinux2014_i686.manylinux_2_17_i686.manylinux_2_5_i686.whl", hash = "sha256:be445d5f5c532ca8c29a906299a6890e792acb6ca1c0eaad2b91c36cf39804e3", size = 100084, upload-time = "2026-10-26T07:52:13.443Z" },
+    { url = "https://files.pythonhosted.org/packages/9a/a0/f8f3644b8df18bdab108eb03c90f88fea3835e13020d22ad9c3be4cd5689/zope_index-8.3-cp313-cp313-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl", hash = "sha256:c8570716f11341b64e79f37fb5b24180faf10fa7ec7afe56d04f3eb0588ee5b2", size = 100429, upload-time = "2026-10-26T07:52:15.13Z" },
+    { url = "https://files.pythonhosted.org/packages/bd/e0/8a97c81e4f2b35bcbe737df376e0ed3eafe3f7ffc8544b578854417474b0/zope_index-8.3-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:678a4e01876cb243a53425fe661c8a1128fdbde535fa4af283df64aa93fcac25", size = 101021, upload-time = "2026-10-26T07:52:16.878Z" },
+    { url = "https://files.pythonhosted.org/packages/ce/c3/46966a8cf601e1ece0b44f4a9bdd80aabe3adac158161b0b22a3b7cf271f/zope_index-8.3-cp313-cp313-win_amd64.whl", hash = "sha256:15c88b929f64c59369fc167545737e58798b46f4c5c022fdb2a1040c7dafa45c", size = 94741, upload-time = "2026-10-26T07:52:18.323Z" },
+    { url = "https://files.pythonhosted.org/packages/0e/c9/361cd33ae7434238123015460ed933661590e272e51bf21493e19b3af24b/zope_index-8.3-cp313-cp313-win_arm64.whl", hash = "sha256:c347c3c14fbf6e0e377a210dfb47479a00f745aa46b0b1ceff1388f2900d99ef", size = 94716, upload-time = "2026-10-26T07:52:19.904Z" },
+    { url = "https://files.pythonhosted.org/packages/48/d4/5cabc129f15a3f373a40342314f9233ec27de1c753762af2cf6de5850553/zope_index-8.3-cp314-cp314-macosx_10_9_x86_64.whl", hash = "sha256:d2e9f41dc0f431d72e2fc0c618ca307869bbcf757fcb5943b453d28f66c9bf13", size = 91005, upload-time = "2026-10-26T07:52:21.401Z" },
+    { url = "https://files.pythonhosted.org/packages/97/55/ee3602f86198ffa2ee2ebd00452e0d09955066eee296833c3e52a2cd892c/zope_index-8.3-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:51ef43f27f3ac26112e6ccc6271852c1fd7b540e91c0eaf98f73ee07b089db65", size = 91423, upload-time = "2026-10-26T07:52:22.917Z" },
+    { url = "https://files.pythonhosted.org/packages/81/4c/45d61d7415749506de61f45ee14392cbc3273e2739c49d8ee457752f7af4/zope_index-8.3-cp314-cp314-manylinux1_i686.manylinux2014_i686.manylinux_2_17_i686.manylinux_2_5_i686.whl", hash = "sha256:6346131be38fb29bc91c89d08924161bcfd215aaedfad69efeb38a1b5d72f165", size = 100122, upload-time = "2026-10-26T07:52:24.561Z" },
+    { url = "https://files.pythonhosted.org/packages/b2/7e/1694e7d89123e586b20261cff1d03e55dc4e756e0249141be634cb7d62d5/zope_index-8.3-cp314-cp314-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl", hash = "sha256:4dfef228f064453f833ba498efc73db06225da17ed1e9a9ce0b24045b623c131", size = 100469, upload-time = "2026-10-26T07:52:26.144Z" },
+    { url = "https://files.pythonhosted.org/packages/fd/82/50943c0710cb3eec853deacdc0dea835a396a9ab6fb9c310017e448562b4/zope_index-8.3-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:b99431a30dfdb1f87adb079c91166e601988fd80212b1e1374ef6482fd02ea10", size = 101093, upload-time = "2026-10-26T07:52:27.823Z" },
+    { url = "https://files.pythonhosted.org/packages/49/85/4021bd0f50774d5b84daefbd7415f1aafbe91bf7070b43db6815969085ed/zope_index-8.3-cp314-cp314-win_amd64.whl", hash = "sha256:d61dff7a54976d4e88566305bf1f31aa159ddf04e8b98b0dd9d694a88bd67f8b", size = 94826, upload-time = "2026-10-26T07:52:29.443Z" },
+    { url = "https://files.pythonhosted.org/packages/51/0b/70409b9c079a684c02640a3086f0ede05d9de910c0aa1dfa5b9041f8cf11/zope_index-8.3-cp314-cp314-win_arm64.whl", hash = "sha256:f1decb687d8d96752c2665f0fba4143191de2a15c7ecac4f8d35a65b9d6fb5b2", size = 94769, upload-time = "2026-10-26T07:52:31.142Z" },
+    { url = "https://files.pythonhosted.org/packages/89/61/2b2611f25b19b2b6e2fdf38c44ed040362d16ba8886746a86009467c5946/zope_index-8.3-cp315-cp315-macosx_10_9_x86_64.whl", hash = "sha256:14eb3cb396e5b19870a47709fb605772057f05278f8fe8f8674842973ccdea9d", size = 91009, upload-time = "2026-10-26T07:52:33.191Z" },
+    { url = "https://files.pythonhosted.org/packages/32/33/e71286de09399896a0c753f29cecd246119daa8b8a8a064e47efbb5fb06e/zope_index-8.3-cp315-cp315-macosx_11_0_arm64.whl", hash = "sha256:83dd93f3057206326c0fac6bd89b98f03e3bacc91ef2b953eba1a8be4fe8085b", size = 91423, upload-time = "2026-10-26T07:52:34.966Z" },
+    { url = "https://files.pythonhosted.org/packages/79/73/78420d4338e830aeb1f7568e86d35d26771b5782354a630ef088940d3a21/zope_index-8.3-cp315-cp315-manylinux1_i686.manylinux2014_i686.manylinux_2_17_i686.manylinux_2_5_i686.whl", hash = "sha256:d7609c5f1693a6c9c17cc328c7a8f089df9b538ae3daca115e6dd87dbafa3be0", size = 100253, upload-time = "2026-10-26T07:52:36.525Z" },
+    { url = "https://files.pythonhosted.org/packages/74/76/cf19004b819ca9d0b23f66d2be45ac8a15d4aba1f35d8660f2ed87d10e4d/zope_index-8.3-cp315-cp315-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl", hash = "sha256:66f431d0bc8a509b504402ae48b95e990799a1783b96ee8e36f6aad74f838b8b", size = 100593, upload-time = "2026-10-26T07:52:38.18Z" },
+    { url = "https://files.pythonhosted.org/packages/31/18/7992c7b4b418641271b95908cde9bb773b17e97d588e750ef2d88a693c11/zope_index-8.3-cp315-cp315-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:63492b88fbe7cc8d7270806495cf266b5a5479d98cf5f055627516bb76722ed9", size = 101288, upload-time = "2026-10-26T07:52:40.043Z" },
+    { url = "https://files.pythonhosted.org/packages/7e/c5/c36a0a5dff92ebf0fc82f8201c419104bcafc426e4f063148f15968f4e4e/zope_index-8.3-cp315-cp315-win_amd64.whl", hash = "sha256:91b38a25976a5c725edc711131121c4aa67640421d74f67ef4f441da11e4b93b", size = 94821, upload-time = "2026-10-26T07:52:41.747Z" },
+    { url = "https://files.pythonhosted.org/packages/14/71/5db5bb6816f5a0ce8bcd47fd01253e33f15f40b4872d7f104ec24fd75c7b/zope_index-8.3-cp315-cp315-win_arm64.whl", hash = "sha256:9020aa84aa80ff5020c9e2fd66d3049174340834fd6f27fc776618b4e85cb4a9", size = 94761, upload-time = "2026-10-26T07:52:43.269Z" },
 ]
 
 [[package]]

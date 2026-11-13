@@ -65,6 +65,7 @@ class TestUpgrade:
         assert [(s["ssource"], s["sdest"]) for s in steps] == [
             (SOURCE, DESTINATION),
             (DESTINATION, "20261108001"),
+            ("20261108001", "20261113001"),
         ]
 
     def test_upgrades_identity(self):
