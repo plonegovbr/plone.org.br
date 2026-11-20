@@ -74,13 +74,19 @@ class TestUpgrade:
         assert [(s["ssource"], s["sdest"]) for s in steps] == [
             (SOURCE, DESTINATION),
             (DESTINATION, "20261113001"),
+            ("20261113001", "20261120001"),
         ]
 
     def test_upgrades_identity(self):
-        """Executá-lo leva o pas.plugins.identity à versão 1013 do perfil."""
+        """Executá-lo leva o pas.plugins.identity à versão 1013 do perfil.
+
+        Os passos seguintes da lista também rodam, e o último leva o perfil à
+        versão 1014, então o teste confere a versão mais recente, e não a 1013.
+        """
         self._run()
 
-        assert self.setup_tool.getLastVersionForProfile(IDENTITY_PROFILE) == ("1013",)
+        latest = self.setup_tool.getVersionForProfile(IDENTITY_PROFILE)
+        assert self.setup_tool.getLastVersionForProfile(IDENTITY_PROFILE) == (latest,)
         assert self.setup_tool.listUpgrades(IDENTITY_PROFILE) == []
 
     def test_adds_personal_tools_actions(self):

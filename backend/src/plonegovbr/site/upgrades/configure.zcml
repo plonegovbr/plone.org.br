@@ -7,6 +7,7 @@
   <include package=".v20261104001" />
   <include package=".v20261108001" />
   <include package=".v20261113001" />
+  <include package=".v20261120001" />
 
   <!-- -*- extra stuff goes here -*- -->
 
