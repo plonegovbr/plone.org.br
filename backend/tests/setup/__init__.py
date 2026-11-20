@@ -7,7 +7,7 @@ DEFAULT_PROFILE = f"{PACKAGE_NAME}:default"
 INITIAL_PROFILE = f"{PACKAGE_NAME}:initial"
 
 #: Keep in sync with ``profiles/default/metadata.xml``.
-DEFAULT_PROFILE_VERSION = "20261113001"
+DEFAULT_PROFILE_VERSION = "20261120001"
 
 #: Profiles the default profile pulls in, directly or transitively.
 #: ``collective.multiworkflow:default`` arrives through ``collective.casestudy``.
@@ -18,6 +18,8 @@ INSTALLED_PROFILES = (
     "Products.PortalTransforms:PortalTransforms",
     "collective.casestudy:default",
     "collective.multiworkflow:default",
+    "pas.plugins.identity:contenttypes",
+    "pas.plugins.identity:core",
     "pas.plugins.identity:default",
     "plone.app.contenttypes:default",
     "plone.app.linkintegrity:default",

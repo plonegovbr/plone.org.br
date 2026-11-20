@@ -1353,8 +1353,8 @@ importers:
         specifier: 2.0.0-alpha.5
         version: 2.0.0-alpha.5(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react-toastify@5.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)(redux@4.2.1)(semantic-ui-react@2.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
       '@plone-collective/volto-identity':
-        specifier: 1.0.0-alpha.16
-        version: 1.0.0-alpha.16(@plone/components@4.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)
+        specifier: 1.0.0-alpha.17
+        version: 1.0.0-alpha.17(@plone/components@4.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)
       '@plone/volto-form-block':
         specifier: 1.0.0-alpha.4
         version: 1.0.0-alpha.4(@internationalized/date@3.12.4)(@loadable/component@5.16.7(react@18.2.0))(classnames@2.5.1)(promise-file-reader@1.0.2)(query-string@9.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.31)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react-toastify@5.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)(semantic-ui-react@2.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
@@ -3557,8 +3557,8 @@ packages:
       react: ^18.2.0
       react-dom: ^18.2.0
 
-  '@plone-collective/volto-identity@1.0.0-alpha.16':
-    resolution: {integrity: sha512-o1icH9xFsCPlv/830fQRydkrsHZ5IiWb7aEEGsBLCSxaAEu89Qzjcehde3P3UV67as0w2LSx9LKFjKf6ZqHYrw==}
+  '@plone-collective/volto-identity@1.0.0-alpha.17':
+    resolution: {integrity: sha512-Y130E1vIyefjHIkg1AfN+cf3LWkGKCsAKNJu8cY58UsN9eAvJIlflljdWVmcmX1pjH2wQMwoL+wyQQ7Az764qw==}
     peerDependencies:
       '@plone/components': ^4.2.3
       react: ^18.2.0
@@ -6299,6 +6299,7 @@ packages:
 
   decorate-component-with-props@1.2.1:
     resolution: {integrity: sha512-X2hZBnVHZAZQHG+g3Ce97SBtog1Vglzg7sPNbUY5XKmmgd3NVAiOHviw9hd7GOJIDrQ1slfwsmkbKQxESWFy7Q==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     peerDependencies:
       react: ^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
 
@@ -8865,6 +8866,7 @@ packages:
 
   node-abort-controller@3.1.1:
     resolution: {integrity: sha512-AGK2yQKIjRuqnc6VkX2Xj5d+QW8xZ87pa1UK6yA6ouUyuxfHuMP6umE5QK7UmTeOAymo+Zx1Fxiuw9rVx8taHQ==}
+    deprecated: This package is no longer needed on supported Node.js versions. Node.js 16+ includes AbortController and AbortSignal as built-in globals. All Node.js versions requiring this polyfill are end-of-life. Use the built-in globals instead.
 
   node-emoji@2.2.0:
     resolution: {integrity: sha512-Z3lTE9pLaJF47NyMhd4ww1yFTAP8YhYI8SleJiHzM46Fgpm5cnNzSl9XfzFNqbaz+VlJrIj3fXQ4DeN1Rjm6cw==}
@@ -14139,7 +14141,7 @@ snapshots:
       - redux
       - semantic-ui-react
 
-  '@plone-collective/volto-identity@1.0.0-alpha.16(@plone/components@4.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)':
+  '@plone-collective/volto-identity@1.0.0-alpha.17(@plone/components@4.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-aria-components@1.22.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
       '@plone/components': 4.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react: 18.2.0

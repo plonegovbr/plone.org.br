@@ -1,0 +1,1 @@
+Atualiza o pas.plugins.identity para 1.0.0a17, que divide o perfil `default` nos perfis `core` e `contenttypes`, e aplica no site o passo de atualização 20261120001, que registra os dois como instalados. @ericof
